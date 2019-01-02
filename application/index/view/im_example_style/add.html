@@ -1,0 +1,125 @@
+{extend name="layout" /}
+{block name="content"}
+<!-- 内容区域 -->
+<div class="tpl-content-wrapper">
+		<div class="row-content am-cf">
+		<div class="row">
+				<div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+						<div class="widget am-cf">
+								<div class="widget-head am-cf">
+										<div class="widget-title am-fl">新建im_example_style</div>
+										<div class="widget-function am-fr">
+											<a href="javascript:;" class="am-icon-cog"></a>
+										</div>
+								</div>
+								<div class="widget-body am-fr">
+										<form class="am-form tpl-form-border-form" method="post">
+		<div class="am-form-group">
+			<label for="name" class="am-u-sm-12 am-form-label am-text-left">name					<span class="tpl-form-line-small-title">name</span></label>
+			<div class="am-u-sm-12">
+					<input type="text" 
+	value="{if condition="isset($im_example_style.name)"}{$im_example_style.name}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="name" name="name" 
+	placeholder="请输入name">			</div>
+	</div>
+		<div class="am-form-group">
+			<label for="user_name" class="am-u-sm-12 am-form-label am-text-left">user_name					<span class="tpl-form-line-small-title">user_name</span></label>
+			<div class="am-u-sm-12">
+					<input type="text" 
+	value="{if condition="isset($im_example_style.user_name)"}{$im_example_style.user_name}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="user_name" name="user_name" 
+	placeholder="请输入user_name">			</div>
+	</div>
+		<div class="am-form-group">
+			<label for="color" class="am-u-sm-12 am-form-label am-text-left">color					<span class="tpl-form-line-small-title">color</span></label>
+			<div class="am-u-sm-12">
+					<input type="text" 
+	value="{if condition="isset($im_example_style.color)"}{$im_example_style.color}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="color" name="color" 
+	placeholder="请输入color">			</div>
+	</div>
+		<div class="am-form-group">
+			<label for="color_m" class="am-u-sm-12 am-form-label am-text-left">color_m					<span class="tpl-form-line-small-title">color_m</span></label>
+			<div class="am-u-sm-12">
+					<input type="text" 
+	value="{if condition="isset($im_example_style.color_m)"}{$im_example_style.color_m}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="color_m" name="color_m" 
+	placeholder="请输入color_m">			</div>
+	</div>
+		<div class="am-form-group">
+			<label for="icon_code" class="am-u-sm-12 am-form-label am-text-left">icon_code					<span class="tpl-form-line-small-title">icon_code</span></label>
+			<div class="am-u-sm-12">
+					<input type="text" 
+	value="{if condition="isset($im_example_style.icon_code)"}{$im_example_style.icon_code}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="icon_code" name="icon_code" 
+	placeholder="请输入icon_code">			</div>
+	</div>
+		<div class="am-form-group">
+			<label for="icon_code_m" class="am-u-sm-12 am-form-label am-text-left">icon_code_m					<span class="tpl-form-line-small-title">icon_code_m</span></label>
+			<div class="am-u-sm-12">
+					<input type="text" 
+	value="{if condition="isset($im_example_style.icon_code_m)"}{$im_example_style.icon_code_m}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="icon_code_m" name="icon_code_m" 
+	placeholder="请输入icon_code_m">			</div>
+	</div>
+		<div class="am-form-group">
+			<label for="invitation_code" class="am-u-sm-12 am-form-label am-text-left">invitation_code					<span class="tpl-form-line-small-title">invitation_code</span></label>
+			<div class="am-u-sm-12">
+					<input type="text" 
+	value="{if condition="isset($im_example_style.invitation_code)"}{$im_example_style.invitation_code}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="invitation_code" name="invitation_code" 
+	placeholder="请输入invitation_code">			</div>
+	</div>
+		<div class="am-form-group">
+			<label for="invitation_code_m" class="am-u-sm-12 am-form-label am-text-left">invitation_code_m					<span class="tpl-form-line-small-title">invitation_code_m</span></label>
+			<div class="am-u-sm-12">
+					<input type="text" 
+	value="{if condition="isset($im_example_style.invitation_code_m)"}{$im_example_style.invitation_code_m}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="invitation_code_m" name="invitation_code_m" 
+	placeholder="请输入invitation_code_m">			</div>
+	</div>
+		<div class="am-form-group">
+			<label for="style_type" class="am-u-sm-12 am-form-label am-text-left">style_type					<span class="tpl-form-line-small-title">style_type</span></label>
+			<div class="am-u-sm-12">
+					<input type="text" 
+	value="{if condition="isset($im_example_style.style_type)"}{$im_example_style.style_type}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="style_type" name="style_type" 
+	placeholder="请输入style_type">			</div>
+	</div>
+		<div class="am-form-group">
+			<label for="create_time" class="am-u-sm-12 am-form-label am-text-left">create_time					<span class="tpl-form-line-small-title">create_time</span></label>
+			<div class="am-u-sm-12">
+					<input type="text" 
+	value="{if condition="isset($im_example_style.create_time)"}{$im_example_style.create_time}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="create_time" name="create_time" 
+	placeholder="请输入create_time">			</div>
+	</div>
+		<div class="am-form-group">
+			<label for="update_time" class="am-u-sm-12 am-form-label am-text-left">update_time					<span class="tpl-form-line-small-title">update_time</span></label>
+			<div class="am-u-sm-12">
+					<input type="text" 
+	value="{if condition="isset($im_example_style.update_time)"}{$im_example_style.update_time}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="update_time" name="update_time" 
+	placeholder="请输入update_time">			</div>
+	</div>
+		<div class="am-form-group">
+			<label for="description" class="am-u-sm-12 am-form-label am-text-left">description					<span class="tpl-form-line-small-title">description</span></label>
+			<div class="am-u-sm-12">
+					<input type="text" 
+	value="{if condition="isset($im_example_style.description)"}{$im_example_style.description}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="description" name="description" 
+	placeholder="请输入description">			</div>
+	</div>
+		<div class="am-form-group">
+			<div class="am-u-sm-12 am-u-sm-push-12">
+					<button type="submit" class="am-btn am-btn-primary tpl-btn-bg-color-success ">提交</button>
+			</div>
+	</div>
+</form>
+								</div>
+						</div>
+				</div>
+		</div>
+	</div>
+</div>
+{/block}

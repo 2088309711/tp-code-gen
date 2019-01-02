@@ -1,0 +1,224 @@
+---------------------------------------------------------------
+[ 2019-01-02T16:26:32+08:00 ] 127.0.0.1 GET /index/im_staff/lists.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002445s ] mysql:host=127.0.0.1;dbname=tp-code-gen;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `im_staff` [ RunTime:0.017170s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `im_staff` LIMIT 1 [ RunTime:0.000986s ]
+[ sql ] [ SQL ] SELECT * FROM `im_staff` LIMIT 0,12 [ RunTime:0.000703s ]
+---------------------------------------------------------------
+[ 2019-01-02T16:27:06+08:00 ] 127.0.0.1 GET /index/im_corpus_data/lists.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002933s ] mysql:host=127.0.0.1;dbname=tp-code-gen;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `im_corpus_data` [ RunTime:0.014645s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `im_corpus_data` LIMIT 1 [ RunTime:0.000303s ]
+[ sql ] [ SQL ] SELECT * FROM `im_corpus_data` LIMIT 0,12 [ RunTime:0.000333s ]
+---------------------------------------------------------------
+[ 2019-01-02T16:27:07+08:00 ] 127.0.0.1 GET /index/im_corpus_data/lists.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002466s ] mysql:host=127.0.0.1;dbname=tp-code-gen;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `im_corpus_data` [ RunTime:0.015748s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `im_corpus_data` LIMIT 1 [ RunTime:0.000326s ]
+[ sql ] [ SQL ] SELECT * FROM `im_corpus_data` LIMIT 0,12 [ RunTime:0.000336s ]
+---------------------------------------------------------------
+[ 2019-01-02T16:27:09+08:00 ] 127.0.0.1 GET /index/im_corpus_group/lists.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002323s ] mysql:host=127.0.0.1;dbname=tp-code-gen;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `im_corpus_group` [ RunTime:0.015849s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `im_corpus_group` LIMIT 1 [ RunTime:0.000289s ]
+[ sql ] [ SQL ] SELECT * FROM `im_corpus_group` LIMIT 0,12 [ RunTime:0.000282s ]
+---------------------------------------------------------------
+[ 2019-01-02T16:27:09+08:00 ] 127.0.0.1 GET /index/im_example/lists.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002352s ] mysql:host=127.0.0.1;dbname=tp-code-gen;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `im_example` [ RunTime:0.015248s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `im_example` LIMIT 1 [ RunTime:0.000320s ]
+[ sql ] [ SQL ] SELECT * FROM `im_example` LIMIT 0,12 [ RunTime:0.000489s ]
+---------------------------------------------------------------
+[ 2019-01-02T16:27:12+08:00 ] 127.0.0.1 GET /index/im_msg/lists.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002328s ] mysql:host=127.0.0.1;dbname=tp-code-gen;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `im_msg` [ RunTime:0.014746s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `im_msg` LIMIT 1 [ RunTime:0.000332s ]
+[ sql ] [ SQL ] SELECT * FROM `im_msg` LIMIT 0,12 [ RunTime:0.000381s ]
+---------------------------------------------------------------
+[ 2019-01-02T16:27:14+08:00 ] 127.0.0.1 GET /index/im_staff/lists.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002963s ] mysql:host=127.0.0.1;dbname=tp-code-gen;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `im_staff` [ RunTime:0.016307s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `im_staff` LIMIT 1 [ RunTime:0.000334s ]
+[ sql ] [ SQL ] SELECT * FROM `im_staff` LIMIT 0,12 [ RunTime:0.000369s ]
+---------------------------------------------------------------
+[ 2019-01-02T16:27:18+08:00 ] 127.0.0.1 GET /index/im_corpus_data/lists.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002331s ] mysql:host=127.0.0.1;dbname=tp-code-gen;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `im_corpus_data` [ RunTime:0.023545s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `im_corpus_data` LIMIT 1 [ RunTime:0.000361s ]
+[ sql ] [ SQL ] SELECT * FROM `im_corpus_data` LIMIT 0,12 [ RunTime:0.000411s ]
+---------------------------------------------------------------
+[ 2019-01-02T16:27:31+08:00 ] 127.0.0.1 GET /index/im_corpus_data/delete/id/25.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002688s ] mysql:host=127.0.0.1;dbname=tp-code-gen;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `im_corpus_data` [ RunTime:0.015851s ]
+[ sql ] [ SQL ] DELETE FROM `im_corpus_data`    WHERE  `id` = 25 [ RunTime:0.001134s ]
+---------------------------------------------------------------
+[ 2019-01-02T16:27:33+08:00 ] 127.0.0.1 GET /index/im_corpus_data/lists.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002334s ] mysql:host=127.0.0.1;dbname=tp-code-gen;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `im_corpus_data` [ RunTime:0.015308s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `im_corpus_data` LIMIT 1 [ RunTime:0.000287s ]
+[ sql ] [ SQL ] SELECT * FROM `im_corpus_data` LIMIT 0,12 [ RunTime:0.000348s ]
+---------------------------------------------------------------
+[ 2019-01-02T16:27:37+08:00 ] 127.0.0.1 GET /index/im_corpus_data/delete/id/26.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003220s ] mysql:host=127.0.0.1;dbname=tp-code-gen;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `im_corpus_data` [ RunTime:0.017648s ]
+[ sql ] [ SQL ] DELETE FROM `im_corpus_data`    WHERE  `id` = 26 [ RunTime:0.000438s ]
+---------------------------------------------------------------
+[ 2019-01-02T16:27:38+08:00 ] 127.0.0.1 GET /index/im_corpus_data/lists.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002371s ] mysql:host=127.0.0.1;dbname=tp-code-gen;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `im_corpus_data` [ RunTime:0.015987s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `im_corpus_data` LIMIT 1 [ RunTime:0.000299s ]
+[ sql ] [ SQL ] SELECT * FROM `im_corpus_data` LIMIT 0,12 [ RunTime:0.000313s ]
+---------------------------------------------------------------
+[ 2019-01-02T16:27:41+08:00 ] 127.0.0.1 GET /index/im_corpus_data/lists.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002314s ] mysql:host=127.0.0.1;dbname=tp-code-gen;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `im_corpus_data` [ RunTime:0.015649s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `im_corpus_data` LIMIT 1 [ RunTime:0.000297s ]
+[ sql ] [ SQL ] SELECT * FROM `im_corpus_data` LIMIT 0,12 [ RunTime:0.000303s ]
+---------------------------------------------------------------
+[ 2019-01-02T16:27:42+08:00 ] 127.0.0.1 GET /index/im_corpus_data/edit/id/27.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002726s ] mysql:host=127.0.0.1;dbname=tp-code-gen;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `im_corpus_data` [ RunTime:0.013641s ]
+[ sql ] [ SQL ] SELECT * FROM `im_corpus_data` WHERE  `id` = 27 LIMIT 1 [ RunTime:0.000423s ]
+---------------------------------------------------------------
+[ 2019-01-02T16:27:46+08:00 ] 127.0.0.1 POST /index/im_corpus_data/edit/id/27.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002443s ] mysql:host=127.0.0.1;dbname=tp-code-gen;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `im_corpus_data` [ RunTime:0.016646s ]
+[ sql ] [ SQL ] UPDATE `im_corpus_data`  SET `title`='hjty',`content`='jghjnghj',`create_time`=2019,`update_time`=2019,`group_id`=111  WHERE  `id` = 27 [ RunTime:0.000545s ]
+---------------------------------------------------------------
+[ 2019-01-02T16:27:48+08:00 ] 127.0.0.1 GET /index/im_corpus_data/lists.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002312s ] mysql:host=127.0.0.1;dbname=tp-code-gen;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `im_corpus_data` [ RunTime:0.017055s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `im_corpus_data` LIMIT 1 [ RunTime:0.000382s ]
+[ sql ] [ SQL ] SELECT * FROM `im_corpus_data` LIMIT 0,12 [ RunTime:0.000391s ]
+---------------------------------------------------------------
+[ 2019-01-02T16:27:49+08:00 ] 127.0.0.1 GET /index/im_corpus_data/edit/id/27.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002380s ] mysql:host=127.0.0.1;dbname=tp-code-gen;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `im_corpus_data` [ RunTime:0.016677s ]
+[ sql ] [ SQL ] SELECT * FROM `im_corpus_data` WHERE  `id` = 27 LIMIT 1 [ RunTime:0.000549s ]
+---------------------------------------------------------------
+[ 2019-01-02T16:27:54+08:00 ] 127.0.0.1 POST /index/im_corpus_data/edit/id/27.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002577s ] mysql:host=127.0.0.1;dbname=tp-code-gen;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `im_corpus_data` [ RunTime:0.017124s ]
+[ sql ] [ SQL ] UPDATE `im_corpus_data`  SET `title`='hjty',`content`='jghjnghj',`create_time`=1970,`update_time`=1970,`group_id`=0  WHERE  `id` = 27 [ RunTime:0.000454s ]
+---------------------------------------------------------------
+[ 2019-01-02T16:27:56+08:00 ] 127.0.0.1 GET /index/im_corpus_data/lists.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002335s ] mysql:host=127.0.0.1;dbname=tp-code-gen;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `im_corpus_data` [ RunTime:0.015398s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `im_corpus_data` LIMIT 1 [ RunTime:0.000288s ]
+[ sql ] [ SQL ] SELECT * FROM `im_corpus_data` LIMIT 0,12 [ RunTime:0.000360s ]
+---------------------------------------------------------------
+[ 2019-01-02T16:27:57+08:00 ] 127.0.0.1 GET /index/im_corpus_data/edit/id/27.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002816s ] mysql:host=127.0.0.1;dbname=tp-code-gen;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `im_corpus_data` [ RunTime:0.022518s ]
+[ sql ] [ SQL ] SELECT * FROM `im_corpus_data` WHERE  `id` = 27 LIMIT 1 [ RunTime:0.000401s ]
+---------------------------------------------------------------
+[ 2019-01-02T16:31:14+08:00 ] 127.0.0.1 GET /index/im_example_style/lists.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.014151s ] mysql:host=127.0.0.1;dbname=tp-code-gen;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `im_example_style` [ RunTime:0.015224s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `im_example_style` LIMIT 1 [ RunTime:0.000324s ]
+[ sql ] [ SQL ] SELECT * FROM `im_example_style` LIMIT 0,12 [ RunTime:0.000423s ]
+---------------------------------------------------------------
+[ 2019-01-02T16:31:16+08:00 ] 127.0.0.1 GET /index/im_example/lists.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002667s ] mysql:host=127.0.0.1;dbname=tp-code-gen;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `im_example` [ RunTime:0.020081s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `im_example` LIMIT 1 [ RunTime:0.000450s ]
+[ sql ] [ SQL ] SELECT * FROM `im_example` LIMIT 0,12 [ RunTime:0.000832s ]
+---------------------------------------------------------------
+[ 2019-01-02T16:31:18+08:00 ] 127.0.0.1 GET /index/im_example/lists.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002320s ] mysql:host=127.0.0.1;dbname=tp-code-gen;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `im_example` [ RunTime:0.145281s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `im_example` LIMIT 1 [ RunTime:0.000313s ]
+[ sql ] [ SQL ] SELECT * FROM `im_example` LIMIT 0,12 [ RunTime:0.000512s ]
+---------------------------------------------------------------
+[ 2019-01-02T16:31:19+08:00 ] 127.0.0.1 GET /index/im_example/lists.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002329s ] mysql:host=127.0.0.1;dbname=tp-code-gen;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `im_example` [ RunTime:0.016287s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `im_example` LIMIT 1 [ RunTime:0.000323s ]
+[ sql ] [ SQL ] SELECT * FROM `im_example` LIMIT 0,12 [ RunTime:0.000710s ]
+---------------------------------------------------------------
+[ 2019-01-02T16:31:19+08:00 ] 127.0.0.1 GET /index/im_example_style/lists.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002631s ] mysql:host=127.0.0.1;dbname=tp-code-gen;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `im_example_style` [ RunTime:0.016074s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `im_example_style` LIMIT 1 [ RunTime:0.000301s ]
+[ sql ] [ SQL ] SELECT * FROM `im_example_style` LIMIT 0,12 [ RunTime:0.000391s ]
+---------------------------------------------------------------
+[ 2019-01-02T16:31:21+08:00 ] 127.0.0.1 GET /index/im_msg/lists.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002629s ] mysql:host=127.0.0.1;dbname=tp-code-gen;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `im_msg` [ RunTime:0.019546s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `im_msg` LIMIT 1 [ RunTime:0.000407s ]
+[ sql ] [ SQL ] SELECT * FROM `im_msg` LIMIT 0,12 [ RunTime:0.000415s ]
+---------------------------------------------------------------
+[ 2019-01-02T16:33:11+08:00 ] 127.0.0.1 GET /index/im_msg/lists.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002522s ] mysql:host=127.0.0.1;dbname=tp-code-gen;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `im_msg` [ RunTime:0.015429s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `im_msg` LIMIT 1 [ RunTime:0.000452s ]
+[ sql ] [ SQL ] SELECT * FROM `im_msg` LIMIT 0,12 [ RunTime:0.000519s ]
+---------------------------------------------------------------
+[ 2019-01-02T16:33:12+08:00 ] 127.0.0.1 GET /index/im_msg/lists.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002435s ] mysql:host=127.0.0.1;dbname=tp-code-gen;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `im_msg` [ RunTime:0.016860s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `im_msg` LIMIT 1 [ RunTime:0.000429s ]
+[ sql ] [ SQL ] SELECT * FROM `im_msg` LIMIT 0,12 [ RunTime:0.000427s ]
+---------------------------------------------------------------
+[ 2019-01-02T16:33:13+08:00 ] 127.0.0.1 GET /index/im_msg/lists.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002348s ] mysql:host=127.0.0.1;dbname=tp-code-gen;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `im_msg` [ RunTime:0.015046s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `im_msg` LIMIT 1 [ RunTime:0.000312s ]
+[ sql ] [ SQL ] SELECT * FROM `im_msg` LIMIT 0,12 [ RunTime:0.000387s ]
+---------------------------------------------------------------
+[ 2019-01-02T16:33:13+08:00 ] 127.0.0.1 GET /index/im_msg/lists.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002941s ] mysql:host=127.0.0.1;dbname=tp-code-gen;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `im_msg` [ RunTime:0.018530s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `im_msg` LIMIT 1 [ RunTime:0.000351s ]
+[ sql ] [ SQL ] SELECT * FROM `im_msg` LIMIT 0,12 [ RunTime:0.000479s ]
+---------------------------------------------------------------
+[ 2019-01-02T16:33:13+08:00 ] 127.0.0.1 GET /index/im_msg/lists.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002737s ] mysql:host=127.0.0.1;dbname=tp-code-gen;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `im_msg` [ RunTime:0.019846s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `im_msg` LIMIT 1 [ RunTime:0.000358s ]
+[ sql ] [ SQL ] SELECT * FROM `im_msg` LIMIT 0,12 [ RunTime:0.000446s ]
+---------------------------------------------------------------
+[ 2019-01-02T16:33:15+08:00 ] 127.0.0.1 GET /index/im_msg/lists.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002400s ] mysql:host=127.0.0.1;dbname=tp-code-gen;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `im_msg` [ RunTime:0.015938s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `im_msg` LIMIT 1 [ RunTime:0.000371s ]
+[ sql ] [ SQL ] SELECT * FROM `im_msg` LIMIT 0,12 [ RunTime:0.000398s ]
+---------------------------------------------------------------
+[ 2019-01-02T16:33:17+08:00 ] 127.0.0.1 GET /index/im_msg/lists.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002347s ] mysql:host=127.0.0.1;dbname=tp-code-gen;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `im_msg` [ RunTime:0.016157s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `im_msg` LIMIT 1 [ RunTime:0.000331s ]
+[ sql ] [ SQL ] SELECT * FROM `im_msg` LIMIT 0,12 [ RunTime:0.000393s ]
+---------------------------------------------------------------
+[ 2019-01-02T16:33:18+08:00 ] 127.0.0.1 GET /index/im_msg/lists.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002562s ] mysql:host=127.0.0.1;dbname=tp-code-gen;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `im_msg` [ RunTime:0.103595s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `im_msg` LIMIT 1 [ RunTime:0.000336s ]
+[ sql ] [ SQL ] SELECT * FROM `im_msg` LIMIT 0,12 [ RunTime:0.000382s ]
+---------------------------------------------------------------
+[ 2019-01-02T16:33:19+08:00 ] 127.0.0.1 GET /index/im_msg/lists.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002521s ] mysql:host=127.0.0.1;dbname=tp-code-gen;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `im_msg` [ RunTime:0.017950s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `im_msg` LIMIT 1 [ RunTime:0.000349s ]
+[ sql ] [ SQL ] SELECT * FROM `im_msg` LIMIT 0,12 [ RunTime:0.000379s ]
+---------------------------------------------------------------
+[ 2019-01-02T16:33:39+08:00 ] 127.0.0.1 GET /index/im_corpus_data/lists.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002430s ] mysql:host=127.0.0.1;dbname=tp-code-gen;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `im_corpus_data` [ RunTime:0.014215s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `im_corpus_data` LIMIT 1 [ RunTime:0.000374s ]
+[ sql ] [ SQL ] SELECT * FROM `im_corpus_data` LIMIT 0,12 [ RunTime:0.000462s ]
+---------------------------------------------------------------
+[ 2019-01-02T16:40:32+08:00 ] 127.0.0.1 GET /index/im_corpus_data/edit/id/27.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002601s ] mysql:host=127.0.0.1;dbname=tp-code-gen;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `im_corpus_data` [ RunTime:0.017027s ]
+[ sql ] [ SQL ] SELECT * FROM `im_corpus_data` WHERE  `id` = 27 LIMIT 1 [ RunTime:0.000445s ]
+---------------------------------------------------------------
+[ 2019-01-02T16:40:40+08:00 ] 127.0.0.1 GET /index/im_corpus_data/edit/id/27.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002483s ] mysql:host=127.0.0.1;dbname=tp-code-gen;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `im_corpus_data` [ RunTime:0.017576s ]
+[ sql ] [ SQL ] SELECT * FROM `im_corpus_data` WHERE  `id` = 27 LIMIT 1 [ RunTime:0.000460s ]
+---------------------------------------------------------------
+[ 2019-01-02T16:46:29+08:00 ] 127.0.0.1 GET /index/im_corpus_data/edit/id/27.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004385s ] mysql:host=127.0.0.1;dbname=tp-code-gen;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `im_corpus_data` [ RunTime:0.070170s ]
+[ sql ] [ SQL ] SELECT * FROM `im_corpus_data` WHERE  `id` = 27 LIMIT 1 [ RunTime:0.000661s ]

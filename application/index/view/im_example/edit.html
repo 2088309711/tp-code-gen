@@ -1,0 +1,264 @@
+{extend name="layout" /}
+{block name="content"}
+<!-- 内容区域 -->
+<div class="tpl-content-wrapper">
+		<div class="row-content am-cf">
+		<div class="row">
+				<div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+						<div class="widget am-cf">
+								<div class="widget-head am-cf">
+										<div class="widget-title am-fl">编辑im_example</div>
+										<div class="widget-function am-fr">
+												<a href="javascript:;" class="am-icon-cog"></a>
+										</div>
+								</div>
+								<div class="widget-body am-fr">
+										<form class="am-form tpl-form-border-form" method="post">
+	 
+	<input type="hidden" name="id" value="{$im_example.id}" />
+		<div class="am-form-group">
+			<label for="state" class="am-u-sm-12 am-form-label am-text-left">state					<span class="tpl-form-line-small-title">state</span></label>
+			<div class="am-u-sm-12">
+					<input type="text" 
+	value="{if condition="isset($im_example.state)"}{$im_example.state}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="state" name="state" 
+	placeholder="请输入state">			</div>
+	</div>
+		<div class="am-form-group">
+			<label for="name" class="am-u-sm-12 am-form-label am-text-left">name					<span class="tpl-form-line-small-title">name</span></label>
+			<div class="am-u-sm-12">
+					<input type="text" 
+	value="{if condition="isset($im_example.name)"}{$im_example.name}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="name" name="name" 
+	placeholder="请输入name">			</div>
+	</div>
+		<div class="am-form-group">
+			<label for="phone" class="am-u-sm-12 am-form-label am-text-left">phone					<span class="tpl-form-line-small-title">phone</span></label>
+			<div class="am-u-sm-12">
+					<input type="text" 
+	value="{if condition="isset($im_example.phone)"}{$im_example.phone}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="phone" name="phone" 
+	placeholder="请输入phone">			</div>
+	</div>
+		<div class="am-form-group">
+			<label for="user_name" class="am-u-sm-12 am-form-label am-text-left">user_name					<span class="tpl-form-line-small-title">user_name</span></label>
+			<div class="am-u-sm-12">
+					<input type="text" 
+	value="{if condition="isset($im_example.user_name)"}{$im_example.user_name}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="user_name" name="user_name" 
+	placeholder="请输入user_name">			</div>
+	</div>
+		<div class="am-form-group">
+			<label for="access" class="am-u-sm-12 am-form-label am-text-left">access					<span class="tpl-form-line-small-title">access</span></label>
+			<div class="am-u-sm-12">
+					<input type="text" 
+	value="{if condition="isset($im_example.access)"}{$im_example.access}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="access" name="access" 
+	placeholder="请输入access">			</div>
+	</div>
+		<div class="am-form-group">
+			<label for="create_time" class="am-u-sm-12 am-form-label am-text-left">create_time					<span class="tpl-form-line-small-title">create_time</span></label>
+			<div class="am-u-sm-12">
+					<input type="text" 
+	value="{if condition="isset($im_example.create_time)"}{$im_example.create_time}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="create_time" name="create_time" 
+	placeholder="请输入create_time">			</div>
+	</div>
+		<div class="am-form-group">
+			<label for="update_time" class="am-u-sm-12 am-form-label am-text-left">update_time					<span class="tpl-form-line-small-title">update_time</span></label>
+			<div class="am-u-sm-12">
+					<input type="text" 
+	value="{if condition="isset($im_example.update_time)"}{$im_example.update_time}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="update_time" name="update_time" 
+	placeholder="请输入update_time">			</div>
+	</div>
+		<div class="am-form-group">
+			<label for="description" class="am-u-sm-12 am-form-label am-text-left">description					<span class="tpl-form-line-small-title">description</span></label>
+			<div class="am-u-sm-12">
+					<input type="text" 
+	value="{if condition="isset($im_example.description)"}{$im_example.description}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="description" name="description" 
+	placeholder="请输入description">			</div>
+	</div>
+		<div class="am-form-group">
+			<label for="staff_pk" class="am-u-sm-12 am-form-label am-text-left">staff_pk					<span class="tpl-form-line-small-title">staff_pk</span></label>
+			<div class="am-u-sm-12">
+					<input type="text" 
+	value="{if condition="isset($im_example.staff_pk)"}{$im_example.staff_pk}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="staff_pk" name="staff_pk" 
+	placeholder="请输入staff_pk">			</div>
+	</div>
+		<div class="am-form-group">
+			<label for="invitation_switch" class="am-u-sm-12 am-form-label am-text-left">invitation_switch					<span class="tpl-form-line-small-title">invitation_switch</span></label>
+			<div class="am-u-sm-12">
+					<input type="text" 
+	value="{if condition="isset($im_example.invitation_switch)"}{$im_example.invitation_switch}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="invitation_switch" name="invitation_switch" 
+	placeholder="请输入invitation_switch">			</div>
+	</div>
+		<div class="am-form-group">
+			<label for="invitation_switch_m" class="am-u-sm-12 am-form-label am-text-left">invitation_switch_m					<span class="tpl-form-line-small-title">invitation_switch_m</span></label>
+			<div class="am-u-sm-12">
+					<input type="text" 
+	value="{if condition="isset($im_example.invitation_switch_m)"}{$im_example.invitation_switch_m}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="invitation_switch_m" name="invitation_switch_m" 
+	placeholder="请输入invitation_switch_m">			</div>
+	</div>
+		<div class="am-form-group">
+			<label for="invitation_first" class="am-u-sm-12 am-form-label am-text-left">invitation_first					<span class="tpl-form-line-small-title">invitation_first</span></label>
+			<div class="am-u-sm-12">
+					<input type="text" 
+	value="{if condition="isset($im_example.invitation_first)"}{$im_example.invitation_first}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="invitation_first" name="invitation_first" 
+	placeholder="请输入invitation_first">			</div>
+	</div>
+		<div class="am-form-group">
+			<label for="invitation_first_m" class="am-u-sm-12 am-form-label am-text-left">invitation_first_m					<span class="tpl-form-line-small-title">invitation_first_m</span></label>
+			<div class="am-u-sm-12">
+					<input type="text" 
+	value="{if condition="isset($im_example.invitation_first_m)"}{$im_example.invitation_first_m}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="invitation_first_m" name="invitation_first_m" 
+	placeholder="请输入invitation_first_m">			</div>
+	</div>
+		<div class="am-form-group">
+			<label for="invitation_after" class="am-u-sm-12 am-form-label am-text-left">invitation_after					<span class="tpl-form-line-small-title">invitation_after</span></label>
+			<div class="am-u-sm-12">
+					<input type="text" 
+	value="{if condition="isset($im_example.invitation_after)"}{$im_example.invitation_after}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="invitation_after" name="invitation_after" 
+	placeholder="请输入invitation_after">			</div>
+	</div>
+		<div class="am-form-group">
+			<label for="invitation_after_m" class="am-u-sm-12 am-form-label am-text-left">invitation_after_m					<span class="tpl-form-line-small-title">invitation_after_m</span></label>
+			<div class="am-u-sm-12">
+					<input type="text" 
+	value="{if condition="isset($im_example.invitation_after_m)"}{$im_example.invitation_after_m}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="invitation_after_m" name="invitation_after_m" 
+	placeholder="请输入invitation_after_m">			</div>
+	</div>
+		<div class="am-form-group">
+			<label for="invitation_num" class="am-u-sm-12 am-form-label am-text-left">invitation_num					<span class="tpl-form-line-small-title">invitation_num</span></label>
+			<div class="am-u-sm-12">
+					<input type="text" 
+	value="{if condition="isset($im_example.invitation_num)"}{$im_example.invitation_num}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="invitation_num" name="invitation_num" 
+	placeholder="请输入invitation_num">			</div>
+	</div>
+		<div class="am-form-group">
+			<label for="invitation_num_m" class="am-u-sm-12 am-form-label am-text-left">invitation_num_m					<span class="tpl-form-line-small-title">invitation_num_m</span></label>
+			<div class="am-u-sm-12">
+					<input type="text" 
+	value="{if condition="isset($im_example.invitation_num_m)"}{$im_example.invitation_num_m}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="invitation_num_m" name="invitation_num_m" 
+	placeholder="请输入invitation_num_m">			</div>
+	</div>
+		<div class="am-form-group">
+			<label for="invitation_time" class="am-u-sm-12 am-form-label am-text-left">invitation_time					<span class="tpl-form-line-small-title">invitation_time</span></label>
+			<div class="am-u-sm-12">
+					<input type="text" 
+	value="{if condition="isset($im_example.invitation_time)"}{$im_example.invitation_time}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="invitation_time" name="invitation_time" 
+	placeholder="请输入invitation_time">			</div>
+	</div>
+		<div class="am-form-group">
+			<label for="invitation_time_m" class="am-u-sm-12 am-form-label am-text-left">invitation_time_m					<span class="tpl-form-line-small-title">invitation_time_m</span></label>
+			<div class="am-u-sm-12">
+					<input type="text" 
+	value="{if condition="isset($im_example.invitation_time_m)"}{$im_example.invitation_time_m}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="invitation_time_m" name="invitation_time_m" 
+	placeholder="请输入invitation_time_m">			</div>
+	</div>
+		<div class="am-form-group">
+			<label for="invitation_week" class="am-u-sm-12 am-form-label am-text-left">invitation_week					<span class="tpl-form-line-small-title">invitation_week</span></label>
+			<div class="am-u-sm-12">
+					<input type="text" 
+	value="{if condition="isset($im_example.invitation_week)"}{$im_example.invitation_week}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="invitation_week" name="invitation_week" 
+	placeholder="请输入invitation_week">			</div>
+	</div>
+		<div class="am-form-group">
+			<label for="invitation_week_m" class="am-u-sm-12 am-form-label am-text-left">invitation_week_m					<span class="tpl-form-line-small-title">invitation_week_m</span></label>
+			<div class="am-u-sm-12">
+					<input type="text" 
+	value="{if condition="isset($im_example.invitation_week_m)"}{$im_example.invitation_week_m}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="invitation_week_m" name="invitation_week_m" 
+	placeholder="请输入invitation_week_m">			</div>
+	</div>
+		<div class="am-form-group">
+			<label for="invitation_auto_close" class="am-u-sm-12 am-form-label am-text-left">invitation_auto_close					<span class="tpl-form-line-small-title">invitation_auto_close</span></label>
+			<div class="am-u-sm-12">
+					<input type="text" 
+	value="{if condition="isset($im_example.invitation_auto_close)"}{$im_example.invitation_auto_close}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="invitation_auto_close" name="invitation_auto_close" 
+	placeholder="请输入invitation_auto_close">			</div>
+	</div>
+		<div class="am-form-group">
+			<label for="invitation_auto_close_m" class="am-u-sm-12 am-form-label am-text-left">invitation_auto_close_m					<span class="tpl-form-line-small-title">invitation_auto_close_m</span></label>
+			<div class="am-u-sm-12">
+					<input type="text" 
+	value="{if condition="isset($im_example.invitation_auto_close_m)"}{$im_example.invitation_auto_close_m}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="invitation_auto_close_m" name="invitation_auto_close_m" 
+	placeholder="请输入invitation_auto_close_m">			</div>
+	</div>
+		<div class="am-form-group">
+			<label for="color" class="am-u-sm-12 am-form-label am-text-left">color					<span class="tpl-form-line-small-title">color</span></label>
+			<div class="am-u-sm-12">
+					<input type="text" 
+	value="{if condition="isset($im_example.color)"}{$im_example.color}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="color" name="color" 
+	placeholder="请输入color">			</div>
+	</div>
+		<div class="am-form-group">
+			<label for="color_m" class="am-u-sm-12 am-form-label am-text-left">color_m					<span class="tpl-form-line-small-title">color_m</span></label>
+			<div class="am-u-sm-12">
+					<input type="text" 
+	value="{if condition="isset($im_example.color_m)"}{$im_example.color_m}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="color_m" name="color_m" 
+	placeholder="请输入color_m">			</div>
+	</div>
+		<div class="am-form-group">
+			<label for="icon_code" class="am-u-sm-12 am-form-label am-text-left">icon_code					<span class="tpl-form-line-small-title">icon_code</span></label>
+			<div class="am-u-sm-12">
+					<input type="text" 
+	value="{if condition="isset($im_example.icon_code)"}{$im_example.icon_code}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="icon_code" name="icon_code" 
+	placeholder="请输入icon_code">			</div>
+	</div>
+		<div class="am-form-group">
+			<label for="icon_code_m" class="am-u-sm-12 am-form-label am-text-left">icon_code_m					<span class="tpl-form-line-small-title">icon_code_m</span></label>
+			<div class="am-u-sm-12">
+					<input type="text" 
+	value="{if condition="isset($im_example.icon_code_m)"}{$im_example.icon_code_m}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="icon_code_m" name="icon_code_m" 
+	placeholder="请输入icon_code_m">			</div>
+	</div>
+		<div class="am-form-group">
+			<label for="invitation_code" class="am-u-sm-12 am-form-label am-text-left">invitation_code					<span class="tpl-form-line-small-title">invitation_code</span></label>
+			<div class="am-u-sm-12">
+					<input type="text" 
+	value="{if condition="isset($im_example.invitation_code)"}{$im_example.invitation_code}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="invitation_code" name="invitation_code" 
+	placeholder="请输入invitation_code">			</div>
+	</div>
+		<div class="am-form-group">
+			<label for="invitation_code_m" class="am-u-sm-12 am-form-label am-text-left">invitation_code_m					<span class="tpl-form-line-small-title">invitation_code_m</span></label>
+			<div class="am-u-sm-12">
+					<input type="text" 
+	value="{if condition="isset($im_example.invitation_code_m)"}{$im_example.invitation_code_m}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="invitation_code_m" name="invitation_code_m" 
+	placeholder="请输入invitation_code_m">			</div>
+	</div>
+		<div class="am-form-group">
+			<div class="am-u-sm-12 am-u-sm-push-12">
+					<button type="submit" class="am-btn am-btn-primary tpl-btn-bg-color-success ">提交</button>
+			</div>
+	</div>
+</form>
+
+								</div>
+						</div>
+				</div>
+		</div>
+	</div>
+</div>
+{/block}

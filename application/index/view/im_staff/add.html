@@ -1,0 +1,141 @@
+{extend name="layout" /}
+{block name="content"}
+<!-- 内容区域 -->
+<div class="tpl-content-wrapper">
+		<div class="row-content am-cf">
+		<div class="row">
+				<div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+						<div class="widget am-cf">
+								<div class="widget-head am-cf">
+										<div class="widget-title am-fl">新建im_staff</div>
+										<div class="widget-function am-fr">
+											<a href="javascript:;" class="am-icon-cog"></a>
+										</div>
+								</div>
+								<div class="widget-body am-fr">
+										<form class="am-form tpl-form-border-form" method="post">
+		<div class="am-form-group">
+			<label for="state" class="am-u-sm-12 am-form-label am-text-left">state					<span class="tpl-form-line-small-title">state</span></label>
+			<div class="am-u-sm-12">
+					<input type="text" 
+	value="{if condition="isset($im_staff.state)"}{$im_staff.state}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="state" name="state" 
+	placeholder="请输入state">			</div>
+	</div>
+		<div class="am-form-group">
+			<label for="name" class="am-u-sm-12 am-form-label am-text-left">name					<span class="tpl-form-line-small-title">name</span></label>
+			<div class="am-u-sm-12">
+					<input type="text" 
+	value="{if condition="isset($im_staff.name)"}{$im_staff.name}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="name" name="name" 
+	placeholder="请输入name">			</div>
+	</div>
+		<div class="am-form-group">
+			<label for="e_mail" class="am-u-sm-12 am-form-label am-text-left">e_mail					<span class="tpl-form-line-small-title">e_mail</span></label>
+			<div class="am-u-sm-12">
+					<input type="text" 
+	value="{if condition="isset($im_staff.e_mail)"}{$im_staff.e_mail}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="e_mail" name="e_mail" 
+	placeholder="请输入e_mail">			</div>
+	</div>
+		<div class="am-form-group">
+			<label for="sex" class="am-u-sm-12 am-form-label am-text-left">sex					<span class="tpl-form-line-small-title">sex</span></label>
+			<div class="am-u-sm-12">
+					<input type="text" 
+	value="{if condition="isset($im_staff.sex)"}{$im_staff.sex}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="sex" name="sex" 
+	placeholder="请输入sex">			</div>
+	</div>
+		<div class="am-form-group">
+			<label for="user_name" class="am-u-sm-12 am-form-label am-text-left">user_name					<span class="tpl-form-line-small-title">user_name</span></label>
+			<div class="am-u-sm-12">
+					<input type="text" 
+	value="{if condition="isset($im_staff.user_name)"}{$im_staff.user_name}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="user_name" name="user_name" 
+	placeholder="请输入user_name">			</div>
+	</div>
+		<div class="am-form-group">
+			<label for="account" class="am-u-sm-12 am-form-label am-text-left">account					<span class="tpl-form-line-small-title">account</span></label>
+			<div class="am-u-sm-12">
+					<input type="text" 
+	value="{if condition="isset($im_staff.account)"}{$im_staff.account}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="account" name="account" 
+	placeholder="请输入account">			</div>
+	</div>
+		<div class="am-form-group">
+			<label for="password" class="am-u-sm-12 am-form-label am-text-left">password					<span class="tpl-form-line-small-title">password</span></label>
+			<div class="am-u-sm-12">
+					<input type="text" 
+	value="{if condition="isset($im_staff.password)"}{$im_staff.password}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="password" name="password" 
+	placeholder="请输入password">			</div>
+	</div>
+		<div class="am-form-group">
+			<label for="max_work" class="am-u-sm-12 am-form-label am-text-left">max_work					<span class="tpl-form-line-small-title">max_work</span></label>
+			<div class="am-u-sm-12">
+					<input type="text" 
+	value="{if condition="isset($im_staff.max_work)"}{$im_staff.max_work}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="max_work" name="max_work" 
+	placeholder="请输入max_work">			</div>
+	</div>
+		<div class="am-form-group">
+			<label for="work" class="am-u-sm-12 am-form-label am-text-left">work					<span class="tpl-form-line-small-title">work</span></label>
+			<div class="am-u-sm-12">
+					<input type="text" 
+	value="{if condition="isset($im_staff.work)"}{$im_staff.work}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="work" name="work" 
+	placeholder="请输入work">			</div>
+	</div>
+		<div class="am-form-group">
+			<label for="head_img" class="am-u-sm-12 am-form-label am-text-left">head_img					<span class="tpl-form-line-small-title">head_img</span></label>
+			<div class="am-u-sm-12">
+					<input type="text" 
+	value="{if condition="isset($im_staff.head_img)"}{$im_staff.head_img}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="head_img" name="head_img" 
+	placeholder="请输入head_img">			</div>
+	</div>
+		<div class="am-form-group">
+			<label for="power" class="am-u-sm-12 am-form-label am-text-left">power					<span class="tpl-form-line-small-title">power</span></label>
+			<div class="am-u-sm-12">
+					<input type="text" 
+	value="{if condition="isset($im_staff.power)"}{$im_staff.power}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="power" name="power" 
+	placeholder="请输入power">			</div>
+	</div>
+		<div class="am-form-group">
+			<label for="create_time" class="am-u-sm-12 am-form-label am-text-left">create_time					<span class="tpl-form-line-small-title">create_time</span></label>
+			<div class="am-u-sm-12">
+					<input type="text" 
+	value="{if condition="isset($im_staff.create_time)"}{$im_staff.create_time}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="create_time" name="create_time" 
+	placeholder="请输入create_time">			</div>
+	</div>
+		<div class="am-form-group">
+			<label for="update_time" class="am-u-sm-12 am-form-label am-text-left">update_time					<span class="tpl-form-line-small-title">update_time</span></label>
+			<div class="am-u-sm-12">
+					<input type="text" 
+	value="{if condition="isset($im_staff.update_time)"}{$im_staff.update_time}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="update_time" name="update_time" 
+	placeholder="请输入update_time">			</div>
+	</div>
+		<div class="am-form-group">
+			<label for="description" class="am-u-sm-12 am-form-label am-text-left">description					<span class="tpl-form-line-small-title">description</span></label>
+			<div class="am-u-sm-12">
+					<input type="text" 
+	value="{if condition="isset($im_staff.description)"}{$im_staff.description}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="description" name="description" 
+	placeholder="请输入description">			</div>
+	</div>
+		<div class="am-form-group">
+			<div class="am-u-sm-12 am-u-sm-push-12">
+					<button type="submit" class="am-btn am-btn-primary tpl-btn-bg-color-success ">提交</button>
+			</div>
+	</div>
+</form>
+								</div>
+						</div>
+				</div>
+		</div>
+	</div>
+</div>
+{/block}
