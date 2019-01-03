@@ -2,463 +2,163 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d89094ab-8929-4a9d-99dd-6681107802de" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/tp-code-gen.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/.htaccess" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/application/common.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/common.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/application/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/application/helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/helper.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/application/route.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/route.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/application/tph2/controller/Base.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/controller/Base.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/application/tph2/controller/ControllerCode.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/controller/ControllerCode.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/application/tph2/controller/CreateLayout.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/controller/CreateLayout.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/application/tph2/controller/FileUtil.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/controller/FileUtil.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/application/tph2/controller/Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/controller/Index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/application/tph2/controller/ModelCode.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/controller/ModelCode.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/application/tph2/controller/ProjectConfig.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/controller/ProjectConfig.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/application/tph2/controller/ViewCode.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/controller/ViewCode.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/application/tph2/controller/WedgitCode.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/controller/WedgitCode.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/application/tph2/extra/dict.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/extra/dict.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/application/tph2/extra/tphconfig.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/extra/tphconfig.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/application/tph2/model/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/model/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/application/tphdbconfig.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/tphdbconfig.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze/Controller/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze/Controller/add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze/Controller/controller.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze/Controller/controller.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze/Controller/delList.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze/Controller/delList.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze/Controller/delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze/Controller/delete.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze/Controller/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze/Controller/edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze/Controller/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze/Controller/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze/Controller/info.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze/Controller/info.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze/Controller/lists.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze/Controller/lists.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze/Controller/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze/Controller/test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze/Model/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze/Model/add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze/Model/del.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze/Model/del.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze/Model/delList.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze/Model/delList.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze/Model/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze/Model/edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze/Model/info.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze/Model/info.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze/Model/lists.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze/Model/lists.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze/Model/model.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze/Model/model.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze/View/Form/checkbox.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze/View/Form/checkbox.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze/View/Form/date.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze/View/Form/date.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze/View/Form/number.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze/View/Form/number.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze/View/Form/password.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze/View/Form/password.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze/View/Form/radio.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze/View/Form/radio.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze/View/Form/select.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze/View/Form/select.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze/View/Form/text.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze/View/Form/text.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze/View/Form/textarea.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze/View/Form/textarea.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze/View/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze/View/add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze/View/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze/View/edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze/View/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze/View/form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze/View/info.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze/View/info.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze/View/lists.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze/View/lists.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze/View/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze/View/menu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/css/admin.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/css/admin.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/css/amazeui.datatables.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/css/amazeui.datatables.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/css/amazeui.datetimepicker.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/css/amazeui.datetimepicker.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/css/amazeui.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/css/amazeui.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/css/app.less" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/css/app.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/css/fullcalendar.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/css/fullcalendar.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/css/fullcalendar.print.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/css/fullcalendar.print.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/fonts/FontAwesome.otf" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/fonts/FontAwesome.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/fonts/fontawesome-webfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/fonts/fontawesome-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/fonts/fontawesome-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/fonts/fontawesome-webfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/i/app-icon72x72@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/i/app-icon72x72@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/i/examples/admin-chrome.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/i/examples/admin-chrome.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/i/examples/admin-firefox.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/i/examples/admin-firefox.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/i/examples/admin-ie.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/i/examples/admin-ie.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/i/examples/admin-opera.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/i/examples/admin-opera.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/i/examples/admin-safari.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/i/examples/admin-safari.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/i/examples/adminPage.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/i/examples/adminPage.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/i/examples/blogPage.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/i/examples/blogPage.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/i/examples/landing.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/i/examples/landing.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/i/examples/landingPage.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/i/examples/landingPage.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/i/examples/loginPage.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/i/examples/loginPage.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/i/examples/sidebarPage.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/i/examples/sidebarPage.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/i/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/i/favicon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/i/startup-640x1096.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/i/startup-640x1096.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/img/a5.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/img/a5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/img/k.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/img/k.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/img/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/img/logoa.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/img/logoa.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/img/logob.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/img/logob.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/img/user01.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/img/user01.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/img/user02.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/img/user02.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/img/user03.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/img/user03.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/img/user04.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/img/user04.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/img/user05.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/img/user05.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/img/user06.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/img/user06.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/img/user07.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/img/user07.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/js/amazeui.datatables.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/js/amazeui.datatables.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/js/amazeui.datetimepicker.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/js/amazeui.datetimepicker.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/js/amazeui.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/js/amazeui.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/js/dataTables.responsive.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/js/dataTables.responsive.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/js/echarts.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/js/echarts.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/js/fullcalendar.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/js/fullcalendar.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/js/jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.ar.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.ar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.az.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.az.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.bg.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.bg.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.bn.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.bn.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.ca.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.ca.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.cs.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.cs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.da.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.da.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.de.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.de.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.ee.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.ee.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.el.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.el.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.es.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.es.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.fi.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.fi.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.fr.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.fr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.he.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.he.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.hr.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.hr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.hu.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.hu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.hy.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.hy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.id.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.id.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.is.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.is.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.it.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.it.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.ja.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.ja.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.ka.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.ka.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.ko.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.ko.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.lt.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.lt.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.lv.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.lv.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.ms.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.ms.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.nb.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.nb.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.nl.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.nl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.no.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.no.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.pl.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.pl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.pt-BR.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.pt-BR.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.pt.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.pt.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.ro.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.ro.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.rs-latin.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.rs-latin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.rs.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.rs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.ru.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.ru.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.sk.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.sk.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.sl.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.sl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.sv.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.sv.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.sw.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.sw.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.th.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.th.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.tr.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.tr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.ua.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.ua.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.uk.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.uk.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.zh-CN.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.zh-CN.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.zh-TW.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/js/locales/amazeui.datetimepicker.zh-TW.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/js/moment.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/js/moment.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/public/assets/js/theme.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/public/assets/js/theme.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/view/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/view/add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/view/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/view/edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/view/getList.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/view/getList.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/view/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/view/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/view/info.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/view/info.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/view/layout.view.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/view/layout.view.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/view/lists.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/view/lists.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/view/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/view/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/amaze_theme/view/menu1.menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/view/menu1.menu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/default/Controller/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/default/Controller/add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/default/Controller/controller.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/default/Controller/controller.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/default/Controller/delList.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/default/Controller/delList.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/default/Controller/delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/default/Controller/delete.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/default/Controller/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/default/Controller/edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/default/Controller/getList.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/default/Controller/getList.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/default/Controller/info.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/default/Controller/info.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/default/Controller/lists.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/default/Controller/lists.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/default/Controller/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/default/Controller/test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/default/Model/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/default/Model/add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/default/Model/del.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/default/Model/del.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/default/Model/delList.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/default/Model/delList.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/default/Model/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/default/Model/edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/default/Model/getList.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/default/Model/getList.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/default/Model/info.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/default/Model/info.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/default/Model/lists.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/default/Model/lists.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/default/Model/model.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/default/Model/model.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/default/View/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/default/View/add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/default/View/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/default/View/edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/default/View/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/default/View/form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/default/View/getList.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/default/View/getList.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/default/View/info.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/default/View/info.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/default/View/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/default/View/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/default/View/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/default/View/menu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/font/fontawesome-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/font/fontawesome-webfont.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/img/back.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/img/back.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/img/black.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/img/black.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/img/cleditor/buttons.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/img/cleditor/buttons.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/img/cleditor/toolbar.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/img/cleditor/toolbar.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/img/cream.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/img/cream.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/img/delete.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/img/delete.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/img/icons/android.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/img/icons/android.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/img/icons/chrome.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/img/icons/chrome.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/img/icons/firefox.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/img/icons/firefox.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/img/icons/ie.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/img/icons/ie.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/img/icons/ios.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/img/icons/ios.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/img/icons/linux.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/img/icons/linux.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/img/icons/mac.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/img/icons/mac.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/img/icons/metro.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/img/icons/metro.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/img/icons/opera.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/img/icons/opera.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/img/icons/safari.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/img/icons/safari.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/img/icons/windows.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/img/icons/windows.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/img/main-back.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/img/main-back.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/img/photos/s1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/img/photos/s1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/img/photos/s10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/img/photos/s10.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/img/photos/s2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/img/photos/s2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/img/photos/s3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/img/photos/s3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/img/photos/s4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/img/photos/s4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/img/photos/s5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/img/photos/s5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/img/photos/s6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/img/photos/s6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/img/photos/s7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/img/photos/s7.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/img/photos/s8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/img/photos/s8.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/img/photos/s9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/img/photos/s9.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/img/photos/t1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/img/photos/t1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/img/photos/t10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/img/photos/t10.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/img/photos/t2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/img/photos/t2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/img/photos/t3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/img/photos/t3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/img/photos/t4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/img/photos/t4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/img/photos/t5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/img/photos/t5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/img/photos/t6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/img/photos/t6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/img/photos/t7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/img/photos/t7.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/img/photos/t8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/img/photos/t8.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/img/photos/t9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/img/photos/t9.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/img/prettyPhoto/dark_rounded/btnNext.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/img/prettyPhoto/dark_rounded/btnNext.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/img/prettyPhoto/dark_rounded/btnPrevious.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/img/prettyPhoto/dark_rounded/btnPrevious.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/img/prettyPhoto/dark_rounded/contentPattern.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/img/prettyPhoto/dark_rounded/contentPattern.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/img/prettyPhoto/dark_rounded/loader.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/img/prettyPhoto/dark_rounded/loader.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/img/prettyPhoto/dark_rounded/sprite.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/img/prettyPhoto/dark_rounded/sprite.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/img/prettyPhoto/dark_square/btnNext.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/img/prettyPhoto/dark_square/btnNext.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/img/prettyPhoto/dark_square/btnPrevious.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/img/prettyPhoto/dark_square/btnPrevious.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/img/prettyPhoto/dark_square/loader.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/img/prettyPhoto/dark_square/loader.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/img/prettyPhoto/dark_square/sprite.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/img/prettyPhoto/dark_square/sprite.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/img/prettyPhoto/default/default_thumb.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/img/prettyPhoto/default/default_thumb.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/img/prettyPhoto/default/loader.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/img/prettyPhoto/default/loader.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/img/prettyPhoto/default/sprite.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/img/prettyPhoto/default/sprite.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/img/prettyPhoto/default/sprite_next.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/img/prettyPhoto/default/sprite_next.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/img/prettyPhoto/default/sprite_prev.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/img/prettyPhoto/default/sprite_prev.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/img/prettyPhoto/default/sprite_x.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/img/prettyPhoto/default/sprite_x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/img/prettyPhoto/default/sprite_y.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/img/prettyPhoto/default/sprite_y.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/img/prettyPhoto/facebook/btnNext.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/img/prettyPhoto/facebook/btnNext.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/img/prettyPhoto/facebook/btnPrevious.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/img/prettyPhoto/facebook/btnPrevious.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/img/prettyPhoto/facebook/contentPatternBottom.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/img/prettyPhoto/facebook/contentPatternBottom.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/img/prettyPhoto/facebook/contentPatternLeft.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/img/prettyPhoto/facebook/contentPatternLeft.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/img/prettyPhoto/facebook/contentPatternRight.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/img/prettyPhoto/facebook/contentPatternRight.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/img/prettyPhoto/facebook/contentPatternTop.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/img/prettyPhoto/facebook/contentPatternTop.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/img/prettyPhoto/facebook/default_thumbnail.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/img/prettyPhoto/facebook/default_thumbnail.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/img/prettyPhoto/facebook/loader.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/img/prettyPhoto/facebook/loader.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/img/prettyPhoto/facebook/sprite.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/img/prettyPhoto/facebook/sprite.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/img/prettyPhoto/light_rounded/btnNext.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/img/prettyPhoto/light_rounded/btnNext.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/img/prettyPhoto/light_rounded/btnPrevious.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/img/prettyPhoto/light_rounded/btnPrevious.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/img/prettyPhoto/light_rounded/loader.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/img/prettyPhoto/light_rounded/loader.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/img/prettyPhoto/light_rounded/sprite.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/img/prettyPhoto/light_rounded/sprite.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/img/prettyPhoto/light_square/btnNext.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/img/prettyPhoto/light_square/btnNext.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/img/prettyPhoto/light_square/btnPrevious.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/img/prettyPhoto/light_square/btnPrevious.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/img/prettyPhoto/light_square/sprite.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/img/prettyPhoto/light_square/sprite.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/img/star.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/img/star.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/img/user-big.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/img/user-big.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/img/user.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/img/user.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/js/bootstrap-datetimepicker.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/js/bootstrap-datetimepicker.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/js/bootstrap-switch.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/js/bootstrap-switch.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/js/charts.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/js/charts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/js/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/js/custom.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/js/excanvas.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/js/excanvas.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/js/filter.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/js/filter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/js/fullcalendar.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/js/fullcalendar.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/js/html5shim.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/js/html5shim.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/js/jquery-ui-1.9.2.custom.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/js/jquery-ui-1.9.2.custom.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/js/jquery.cleditor.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/js/jquery.cleditor.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/js/jquery.flot.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/js/jquery.flot.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/js/jquery.flot.pie.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/js/jquery.flot.pie.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/js/jquery.flot.resize.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/js/jquery.flot.resize.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/js/jquery.flot.stack.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/js/jquery.flot.stack.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/js/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/js/jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/js/jquery.noty.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/js/jquery.noty.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/js/jquery.prettyPhoto.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/js/jquery.prettyPhoto.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/js/jquery.rateit.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/js/jquery.rateit.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/js/layouts/bottom.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/js/layouts/bottom.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/js/layouts/top.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/js/layouts/top.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/js/layouts/topRight.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/js/layouts/topRight.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/js/sparklines.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/js/sparklines.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/js/themes/default.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/js/themes/default.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/style/bootstrap-datetimepicker.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/style/bootstrap-datetimepicker.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/style/bootstrap-switch.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/style/bootstrap-switch.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/style/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/style/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/style/font-awesome.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/style/font-awesome.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/style/fullcalendar.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/style/fullcalendar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/style/images/ui-bg_diagonals-thick_18_b81900_40x40.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/style/images/ui-bg_diagonals-thick_18_b81900_40x40.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/style/images/ui-bg_diagonals-thick_20_666666_40x40.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/style/images/ui-bg_diagonals-thick_20_666666_40x40.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/style/images/ui-bg_flat_10_000000_40x100.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/style/images/ui-bg_flat_10_000000_40x100.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/style/images/ui-bg_glass_100_f6f6f6_1x400.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/style/images/ui-bg_glass_100_f6f6f6_1x400.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/style/images/ui-bg_glass_100_fdf5ce_1x400.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/style/images/ui-bg_glass_100_fdf5ce_1x400.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/style/images/ui-bg_glass_65_ffffff_1x400.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/style/images/ui-bg_glass_65_ffffff_1x400.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/style/images/ui-bg_gloss-wave_35_f6a828_500x100.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/style/images/ui-bg_gloss-wave_35_f6a828_500x100.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/style/images/ui-bg_highlight-soft_100_eeeeee_1x100.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/style/images/ui-bg_highlight-soft_100_eeeeee_1x100.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/style/images/ui-bg_highlight-soft_75_ffe45c_1x100.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/style/images/ui-bg_highlight-soft_75_ffe45c_1x100.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/style/images/ui-icons_222222_256x240.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/style/images/ui-icons_222222_256x240.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/style/images/ui-icons_228ef1_256x240.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/style/images/ui-icons_228ef1_256x240.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/style/images/ui-icons_ef8c08_256x240.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/style/images/ui-icons_ef8c08_256x240.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/style/images/ui-icons_ffd27a_256x240.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/style/images/ui-icons_ffd27a_256x240.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/style/images/ui-icons_ffffff_256x240.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/style/images/ui-icons_ffffff_256x240.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/style/jquery-ui.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/style/jquery-ui.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/style/jquery.cleditor.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/style/jquery.cleditor.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/style/prettyPhoto.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/style/prettyPhoto.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/style/rateit.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/style/rateit.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/style/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/public/asset/style/widgets.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/public/asset/style/widgets.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/view/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/view/add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/view/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/view/edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/view/getList.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/view/getList.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/view/info.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/view/info.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/view/layout.view.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/view/layout.view.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/view/lists.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/view/lists.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/codeRepository/mac_theme/view/menu1.menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/mac_theme/view/menu1.menu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/db/tph.db" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/db/tph.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/plugin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/plugin/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/plugin/rbac/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/plugin/rbac/config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/plugin/rbac/files/behavior/CheckAuth.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/plugin/rbac/files/behavior/CheckAuth.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/plugin/rbac/files/tags.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/plugin/rbac/files/tags.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/plugin/rbac/sql/access.sql" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/plugin/rbac/sql/access.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/plugin/rbac/sql/auth.sql" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/plugin/rbac/sql/auth.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/plugin/rbac/sql/node.sql" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/plugin/rbac/sql/node.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/plugin/rbac/sql/role.sql" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/plugin/rbac/sql/role.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/plugin/rbac/view/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/plugin/rbac/view/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/runtime/log/201901/02.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/runtime/temp/410f76f7ac1388f0e0c47db20fd0af7a.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/runtime/temp/5a4759cc813cbb1681a0b355763aa27b.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/runtime/temp/b1b9ddb978dca49baa260226d7db2a53.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/runtime/temp/dafecffef89007a13d89521c8d8c3f3b.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/runtime/temp/f68268b11846f93bfab1e10c7276559f.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/tags.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/tags.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/ControllerCode/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/ControllerCode/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/CreateLayout/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/CreateLayout/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/Index/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/Index/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/ModelCode/addRelationModelCode.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/ModelCode/addRelationModelCode.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/ModelCode/addViewModelCode.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/ModelCode/addViewModelCode.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/ModelCode/generateRelationshipModelCode.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/ModelCode/generateRelationshipModelCode.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/ModelCode/getTableInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/ModelCode/getTableInfo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/ModelCode/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/ModelCode/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/ModelCode/index2.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/ModelCode/index2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/ProjectConfig/formConfig.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/ProjectConfig/formConfig.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/ProjectConfig/formField.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/ProjectConfig/formField.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/ProjectConfig/formFieldEdit.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/ProjectConfig/formFieldEdit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/ProjectConfig/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/ProjectConfig/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/ViewCode/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/ViewCode/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/WedgitCode/authManage.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/WedgitCode/authManage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/WedgitCode/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/WedgitCode/menu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/font/fontawesome-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/font/fontawesome-webfont.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/img/back.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/img/back.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/img/black.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/img/black.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/img/cleditor/buttons.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/img/cleditor/buttons.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/img/cleditor/toolbar.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/img/cleditor/toolbar.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/img/cream.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/img/cream.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/img/delete.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/img/delete.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/img/help/0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/img/help/0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/img/help/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/img/help/1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/img/help/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/img/help/2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/img/help/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/img/help/3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/img/help/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/img/help/4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/img/help/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/img/help/5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/img/help/6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/img/help/6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/img/help/7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/img/help/7.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/img/help/8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/img/help/8.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/img/icons/android.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/img/icons/android.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/img/icons/chrome.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/img/icons/chrome.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/img/icons/firefox.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/img/icons/firefox.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/img/icons/ie.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/img/icons/ie.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/img/icons/ios.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/img/icons/ios.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/img/icons/linux.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/img/icons/linux.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/img/icons/mac.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/img/icons/mac.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/img/icons/metro.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/img/icons/metro.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/img/icons/opera.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/img/icons/opera.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/img/icons/safari.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/img/icons/safari.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/img/icons/windows.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/img/icons/windows.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/img/main-back.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/img/main-back.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/img/prettyPhoto/dark_rounded/btnNext.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/img/prettyPhoto/dark_rounded/btnNext.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/img/prettyPhoto/dark_rounded/btnPrevious.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/img/prettyPhoto/dark_rounded/btnPrevious.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/img/prettyPhoto/dark_rounded/contentPattern.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/img/prettyPhoto/dark_rounded/contentPattern.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/img/prettyPhoto/dark_rounded/loader.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/img/prettyPhoto/dark_rounded/loader.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/img/prettyPhoto/dark_rounded/sprite.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/img/prettyPhoto/dark_rounded/sprite.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/img/prettyPhoto/dark_square/btnNext.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/img/prettyPhoto/dark_square/btnNext.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/img/prettyPhoto/dark_square/btnPrevious.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/img/prettyPhoto/dark_square/btnPrevious.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/img/prettyPhoto/dark_square/loader.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/img/prettyPhoto/dark_square/loader.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/img/prettyPhoto/dark_square/sprite.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/img/prettyPhoto/dark_square/sprite.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/img/prettyPhoto/default/default_thumb.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/img/prettyPhoto/default/default_thumb.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/img/prettyPhoto/default/loader.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/img/prettyPhoto/default/loader.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/img/prettyPhoto/default/sprite.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/img/prettyPhoto/default/sprite.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/img/prettyPhoto/default/sprite_next.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/img/prettyPhoto/default/sprite_next.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/img/prettyPhoto/default/sprite_prev.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/img/prettyPhoto/default/sprite_prev.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/img/prettyPhoto/default/sprite_x.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/img/prettyPhoto/default/sprite_x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/img/prettyPhoto/default/sprite_y.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/img/prettyPhoto/default/sprite_y.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/img/prettyPhoto/facebook/btnNext.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/img/prettyPhoto/facebook/btnNext.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/img/prettyPhoto/facebook/btnPrevious.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/img/prettyPhoto/facebook/btnPrevious.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/img/prettyPhoto/facebook/contentPatternBottom.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/img/prettyPhoto/facebook/contentPatternBottom.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/img/prettyPhoto/facebook/contentPatternLeft.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/img/prettyPhoto/facebook/contentPatternLeft.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/img/prettyPhoto/facebook/contentPatternRight.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/img/prettyPhoto/facebook/contentPatternRight.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/img/prettyPhoto/facebook/contentPatternTop.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/img/prettyPhoto/facebook/contentPatternTop.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/img/prettyPhoto/facebook/default_thumbnail.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/img/prettyPhoto/facebook/default_thumbnail.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/img/prettyPhoto/facebook/loader.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/img/prettyPhoto/facebook/loader.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/img/prettyPhoto/facebook/sprite.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/img/prettyPhoto/facebook/sprite.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/img/prettyPhoto/light_rounded/btnNext.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/img/prettyPhoto/light_rounded/btnNext.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/img/prettyPhoto/light_rounded/btnPrevious.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/img/prettyPhoto/light_rounded/btnPrevious.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/img/prettyPhoto/light_rounded/loader.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/img/prettyPhoto/light_rounded/loader.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/img/prettyPhoto/light_rounded/sprite.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/img/prettyPhoto/light_rounded/sprite.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/img/prettyPhoto/light_square/btnNext.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/img/prettyPhoto/light_square/btnNext.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/img/prettyPhoto/light_square/btnPrevious.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/img/prettyPhoto/light_square/btnPrevious.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/img/prettyPhoto/light_square/sprite.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/img/prettyPhoto/light_square/sprite.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/img/star.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/img/star.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/js/bootstrap-datetimepicker.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/js/bootstrap-datetimepicker.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/js/bootstrap-switch.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/js/bootstrap-switch.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/js/charts.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/js/charts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/js/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/js/custom.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/js/excanvas.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/js/excanvas.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/js/filter.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/js/filter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/js/fullcalendar.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/js/fullcalendar.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/js/html5shim.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/js/html5shim.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/js/htmlUtil.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/js/htmlUtil.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/js/jquery-ui-1.9.2.custom.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/js/jquery-ui-1.9.2.custom.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/js/jquery.cleditor.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/js/jquery.cleditor.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/js/jquery.flot.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/js/jquery.flot.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/js/jquery.flot.pie.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/js/jquery.flot.pie.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/js/jquery.flot.resize.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/js/jquery.flot.resize.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/js/jquery.flot.stack.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/js/jquery.flot.stack.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/js/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/js/jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/js/jquery.noty.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/js/jquery.noty.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/js/jquery.prettyPhoto.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/js/jquery.prettyPhoto.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/js/jquery.rateit.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/js/jquery.rateit.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/js/layouts/bottom.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/js/layouts/bottom.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/js/layouts/top.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/js/layouts/top.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/js/layouts/topRight.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/js/layouts/topRight.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/js/sparklines.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/js/sparklines.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/js/themes/default.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/js/themes/default.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/style/bootstrap-datetimepicker.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/style/bootstrap-datetimepicker.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/style/bootstrap-switch.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/style/bootstrap-switch.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/style/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/style/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/style/font-awesome.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/style/font-awesome.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/style/fullcalendar.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/style/fullcalendar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/style/images/ui-bg_diagonals-thick_18_b81900_40x40.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/style/images/ui-bg_diagonals-thick_18_b81900_40x40.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/style/images/ui-bg_diagonals-thick_20_666666_40x40.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/style/images/ui-bg_diagonals-thick_20_666666_40x40.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/style/images/ui-bg_flat_10_000000_40x100.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/style/images/ui-bg_flat_10_000000_40x100.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/style/images/ui-bg_glass_100_f6f6f6_1x400.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/style/images/ui-bg_glass_100_f6f6f6_1x400.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/style/images/ui-bg_glass_100_fdf5ce_1x400.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/style/images/ui-bg_glass_100_fdf5ce_1x400.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/style/images/ui-bg_glass_65_ffffff_1x400.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/style/images/ui-bg_glass_65_ffffff_1x400.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/style/images/ui-bg_gloss-wave_35_f6a828_500x100.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/style/images/ui-bg_gloss-wave_35_f6a828_500x100.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/style/images/ui-bg_highlight-soft_100_eeeeee_1x100.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/style/images/ui-bg_highlight-soft_100_eeeeee_1x100.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/style/images/ui-bg_highlight-soft_75_ffe45c_1x100.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/style/images/ui-bg_highlight-soft_75_ffe45c_1x100.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/style/images/ui-icons_222222_256x240.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/style/images/ui-icons_222222_256x240.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/style/images/ui-icons_228ef1_256x240.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/style/images/ui-icons_228ef1_256x240.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/style/images/ui-icons_ef8c08_256x240.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/style/images/ui-icons_ef8c08_256x240.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/style/images/ui-icons_ffd27a_256x240.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/style/images/ui-icons_ffd27a_256x240.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/style/images/ui-icons_ffffff_256x240.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/style/images/ui-icons_ffffff_256x240.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/style/jquery-ui.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/style/jquery-ui.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/style/jquery.cleditor.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/style/jquery.cleditor.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/style/prettyPhoto.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/style/prettyPhoto.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/style/rateit.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/style/rateit.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/style/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/asset/style/widgets.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/asset/style/widgets.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/default_layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/default_layout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/help.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/help.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/leftmenu.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/leftmenu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tph2/template/ui.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/ui.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/controller/ImCorpusData.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/controller/ImCorpusGroup.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/controller/ImExample.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/controller/ImExampleStyle.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/controller/ImMsg.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/controller/ImServerList.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/controller/ImStaff.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/controller/Index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/model/ImCorpusData.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/model/ImCorpusGroup.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/model/ImExample.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/model/ImExampleStyle.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/model/ImMsg.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/model/ImServerList.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/model/ImStaff.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/view/im_corpus_data/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/view/im_corpus_data/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/view/im_corpus_data/lists.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/view/im_corpus_group/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/view/im_corpus_group/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/view/im_corpus_group/lists.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/view/im_example/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/view/im_example/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/view/im_example/lists.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/view/im_example_style/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/view/im_example_style/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/view/im_example_style/lists.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/view/im_msg/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/view/im_msg/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/view/im_msg/lists.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/view/im_server_list/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/view/im_server_list/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/view/im_server_list/lists.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/view/im_staff/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/view/im_staff/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/view/im_staff/lists.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/view/layout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/view/menu1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/admin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/amazeui.datatables.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/amazeui.datetimepicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/amazeui.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/app.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/fullcalendar.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/fullcalendar.print.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/i/app-icon72x72@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/i/examples/admin-chrome.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/i/examples/admin-firefox.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/i/examples/admin-ie.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/i/examples/admin-opera.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/i/examples/admin-safari.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/i/examples/adminPage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/i/examples/blogPage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/i/examples/landing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/i/examples/landingPage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/i/examples/loginPage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/i/examples/sidebarPage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/i/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/i/startup-640x1096.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/a5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/k.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/logoa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/logob.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/user01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/user02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/user03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/user04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/user05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/user06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/user07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/amazeui.datatables.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/amazeui.datetimepicker.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/amazeui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/dataTables.responsive.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/echarts.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/fullcalendar.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/locales/amazeui.datetimepicker.ar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/locales/amazeui.datetimepicker.az.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/locales/amazeui.datetimepicker.bg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/locales/amazeui.datetimepicker.bn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/locales/amazeui.datetimepicker.ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/locales/amazeui.datetimepicker.cs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/locales/amazeui.datetimepicker.da.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/locales/amazeui.datetimepicker.de.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/locales/amazeui.datetimepicker.ee.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/locales/amazeui.datetimepicker.el.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/locales/amazeui.datetimepicker.es.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/locales/amazeui.datetimepicker.fi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/locales/amazeui.datetimepicker.fr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/locales/amazeui.datetimepicker.he.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/locales/amazeui.datetimepicker.hr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/locales/amazeui.datetimepicker.hu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/locales/amazeui.datetimepicker.hy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/locales/amazeui.datetimepicker.id.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/locales/amazeui.datetimepicker.is.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/locales/amazeui.datetimepicker.it.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/locales/amazeui.datetimepicker.ja.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/locales/amazeui.datetimepicker.ka.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/locales/amazeui.datetimepicker.ko.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/locales/amazeui.datetimepicker.lt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/locales/amazeui.datetimepicker.lv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/locales/amazeui.datetimepicker.ms.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/locales/amazeui.datetimepicker.nb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/locales/amazeui.datetimepicker.nl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/locales/amazeui.datetimepicker.no.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/locales/amazeui.datetimepicker.pl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/locales/amazeui.datetimepicker.pt-BR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/locales/amazeui.datetimepicker.pt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/locales/amazeui.datetimepicker.ro.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/locales/amazeui.datetimepicker.rs-latin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/locales/amazeui.datetimepicker.rs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/locales/amazeui.datetimepicker.ru.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/locales/amazeui.datetimepicker.sk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/locales/amazeui.datetimepicker.sl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/locales/amazeui.datetimepicker.sv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/locales/amazeui.datetimepicker.sw.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/locales/amazeui.datetimepicker.th.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/locales/amazeui.datetimepicker.tr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/locales/amazeui.datetimepicker.ua.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/locales/amazeui.datetimepicker.uk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/locales/amazeui.datetimepicker.zh-CN.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/locales/amazeui.datetimepicker.zh-TW.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/moment.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/theme.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/common.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/common.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/controller/Base.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/controller/Base.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/controller/ControllerCode.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/controller/ControllerCode.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/controller/CreateLayout.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/controller/CreateLayout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/controller/FileUtil.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/controller/FileUtil.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/controller/ModelCode.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/controller/ModelCode.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/controller/ProjectConfig.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/controller/ProjectConfig.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/controller/ViewCode.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/controller/ViewCode.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/controller/WedgitCode.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/controller/WedgitCode.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/codeRepository/amaze/Controller/controller.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze/Controller/controller.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/codeRepository/amaze/Model/model.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze/Model/model.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/view/layout.view.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/view/layout.view.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/plugin/rbac/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/plugin/rbac/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/runtime/log/201901/02.log" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/runtime/log/201901/02.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/runtime/temp/410f76f7ac1388f0e0c47db20fd0af7a.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/runtime/temp/410f76f7ac1388f0e0c47db20fd0af7a.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/runtime/temp/b1b9ddb978dca49baa260226d7db2a53.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/runtime/temp/b1b9ddb978dca49baa260226d7db2a53.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/runtime/temp/c416ea1c4cb862b105ff5759c01e2963.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/runtime/temp/c416ea1c4cb862b105ff5759c01e2963.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/runtime/temp/e285fb8c58de282461468cf5640eccec.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/runtime/temp/e285fb8c58de282461468cf5640eccec.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/CreateLayout/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/CreateLayout/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/ProjectConfig/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/ProjectConfig/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/library/think/View.php" beforeDir="false" afterPath="$PROJECT_DIR$/thinkphp/library/think/View.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -467,29 +167,16 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="common.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/gen/application/common.php">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/gen/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="59" column="9" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ControllerCode.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/gen/application/gen/controller/ControllerCode.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-              <folding>
-                <element signature="e#6#28#0#PHP" expanded="true" />
-                <element signature="e#128#149#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="285">
+              <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -501,10 +188,27 @@
       <find>.gitignore</find>
       <find>tph2</find>
       <find>getTableNameList</find>
+      <find>getModuleNameList</find>
+      <find>TARGET_PUBLIC_NAME</find>
+      <find>REPLACE_FLAG</find>
+      <find>getDbConfig</find>
+      <find>iconv</find>
+      <find>iconv(</find>
+      <find>gbkToUtf8</find>
+      <find>$aimDir</find>
+      <find>gbk_to_utf8</find>
+      <find>生成输出</find>
+      <find>view</find>
     </findStrings>
     <replaceStrings>
       <replace>gen</replace>
       <replace>get_table_name_list</replace>
+      <replace>get_module_name_list</replace>
+      <replace>get_db_config</replace>
+      <replace>gbk_to_utf8</replace>
+      <replace>generator-out</replace>
+      <replace>generator_out</replace>
+      <replace>file_out</replace>
     </replaceStrings>
     <dirStrings>
       <dir>F:\phpStudy\WWW\tp-code-gen\public\gen\application\tph2</dir>
@@ -518,19 +222,30 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/application/database.php" />
         <option value="$PROJECT_DIR$/application/index/controller/ImStaff.php" />
-        <option value="$PROJECT_DIR$/application/index/view/layout.html" />
         <option value="$PROJECT_DIR$/application/index/view/menu1.html" />
         <option value="$PROJECT_DIR$/application/index/view/im_corpus_data/lists.html" />
-        <option value="$PROJECT_DIR$/public/gen/index.php" />
         <option value="$PROJECT_DIR$/public/gen/application/gen/controller/Index.php" />
         <option value="$PROJECT_DIR$/public/gen/template/ControllerCode/index.html" />
         <option value="$PROJECT_DIR$/public/gen/template/default_layout.html" />
         <option value="$PROJECT_DIR$/public/gen/template/leftmenu.html" />
-        <option value="$PROJECT_DIR$/public/gen/application/gen/controller/ControllerCode.php" />
         <option value="$PROJECT_DIR$/public/gen/application/helper.php" />
+        <option value="$PROJECT_DIR$/application/database.php" />
+        <option value="$PROJECT_DIR$/thinkphp/library/think/View.php" />
+        <option value="$PROJECT_DIR$/public/gen/application/config.php" />
+        <option value="$PROJECT_DIR$/application/index/view/layout.html" />
+        <option value="$PROJECT_DIR$/public/gen/index.php" />
+        <option value="$PROJECT_DIR$/public/gen/plugin/rbac/config.php" />
+        <option value="$PROJECT_DIR$/public/gen/application/gen/controller/ControllerCode.php" />
+        <option value="$PROJECT_DIR$/application/index/生成输出/controller/Staff.php" />
+        <option value="$PROJECT_DIR$/public/gen/template/CreateLayout/index.html" />
+        <option value="$PROJECT_DIR$/application/index/生成输出/view/layout.html" />
+        <option value="$PROJECT_DIR$/public/gen/application/gen/controller/FileUtil.php" />
         <option value="$PROJECT_DIR$/public/gen/application/common.php" />
+        <option value="$PROJECT_DIR$/public/gen/application/gen/controller/WedgitCode.php" />
+        <option value="$PROJECT_DIR$/public/gen/application/gen/controller/ViewCode.php" />
+        <option value="$PROJECT_DIR$/public/gen/application/gen/controller/ModelCode.php" />
+        <option value="$PROJECT_DIR$/public/gen/application/gen/controller/CreateLayout.php" />
       </list>
     </option>
   </component>
@@ -566,6 +281,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -576,17 +292,6 @@
             <path>
               <item name="tp-code-gen" type="b2602c69:ProjectViewProjectNode" />
               <item name="tp-code-gen" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="tp-code-gen" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tp-code-gen" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="index" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="tp-code-gen" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tp-code-gen" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -594,51 +299,11 @@
               <item name="tp-code-gen" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="gen" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="tp-code-gen" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tp-code-gen" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="gen" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="tp-code-gen" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tp-code-gen" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="gen" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="gen" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="tp-code-gen" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tp-code-gen" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="gen" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="gen" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="controller" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="tp-code-gen" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tp-code-gen" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="gen" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="template" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="tp-code-gen" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tp-code-gen" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="gen" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="template" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="ControllerCode" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -671,12 +336,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1546416587375</updated>
-      <workItem from="1546416588639" duration="4942000" />
+      <workItem from="1546416588639" duration="5079000" />
+      <workItem from="1546477357699" duration="18830000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4942000" />
+    <option name="totallyTimeSpent" value="23909000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -697,7 +363,7 @@
       <window_info anchor="bottom" id="Version Control" order="4" weight="0.3289689" />
       <window_info anchor="bottom" id="Run" order="7" />
       <window_info anchor="bottom" id="Terminal" order="2" weight="0.32733223" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.47058824" weight="0.23019432" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.47058824" visible="true" weight="0.23019432" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info id="Database" order="3" sideWeight="0.498366" weight="0.22122571" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.32843137" />
@@ -706,11 +372,11 @@
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
-      <window_info anchor="bottom" id="Database Console" order="12" weight="0.3267974" />
       <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Database Console" order="12" weight="0.3267974" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -720,84 +386,10 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="6" selection-start-column="6" selection-end-column="6" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/static/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="11" lean-forward="true" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/controller/ImCorpusData.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/controller/ImCorpusGroup.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/controller/ImMsg.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-202" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/controller/Index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/controller/ImStaff.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/view/layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="191" lean-forward="true" selection-start-line="191" selection-end-line="191" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/index/view/im_corpus_data/lists.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="42" lean-forward="true" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/view/menu1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -808,30 +400,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/gen/runtime/temp/748aca38740c66bee974b5c31552d944.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="90" selection-start-column="90" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/public/gen/runtime/temp/748aca38740c66bee974b5c31552d944.php" />
     <entry file="file://$PROJECT_DIR$/public/gen/runtime/log/201901/02.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-285" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/gen/application/gen/controller/Base.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/gen/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/gen/template/leftmenu.html">
@@ -841,31 +413,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/gen/template/ControllerCode/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2101">
-          <caret line="261" lean-forward="true" selection-start-line="261" selection-end-line="261" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/gen/template/default_layout.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-247">
           <caret line="38" column="10" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/gen/application/gen/controller/Index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/gen/application/helper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -883,21 +434,274 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/config.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinkphp/library/think/View.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="156" column="15" lean-forward="true" selection-start-line="156" selection-start-column="15" selection-end-line="156" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/index/view/menu1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/index/model/CorpusData.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="32" lean-forward="true" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinkphp/library/think/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="119" column="31" selection-start-line="119" selection-start-column="31" selection-end-line="119" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/index/view/layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="203" lean-forward="true" selection-start-line="203" selection-end-line="203" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/gen/plugin/rbac/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="742" column="25" selection-start-line="742" selection-start-column="25" selection-end-line="742" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_5.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="1050" column="20" selection-start-line="1050" selection-start-column="20" selection-end-line="1050" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/gen/application/helper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="42" column="1" lean-forward="true" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/index/生成输出/controller/.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1000" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/index/生成输出/controller/Staff.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="74" column="5" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/index/生成输出/controller/ServerList.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-202" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/gen/application/tphdbconfig.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/gen/template/CreateLayout/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="78" column="53" lean-forward="true" selection-start-line="78" selection-start-column="53" selection-end-line="78" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/gen/application/gen/controller/Base.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/gen/application/gen/controller/ControllerCode.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        <state relative-caret-position="266">
+          <caret line="44" column="27" selection-start-line="44" selection-start-column="27" selection-end-line="44" selection-end-column="27" />
           <folding>
             <element signature="e#6#28#0#PHP" expanded="true" />
-            <element signature="e#128#149#0#PHP" expanded="true" />
+            <element signature="e#129#150#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="653" column="30" selection-start-line="653" selection-start-column="30" selection-end-line="653" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/mbstring/mbstring.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="594" column="29" lean-forward="true" selection-start-line="594" selection-start-column="29" selection-end-line="594" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/index/生成输出/view/layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/gen/application/gen/controller/FileUtil.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="183" selection-start-line="183" selection-end-line="183" />
+          <folding>
+            <element signature="e#6#28#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/gen/application/common.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="59" column="9" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
+        <state relative-caret-position="285">
+          <caret line="51" column="3" selection-start-line="51" selection-start-column="3" selection-end-line="51" selection-end-column="3" />
+          <folding>
+            <element signature="e#16#48#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/gen/application/gen/controller/WedgitCode.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="74" column="5" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/gen/application/gen/controller/ViewCode.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="134" column="18" lean-forward="true" selection-start-line="134" selection-start-column="18" selection-end-line="134" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/gen/application/gen/controller/Index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/gen/application/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/index/file_out/view/layout.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/gen/application/gen/controller/ModelCode.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1235">
+          <caret line="131" column="47" selection-start-line="131" selection-start-column="47" selection-end-line="131" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/gen/application/gen/controller/CreateLayout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/gen/template/ControllerCode/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="468" column="21" selection-start-line="468" selection-start-column="21" selection-end-line="468" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/gen/codeRepository/amaze/Model/info.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/gen/codeRepository/amaze/Model/edit.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/gen/codeRepository/amaze/Model/delList.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/gen/codeRepository/amaze/Model/del.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/gen/codeRepository/amaze/Model/add.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/gen/codeRepository/amaze/Model/lists.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/gen/codeRepository/amaze/Model/model.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/gen/tags.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/gen/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/gen/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
         </state>
       </provider>
     </entry>

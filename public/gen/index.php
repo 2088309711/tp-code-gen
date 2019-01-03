@@ -1,7 +1,4 @@
 <?php
-
-// [ 应用入口文件 ]
-
 // 定义应用目录
 define('APP_PATH', __DIR__ . '/application/');
 
@@ -24,9 +21,5 @@ define('CODE_REPOSITORY', 'codeRepository');
 //视图模板路径
 define('TEMPLATE_PATH', APP_NAME . '/template/');
 
-//替换标记位
-define('REPLACE_FLAG', '//__tph');
-
 // 加载框架引导文件
 require __DIR__ . '/../../thinkphp/start.php';
-

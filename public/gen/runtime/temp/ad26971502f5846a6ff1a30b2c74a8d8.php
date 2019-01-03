@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:29:"template/WedgitCode\menu.html";i:1546415995;s:67:"F:\phpStudy\WWW\tp-code-gen\public\gen\template\default_layout.html";i:1546420313;s:61:"F:\phpStudy\WWW\tp-code-gen\public\gen\template\leftmenu.html";i:1546420488;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:30:"template/\ModelCode\index.html";i:1546419192;s:67:"F:\phpStudy\WWW\tp-code-gen\public\gen\template\default_layout.html";i:1546420313;s:61:"F:\phpStudy\WWW\tp-code-gen\public\gen\template\leftmenu.html";i:1546420488;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -155,139 +155,95 @@
     <!-- Main bar -->
     
 <script type="text/javascript">
-var db_prefix = '<?php echo $db_prefix; ?>';
+db_prefix = '<?php echo $db_prefix; ?>';
 
-function gogogo(moduleName, selectTableName, layoutName, codelibName, menuName, saveFile){
-	$.post("<?php echo url(CONTROLLER_NAME.'/creatFiles'); ?>", {'moduleName' : moduleName,'selectTableName' : selectTableName, 
-			 'theme' : layoutName, 'codelib':codelibName, 'menuName':menuName, 'saveFileName':saveFile},
-		function(data){
-			$('#msg').html(data);
-		}
-	);
+
+function createFiles(moduleName, selectTableName){
+	var 	createFlieUrl = '<?php echo U("gen/ModelCode/creatAllFiles"); ?>';
+	$.post(createFlieUrl, {"moduleName":moduleName,"selectTableName":selectTableName}, function(data){
+		$('#fileMsg').html(data);
+	});
 }
 
-function readMenuList(){
-	var theme = $('#themeName');
-	$.post("<?php echo CONTROLLER_NAME; ?>/getMenuFileList",{'theme':theme},
-		function(data){
-			console.log(data);
-		}
-	);
+//一键生成模型代码文件
+function createModelFile(){
+	var url = "<?php echo APP_NAME; ?>/ModelCode/createModelFile";
+	moduleName = $('#moduleName').val();
+			checkedBox = $('#selectTables input:checked');
+			selectTableName = [];
+			if(db_prefix != ''){
+				checkedBox.each(function(){
+				selectTableName.push($(this).val().replace(db_prefix,''));
+				});
+			}else{
+			checkedBox.each(function(){
+				selectTableName.push($(this).val());
+				});
+			}
+			createFiles(moduleName, selectTableName);
 }
 
-$(function(){
-	$('#gogogo').bind("click", function(){
-		var moduleName = $('#moduleName').val();
-		var checkedBox = $('input:checked');
-		var selectTableName = [];
-		var saveFile = $('#saveFileName').val();
-		var menuName = $('#menuName').val();
-		var codelibName = $('#codelibName').val();
-		checkedBox.each(function(){
-			selectTableName.push($(this).val());
-		});
-		layoutName = $('#layoutName').val();
-		console.log(selectTableName);
-		gogogo(moduleName, selectTableName, layoutName,codelibName, menuName, saveFile);
-	});	
-	
-	
-});
 </script>
 <div class="mainbar">
 	<!-- Page heading -->
 	<div class="page-head">
-	  <h2 class="pull-left"><i class="icon-home"></i>生成菜单</h2>
-
-	<div class="clearfix"></div>
+		<h2 class="pull-left"><i class="icon-home"></i>快捷生成CRUD模型代码</h2>
+		<div class="clearfix"></div>
 	</div>
 	<!-- Page heading ends -->
 
 
 	<!-- Matter -->
-
 	<div class="matter">
 		<div class="container">
 			<div class="row">
-			<div class="col-md-6">
-				<div class="widget">
-					<div class="widget-head">
-					  <div class="pull-left" height="80">
-					  生成菜单
-					  </div>
-					  <div class="widget-icons pull-right">
-						<a href="#" class="wminimize"><i class="icon-chevron-up"></i></a> 
-						<a href="#" class="wclose"><i class="icon-remove"></i></a>
-					  </div>  
-					  <div class="clearfix"></div>
-					</div>  
-					<div class="widget-content" >
-					<div class="padd">
-                      <div class="form quick-post">
-							<!-- Edit profile form (not working)-->
-							<div class="form-horizontal">  
-									<div class="form-group">
-										<label class="control-label col-lg-2">目标模块:</label>
-										<div class="col-lg-6">       
-											<input  id="moduleName" value="<?php echo $moduleName; ?>" disabled="disabled" class="form-control" type="text">                            
-										</div>
-									</div>  
-									<!-- Table -->
-								<div class="form-group">
-									<label class="control-label col-lg-3">数据表:</label>
-									<div class="col-lg-6">                               
-										<?php if(is_array($tableNameList) || $tableNameList instanceof \think\Collection || $tableNameList instanceof \think\Paginator): $i = 0; $__LIST__ = $tableNameList;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$table): $mod = ($i % 2 );++$i;?>
-											<input type="checkbox" name="table" value="<?php echo $table; ?>" ><?php echo $table; ?></input><br>
-										<?php endforeach; endif; else: echo "" ;endif; ?> 
-									</div>
-								</div>
-								<div class="form-group">
-									<label class="control-label col-lg-3">风格模板:</label>
-									<div class="col-lg-6">  
-										<input  id="layoutName" value="<?php echo $layoutName; ?>" disabled="disabled" class="form-control" type="text">                            
-									</div>
-								</div>
 
-								<div class="form-group">
-									<label class="control-label col-lg-3">代码模板:</label>
-									<div class="col-lg-6">  
-										<input  id="codelibName" value="<?php echo $codelibName; ?>" disabled="disabled" class="form-control" type="text">                            
-									</div>
-								</div>
+				<div class="col-md-6">
 
+						<div class="widget">
 
-								<div class="form-group">
-									<label class="control-label col-lg-3">菜单模板:</label>
-									<div class="col-lg-6">                               
-										<select class="form-control" id="menuName">
-											<?php if(is_array($menuList) || $menuList instanceof \think\Collection || $menuList instanceof \think\Paginator): $i = 0; $__LIST__ = $menuList;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$menu): $mod = ($i % 2 );++$i;?>
-												<option value="<?php echo $menu; ?>"><?php echo $menu; ?></option>
-											<?php endforeach; endif; else: echo "" ;endif; ?>
-										</select>  
-									</div>
-								</div>
-									
-								<!-- Buttons -->
-								<div class="form-group">
-									<!-- Buttons -->
-									<label class="control-label col-lg-3">保存文件名:</label>
-									<div class="col-lg-6">
-									<p>
-										<input class="form-control"  name="saveFileName" id="saveFileName" type="text" value="menu1" placeholder="（不加后缀）">
-									</p>
-									<p>
-									<button class="btn btn-success" id="gogogo">生成</button>
-										
-									</p>
-									</div>
+							<div class="widget-head">
+								<div class="pull-left">直接生成文件</div>
+								<div class="widget-icons pull-right">
+									<a href="#" class="wminimize"><i class="icon-chevron-up"></i></a> 
+									<a href="#" class="wclose"><i class="icon-remove"></i></a>
+								</div>  
+								<div class="clearfix"></div>
+							</div>             
+
+							<div class="widget-content">
+								<div class="padd">
+									<form class="form-horizontal">
+										<div class="form-group">
+											<label class="control-label col-lg-3" for="title">选择模块</label>
+											<div class="col-lg-6"> 
+													<input  id="moduleName" name="moduleName" value="<?php echo $moduleName; ?>" disabled="disabled" class="form-control" type="text">   
+
+											</div>
+											</div>
+											<!-- 数据表 -->
+											<div class="form-group" id="selectTables">
+											<label class="control-label col-lg-3">数据表:</label>
+											<div class="col-lg-9">                               
+												<?php if(is_array($tableNameList) || $tableNameList instanceof \think\Collection || $tableNameList instanceof \think\Paginator): $i = 0; $__LIST__ = $tableNameList;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$table): $mod = ($i % 2 );++$i;?>
+													<input type="checkbox" name="table" value="<?php echo $table; ?>" ><?php echo $table; ?></input><br>
+												<?php endforeach; endif; else: echo "" ;endif; ?> 
+											</div>
+											</div>
+											
+										</form>
 								</div>
 							</div>
-						</div><!--end  paddad-->
-					</div>
-				</div>	
-				</div>	
-			</div>
-		</div>
+								<!-- Widget footer -->
+								<div class="widget-foot">
+									<button type="button" id="createFilesBtn" onclick="createModelFile()" class="btn btn-primary">直接生成文件</button>
+								</div>
+								<!-- Widget footer end-->
+								<div class="widget-foot" id="fileMsg"></div>
+						</div>
+
+					</div><!--end col6-->
+
 		  
 		 <div id="msg"></div> 
 		</div><!-- container Graph end -->

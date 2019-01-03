@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:29:"template/WedgitCode\menu.html";i:1546415995;s:67:"F:\phpStudy\WWW\tp-code-gen\public\gen\template\default_layout.html";i:1546420313;s:61:"F:\phpStudy\WWW\tp-code-gen\public\gen\template\leftmenu.html";i:1546420488;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:28:"template/ViewCode\index.html";i:1546415995;s:67:"F:\phpStudy\WWW\tp-code-gen\public\gen\template\default_layout.html";i:1546420313;s:61:"F:\phpStudy\WWW\tp-code-gen\public\gen\template\leftmenu.html";i:1546420488;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -154,50 +154,72 @@
     <!-- Sidebar ends -->
     <!-- Main bar -->
     
+<script src="<?php echo TEMPLATE_PATH; ?>asset/js/htmlUtil.js"></script> <!-- htmlUtil 工具类 -->
 <script type="text/javascript">
-var db_prefix = '<?php echo $db_prefix; ?>';
+db_prefix = '<?php echo $db_prefix; ?>';
 
-function gogogo(moduleName, selectTableName, layoutName, codelibName, menuName, saveFile){
-	$.post("<?php echo url(CONTROLLER_NAME.'/creatFiles'); ?>", {'moduleName' : moduleName,'selectTableName' : selectTableName, 
-			 'theme' : layoutName, 'codelib':codelibName, 'menuName':menuName, 'saveFileName':saveFile},
-		function(data){
-			$('#msg').html(data);
-		}
-	);
-}
-
-function readMenuList(){
-	var theme = $('#themeName');
-	$.post("<?php echo CONTROLLER_NAME; ?>/getMenuFileList",{'theme':theme},
-		function(data){
-			console.log(data);
-		}
-	);
-}
-
-$(function(){
-	$('#gogogo').bind("click", function(){
-		var moduleName = $('#moduleName').val();
-		var checkedBox = $('input:checked');
-		var selectTableName = [];
-		var saveFile = $('#saveFileName').val();
-		var menuName = $('#menuName').val();
-		var codelibName = $('#codelibName').val();
+//一键生成
+function generateAllView(){
+	var theme = $('#theme').val();
+	var module = $('#moduleName').val();
+	var checkedBox = $('#selectTables  input:checked');
+	var selectTableName = [];
+	if(db_prefix != ''){
+		checkedBox.each(function(){
+		selectTableName.push($(this).val().replace(db_prefix,''));
+		});
+	}else{
 		checkedBox.each(function(){
 			selectTableName.push($(this).val());
 		});
-		layoutName = $('#layoutName').val();
-		console.log(selectTableName);
-		gogogo(moduleName, selectTableName, layoutName,codelibName, menuName, saveFile);
-	});	
-	
-	
-});
+	}
+	console.log(selectTableName);
+	$.post("<?php echo CONTROLLER_NAME; ?>/generateAllView", {'moduleName' : module, 'selectTableName' : selectTableName, 'theme' : theme},
+		function(data){
+			$('#msg').empty();
+			$('#msg').append(data);
+		}
+	);
+}
+
+//手动生成代码片段
+function creatFormCode(){
+	var dataTable = $('#dataTable2').val();
+	var theme = $('#theme2').val();
+	var module = $('#module2').val();
+	$('#formCode').empty();
+	$.post("<?php echo CONTROLLER_NAME; ?>/generateViewCode", {'moduleName' : module, 'tableName' : dataTable, 'theme' : theme,'actionName':'add'},
+		function(data){
+			$('#formCode').append("\r\n\r\n=================新建：================\r\n\r\n"+ HtmlUtil.htmlEncode(data));
+		}
+	);
+
+	$.post("<?php echo CONTROLLER_NAME; ?>/generateViewCode", {'moduleName' : module, 'tableName' : dataTable, 'theme' : theme,'actionName':'edit'},
+		function(data){
+			$('#formCode').append("\r\n\r\n =================编辑：================\r\n\r\n"+HtmlUtil.htmlEncode(data));
+		}
+	);
+}
+
+//重置手动代码结果
+function cleanCode(){
+	//$('#formPreview').html('');
+	$('#formCode').html('');
+}
+
+
+
+jQuery(document).ready(function($) {
+		$('#cleanCodeBtn').bind("click", function(){
+			cleanCode();
+		});
+	});
+
 </script>
 <div class="mainbar">
 	<!-- Page heading -->
 	<div class="page-head">
-	  <h2 class="pull-left"><i class="icon-home"></i>生成菜单</h2>
+	  <h2 class="pull-left"><i class="icon-home"></i>前台界面生成</h2>
 
 	<div class="clearfix"></div>
 	</div>
@@ -209,87 +231,240 @@ $(function(){
 	<div class="matter">
 		<div class="container">
 			<div class="row">
-			<div class="col-md-6">
+				<div class="col-md-6">
 				<div class="widget">
 					<div class="widget-head">
 					  <div class="pull-left" height="80">
-					  生成菜单
+						一键生成
 					  </div>
 					  <div class="widget-icons pull-right">
-						<a href="#" class="wminimize"><i class="icon-chevron-up"></i></a> 
+						<a href="#" class="wminimize"><i class="icon-chevron-up"></i></a>
 						<a href="#" class="wclose"><i class="icon-remove"></i></a>
-					  </div>  
+					  </div>
 					  <div class="clearfix"></div>
-					</div>  
+					</div>
 					<div class="widget-content" >
 					<div class="padd">
                       <div class="form quick-post">
 							<!-- Edit profile form (not working)-->
-							<div class="form-horizontal">  
-									<div class="form-group">
-										<label class="control-label col-lg-2">目标模块:</label>
-										<div class="col-lg-6">       
-											<input  id="moduleName" value="<?php echo $moduleName; ?>" disabled="disabled" class="form-control" type="text">                            
-										</div>
-									</div>  
-									<!-- Table -->
-								<div class="form-group">
-									<label class="control-label col-lg-3">数据表:</label>
-									<div class="col-lg-6">                               
+							<div class="form-horizontal">
+						<div class="form-group">
+							<div class="form-group">
+								<label class="control-label col-md-3" style="width:120px">目标模块:</label>
+								<div class="col-md-3">
+									<input  id="moduleName" value="<?php echo $moduleName; ?>" disabled="disabled" class="form-control" type="text">                            
+								</div>
+
+								<label class="control-label col-md-3"  style="width:120px">前端风格:</label>
+								<div class="col-md-3">
+									<select class="form-control" id="theme">
+										<?php if(is_array($themeList) || $themeList instanceof \think\Collection || $themeList instanceof \think\Paginator): $i = 0; $__LIST__ = $themeList;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$theme): $mod = ($i % 2 );++$i;?>
+										<option value="<?php echo $theme; ?>"><?php echo $theme; ?></option>
+										<?php endforeach; endif; else: echo "" ;endif; ?>	
+									</select>
+								</div>
+							</div>
+						</div>
+
+						<div class="form-group">
+							<div class="form-group">
+								<label class="control-label col-md-3"  style="width:120px">数据表:</label>
+								<div id="selectTables" class="col-md-3">
 										<?php if(is_array($tableNameList) || $tableNameList instanceof \think\Collection || $tableNameList instanceof \think\Paginator): $i = 0; $__LIST__ = $tableNameList;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$table): $mod = ($i % 2 );++$i;?>
-											<input type="checkbox" name="table" value="<?php echo $table; ?>" ><?php echo $table; ?></input><br>
-										<?php endforeach; endif; else: echo "" ;endif; ?> 
-									</div>
-								</div>
-								<div class="form-group">
-									<label class="control-label col-lg-3">风格模板:</label>
-									<div class="col-lg-6">  
-										<input  id="layoutName" value="<?php echo $layoutName; ?>" disabled="disabled" class="form-control" type="text">                            
-									</div>
+										<input type="checkbox" name="table" value="<?php echo $table; ?>" ><?php echo $table; ?></input><br>
+										<?php endforeach; endif; else: echo "" ;endif; ?>	
 								</div>
 
-								<div class="form-group">
-									<label class="control-label col-lg-3">代码模板:</label>
-									<div class="col-lg-6">  
-										<input  id="codelibName" value="<?php echo $codelibName; ?>" disabled="disabled" class="form-control" type="text">                            
-									</div>
+								<label class="control-label col-md-3"  style="width:120px">布局模板:</label>
+								<div class="col-md-3">
+									<input class="form-control" id="layoutList" type="text" value="layout" placeholder="逗号分隔,可留空">
 								</div>
+							</div>
+						
+							
+						</div>
 
-
-								<div class="form-group">
-									<label class="control-label col-lg-3">菜单模板:</label>
-									<div class="col-lg-6">                               
-										<select class="form-control" id="menuName">
-											<?php if(is_array($menuList) || $menuList instanceof \think\Collection || $menuList instanceof \think\Paginator): $i = 0; $__LIST__ = $menuList;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$menu): $mod = ($i % 2 );++$i;?>
-												<option value="<?php echo $menu; ?>"><?php echo $menu; ?></option>
-											<?php endforeach; endif; else: echo "" ;endif; ?>
-										</select>  
-									</div>
-								</div>
-									
 								<!-- Buttons -->
-								<div class="form-group">
+							<div class="form-group">
 									<!-- Buttons -->
-									<label class="control-label col-lg-3">保存文件名:</label>
-									<div class="col-lg-6">
-									<p>
-										<input class="form-control"  name="saveFileName" id="saveFileName" type="text" value="menu1" placeholder="（不加后缀）">
-									</p>
-									<p>
-									<button class="btn btn-success" id="gogogo">生成</button>
-										
-									</p>
+								<div class="col-md-4">
+									<button type="button" onclick="generateAllView()" class="btn btn-primary" id="creatAllViewBtn">一键生成文件</button>
+								</div>
+							</div>
+							</div>
+						</div>
+
+					</div><!--end  paddad-->
+
+				</div><!--end  content-->
+
+				<div id="msg"></div> 
+				</div>
+				</div>
+
+
+
+				<div class="col-md-6">
+					<div class="widget">
+						<div class="widget-head">
+						  <div class="pull-left" height="80">
+							手动生成
+						  </div>
+						  <div class="widget-icons pull-right">
+							<a href="#" class="wminimize"><i class="icon-chevron-up"></i></a>
+							<a href="#" class="wclose"><i class="icon-remove"></i></a>
+						  </div>
+						  <div class="clearfix"></div>
+						</div>
+						<div class="widget-content" >
+						<div class="padd">
+						  <div class="form quick-post">
+								<!-- Edit profile form (not working)-->
+								<div class="form-horizontal">
+							<div class="form-group">
+								<div class="form-group">
+									<label class="control-label col-lg-2">目标模块:</label>
+									<div class="col-lg-6">       
+										<input  id="module2" value="<?php echo $moduleName; ?>" disabled="disabled" class="form-control" type="text">                            
+									</div>
+	
+									<label class="control-label col-md-3"  style="width:120px">前端风格:</label>
+									<div class="col-md-3">
+										<select class="form-control" id="theme2">
+											<?php if(is_array($themeList) || $themeList instanceof \think\Collection || $themeList instanceof \think\Paginator): $i = 0; $__LIST__ = $themeList;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$theme): $mod = ($i % 2 );++$i;?>
+											<option value="<?php echo $theme; ?>"><?php echo $theme; ?></option>
+											<?php endforeach; endif; else: echo "" ;endif; ?>	
+										</select>
 									</div>
 								</div>
 							</div>
+	
+							<div class="form-group">
+								<div class="form-group">
+									<label class="control-label col-md-3"  style="width:120px">布局模板:</label>
+									<div class="col-md-3">
+										<input class="form-control" id="layoutList2" type="text" value="layout" placeholder="逗号分隔,可留空">
+									</div>
+	
+									<label class="control-label col-md-3"  style="width:120px">数据表:</label>
+									<div  class="col-md-3 ">
+										<select class="form-control" id="dataTable2" name="tableName">
+											<?php if(is_array($tableNameList) || $tableNameList instanceof \think\Collection || $tableNameList instanceof \think\Paginator): $i = 0; $__LIST__ = $tableNameList;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$tableName): $mod = ($i % 2 );++$i;?>
+											<option value="<?php echo $tableName; ?>"><?php echo $tableName; ?></option>
+											<?php endforeach; endif; else: echo "" ;endif; ?>	
+										</select>
+									</div>
+								</div>
+							
+								
+							</div>
+	
+									<!-- Buttons -->
+								<div class="form-group">
+										<!-- Buttons -->
+									<div class="col-md-4">
+										<button class="btn btn-success" type="button" onclick="creatFormCode()" id="creatFormBtn">手动生成代码片段</button>
+									</div>
+	
+									<div class="col-md-4">
+										<button type="button" onclick="cleanCode()" class="btn btn-danger" id="cleanCodeBtn">重置手动代码结果</button>
+									</div>
+	
+								</div>
+								</div>
+							</div>
+	
 						</div><!--end  paddad-->
+	
+					</div><!--end  content-->
+	
+					<div id="msg"></div> 
 					</div>
-				</div>	
-				</div>	
+					</div>
+
+
+				<!--
+				<div class="col-md-6">
+				<div class="widget">
+					<div class="widget-head">
+					  <div class="pull-left" height="80">
+						配置表单项目
+					  </div>
+					  <div class="widget-icons pull-right">
+						<a href="#" class="wminimize"><i class="icon-chevron-up"></i></a>
+						<a href="#" class="wclose"><i class="icon-remove"></i></a>
+					  </div>
+					  <div class="clearfix"></div>
+					</div>
+					<div class="widget-content" >
+					<div class="padd">
+                      <div class="form quick-post">
+          
+							<div class="form-horizontal">
+
+							<hr>
+							<div class="form-group">
+								<label class="control-label col-md-4" style="width:120px">所属控制器:</label>
+								<div class="col-md-4">
+									<input type="text" class="form-control" id="formController" placeholder="留空则表示自动判断" />
+								</div>
+
+								<label class="control-label col-md-4" style="width:120px">提交方式:</label>
+								<div class="col-md-4">
+									<select class="form-control" id="formMethod">
+											<option value="post" >post</option>
+											<option value="post" >get</option>
+									</select>
+								</div>
+							</div>
+							<hr>
+
+							
+
+								<div class="form-group">
+								
+									<div class="col-md-2">
+									<button class="btn btn-success" id="fillCodeBtn">填充代码片段</button>
+									</div>
+									<div class="col-md-2">
+									<button class="btn btn-danger" id="delCodeBtn" onclick="delCode()">删除代码片段</button>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+				</div>
+			</div>-->
+
+		</div><!--end row-->
+
+
+		<div class="row">
+			<div class="col-md-12">
+				<div class="widget">
+					<div class="widget-head">
+					  <div class="pull-left" height="80">
+						View 代码片段
+					  </div>
+					  <div class="widget-icons pull-right">
+						<a href="#" class="wminimize"><i class="icon-chevron-up"></i></a>
+						<a href="#" class="wclose"><i class="icon-remove"></i></a>
+					  </div>
+					  <div class="clearfix"></div>
+					</div>
+					<div class="widget-content" >
+					<div class="padd">
+						<textArea rows="12" class="form-control" id="formCode"></textArea>
+					</div>
+					</div>
+				</div>
+			</div>
 			</div>
 		</div>
-		  
-		 <div id="msg"></div> 
+
+		<div id="msg"></div>
 		</div><!-- container Graph end -->
 	</div>
 </div>

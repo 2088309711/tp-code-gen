@@ -15,14 +15,10 @@ class ControllerCode extends Base
     public function index()
     {    //生成CRUD代码
         $this->assign('tableNameList', get_table_name_list());
-        halt(get_table_name_list());
-
-        $this->assign('moduleNameList', getModuleNameList());
+        $this->assign('moduleNameList', get_module_name_list());
         $this->assign('selectTableName', $this->getSessionTableName());
         $this->assign('db_prefix', C('database.prefix'));
-        $moduleName = getDbConfig('moduleName');
-        $this->assign('moduleName', $moduleName);
-
+        $this->assign('moduleName', get_db_config('moduleName'));
         return $this->fetch('ControllerCode' . DS . 'index');
     }
 
@@ -33,7 +29,7 @@ class ControllerCode extends Base
         $moduleName = I('moduleName');
         $this->assign('tableName', $tableName);
         $this->assign('moduleName', $moduleName);
-        $codelibName = getDbConfig('codeLib') == '' ? 'default' : getDbConfig('codeLib');
+        $codelibName = get_db_config('codeLib') == '' ? 'default' : get_db_config('codeLib');
         $codeBasePath = CODE_REPOSITORY . DS . $codelibName . DS;
         $template = file_get_contents($codeBasePath . 'Controller' . DS . 'controller.html');//读取模板.
         return PHP_HEAD . $this->display($template, [], [], ['view_path' => $codeBasePath . 'Controller' . DS]);
@@ -43,7 +39,7 @@ class ControllerCode extends Base
     public function generateControllerFile()
     {
         $moduleName = I('moduleName');
-        $modelPath = BASE_PATH . getDbConfig('projectPath') . $moduleName . DS . 'controller' . DS;
+        $modelPath = BASE_PATH . get_db_config('projectPath') . $moduleName . DS . 'file_out' . DS . 'controller' . DS;
         $tableName = getTableName(I('tableName'));
         if (!file_exists($modelPath)) {
             FileUtil::createDir($modelPath);
@@ -58,7 +54,6 @@ class ControllerCode extends Base
     public function creatAllFiles()
     {
         $tableNameList = I('selectTableName');
-        $moduleName = I('moduleName');
         $res = '';
         for ($i = 0; $i < count($tableNameList); $i++) {
             Request::instance()->post(['tableName' => $tableNameList[$i]]);
@@ -235,7 +230,7 @@ class ControllerCode extends Base
         $moduleName = $moduleName ? $moduleName : I('moduleName');
         $templateBasePath = CODE_REPOSITORY . DS . $theme . DS . "view" . DS;    //代码所在文件夹
         $template = file_get_contents($templateBasePath . $actionName . ".html");    //读取模板
-        $codelibName = getDbConfig('codeLib') == '' ? 'default' : getDbConfig('codeLib');
+        $codelibName = get_db_config('codeLib') == '' ? 'default' : get_db_config('codeLib');
         $codeBasePath = CODE_REPOSITORY . DS . $codelibName . DS;
         $resCode = $this->display($template, [], [], ['view_path' => $codeBasePath . 'View' . DS]);
         return $resCode;
@@ -249,7 +244,7 @@ class ControllerCode extends Base
         $moduleName = $moduleName ? $moduleName : I('moduleName');
         $templateBasePath = CODE_REPOSITORY . DS . $theme . DS . "Controller" . DS;    //代码所在文件夹
         $template = file_get_contents($templateBasePath . $actionName . ".html");    //读取模板
-        $codelibName = getDbConfig('codeLib') == '' ? 'default' : getDbConfig('codeLib');
+        $codelibName = get_db_config('codeLib') == '' ? 'default' : get_db_config('codeLib');
         $codeBasePath = CODE_REPOSITORY . DS . $codelibName . DS;
         $resCode = $this->display($template, [], [], ['view_path' => $codeBasePath . 'View' . DS]);
         return $resCode;

@@ -1,6 +1,7 @@
 <?php
 // 应用公共文件
 use app\gen\Controller\FileUtil;
+use think\Db;
 
 ///////////////TPH帮助方法/////////////
 define('SQLITE_COLUMN_NAME_KEY', 'name');    //sqlite列名键
@@ -37,7 +38,7 @@ function tphDB($tableName, $newConnection = false)
 }
 
 //获取tph数据库配置值
-function getDbConfig($configName, $newConnection = false)
+function get_db_config($configName, $newConnection = false)
 {
     return db('config', C('tphdb'), $newConnection)->where('name', $configName)->value('value');
 }
@@ -52,27 +53,19 @@ function getDbConfig($configName, $newConnection = false)
 function get_table_name_list()
 {
     $dbType = C('database.type');//数据库类型
+    $result = [];
 
-
-    $Model = db(); // 实例化一个model对象 没有对应任何数据表
-
-
-    halt();
-
-
-    if (in_array($dbType, array('mysql', 'mysqli'))) {
+    if (in_array($dbType, ['mysql', 'mysqli'])) {
         $dbName = C('database.database');
-        $result = Array();
-        $tempArray = $Model->query("select table_name from information_schema.tables where table_schema='" . $dbName . "' and table_type='base table'");
-        foreach ($tempArray as $temp) {
-            $result[] = $temp['table_name'];
+        $data = Db::query("select table_name from information_schema.tables where table_schema='" . $dbName . "' and table_type='base table'");
+        foreach ($data as $item) {
+            $result[] = $item['table_name'];
         }
         return $result;
-    } else { //sqlite
-        $result = Array();
-        $tempArray = $Model->query("select * from sqlite_master where type='table' order by name");
-        foreach ($tempArray as $temp) {
-            $result[] = $temp['name'];
+    } elseif ($dbType === 'sqlite') { //sqlite
+        $data = Db::query("select * from sqlite_master where type='table' order by name");
+        foreach ($data as $item) {
+            $result[] = $item['name'];
         }
         return $result;
     }
@@ -80,10 +73,10 @@ function get_table_name_list()
 }
 
 //读取项目目录下的文件夹，供用户选择哪个才是module目录
-function getModuleNameList()
+function get_module_name_list()
 {
     $ignoreList = C('tphconfig.ignoreList');
-    $allFileList = getDirList(BASE_PATH . getDbConfig('projectPath'));
+    $allFileList = getDirList(BASE_PATH . get_db_config('projectPath'));
     return array_diff($allFileList, $ignoreList);
 }
 
@@ -219,7 +212,7 @@ function pressInputTypeTemplate($tableName, $fieldName, $value = null, $codeLib 
 {
     $tableName = C('database.prefix') . $tableName;
     if ($codeLib == null) {
-        $codeLib = getDbConfig('codeLib');
+        $codeLib = get_db_config('codeLib');
     }
     $templateBasePath = BASE_PATH . DS . CODE_REPOSITORY . DS . $codeLib . DS . "view" . DS;    //代码所在文件夹
     $fieldinfo = tphDB('table_field')->where('table_name', $tableName)
@@ -313,3 +306,5 @@ function gen_test()
 {
     return dump(getInputOption('admin_node', 'name', true));
 }
+
+

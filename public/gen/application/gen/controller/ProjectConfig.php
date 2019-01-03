@@ -24,7 +24,7 @@ class ProjectConfig extends Base{
 			$this->assign('db_prefix',C('database.prefix'));
 			$tableNameList = get_table_name_list();
 			$this->assign('tableNameList', $tableNameList);
-			$moduleNameList = getModuleNameList();
+			$moduleNameList = get_module_name_list();
 			$this->assign('moduleNameList', $moduleNameList);
 			$layoutNameList = getThemeList();
 			$this->assign('layoutNameList', $layoutNameList);

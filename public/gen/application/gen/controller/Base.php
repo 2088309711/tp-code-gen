@@ -21,8 +21,8 @@ class Base extends Controller
         define('MODULE_PATH', __ROOT__);    //模块路径
 
         //动态读取目标项目配置
-        $targetConfig = include_once(BASE_PATH . getDbConfig('projectPath') . 'config.php');
-        $dbConfig = include_once(BASE_PATH . getDbConfig('projectPath') . 'database.php');
+        $targetConfig = include_once(BASE_PATH . get_db_config('projectPath') . 'config.php');
+        $dbConfig = include_once(BASE_PATH . get_db_config('projectPath') . 'database.php');
         config('targetConfig', $targetConfig);
         config('database', $dbConfig);
 
