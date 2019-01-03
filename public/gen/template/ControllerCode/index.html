@@ -144,7 +144,10 @@
                                         <label class="control-label col-lg-3">数据表:</label>
                                         <div class="col-lg-9">
                                             {volist name="tableNameList" id="table" }
-                                            <input type="checkbox" name="table" value="{$table}">{$table}</input><br>
+                                            <label>
+                                                <input type="checkbox" name="table" value="{$table}" checked>
+                                                {$table}</label>
+                                            <br>
                                             {/volist}
                                         </div>
                                     </div>
@@ -192,9 +195,9 @@
                                                 </select>
                                             </div>
                                         </div>
-                                        <label class="control-label col-lg-1" for="title">生成带分页代码</label>
+                                        <label class="control-label col-lg-1" for="isPage">生成带分页代码</label>
                                         <div class="col-lg-3">
-                                            <input type="checkbox" id="isPage" checked/>
+                                            <input type="checkbox" name="isPage" id="isPage" checked/>
                                         </div>
                                         <!-- Buttons -->
                                         <div class="form-group">

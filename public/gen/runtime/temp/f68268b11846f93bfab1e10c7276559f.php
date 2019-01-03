@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:34:"template/ControllerCode\index.html";i:1546419955;s:67:"F:\phpStudy\WWW\tp-code-gen\public\gen\template\default_layout.html";i:1546420313;s:61:"F:\phpStudy\WWW\tp-code-gen\public\gen\template\leftmenu.html";i:1546420488;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:34:"template/ControllerCode\index.html";i:1546506030;s:67:"F:\phpStudy\WWW\tp-code-gen\public\gen\template\default_layout.html";i:1546420313;s:61:"F:\phpStudy\WWW\tp-code-gen\public\gen\template\leftmenu.html";i:1546420488;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -298,7 +298,10 @@
                                         <label class="control-label col-lg-3">数据表:</label>
                                         <div class="col-lg-9">
                                             <?php if(is_array($tableNameList) || $tableNameList instanceof \think\Collection || $tableNameList instanceof \think\Paginator): $i = 0; $__LIST__ = $tableNameList;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$table): $mod = ($i % 2 );++$i;?>
-                                            <input type="checkbox" name="table" value="<?php echo $table; ?>"><?php echo $table; ?></input><br>
+                                            <label>
+                                                <input type="checkbox" name="table" value="<?php echo $table; ?>" checked>
+                                                <?php echo $table; ?></label>
+                                            <br>
                                             <?php endforeach; endif; else: echo "" ;endif; ?>
                                         </div>
                                     </div>
@@ -346,9 +349,9 @@
                                                 </select>
                                             </div>
                                         </div>
-                                        <label class="control-label col-lg-1" for="title">生成带分页代码</label>
+                                        <label class="control-label col-lg-1" for="isPage">生成带分页代码</label>
                                         <div class="col-lg-3">
-                                            <input type="checkbox" id="isPage" checked/>
+                                            <input type="checkbox" name="isPage" id="isPage" checked/>
                                         </div>
                                         <!-- Buttons -->
                                         <div class="form-group">

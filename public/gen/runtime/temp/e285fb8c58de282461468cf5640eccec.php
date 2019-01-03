@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:33:"template/ProjectConfig\index.html";i:1546415995;s:67:"F:\phpStudy\WWW\tp-code-gen\public\gen\template\default_layout.html";i:1546420313;s:61:"F:\phpStudy\WWW\tp-code-gen\public\gen\template\leftmenu.html";i:1546420465;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:33:"template/ProjectConfig\index.html";i:1546482419;s:67:"F:\phpStudy\WWW\tp-code-gen\public\gen\template\default_layout.html";i:1546420313;s:61:"F:\phpStudy\WWW\tp-code-gen\public\gen\template\leftmenu.html";i:1546420488;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -129,26 +129,26 @@
     <!--- Sidebar navigation -->
     <!-- If the main navigation has sub navigation, then add the class "has_sub" to "li" of main navigation. -->
     <ul id="nav">
-      <!-- Main menu with font awesome icon -->
-      
-      <li class="has_sub "><a href="#"><i class="icon-bar-chart"></i>项目配置</a>
-        <ul>
-          <li><a href="<?php echo APP_NAME; ?>/ProjectConfig/index">项目配置</a></li>
-          <li><a href="<?php echo APP_NAME; ?>/ProjectConfig/formConfig">表单配置</a></li>
-        </ul>
-      </li>
+        <!-- Main menu with font awesome icon -->
 
-      <li><a href="<?php echo APP_NAME; ?>/CreateLayout"><i class="icon-bar-chart"></i>公共文件生成</a></li>
-      <li><a href="<?php echo APP_NAME; ?>/WedgitCode/menu"><i class="icon-bar-chart"></i>菜单生成</a></li>
-      <li><a href="<?php echo APP_NAME; ?>/ViewCode"><i class="icon-tasks"></i>前台界面生成</a></li>      
-      <li><a href="<?php echo APP_NAME; ?>/ControllerCode"><i class="icon-bar-chart"></i>控制器代码生成</a></li>
-      <li class="has_sub "><a href="#"><i class="icon-table"></i>模型代码生成</a>
-        <ul>
-          <li><a href="<?php echo APP_NAME; ?>/ModelCode/index">简易模型代码生成</a></li>
-          <li><a href="<?php echo APP_NAME; ?>/ModelCode/index2">手动模型代码生成</a></li>
-        </ul>
-      </li>
-      <li><a href="<?php echo APP_NAME; ?>/Index/help"><i class="icon-calendar"></i>帮助</a></li>
+        <li class="has_sub "><a href="#"><i class="icon-bar-chart"></i>项目配置</a>
+            <ul>
+                <li><a href="<?php echo APP_NAME; ?>/ProjectConfig/index">项目配置</a></li>
+                <li><a href="<?php echo APP_NAME; ?>/ProjectConfig/formConfig">表单配置</a></li>
+            </ul>
+        </li>
+
+        <li><a href="<?php echo APP_NAME; ?>/CreateLayout"><i class="icon-bar-chart"></i>公共文件生成</a></li>
+        <li><a href="<?php echo APP_NAME; ?>/WedgitCode/menu"><i class="icon-bar-chart"></i>菜单生成</a></li>
+        <li><a href="<?php echo APP_NAME; ?>/ViewCode"><i class="icon-tasks"></i>前台界面生成</a></li>
+        <li><a href="<?php echo APP_NAME; ?>/ControllerCode"><i class="icon-bar-chart"></i>控制器代码生成</a></li>
+        <li class="has_sub "><a href="#"><i class="icon-table"></i>模型代码生成</a>
+            <ul>
+                <li><a href="<?php echo APP_NAME; ?>/ModelCode/index">简易模型代码生成</a></li>
+                <li><a href="<?php echo APP_NAME; ?>/ModelCode/index2">手动模型代码生成</a></li>
+            </ul>
+        </li>
+        <li><a href="<?php echo APP_NAME; ?>/Index/help"><i class="icon-calendar"></i>帮助</a></li>
     </ul>
 </div>
     <!-- Sidebar ends -->
