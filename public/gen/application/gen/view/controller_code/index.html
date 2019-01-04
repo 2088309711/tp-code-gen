@@ -1,0 +1,88 @@
+{extend name="main" /}
+{block name="content"}
+
+<div class="row-content am-cf">
+    <div class="row">
+        <div class="am-u-sm-12">
+            <div class="widget am-cf">
+                <div class="widget-head am-cf">
+                    <div class="widget-title am-fl">生成控制器</div>
+                </div>
+                <div class="widget-body am-fr">
+                    <form class="am-form tpl-form-border-form">
+                        <div class="am-form-group">
+                            <label for="user-name" class="am-u-sm-12 am-form-label am-text-left">目标模块
+                            </label>
+                            <div class="am-u-sm-12">
+                                <input type="text" class="tpl-form-input am-margin-top-xs" id="moduleName"
+                                       name="moduleName" value="{$moduleName}" disabled>
+                            </div>
+                        </div>
+
+                        <div class="am-form-group">
+                            <label for="user-name" class="am-u-sm-12 am-form-label am-text-left">数据表
+                            </label>
+                            <div class="am-u-sm-12">
+
+                                {volist name="tableNameList" id="table" }
+                                <label class="am-checkbox">
+                                    <input type="checkbox" name="table" value="{$table}" data-am-ucheck checked>
+                                    {$table}
+                                </label>
+                                {/volist}
+
+                            </div>
+                        </div>
+
+                        <div class="am-form-group">
+                            <div class="am-u-sm-12 am-u-sm-push-12">
+                                <button type="button" class="am-btn am-btn-primary tpl-btn-bg-color-success"
+                                        id="submit">
+                                    生成
+                                </button>
+                            </div>
+                        </div>
+
+                        <!--$('#result-panel').removeClass('am-hide');-->
+                        <!--$('#result').html(data);-->
+                        <div class="am-panel am-panel-default am-hide" id="result-panel">
+                            <div class="am-panel-bd am-text-break" id="result"></div>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+
+    var createFlieUrl = '{:CONTROLLER_NAME}/creatAllFiles/',
+        db_prefix = '{$db_prefix}';
+
+    $(function () {
+        $('#submit').click(function () {
+            var moduleName = $('#moduleName').val();
+            var checkedBox = $('input:checked');
+            var selectTableName = [];
+            if (db_prefix != '') {
+                checkedBox.each(function () {
+                    selectTableName.push($(this).val().replace(db_prefix, ''));
+                });
+            } else {
+                checkedBox.each(function () {
+                    selectTableName.push($(this).val());
+                });
+            }
+            $.post(createFlieUrl, {
+                "moduleName": moduleName,
+                "selectTableName": selectTableName
+            }, function (data) {
+                $('#result-panel').removeClass('am-hide');
+                $('#result').html(data);
+            });
+        });
+    });
+</script>
+{/block}

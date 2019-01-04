@@ -1,4 +1,4 @@
 <?php
 return array(
-	'ignoreList'	=>	Array("extra"),
+    'ignoreList' => Array("extra"),
 );

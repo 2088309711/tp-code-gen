@@ -1,0 +1,10 @@
+
+(\{if )[\s\S]*(\{/if\})
+
+(\{if )(?!(\{if ))[\s\S]*(\{/if\})
+
+{if name="$a" value="1"}
+    <div>y</div>
+{else}
+    <div>n</div>
+{/if}

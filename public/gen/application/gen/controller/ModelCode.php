@@ -26,7 +26,9 @@ class ModelCode extends Base
         $this->assign('moduleNameList', $moduleNameList);
         $moduleName = get_db_config('moduleName');
         $this->assign('moduleName', $moduleName);
-        return $this->fetch(DS . 'ModelCode' . DS . 'index');
+        $this->assign('page_name', 'auto-model');
+        $this->assign('menu_group', 'model');
+        return $this->fetch();
     }
 
     //手动模型代码生成页

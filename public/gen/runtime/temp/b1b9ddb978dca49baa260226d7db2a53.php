@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:32:"template/CreateLayout\index.html";i:1546486217;s:67:"F:\phpStudy\WWW\tp-code-gen\public\gen\template\default_layout.html";i:1546420313;s:61:"F:\phpStudy\WWW\tp-code-gen\public\gen\template\leftmenu.html";i:1546420488;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:32:"template/CreateLayout\index.html";i:1546486217;s:67:"F:\phpStudy\WWW\tp-code-gen\public\gen\template\default_layout.html";i:1546581264;s:61:"F:\phpStudy\WWW\tp-code-gen\public\gen\template\leftmenu.html";i:1546420488;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -283,7 +283,6 @@
 <script src="<?php echo TEMPLATE_PATH; ?>asset/js/filter.js"></script> <!-- Filter for support page -->
 <script src="<?php echo TEMPLATE_PATH; ?>asset/js/custom.js"></script> <!-- Custom codes -->
 <script src="<?php echo TEMPLATE_PATH; ?>asset/js/charts.js"></script> <!-- Charts & Graphs -->
-
 
 </body>
 </html>

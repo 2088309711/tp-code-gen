@@ -22,7 +22,9 @@ class ViewCode extends Base
         $this->assign('moduleName', $moduleName);
         $themeList = getThemeList();
         $this->assign('themeList', $themeList);
-        return $this->fetch('ViewCode/index');
+        $this->assign('page_name', 'front-file');
+        $this->assign('menu_group', '');
+        return $this->fetch();
     }
 
     //一键生成表单文件

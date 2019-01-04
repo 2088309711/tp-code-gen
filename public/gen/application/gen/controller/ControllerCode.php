@@ -6,8 +6,6 @@
 //	2014年9月18日
 namespace app\gen\Controller;
 
-use think\Controller;
-use think\Model;
 use think\Request;
 
 class ControllerCode extends Base
@@ -19,7 +17,9 @@ class ControllerCode extends Base
         $this->assign('selectTableName', $this->getSessionTableName());
         $this->assign('db_prefix', C('database.prefix'));
         $this->assign('moduleName', get_db_config('moduleName'));
-        return $this->fetch('ControllerCode' . DS . 'index');
+        $this->assign('page_name', 'controll-file');
+        $this->assign('menu_group', '');
+        return $this->fetch();
     }
 
     //生成控制器代码
@@ -222,7 +222,6 @@ class ControllerCode extends Base
         echo $this->generateDeleteCode();
     }
 
-
     //解析前台View模板
     public function makeViewTemplate($actionName = null, $moduleName = null, $theme = 'default')
     {
@@ -236,7 +235,6 @@ class ControllerCode extends Base
         return $resCode;
     }
 
-
     //解析后台Controller模板
     public function makeControllerTemplate($actionName = null, $moduleName = null, $theme = 'default')
     {
@@ -249,6 +247,5 @@ class ControllerCode extends Base
         $resCode = $this->display($template, [], [], ['view_path' => $codeBasePath . 'View' . DS]);
         return $resCode;
     }
-
 
 }

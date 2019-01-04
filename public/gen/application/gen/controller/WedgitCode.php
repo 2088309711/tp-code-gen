@@ -16,17 +16,16 @@ class WedgitCode extends Base
     public function menu()
     {
         $this->assign('db_prefix', C('database.prefix'));
-        $tableNameList = get_table_name_list();
-        $this->assign('tableNameList', $tableNameList);
-        $moduleName = get_db_config('moduleName');
-        $this->assign('moduleName', $moduleName);
+        $this->assign('tableNameList', get_table_name_list());
+        $this->assign('moduleName', get_db_config('moduleName'));
         $layoutName = get_db_config('theme') == '' ? 'mac_theme' : get_db_config('theme');
         $this->assign('layoutName', $layoutName);
         $codelibName = get_db_config('codeLib') == '' ? 'default' : get_db_config('codeLib');
         $this->assign('codelibName', $codelibName);
-        $menuList = $this->getMenuFileList();
-        $this->assign('menuList', $menuList);
-        return $this->fetch('WedgitCode' . DS . 'menu');
+        $this->assign('menuList', $this->getMenuFileList());
+        $this->assign('page_name', 'menu');
+        $this->assign('menu_group', '');
+        return $this->fetch();
     }
 
     //权限管理

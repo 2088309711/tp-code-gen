@@ -19,7 +19,7 @@ define('TARGET_PUBLIC_NAME', '/');
 define('CODE_REPOSITORY', 'codeRepository');
 
 //视图模板路径
-define('TEMPLATE_PATH', APP_NAME . '/template/');
+//define('TEMPLATE_PATH', APP_NAME . '/template/');
 
 // 加载框架引导文件
 require __DIR__ . '/../../thinkphp/start.php';

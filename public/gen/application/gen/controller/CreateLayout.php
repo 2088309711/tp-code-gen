@@ -15,13 +15,13 @@ class CreateLayout extends Base
     public function index()
     {
         $this->assign('db_prefix', C('database.prefix'));
-        $tableNameList = get_table_name_list();
-        $this->assign('tableNameList', $tableNameList);
-        $moduleName = get_db_config('moduleName');
-        $this->assign('moduleName', $moduleName);
+        $this->assign('tableNameList', get_table_name_list());
+        $this->assign('moduleName', get_db_config('moduleName'));
         $layoutName = get_db_config('theme') == '' ? 'mac_theme' : get_db_config('theme');
         $this->assign('layoutName', $layoutName);
-        return $this->fetch('CreateLayout' . DS . 'index');
+        $this->assign('page_name', 'public-file');
+        $this->assign('menu_group', '');
+        return $this->fetch();
     }
 
     //在指定目录下创建布局模板文件
