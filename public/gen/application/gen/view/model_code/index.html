@@ -61,7 +61,7 @@
 
     $(function () {
         $('#submit').click(function () {
-            var url = "{:APP_NAME}/ModelCode/createModelFile";
+
             moduleName = $('#moduleName').val();
             checkedBox = $('input:checked');
             selectTableName = [];
@@ -75,8 +75,7 @@
                 });
             }
 
-            var createFlieUrl = '{:U("gen/ModelCode/creatAllFiles")}';
-            $.post(createFlieUrl, {
+            $.post('/gen/{:CONTROLLER_NAME}/creatAllFiles/', {
                 "moduleName": moduleName,
                 "selectTableName": selectTableName
             }, function (data) {

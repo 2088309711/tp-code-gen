@@ -17,7 +17,7 @@ $tphDbConfig = include_once(APP_PATH . 'tphdbconfig.php');
 //首字母大写
 function getTableName($tableName, $ucfirst = false)
 {
-    $prefix = C('database.prefix');
+    $prefix = config('database.prefix');
     if ($prefix != '') {
         if (strpos($tableName, $prefix) === 0) {
             $tableName = substr($tableName, strlen($prefix));
@@ -34,13 +34,13 @@ function getTableName($tableName, $ucfirst = false)
 //$newConnection : 不采用相同连接
 function tphDB($tableName, $newConnection = false)
 {
-    return db($tableName, C('tphdb'), $newConnection);
+    return db($tableName, config('tphdb'), $newConnection);
 }
 
 //获取tph数据库配置值
 function get_db_config($configName, $newConnection = false)
 {
-    return db('config', C('tphdb'), $newConnection)->where('name', $configName)->value('value');
+    return db('config', config('tphdb'), $newConnection)->where('name', $configName)->value('value');
 }
 
 
@@ -52,11 +52,11 @@ function get_db_config($configName, $newConnection = false)
  */
 function get_table_name_list()
 {
-    $dbType = C('database.type');//数据库类型
+    $dbType = config('database.type');//数据库类型
     $result = [];
 
     if (in_array($dbType, ['mysql', 'mysqli'])) {
-        $dbName = C('database.database');
+        $dbName = config('database.database');
         $data = Db::query("select table_name from information_schema.tables where table_schema='" . $dbName . "' and table_type='base table'");
         foreach ($data as $item) {
             $result[] = $item['table_name'];
@@ -75,7 +75,7 @@ function get_table_name_list()
 //读取项目目录下的文件夹，供用户选择哪个才是module目录
 function get_module_name_list()
 {
-    $ignoreList = C('tphconfig.ignoreList');
+    $ignoreList = config('tphconfig.ignoreList');
     $allFileList = getDirList(BASE_PATH . get_db_config('projectPath'));
     return array_diff($allFileList, $ignoreList);
 }
@@ -83,16 +83,16 @@ function get_module_name_list()
 //获取列名列表
 function getTableInfoArray($tableName)
 {
-    $dbType = C('database.type');
+    $dbType = config('database.type');
     $Model = db(); // 实例化一个model对象 没有对应任何数据表
     if ($dbType == 'mysql') {
-        $dbName = C('database.database');
-        $result = $Model->query("select * from information_schema.columns where table_schema='" . $dbName . "' and table_name='" . C('database.prefix') . $tableName . "'");
+        $dbName = config('database.database');
+        $result = $Model->query("select * from information_schema.columns where table_schema='" . $dbName . "' and table_name='" . config('database.prefix') . $tableName . "'");
         //$result = $Model->query("select * from information_schema.columns where table_schema='".$dbName."' and table_name='".$tableName."'");
         $result = changeColumCase($result); //修正information_schema大小写问题
         return $result;
     } else { //sqlite
-        $result = $Model->query("pragma table_info (" . C('database.prefix') . $tableName . ")");
+        $result = $Model->query("pragma table_info (" . config('database.prefix') . $tableName . ")");
         $result = changeColumCase($result); //修正information_schema大小写问题
         return $result;
     }
@@ -104,7 +104,7 @@ function getTableInfoArray($tableName)
 //根据数据库类型获取列名键
 function getColumnNameKey()
 {
-    $dbType = C('database.type');
+    $dbType = config('database.type');
     if ($dbType == 'mysql') {
         return MYSQL_COLUMN_NAME_KEY;
     } else {
@@ -181,7 +181,7 @@ function pressTableDict($tableName)
 //从数据库解析中文表名
 function getTableTitle($tableName)
 {
-    $tableName = C('database.prefix') . $tableName;
+    $tableName = config('database.prefix') . $tableName;
     $tableinfo = tphDB('table_info')->where('name', $tableName)->find();
     if (isset($tableinfo['title'])) {
         return $tableinfo['title'];
@@ -192,7 +192,7 @@ function getTableTitle($tableName)
 //从数据库解析中文字段名
 function getFieldTitle($tableName, $fieldName)
 {
-    $tableName = C('database.prefix') . $tableName;
+    $tableName = config('database.prefix') . $tableName;
     $fieldinfo = tphDB('table_field')->where('table_name', $tableName)
         ->where('field_name', $fieldName)
         ->find();
@@ -210,11 +210,11 @@ function getFieldTitle($tableName, $fieldName)
 //值（编辑时页面使用）
 function pressInputTypeTemplate($tableName, $fieldName, $value = null, $codeLib = null, $folder = "Form/")
 {
-    $tableName = C('database.prefix') . $tableName;
+    $tableName = config('database.prefix') . $tableName;
     if ($codeLib == null) {
         $codeLib = get_db_config('codeLib');
     }
-    $templateBasePath = BASE_PATH . DS . CODE_REPOSITORY . DS . $codeLib . DS . "view" . DS;    //代码所在文件夹
+    $templateBasePath = BASE_PATH . DS . CODE_TEMPLATE . DS . $codeLib . DS . "view" . DS;    //代码所在文件夹
     $fieldinfo = tphDB('table_field')->where('table_name', $tableName)
         ->where('field_name', $fieldName)
         ->find();
@@ -247,7 +247,7 @@ if (!function_exists('testView')) {
 //读取前端风格模板文件夹列表
 function getThemeList()
 {
-    $themeNameList0 = FileUtil::getDirList(__ROOT__ . DS . CODE_REPOSITORY);
+    $themeNameList0 = FileUtil::getDirList(__ROOT__ . DS . CODE_TEMPLATE);
     $themeNameList = array();
     foreach ($themeNameList0 as $themeDirName) {
         if (substr($themeDirName, -5) == 'theme') {    //判断以layout结尾的才是布局文件夹
@@ -261,7 +261,7 @@ function getThemeList()
 //读取后端风格模板文件夹列表
 function getCodelibList()
 {
-    $codelibNameList0 = FileUtil::getDirList(__ROOT__ . DS . CODE_REPOSITORY);
+    $codelibNameList0 = FileUtil::getDirList(__ROOT__ . DS . CODE_TEMPLATE);
     $codelibDirNameList = array();
     foreach ($codelibNameList0 as $codelibDirName) {
         if (substr($codelibDirName, -5) != 'theme') {    //判断以layout结尾的才是布局文件夹
@@ -286,20 +286,6 @@ function getFileListEndWith($rootDir, $fileEnd)
         }
     }
     return $fileNameList;
-}
-
-//获取表单输入选项列表
-//$tableName 表名
-//$fieldName 字段名
-//是否为列表类型 是则返回以‘#’分隔的数组
-function getInputOption2($tableName, $fieldName, $isList = false)
-{
-    $resStr = tphDB('table_field')->where('table_name', C('database.prefix') . $tableName)
-        ->where('field_name', $fieldName)->value('input_value');
-    if ($isList) {
-        return explode('#', $resStr);
-    }
-    return $resStr;
 }
 
 

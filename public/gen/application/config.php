@@ -3,7 +3,7 @@
 return [
     //tph设置
     'VERSION' => 2.21,    //版本号
-    'codeLib' => CODE_REPOSITORY . DS . 'default',   //代码模板仓库
+    'codeLib' => CODE_TEMPLATE . DS . 'default',   //代码模板仓库
     'bluemap' => 'bluemap',  //代码蓝图文件夹
     // +----------------------------------------------------------------------
     // | 应用设置

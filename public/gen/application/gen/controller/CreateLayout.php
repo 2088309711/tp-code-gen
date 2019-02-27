@@ -6,15 +6,12 @@
 //	2014年9月18日
 namespace app\gen\Controller;
 
-use think\Controller;
-use think\Model;
-
 //生成模块
 class CreateLayout extends Base
 {
     public function index()
     {
-        $this->assign('db_prefix', C('database.prefix'));
+        $this->assign('db_prefix', config('database.prefix'));
         $this->assign('tableNameList', get_table_name_list());
         $this->assign('moduleName', get_db_config('moduleName'));
         $layoutName = get_db_config('theme') == '' ? 'mac_theme' : get_db_config('theme');
@@ -26,11 +23,9 @@ class CreateLayout extends Base
     //在指定目录下创建布局模板文件
     public function creatFiles()
     {
-        $moduleName = I('moduleName');
-        $layoutName = I('layoutName');
-        $modulePath = BASE_PATH . get_db_config('projectPath') . $moduleName;
-        $layoutPath = $modulePath . DS . 'file_out' . DS . 'view' . DS;
-        $themePath = __ROOT__ . DS . CODE_REPOSITORY . DS . $layoutName . DS;
+        $layoutName = input('layoutName');
+        $layoutPath = BASE_PATH . get_db_config('projectPath') . 'file_out' . DS . 'view' . DS;
+        $themePath = __ROOT__ . DS . CODE_TEMPLATE . DS . $layoutName . DS;
 
         $publicViewFileList = getFileListEndWith($themePath . 'view', 'view.html');
         foreach ($publicViewFileList as $publicViewFile) {
@@ -42,7 +37,7 @@ class CreateLayout extends Base
             echo $publicViewFile . ' 视图公共文件写入成功，路径：' . $layoutPath . '<br>';
         }
 
-        $fromPath = __ROOT__ . DS . CODE_REPOSITORY . DS . $layoutName . DS . 'public';
+        $fromPath = __ROOT__ . DS . CODE_TEMPLATE . DS . $layoutName . DS . 'public';
         $toPath = BASE_PATH . get_db_config('projectPublicPath') . 'static' . DS . 'file_out';
         FileUtil::copyDir($fromPath, $toPath, true);    //复制public到发布目录
         echo $layoutName . '/public/ 公共文件发布目录成功，路径：' . get_db_config('projectPublicPath') . '<br>';

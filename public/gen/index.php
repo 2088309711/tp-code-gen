@@ -16,7 +16,7 @@ define('__ROOT__', dirname(__FILE__));
 define('TARGET_PUBLIC_NAME', '/');
 
 //代码仓库所在文件夹名,使用代码仓库在common中定义
-define('CODE_REPOSITORY', 'codeRepository');
+define('CODE_TEMPLATE', 'codeRepository');
 
 //视图模板路径
 //define('TEMPLATE_PATH', APP_NAME . '/template/');

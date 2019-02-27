@@ -32,9 +32,5 @@ class Base extends Controller
 
     }
 
-    // 渲染文件保存至中间蓝图
-    public function bluemap()
-    {
 
-    }
 }

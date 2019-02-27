@@ -23,7 +23,6 @@ namespace app\gen\Controller;
 class FileUtil
 {
 
-
     /**
      * 建立文件夹
      *
@@ -218,8 +217,7 @@ class FileUtil
      * @param boolean $overWrite 该参数控制是否覆盖原文件
      * @return boolean
      */
-    public
-    static function copyFile($fileUrl, $aimUrl, $overWrite = false)
+    public static function copyFile($fileUrl, $aimUrl, $overWrite = false)
     {
         if (!file_exists($fileUrl)) {
             return false;
@@ -236,8 +234,7 @@ class FileUtil
     }
 
 //列出文件和目录
-    public
-    static function getFileList($directory)
+    public static function getFileList($directory)
     {
         $files = array();
         try {
@@ -253,8 +250,7 @@ class FileUtil
     }
 
 //仅仅列出目录
-    public
-    static function getDirList($directory)
+    public static function getDirList($directory)
     {
         $files = array();
         try {
@@ -271,8 +267,7 @@ class FileUtil
     }
 
 //仅仅列出文件
-    public
-    static function getOnleFileList($directory)
+    public static function getOnleFileList($directory)
     {
         $files = array();
         try {
@@ -288,14 +283,12 @@ class FileUtil
         return $files;
     }
 
-    public
-    static function readFile()
+    public static function readFile()
     {
 
     }
 
-    public
-    static function writeFile()
+    public static function writeFile()
     {
 
     }

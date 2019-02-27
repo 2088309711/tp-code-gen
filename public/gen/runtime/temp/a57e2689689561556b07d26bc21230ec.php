@@ -1,13 +1,11 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:84:"F:\phpStudy\WWW\tp-code-gen\public\gen/application/gen\view\create_layout\index.html";i:1546590797;s:69:"F:\phpStudy\WWW\tp-code-gen\public\gen\application\gen\view\main.html";i:1546586483;s:69:"F:\phpStudy\WWW\tp-code-gen\public\gen\application\gen\view\menu.html";i:1551234258;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:84:"F:\phpStudy\WWW\tp-code-gen\public\gen/application/gen\view\create_layout\index.html";i:1546590797;s:69:"F:\phpStudy\WWW\tp-code-gen\public\gen\application\gen\view\main.html";i:1551251191;s:69:"F:\phpStudy\WWW\tp-code-gen\public\gen\application\gen\view\menu.html";i:1551250332;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Amaze UI Admin index Examples</title>
-    <meta name="description" content="这是一个 index 页面">
-    <meta name="keywords" content="index">
+    <title>Code Generator</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="renderer" content="webkit">
     <meta http-equiv="Cache-Control" content="no-siteapp"/>
@@ -26,43 +24,42 @@
 <script src="/static/assets/js/theme.js"></script>
 <div class="am-g tpl-g">
     <!-- 头部 -->
-    <header>
+    <!--<header>-->
 
-        <!-- 右侧内容 -->
-        <div class="tpl-header-fluid">
-            <!-- 侧边切换 -->
-            <div class="am-fl tpl-header-switch-button am-icon-list">
-                <!--<span></span>-->
-            </div>
+    <!-- 右侧内容 -->
+    <!--<div class="tpl-header-fluid">-->
+    <!-- 侧边切换 -->
+    <!--<div class="am-fl tpl-header-switch-button am-icon-list">-->
+    <!--<span></span>-->
+    <!--</div>-->
 
-            <div class="am-fr tpl-header-navbar">
-                <ul>
-                    <!-- 退出 -->
-                    <li class="am-text-sm">
-                        <a href="javascript:;">
-                            <span class="am-icon-sign-out"></span> 退出
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
+    <!--<div class="am-fr tpl-header-navbar">-->
+    <!--<ul>-->
+    <!--<li class="am-text-sm">-->
+    <!--<a href="javascript:;">-->
+    <!--<span class="am-icon-sign-out"></span> 退出-->
+    <!--</a>-->
+    <!--</li>-->
+    <!--</ul>-->
+    <!--</div>-->
+    <!--</div>-->
 
-    </header>
+    <!--</header>-->
 
     <!-- 风格切换 -->
-    <div class="tpl-skiner">
-        <div class="tpl-skiner-toggle am-icon-cog">
-        </div>
-        <div class="tpl-skiner-content">
-            <div class="tpl-skiner-content-title">
-                选择主题
-            </div>
-            <div class="tpl-skiner-content-bar">
-                <span class="skiner-color skiner-white" data-color="theme-white"></span>
-                <span class="skiner-color skiner-black" data-color="theme-black"></span>
-            </div>
-        </div>
-    </div>
+    <!--<div class="tpl-skiner">-->
+    <!--<div class="tpl-skiner-toggle am-icon-cog">-->
+    <!--</div>-->
+    <!--<div class="tpl-skiner-content">-->
+    <!--<div class="tpl-skiner-content-title">-->
+    <!--选择主题-->
+    <!--</div>-->
+    <!--<div class="tpl-skiner-content-bar">-->
+    <!--<span class="skiner-color skiner-white" data-color="theme-white"></span>-->
+    <!--<span class="skiner-color skiner-black" data-color="theme-black"></span>-->
+    <!--</div>-->
+    <!--</div>-->
+    <!--</div>-->
 
     <!-- 侧边导航栏 -->
     <div class="left-sidebar">
@@ -74,35 +71,35 @@
             <li class="sidebar-nav-link">
     <a href="<?php echo APP_NAME; ?>/CreateLayout"
        <?php if($page_name == 'public-file'): ?>class="active" <?php endif; ?>>
-    <i class="am-icon-wpforms sidebar-nav-link-logo"></i> 公共文件生成
+    <i class="am-icon-wpforms sidebar-nav-link-logo"></i> 公共文件
     </a>
 </li>
 
 <li class="sidebar-nav-link">
     <a href="<?php echo APP_NAME; ?>/WedgitCode/menu"
        <?php if($page_name == 'menu'): ?>class="active" <?php endif; ?>>
-    <i class="am-icon-wpforms sidebar-nav-link-logo"></i> 菜单生成
+    <i class="am-icon-wpforms sidebar-nav-link-logo"></i> 菜单
     </a>
 </li>
 
 <li class="sidebar-nav-link">
     <a href="<?php echo APP_NAME; ?>/ViewCode"
        <?php if($page_name == 'front-file'): ?>class="active" <?php endif; ?>>
-    <i class="am-icon-wpforms sidebar-nav-link-logo"></i> 前台界面生成
+    <i class="am-icon-wpforms sidebar-nav-link-logo"></i> 视图
     </a>
 </li>
 
 <li class="sidebar-nav-link">
     <a href="<?php echo APP_NAME; ?>/ControllerCode"
        <?php if($page_name == 'controll-file'): ?>class="active" <?php endif; ?>>
-    <i class="am-icon-wpforms sidebar-nav-link-logo"></i> 控制器代码生成
+    <i class="am-icon-wpforms sidebar-nav-link-logo"></i> 控制器
     </a>
 </li>
 
 <li class="sidebar-nav-link">
     <a href="<?php echo APP_NAME; ?>/ModelCode/index"
        <?php if($page_name == 'auto-model'): ?>class="active" <?php endif; ?>>
-    <i class="am-icon-wpforms sidebar-nav-link-logo"></i> 模型代码生成
+    <i class="am-icon-wpforms sidebar-nav-link-logo"></i> 模型
     </a>
 </li>
 

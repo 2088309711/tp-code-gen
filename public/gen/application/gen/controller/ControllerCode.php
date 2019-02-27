@@ -15,7 +15,7 @@ class ControllerCode extends Base
         $this->assign('tableNameList', get_table_name_list());
         $this->assign('moduleNameList', get_module_name_list());
         $this->assign('selectTableName', $this->getSessionTableName());
-        $this->assign('db_prefix', C('database.prefix'));
+        $this->assign('db_prefix', config('database.prefix'));
         $this->assign('moduleName', get_db_config('moduleName'));
         $this->assign('page_name', 'controll-file');
         return $this->fetch();
@@ -24,12 +24,13 @@ class ControllerCode extends Base
     //生成控制器代码
     public function generateControllerCode()
     {
-        $tableName = getTableName(I('tableName'));
-        $moduleName = I('moduleName');
+
+        $tableName = getTableName(input('tableName'));
+        $moduleName = input('moduleName');
         $this->assign('tableName', $tableName);
         $this->assign('moduleName', $moduleName);
         $codelibName = get_db_config('codeLib') == '' ? 'default' : get_db_config('codeLib');
-        $codeBasePath = CODE_REPOSITORY . DS . $codelibName . DS;
+        $codeBasePath = CODE_TEMPLATE . DS . $codelibName . DS;
         $template = file_get_contents($codeBasePath . 'Controller' . DS . 'controller.html');//读取模板.
         return PHP_HEAD . $this->display($template, [], [], ['view_path' => $codeBasePath . 'Controller' . DS]);
     }
@@ -37,9 +38,9 @@ class ControllerCode extends Base
     //生成控制器文件
     public function generateControllerFile()
     {
-        $moduleName = I('moduleName');
-        $modelPath = BASE_PATH . get_db_config('projectPath') . $moduleName . DS . 'file_out' . DS . 'controller' . DS;
-        $tableName = getTableName(I('tableName'));
+        $modelPath = BASE_PATH . get_db_config('projectPath') . 'file_out' . DS . 'controller' . DS;
+
+        $tableName = getTableName(input('tableName'));
         if (!file_exists($modelPath)) {
             FileUtil::createDir($modelPath);
         }
@@ -52,7 +53,8 @@ class ControllerCode extends Base
     //生成所有代码对应的文件，
     public function creatAllFiles()
     {
-        $tableNameList = I('selectTableName');
+        $tableNameList = input()['selectTableName'];
+
         $res = '';
         for ($i = 0; $i < count($tableNameList); $i++) {
             Request::instance()->post(['tableName' => $tableNameList[$i]]);
@@ -70,181 +72,5 @@ class ControllerCode extends Base
         }
     }
 
-
-    //列出所有记录页面代码（片段）
-    public function generateAllPageCode()
-    {
-        $tableName = I('table');
-        $TableName = tableNameToModelName($tableName);
-        $tableInfoArray = getTableInfoArray($tableName);
-        $columnNameKey = getColumnNameKey();
-
-        $this->assign('tableName', $tableName);
-        $this->assign('TableName', $TableName);
-        $this->assign('tableInfoArray', $tableInfoArray);
-        $this->assign('columnNameKey', $columnNameKey);
-        $resultCode = $this->makeViewTemplate('getList');
-        return $resultCode;
-    }
-
-    public function allPageCode()
-    {
-        echo $this->generateAllPageCode();
-    }
-
-
-    //列出所有记录页面，读取并填充数据
-    public function previewAllPage()
-    {
-        $tableName = I('table');
-        $Model = M($tableName);
-        $resultCode = "<table class=\"table table-striped table-bordered table-hover\">\r\n<thead>\r\n<tr>\r\n";
-        $tableInfoArray = getTableInfoArray($tableName);
-        foreach ($tableInfoArray as $tableInfo) { //拼接表头
-            $name = $tableInfo[getColumnNameKey()];
-            $resultCode .= "<th><center>" . $name . "</center></th>\r\n";
-        }
-        $resultCode .= "<th>操 作</th>\r\n</tr>\r\n</thead>\r\n";
-        for ($i = 0; $i < 5; $i++) {//填充5个数据
-            foreach ($tableInfoArray as $tableInfo) {
-                $resultCode .= "<td>" . $tableInfo[getColumnNameKey()] . "</td>\r\n";
-            }
-            $resultCode .= '<td><a href="' . U(tableNameToModelName($tableName) . '/edit?id=' . $i) . '">编辑</a> | '
-                . '<a href="' . U(tableNameToModelName($tableName) . '/delete?id=' . $i) . '" onclick=\'return confirm("确定删除吗？")\'>删除</a></td></tr>' . "\r\n";
-        }
-        $resultCode .= "</table>\r\n";
-        echo $resultCode;
-    }
-
-    //生成所有记录代码
-    public function generateAllCode()
-    {
-        $tableName = I('table');
-        $isPage = I('isPage');
-        $this->assign('tableName', $tableName);
-        $this->assign('TableName', tableNameToModelName($tableName));//修正为驼峰命名，首字母大写
-        $resultCode = $this->makeControllerTemplate("getList");
-        return $resultCode;
-    }
-
-    public function allCode()
-    {
-        echo $this->generateAllCode();
-    }
-
-    //生成新建页面代码（片段）
-    public function generateAddPage()
-    {
-        $actionName = "add";
-        $tableName = I('table');
-        $TableName = tableNameToModelName($tableName);
-        $tableInfoArray = getTableInfoArray($tableName);
-        $columnNameKey = getColumnNameKey();
-
-        $this->assign('tableName', $tableName);
-        $this->assign('TableName', $TableName);
-        $this->assign('tableInfoArray', $tableInfoArray);
-        $this->assign('columnNameKey', $columnNameKey);
-        $resultCode = $this->makeViewTemplate($actionName);
-        return $resultCode;
-    }
-
-    //生成新建前台页面代码
-    public function addPage()
-    {
-        echo $this->generateAddPage();
-    }
-
-    //新建操作代码
-    public function generateAddCode()
-    {
-        $tableName = I('table');
-        $this->assign('tableName', $tableName);
-        $this->assign('TableName', tableNameToModelName($tableName));//修正为驼峰命名，首字母大写
-        $resultCode = $this->makeControllerTemplate("add");
-        return $resultCode;
-    }
-
-    public function addCode()
-    {
-        echo $this->generateAddCode();
-    }
-
-    //编辑页面
-    public function generateEditPage()
-    {
-        $tableName = I('table');
-        $TableName = tableNameToModelName($tableName);
-        $tableInfoArray = getTableInfoArray($tableName);
-        $columnNameKey = getColumnNameKey();
-
-        $this->assign('tableName', $tableName);
-        $this->assign('TableName', $TableName);
-        $this->assign('tableInfoArray', $tableInfoArray);
-        $this->assign('columnNameKey', $columnNameKey);
-        $resultCode = $this->makeViewTemplate('edit');
-        return $resultCode;
-    }
-
-    public function editPage()
-    {
-        echo $this->generateEditPage();
-    }
-
-    //生成编辑代码
-    public function generateEditCode()
-    {
-        $tableName = I('table');
-        $this->assign('tableName', $tableName);
-        $this->assign('TableName', tableNameToModelName($tableName));//修正为驼峰命名，首字母大写
-        $resultCode = $this->makeControllerTemplate("edit");
-        return $resultCode;
-    }
-
-    public function editCode()
-    {
-        echo $this->generateEditCode();
-    }
-
-    //删除代码
-    public function generateDeleteCode()
-    {
-        $tableName = I('table');
-        $this->assign('tableName', $tableName);
-        $this->assign('TableName', tableNameToModelName($tableName));//修正为驼峰命名，首字母大写
-        $resultCode = $this->makeControllerTemplate("delete");
-        return $resultCode;
-    }
-
-    public function deleteCode()
-    {
-        echo $this->generateDeleteCode();
-    }
-
-    //解析前台View模板
-    public function makeViewTemplate($actionName = null, $moduleName = null, $theme = 'default')
-    {
-        $actionName = $actionName ? $actionName : I('actionName');
-        $moduleName = $moduleName ? $moduleName : I('moduleName');
-        $templateBasePath = CODE_REPOSITORY . DS . $theme . DS . "view" . DS;    //代码所在文件夹
-        $template = file_get_contents($templateBasePath . $actionName . ".html");    //读取模板
-        $codelibName = get_db_config('codeLib') == '' ? 'default' : get_db_config('codeLib');
-        $codeBasePath = CODE_REPOSITORY . DS . $codelibName . DS;
-        $resCode = $this->display($template, [], [], ['view_path' => $codeBasePath . 'View' . DS]);
-        return $resCode;
-    }
-
-    //解析后台Controller模板
-    public function makeControllerTemplate($actionName = null, $moduleName = null, $theme = 'default')
-    {
-        $actionName = $actionName ? $actionName : I('actionName');
-        $moduleName = $moduleName ? $moduleName : I('moduleName');
-        $templateBasePath = CODE_REPOSITORY . DS . $theme . DS . "Controller" . DS;    //代码所在文件夹
-        $template = file_get_contents($templateBasePath . $actionName . ".html");    //读取模板
-        $codelibName = get_db_config('codeLib') == '' ? 'default' : get_db_config('codeLib');
-        $codeBasePath = CODE_REPOSITORY . DS . $codelibName . DS;
-        $resCode = $this->display($template, [], [], ['view_path' => $codeBasePath . 'View' . DS]);
-        return $resCode;
-    }
 
 }
