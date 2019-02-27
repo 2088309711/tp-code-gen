@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:86:"F:\phpStudy\WWW\tp-code-gen\public\gen/application/gen\view\controller_code\index.html";i:1546592188;s:69:"F:\phpStudy\WWW\tp-code-gen\public\gen\application\gen\view\main.html";i:1546586483;s:69:"F:\phpStudy\WWW\tp-code-gen\public\gen\application\gen\view\menu.html";i:1546593379;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:86:"F:\phpStudy\WWW\tp-code-gen\public\gen/application/gen\view\controller_code\index.html";i:1546592188;s:69:"F:\phpStudy\WWW\tp-code-gen\public\gen\application\gen\view\main.html";i:1546586483;s:69:"F:\phpStudy\WWW\tp-code-gen\public\gen\application\gen\view\menu.html";i:1551234258;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -100,49 +100,16 @@
 </li>
 
 <li class="sidebar-nav-link">
-    <a href="javascript:;" class="sidebar-nav-sub-title">
-        <i class="am-icon-table sidebar-nav-link-logo"></i> 模型代码生成
-        <span class="am-icon-chevron-down am-fr am-margin-right-sm sidebar-nav-sub-ico
-            <?php if($menu_group == 'model'): ?>sidebar-nav-sub-ico-rotate<?php endif; ?>"></span>
+    <a href="<?php echo APP_NAME; ?>/ModelCode/index"
+       <?php if($page_name == 'auto-model'): ?>class="active" <?php endif; ?>>
+    <i class="am-icon-wpforms sidebar-nav-link-logo"></i> 模型代码生成
     </a>
-    <ul class="sidebar-nav sidebar-nav-sub"
-        <?php if($menu_group == 'model'): ?>style="display:block;"<?php endif; ?>>
-        <li class="sidebar-nav-link">
-            <a href="<?php echo APP_NAME; ?>/ModelCode/index"
-               <?php if($page_name == 'auto-model'): ?>class="active" <?php endif; ?>>
-            <span class="am-icon-angle-right sidebar-nav-link-logo"></span> 简易模型代码生成
-            </a>
-        </li>
-
-        <li class="sidebar-nav-link">
-            <a href="<?php echo APP_NAME; ?>/ModelCode/index2"
-               <?php if($page_name == 'manual-model'): ?>class="active" <?php endif; ?>>
-            <span class="am-icon-angle-right sidebar-nav-link-logo"></span> 手动模型代码生成
-            </a>
-        </li>
-    </ul>
 </li>
 
-<li class="sidebar-nav-link">
-    <a href="javascript:;" class="sidebar-nav-sub-title">
-        <i class="am-icon-table sidebar-nav-link-logo"></i> 项目参数
-        <span class="am-icon-chevron-down am-fr am-margin-right-sm sidebar-nav-sub-ico"></span>
-    </a>
-    <ul class="sidebar-nav sidebar-nav-sub">
 
-        <li class="sidebar-nav-link">
-            <a href="<?php echo APP_NAME; ?>/ProjectConfig/index">
-                <span class="am-icon-angle-right sidebar-nav-link-logo"></span> 项目配置
-            </a>
-        </li>
 
-        <li class="sidebar-nav-link">
-            <a href="<?php echo APP_NAME; ?>/ProjectConfig/formConfig">
-                <span class="am-icon-angle-right sidebar-nav-link-logo"></span> 表单配置
-            </a>
-        </li>
-    </ul>
-</li>
+
+
             <!-- 菜单 -->
 
         </ul>

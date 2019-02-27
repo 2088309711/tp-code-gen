@@ -18,7 +18,6 @@ class ControllerCode extends Base
         $this->assign('db_prefix', C('database.prefix'));
         $this->assign('moduleName', get_db_config('moduleName'));
         $this->assign('page_name', 'controll-file');
-        $this->assign('menu_group', '');
         return $this->fetch();
     }
 

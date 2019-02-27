@@ -107,7 +107,7 @@
             checkedBox.each(function () {
                 selectTableName.push($(this).val());
             });
-            layoutName = $('#layoutName').val();
+            var layoutName = $('#layoutName').val();
 
             $.post("{:url(CONTROLLER_NAME.'/creatFiles')}", {
                 'moduleName': moduleName,

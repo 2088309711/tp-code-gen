@@ -24,7 +24,6 @@ class WedgitCode extends Base
         $this->assign('codelibName', $codelibName);
         $this->assign('menuList', $this->getMenuFileList());
         $this->assign('page_name', 'menu');
-        $this->assign('menu_group', '');
         return $this->fetch();
     }
 
@@ -53,9 +52,13 @@ class WedgitCode extends Base
         $layoutName = I('layoutName');
         $modulePath = BASE_PATH . get_db_config('projectPath') . $moduleName;
         $themePath = __ROOT__ . DS . CODE_REPOSITORY . DS . $layoutName . DS;
-        if (!file_exists(BASE_PATH . get_db_config('projectPath') . $moduleName . DS . 'view')) {//先创建view文件夹
-            FileUtil::createDir(BASE_PATH . get_db_config('projectPath') . $moduleName . DS . 'view');
+
+        //先创建view文件夹
+        if (!file_exists(BASE_PATH . get_db_config('projectPath') . $moduleName . DS . 'file_out' . DS . 'view')) {
+            FileUtil::createDir(BASE_PATH . get_db_config('projectPath') . $moduleName . DS . 'file_out' . DS . 'view');
         }
+
+
         foreach (I('selectTableName') as $selectTableName) {
             $tableNameList[] = getTableName($selectTableName);
         }

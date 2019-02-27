@@ -3,20 +3,318 @@
   <component name="ChangeListManager">
     <list default="true" id="d89094ab-8929-4a9d-99dd-6681107802de" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/gen/application/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/file_out/controller/CorpusData.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/file_out/controller/CorpusGroup.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/file_out/controller/Example.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/file_out/controller/Msg.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/file_out/controller/ServerList.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/file_out/controller/Staff.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/file_out/model/.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/file_out/model/CorpusData.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/file_out/model/CorpusGroup.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/file_out/model/Example.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/file_out/model/Msg.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/file_out/model/ServerList.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/file_out/model/Staff.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/file_out/view/corpus_data/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/file_out/view/corpus_data/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/file_out/view/corpus_data/lists.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/file_out/view/corpus_group/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/file_out/view/corpus_group/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/file_out/view/corpus_group/lists.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/file_out/view/example/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/file_out/view/example/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/file_out/view/example/lists.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/file_out/view/layout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/file_out/view/menu1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/file_out/view/msg/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/file_out/view/msg/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/file_out/view/msg/lists.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/file_out/view/server_list/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/file_out/view/server_list/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/file_out/view/server_list/lists.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/file_out/view/staff/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/file_out/view/staff/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/file_out/view/staff/lists.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/common.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/common.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/controller/Base.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/controller/Base.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/gen/application/gen/controller/ControllerCode.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/controller/ControllerCode.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/gen/application/gen/controller/CreateLayout.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/controller/CreateLayout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/controller/Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/controller/Index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/gen/application/gen/controller/ModelCode.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/controller/ModelCode.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/controller/ProjectConfig.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/controller/ProjectConfig.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/gen/application/gen/controller/ViewCode.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/controller/ViewCode.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/gen/application/gen/controller/WedgitCode.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/controller/WedgitCode.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/extra/dict.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/extra/dict.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/extra/tphconfig.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/extra/tphconfig.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/gen/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/gen/runtime/log/201901/03.log" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/runtime/log/201901/03.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/gen/runtime/temp/b1b9ddb978dca49baa260226d7db2a53.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/runtime/temp/b1b9ddb978dca49baa260226d7db2a53.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/gen/template/Index/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/Index/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/gen/template/default_layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/template/default_layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/model_code/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/model_code/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/ControllerCode/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/ControllerCode/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/CreateLayout/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/CreateLayout/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/Index/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/Index/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/ModelCode/addRelationModelCode.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/ModelCode/addRelationModelCode.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/ModelCode/addViewModelCode.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/ModelCode/addViewModelCode.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/ModelCode/generateRelationshipModelCode.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/ModelCode/generateRelationshipModelCode.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/ModelCode/getTableInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/ModelCode/getTableInfo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/ModelCode/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/ModelCode/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/ModelCode/index2.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/ModelCode/index2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/ProjectConfig/formConfig.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/ProjectConfig/formConfig.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/ProjectConfig/formField.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/ProjectConfig/formField.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/ProjectConfig/formFieldEdit.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/ProjectConfig/formFieldEdit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/ProjectConfig/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/ProjectConfig/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/ViewCode/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/ViewCode/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/WedgitCode/authManage.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/WedgitCode/authManage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/WedgitCode/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/WedgitCode/menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/font/fontawesome-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/font/fontawesome-webfont.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/img/back.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/img/back.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/img/black.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/img/black.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/img/cleditor/buttons.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/img/cleditor/buttons.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/img/cleditor/toolbar.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/img/cleditor/toolbar.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/img/cream.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/img/cream.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/img/delete.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/img/delete.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/img/help/0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/img/help/0.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/img/help/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/img/help/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/img/help/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/img/help/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/img/help/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/img/help/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/img/help/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/img/help/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/img/help/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/img/help/5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/img/help/6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/img/help/6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/img/help/7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/img/help/7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/img/help/8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/img/help/8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/img/icons/android.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/img/icons/android.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/img/icons/chrome.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/img/icons/chrome.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/img/icons/firefox.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/img/icons/firefox.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/img/icons/ie.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/img/icons/ie.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/img/icons/ios.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/img/icons/ios.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/img/icons/linux.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/img/icons/linux.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/img/icons/mac.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/img/icons/mac.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/img/icons/metro.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/img/icons/metro.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/img/icons/opera.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/img/icons/opera.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/img/icons/safari.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/img/icons/safari.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/img/icons/windows.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/img/icons/windows.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/img/main-back.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/img/main-back.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/img/prettyPhoto/dark_rounded/btnNext.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/img/prettyPhoto/dark_rounded/btnNext.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/img/prettyPhoto/dark_rounded/btnPrevious.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/img/prettyPhoto/dark_rounded/btnPrevious.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/img/prettyPhoto/dark_rounded/contentPattern.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/img/prettyPhoto/dark_rounded/contentPattern.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/img/prettyPhoto/dark_rounded/loader.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/img/prettyPhoto/dark_rounded/loader.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/img/prettyPhoto/dark_rounded/sprite.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/img/prettyPhoto/dark_rounded/sprite.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/img/prettyPhoto/dark_square/btnNext.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/img/prettyPhoto/dark_square/btnNext.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/img/prettyPhoto/dark_square/btnPrevious.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/img/prettyPhoto/dark_square/btnPrevious.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/img/prettyPhoto/dark_square/loader.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/img/prettyPhoto/dark_square/loader.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/img/prettyPhoto/dark_square/sprite.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/img/prettyPhoto/dark_square/sprite.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/img/prettyPhoto/default/default_thumb.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/img/prettyPhoto/default/default_thumb.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/img/prettyPhoto/default/loader.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/img/prettyPhoto/default/loader.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/img/prettyPhoto/default/sprite.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/img/prettyPhoto/default/sprite.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/img/prettyPhoto/default/sprite_next.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/img/prettyPhoto/default/sprite_next.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/img/prettyPhoto/default/sprite_prev.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/img/prettyPhoto/default/sprite_prev.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/img/prettyPhoto/default/sprite_x.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/img/prettyPhoto/default/sprite_x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/img/prettyPhoto/default/sprite_y.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/img/prettyPhoto/default/sprite_y.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/img/prettyPhoto/facebook/btnNext.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/img/prettyPhoto/facebook/btnNext.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/img/prettyPhoto/facebook/btnPrevious.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/img/prettyPhoto/facebook/btnPrevious.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/img/prettyPhoto/facebook/contentPatternBottom.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/img/prettyPhoto/facebook/contentPatternBottom.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/img/prettyPhoto/facebook/contentPatternLeft.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/img/prettyPhoto/facebook/contentPatternLeft.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/img/prettyPhoto/facebook/contentPatternRight.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/img/prettyPhoto/facebook/contentPatternRight.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/img/prettyPhoto/facebook/contentPatternTop.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/img/prettyPhoto/facebook/contentPatternTop.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/img/prettyPhoto/facebook/default_thumbnail.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/img/prettyPhoto/facebook/default_thumbnail.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/img/prettyPhoto/facebook/loader.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/img/prettyPhoto/facebook/loader.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/img/prettyPhoto/facebook/sprite.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/img/prettyPhoto/facebook/sprite.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/img/prettyPhoto/light_rounded/btnNext.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/img/prettyPhoto/light_rounded/btnNext.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/img/prettyPhoto/light_rounded/btnPrevious.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/img/prettyPhoto/light_rounded/btnPrevious.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/img/prettyPhoto/light_rounded/loader.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/img/prettyPhoto/light_rounded/loader.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/img/prettyPhoto/light_rounded/sprite.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/img/prettyPhoto/light_rounded/sprite.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/img/prettyPhoto/light_square/btnNext.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/img/prettyPhoto/light_square/btnNext.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/img/prettyPhoto/light_square/btnPrevious.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/img/prettyPhoto/light_square/btnPrevious.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/img/prettyPhoto/light_square/sprite.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/img/prettyPhoto/light_square/sprite.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/img/star.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/img/star.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/js/bootstrap-datetimepicker.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/js/bootstrap-datetimepicker.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/js/bootstrap-switch.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/js/bootstrap-switch.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/js/charts.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/js/charts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/js/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/js/custom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/js/excanvas.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/js/excanvas.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/js/filter.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/js/filter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/js/fullcalendar.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/js/fullcalendar.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/js/html5shim.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/js/html5shim.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/js/htmlUtil.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/js/htmlUtil.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/js/jquery-ui-1.9.2.custom.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/js/jquery-ui-1.9.2.custom.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/js/jquery.cleditor.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/js/jquery.cleditor.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/js/jquery.flot.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/js/jquery.flot.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/js/jquery.flot.pie.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/js/jquery.flot.pie.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/js/jquery.flot.resize.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/js/jquery.flot.resize.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/js/jquery.flot.stack.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/js/jquery.flot.stack.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/js/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/js/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/js/jquery.noty.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/js/jquery.noty.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/js/jquery.prettyPhoto.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/js/jquery.prettyPhoto.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/js/jquery.rateit.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/js/jquery.rateit.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/js/layouts/bottom.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/js/layouts/bottom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/js/layouts/top.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/js/layouts/top.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/js/layouts/topRight.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/js/layouts/topRight.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/js/sparklines.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/js/sparklines.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/js/themes/default.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/js/themes/default.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/style/bootstrap-datetimepicker.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/style/bootstrap-datetimepicker.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/style/bootstrap-switch.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/style/bootstrap-switch.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/style/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/style/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/style/font-awesome.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/style/font-awesome.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/style/fullcalendar.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/style/fullcalendar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/style/images/ui-bg_diagonals-thick_18_b81900_40x40.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/style/images/ui-bg_diagonals-thick_18_b81900_40x40.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/style/images/ui-bg_diagonals-thick_20_666666_40x40.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/style/images/ui-bg_diagonals-thick_20_666666_40x40.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/style/images/ui-bg_flat_10_000000_40x100.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/style/images/ui-bg_flat_10_000000_40x100.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/style/images/ui-bg_glass_100_f6f6f6_1x400.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/style/images/ui-bg_glass_100_f6f6f6_1x400.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/style/images/ui-bg_glass_100_fdf5ce_1x400.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/style/images/ui-bg_glass_100_fdf5ce_1x400.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/style/images/ui-bg_glass_65_ffffff_1x400.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/style/images/ui-bg_glass_65_ffffff_1x400.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/style/images/ui-bg_gloss-wave_35_f6a828_500x100.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/style/images/ui-bg_gloss-wave_35_f6a828_500x100.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/style/images/ui-bg_highlight-soft_100_eeeeee_1x100.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/style/images/ui-bg_highlight-soft_100_eeeeee_1x100.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/style/images/ui-bg_highlight-soft_75_ffe45c_1x100.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/style/images/ui-bg_highlight-soft_75_ffe45c_1x100.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/style/images/ui-icons_222222_256x240.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/style/images/ui-icons_222222_256x240.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/style/images/ui-icons_228ef1_256x240.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/style/images/ui-icons_228ef1_256x240.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/style/images/ui-icons_ef8c08_256x240.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/style/images/ui-icons_ef8c08_256x240.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/style/images/ui-icons_ffd27a_256x240.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/style/images/ui-icons_ffd27a_256x240.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/style/images/ui-icons_ffffff_256x240.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/style/images/ui-icons_ffffff_256x240.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/style/jquery-ui.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/style/jquery-ui.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/style/jquery.cleditor.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/style/jquery.cleditor.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/style/prettyPhoto.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/style/prettyPhoto.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/style/rateit.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/style/rateit.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/style/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/asset/style/widgets.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/asset/style/widgets.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/default_layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/default_layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/help.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/help.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/leftmenu.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/leftmenu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/template/ui.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/ui.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/wedgit_code/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/wedgit_code/menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/runtime/temp/6c7d01ef97e55ab1a2d464c8c2b4d179.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/runtime/temp/6c7d01ef97e55ab1a2d464c8c2b4d179.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/runtime/temp/7921c2ba1c51fe05fb795912311d5ff1.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/runtime/temp/7921c2ba1c51fe05fb795912311d5ff1.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/runtime/temp/a57e2689689561556b07d26bc21230ec.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/runtime/temp/a57e2689689561556b07d26bc21230ec.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/runtime/temp/c3a726d25ff1d942d9768df325c54428.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/runtime/temp/c3a726d25ff1d942d9768df325c54428.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/runtime/temp/d59bdb4fc48fdeaa7ceb0f5894deac4b.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/runtime/temp/d59bdb4fc48fdeaa7ceb0f5894deac4b.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/ControllerCode/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/CreateLayout/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/Index/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/ModelCode/addRelationModelCode.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/ModelCode/addViewModelCode.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/ModelCode/generateRelationshipModelCode.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/ModelCode/getTableInfo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/ModelCode/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/ModelCode/index2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/ProjectConfig/formConfig.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/ProjectConfig/formField.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/ProjectConfig/formFieldEdit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/ProjectConfig/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/ViewCode/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/WedgitCode/authManage.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/WedgitCode/menu.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/font/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/img/back.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/img/black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/img/cleditor/buttons.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/img/cleditor/toolbar.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/img/cream.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/img/delete.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/img/help/0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/img/help/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/img/help/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/img/help/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/img/help/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/img/help/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/img/help/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/img/help/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/img/help/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/img/icons/android.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/img/icons/chrome.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/img/icons/firefox.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/img/icons/ie.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/img/icons/ios.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/img/icons/linux.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/img/icons/mac.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/img/icons/metro.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/img/icons/opera.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/img/icons/safari.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/img/icons/windows.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/img/main-back.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/img/prettyPhoto/dark_rounded/btnNext.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/img/prettyPhoto/dark_rounded/btnPrevious.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/img/prettyPhoto/dark_rounded/contentPattern.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/img/prettyPhoto/dark_rounded/loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/img/prettyPhoto/dark_rounded/sprite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/img/prettyPhoto/dark_square/btnNext.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/img/prettyPhoto/dark_square/btnPrevious.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/img/prettyPhoto/dark_square/loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/img/prettyPhoto/dark_square/sprite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/img/prettyPhoto/default/default_thumb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/img/prettyPhoto/default/loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/img/prettyPhoto/default/sprite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/img/prettyPhoto/default/sprite_next.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/img/prettyPhoto/default/sprite_prev.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/img/prettyPhoto/default/sprite_x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/img/prettyPhoto/default/sprite_y.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/img/prettyPhoto/facebook/btnNext.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/img/prettyPhoto/facebook/btnPrevious.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/img/prettyPhoto/facebook/contentPatternBottom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/img/prettyPhoto/facebook/contentPatternLeft.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/img/prettyPhoto/facebook/contentPatternRight.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/img/prettyPhoto/facebook/contentPatternTop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/img/prettyPhoto/facebook/default_thumbnail.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/img/prettyPhoto/facebook/loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/img/prettyPhoto/facebook/sprite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/img/prettyPhoto/light_rounded/btnNext.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/img/prettyPhoto/light_rounded/btnPrevious.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/img/prettyPhoto/light_rounded/loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/img/prettyPhoto/light_rounded/sprite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/img/prettyPhoto/light_square/btnNext.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/img/prettyPhoto/light_square/btnPrevious.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/img/prettyPhoto/light_square/sprite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/img/star.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/js/bootstrap-datetimepicker.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/js/bootstrap-switch.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/js/charts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/js/custom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/js/excanvas.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/js/filter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/js/fullcalendar.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/js/html5shim.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/js/htmlUtil.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/js/jquery-ui-1.9.2.custom.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/js/jquery.cleditor.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/js/jquery.flot.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/js/jquery.flot.pie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/js/jquery.flot.resize.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/js/jquery.flot.stack.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/js/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/js/jquery.noty.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/js/jquery.prettyPhoto.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/js/jquery.rateit.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/js/layouts/bottom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/js/layouts/top.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/js/layouts/topRight.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/js/sparklines.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/js/themes/default.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/style/bootstrap-datetimepicker.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/style/bootstrap-switch.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/style/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/style/font-awesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/style/fullcalendar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/style/images/ui-bg_diagonals-thick_18_b81900_40x40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/style/images/ui-bg_diagonals-thick_20_666666_40x40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/style/images/ui-bg_flat_10_000000_40x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/style/images/ui-bg_glass_100_f6f6f6_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/style/images/ui-bg_glass_100_fdf5ce_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/style/images/ui-bg_glass_65_ffffff_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/style/images/ui-bg_gloss-wave_35_f6a828_500x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/style/images/ui-bg_highlight-soft_100_eeeeee_1x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/style/images/ui-bg_highlight-soft_75_ffe45c_1x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/style/images/ui-icons_222222_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/style/images/ui-icons_228ef1_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/style/images/ui-icons_ef8c08_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/style/images/ui-icons_ffd27a_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/style/images/ui-icons_ffffff_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/style/jquery-ui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/style/jquery.cleditor.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/style/prettyPhoto.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/style/rateit.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/style/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/asset/style/widgets.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/default_layout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/help.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/leftmenu.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/template/ui.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,55 +327,12 @@
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="ControllerCode.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/gen/application/gen/controller/ControllerCode.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
-              <folding>
-                <element signature="e#6#28#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CreateLayout.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/gen/application/gen/controller/CreateLayout.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
-              <folding>
-                <element signature="e#6#28#0#PHP" expanded="true" />
-                <element signature="e#129#150#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ModelCode.php" pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="ModelCode.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/gen/application/gen/controller/ModelCode.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ViewCode.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/gen/application/gen/controller/ViewCode.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WedgitCode.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/gen/application/gen/controller/WedgitCode.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+            <state relative-caret-position="185">
+              <caret line="57" selection-start-line="57" selection-end-line="57" />
             </state>
           </provider>
         </entry>
@@ -93,7 +348,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>getTableNameList</find>
       <find>getModuleNameList</find>
       <find>TARGET_PUBLIC_NAME</find>
       <find>REPLACE_FLAG</find>
@@ -123,6 +377,7 @@
       <find>gogogo</find>
       <find>createFilesBtn</find>
       <find>createModelFile</find>
+      <find>layoutName</find>
     </findStrings>
     <replaceStrings>
       <replace>gen</replace>
@@ -146,9 +401,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/public/gen/application/gen/controller/Index.php" />
-        <option value="$PROJECT_DIR$/public/gen/template/leftmenu.html" />
-        <option value="$PROJECT_DIR$/public/gen/application/helper.php" />
         <option value="$PROJECT_DIR$/application/database.php" />
         <option value="$PROJECT_DIR$/thinkphp/library/think/View.php" />
         <option value="$PROJECT_DIR$/application/index/view/layout.html" />
@@ -157,7 +409,6 @@
         <option value="$PROJECT_DIR$/public/gen/template/CreateLayout/index.html" />
         <option value="$PROJECT_DIR$/application/index/生成输出/view/layout.html" />
         <option value="$PROJECT_DIR$/public/gen/application/gen/controller/FileUtil.php" />
-        <option value="$PROJECT_DIR$/public/gen/application/common.php" />
         <option value="$PROJECT_DIR$/public/gen/codeRepository/amaze/Controller/add.html" />
         <option value="$PROJECT_DIR$/public/gen/template/WedgitCode/authManage.html" />
         <option value="$PROJECT_DIR$/public/gen/template/ControllerCode/index.html" />
@@ -186,17 +437,21 @@
         <option value="$PROJECT_DIR$/public/gen/application/gen/view/template/CreateLayout/index.html" />
         <option value="$PROJECT_DIR$/public/gen/application/gen/view/main.html" />
         <option value="$PROJECT_DIR$/public/gen/application/gen/view/view_code/front-page.html" />
-        <option value="$PROJECT_DIR$/public/gen/application/gen/view/wedgit_code/menu.html" />
         <option value="$PROJECT_DIR$/public/gen/application/gen/view/view_code/index.html" />
         <option value="$PROJECT_DIR$/public/gen/application/gen/view/create_layout/index.html" />
         <option value="$PROJECT_DIR$/public/gen/application/gen/view/controller_code/index.html" />
-        <option value="$PROJECT_DIR$/public/gen/application/gen/controller/ModelCode.php" />
         <option value="$PROJECT_DIR$/public/gen/application/gen/view/menu.html" />
-        <option value="$PROJECT_DIR$/public/gen/application/gen/view/model_code/index.html" />
-        <option value="$PROJECT_DIR$/public/gen/application/gen/controller/CreateLayout.php" />
-        <option value="$PROJECT_DIR$/public/gen/application/gen/controller/WedgitCode.php" />
-        <option value="$PROJECT_DIR$/public/gen/application/gen/controller/ViewCode.php" />
         <option value="$PROJECT_DIR$/public/gen/application/gen/controller/ControllerCode.php" />
+        <option value="$PROJECT_DIR$/public/gen/application/gen/controller/ViewCode.php" />
+        <option value="$PROJECT_DIR$/public/gen/application/gen/controller/CreateLayout.php" />
+        <option value="$PROJECT_DIR$/public/gen/application/gen/controller/ProjectConfig.php" />
+        <option value="$PROJECT_DIR$/public/gen/application/common.php" />
+        <option value="$PROJECT_DIR$/public/gen/application/gen/controller/Index.php" />
+        <option value="$PROJECT_DIR$/public/gen/application/gen/controller/Base.php" />
+        <option value="$PROJECT_DIR$/public/gen/application/gen/view/wedgit_code/menu.html" />
+        <option value="$PROJECT_DIR$/public/gen/application/gen/controller/WedgitCode.php" />
+        <option value="$PROJECT_DIR$/public/gen/application/gen/controller/ModelCode.php" />
+        <option value="$PROJECT_DIR$/public/gen/application/gen/view/model_code/index.html" />
       </list>
     </option>
   </component>
@@ -242,6 +497,11 @@
             <path>
               <item name="tp-code-gen" type="b2602c69:ProjectViewProjectNode" />
               <item name="tp-code-gen" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="tp-code-gen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tp-code-gen" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="tp-code-gen" type="b2602c69:ProjectViewProjectNode" />
@@ -295,16 +555,6 @@
               <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="gen" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="view" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="create_layout" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="tp-code-gen" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tp-code-gen" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="gen" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="gen" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="view" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="model_code" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -315,13 +565,7 @@
               <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="gen" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="view" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="view_code" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="tp-code-gen" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tp-code-gen" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="temp" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wedgit_code" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -374,12 +618,16 @@
       <updated>1546416587375</updated>
       <workItem from="1546416588639" duration="5079000" />
       <workItem from="1546477357699" duration="21796000" />
-      <workItem from="1546563853104" duration="25465000" />
+      <workItem from="1546563853104" duration="25724000" />
+      <workItem from="1546822654537" duration="23000" />
+      <workItem from="1546828858740" duration="605000" />
+      <workItem from="1546853103414" duration="16000" />
+      <workItem from="1551233297705" duration="3984000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52340000" />
+    <option name="totallyTimeSpent" value="57227000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -394,26 +642,26 @@
     <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.47058824" visible="true" weight="0.245142" />
       <window_info anchor="bottom" id="TODO" order="11" weight="0.32733223" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info id="Database" order="3" sideWeight="0.498366" weight="0.22122571" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="4" weight="0.3289689" />
       <window_info anchor="bottom" id="Run" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="2" weight="0.32733223" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.47058824" visible="true" weight="0.23019432" />
-      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info id="Database" order="3" sideWeight="0.498366" weight="0.22122571" />
-      <window_info anchor="bottom" id="Find" order="6" weight="0.32843137" />
       <window_info id="Structure" order="2" sideWeight="0.501634" side_tool="true" weight="0.22122571" />
+      <window_info anchor="bottom" id="Terminal" order="2" weight="0.32733223" />
       <window_info id="Favorites" order="0" show_stripe_button="false" side_tool="true" weight="0.3295964" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
-      <window_info anchor="bottom" id="Database Console" order="12" weight="0.3267974" />
       <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Database Console" order="12" weight="0.3267974" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.32843137" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -428,68 +676,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/gen/codeRepository/amaze/Controller/controller.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/gen/codeRepository/amaze/Controller/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.travis.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/正则测试/if标签解析">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/file_out/controller/CorpusData.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="60" column="8" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/static/admin/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/static/admin/assets/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5149">
-          <caret line="56" column="28" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/static/admin/form2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
-          <caret line="369" lean-forward="true" selection-start-line="369" selection-end-line="369" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/static/admin/public-file.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1349">
-          <caret line="71" selection-start-line="71" selection-end-line="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/temp/menu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="178" column="32" selection-start-line="178" selection-start-column="32" selection-end-line="178" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/static/assets/css/app.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1123">
@@ -501,13 +687,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="103" column="10" lean-forward="true" selection-start-line="103" selection-start-column="10" selection-end-line="103" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/temp/controll.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="127" column="32" selection-start-line="127" selection-start-column="32" selection-end-line="127" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -525,9 +704,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/gen/application/gen/model/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/gen/application/gen/extra/tphconfig.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -542,32 +718,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/gen/application/gen/controller/Base.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/gen/application/common.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="719">
-          <caret line="40" column="42" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="42" />
-          <folding>
-            <element signature="e#16#48#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/gen/template/Index/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="430">
           <caret line="544" lean-forward="true" selection-start-line="544" selection-end-line="544" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/gen/template/help.html">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/public/gen/template/default_layout.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -590,24 +746,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/gen/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/gen/application/gen/view/template/default_layout.html">
+    <entry file="file://$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/default_layout.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2356">
           <caret line="124" column="31" lean-forward="true" selection-start-line="124" selection-start-column="31" selection-end-line="124" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/gen/application/gen/view/template/leftmenu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" column="6" lean-forward="true" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -615,17 +757,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
           <caret column="126716" selection-start-column="126716" selection-end-column="126716" />
-          <folding>
-            <element signature="e#41987#42310#1" expanded="true" />
-            <element signature="e#171285#172400#2" expanded="true" />
-            <element signature="e#173179#175302#2" expanded="true" />
-            <element signature="e#175449#177656#2" expanded="true" />
-            <element signature="e#177808#178199#2" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/gen/application/gen/view/template/CreateLayout/index.html">
+    <entry file="file://$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/CreateLayout/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1615">
           <caret line="85" column="8" selection-start-line="85" selection-start-column="8" selection-end-line="85" selection-end-column="8" />
@@ -646,24 +781,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/gen/application/gen/view/template/WedgitCode/menu.html">
+    <entry file="file://$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/WedgitCode/menu.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="672">
           <caret line="132" column="51" lean-forward="true" selection-start-line="132" selection-start-column="51" selection-end-line="132" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/gen/application/gen/view/wedgit_code/menu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/gen/application/gen/view/template/ControllerCode/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1368">
-          <caret line="159" column="68" selection-start-line="159" selection-start-column="54" selection-end-line="159" selection-end-column="68" />
         </state>
       </provider>
     </entry>
@@ -688,13 +809,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/gen/application/gen/view/menu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/gen/application/config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -702,13 +816,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/gen/application/helper.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/gen/application/route.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/gen/application/gen/view/template/ViewCode/index.html">
+    <entry file="file://$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/ViewCode/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1551">
           <caret line="133" column="37" selection-start-line="133" selection-start-column="37" selection-end-line="133" selection-end-column="37" />
@@ -722,31 +830,92 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/gen/application/gen/view/template/ModelCode/index.html">
+    <entry file="file://$PROJECT_DIR$/public/gen/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
+        <state relative-caret-position="38">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/ModelCode/addViewModelCode.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/ModelCode/generateRelationshipModelCode.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/ControllerCode/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="159" column="68" selection-start-line="159" selection-start-column="54" selection-end-line="159" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/ModelCode/addRelationModelCode.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/ModelCode/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1804">
           <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/gen/application/gen/view/model_code/index.html">
+    <entry file="file://$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/Index/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="55" column="24" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="24" />
+        <state relative-caret-position="-1452" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/ModelCode/index2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7607" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/gen/application/gen/view/老版本模板/leftmenu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/gen/application/gen/controller/ModelCode.php">
+    <entry file="file://$PROJECT_DIR$/public/gen/application/gen/view/menu.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+        <state relative-caret-position="181">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/gen/application/helper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="60" column="9" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/gen/application/gen/controller/ViewCode.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/gen/application/gen/controller/ProjectConfig.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/gen/application/gen/controller/FileUtil.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/gen/application/gen/controller/CreateLayout.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+        <state relative-caret-position="367">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="e#6#28#0#PHP" expanded="true" />
             <element signature="e#129#150#0#PHP" expanded="true" />
@@ -754,27 +923,95 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/gen/application/gen/controller/WedgitCode.php">
+    <entry file="file://$PROJECT_DIR$/public/gen/application/common.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+        <state relative-caret-position="405">
+          <caret line="304" selection-start-line="304" selection-end-line="304" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/gen/application/gen/controller/ViewCode.php">
+    <entry file="file://$PROJECT_DIR$/public/temp/controll.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+        <state relative-caret-position="-2547">
+          <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/gen/application/gen/controller/Index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/gen/application/gen/controller/ControllerCode.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="253">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
           <folding>
             <element signature="e#6#28#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/gen/application/gen/controller/Base.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+          <folding>
+            <element signature="e#128#149#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/index/file_out/view/layout.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/index/file_out/view/menu1.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/index/file_out/model/CorpusGroup.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-633" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/index/file_out/model/CorpusData.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-594" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/index/file_out/model/.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/gen/application/gen/view/wedgit_code/menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="111" column="33" selection-start-line="111" selection-start-column="33" selection-end-line="111" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/gen/application/gen/controller/WedgitCode.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-119">
+          <caret line="53" column="13" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/gen/application/gen/view/model_code/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/gen/application/gen/controller/ModelCode.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
         </state>
       </provider>
     </entry>

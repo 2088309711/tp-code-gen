@@ -23,7 +23,6 @@ class ViewCode extends Base
         $themeList = getThemeList();
         $this->assign('themeList', $themeList);
         $this->assign('page_name', 'front-file');
-        $this->assign('menu_group', '');
         return $this->fetch();
     }
 

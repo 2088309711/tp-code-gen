@@ -20,7 +20,6 @@ class CreateLayout extends Base
         $layoutName = get_db_config('theme') == '' ? 'mac_theme' : get_db_config('theme');
         $this->assign('layoutName', $layoutName);
         $this->assign('page_name', 'public-file');
-        $this->assign('menu_group', '');
         return $this->fetch();
     }
 

@@ -292,7 +292,7 @@ function getFileListEndWith($rootDir, $fileEnd)
 //$tableName 表名
 //$fieldName 字段名
 //是否为列表类型 是则返回以‘#’分隔的数组
-function getInputOption($tableName, $fieldName, $isList = false)
+function getInputOption2($tableName, $fieldName, $isList = false)
 {
     $resStr = tphDB('table_field')->where('table_name', C('database.prefix') . $tableName)
         ->where('field_name', $fieldName)->value('input_value');
@@ -302,9 +302,6 @@ function getInputOption($tableName, $fieldName, $isList = false)
     return $resStr;
 }
 
-function gen_test()
-{
-    return dump(getInputOption('admin_node', 'name', true));
-}
+
 
 

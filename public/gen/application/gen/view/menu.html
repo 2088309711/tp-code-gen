@@ -27,46 +27,12 @@
 </li>
 
 <li class="sidebar-nav-link">
-    <a href="javascript:;" class="sidebar-nav-sub-title">
-        <i class="am-icon-table sidebar-nav-link-logo"></i> 模型代码生成
-        <span class="am-icon-chevron-down am-fr am-margin-right-sm sidebar-nav-sub-ico
-            {eq name="menu_group" value="model" }sidebar-nav-sub-ico-rotate{/eq}"></span>
+    <a href="{:APP_NAME}/ModelCode/index"
+       {eq name="page_name" value="auto-model" }class="active" {/eq}>
+    <i class="am-icon-wpforms sidebar-nav-link-logo"></i> 模型代码生成
     </a>
-    <ul class="sidebar-nav sidebar-nav-sub"
-        {eq name="menu_group" value="model" }style="display:block;"{/eq}>
-        <li class="sidebar-nav-link">
-            <a href="{:APP_NAME}/ModelCode/index"
-               {eq name="page_name" value="auto-model" }class="active" {/eq}>
-            <span class="am-icon-angle-right sidebar-nav-link-logo"></span> 简易模型代码生成
-            </a>
-        </li>
-
-        <li class="sidebar-nav-link">
-            <a href="{:APP_NAME}/ModelCode/index2"
-               {eq name="page_name" value="manual-model" }class="active" {/eq}>
-            <span class="am-icon-angle-right sidebar-nav-link-logo"></span> 手动模型代码生成
-            </a>
-        </li>
-    </ul>
 </li>
 
-<li class="sidebar-nav-link">
-    <a href="javascript:;" class="sidebar-nav-sub-title">
-        <i class="am-icon-table sidebar-nav-link-logo"></i> 项目参数
-        <span class="am-icon-chevron-down am-fr am-margin-right-sm sidebar-nav-sub-ico"></span>
-    </a>
-    <ul class="sidebar-nav sidebar-nav-sub">
 
-        <li class="sidebar-nav-link">
-            <a href="{:APP_NAME}/ProjectConfig/index">
-                <span class="am-icon-angle-right sidebar-nav-link-logo"></span> 项目配置
-            </a>
-        </li>
 
-        <li class="sidebar-nav-link">
-            <a href="{:APP_NAME}/ProjectConfig/formConfig">
-                <span class="am-icon-angle-right sidebar-nav-link-logo"></span> 表单配置
-            </a>
-        </li>
-    </ul>
-</li>
+

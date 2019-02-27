@@ -1,0 +1,41 @@
+---------------------------------------------------------------
+[ 2019-01-28T09:20:58+08:00 ] 127.0.0.1 GET /
+[ info ] code.com/ [运行时间：0.234478s][吞吐率：4.26req/s] [内存消耗：1,345.75kb] [文件加载：39]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp-code-gen\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'code.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-28T09:20:58+08:00 ] 127.0.0.1 GET HTTP://code.com/
+[ info ] code.comHTTP://code.com/ [运行时间：0.045368s][吞吐率：22.04req/s] [内存消耗：1,346.09kb] [文件加载：39]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp-code-gen\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'code.com',
+  'accept' => '*/*',
+  'proxy-connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File

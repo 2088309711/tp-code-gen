@@ -27,7 +27,6 @@ class ModelCode extends Base
         $moduleName = get_db_config('moduleName');
         $this->assign('moduleName', $moduleName);
         $this->assign('page_name', 'auto-model');
-        $this->assign('menu_group', 'model');
         return $this->fetch();
     }
 
