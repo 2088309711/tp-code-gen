@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:84:"F:\phpStudy\WWW\tp-code-gen\public\gen/application/gen\view\create_layout\index.html";i:1546590797;s:69:"F:\phpStudy\WWW\tp-code-gen\public\gen\application\gen\view\main.html";i:1551251191;s:69:"F:\phpStudy\WWW\tp-code-gen\public\gen\application\gen\view\menu.html";i:1551250332;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:84:"F:\phpStudy\WWW\tp-code-gen\public\gen/application/gen\view\create_layout\index.html";i:1546590797;s:69:"F:\phpStudy\WWW\tp-code-gen\public\gen\application\gen\view\main.html";i:1551259222;s:69:"F:\phpStudy\WWW\tp-code-gen\public\gen\application\gen\view\menu.html";i:1551250332;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,19 +9,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="renderer" content="webkit">
     <meta http-equiv="Cache-Control" content="no-siteapp"/>
-    <link rel="icon" type="image/png" href="/static/assets/i/favicon.png">
-    <link rel="apple-touch-icon-precomposed" href="/static/assets/i/app-icon72x72@2x.png">
+    <link rel="icon" type="image/png" href="/gen/static/assets/i/favicon.png">
+    <link rel="apple-touch-icon-precomposed" href="/gen/static/assets/i/app-icon72x72@2x.png">
     <meta name="apple-mobile-web-app-title" content="Amaze UI"/>
-    <script src="/static/assets/js/echarts.min.js"></script>
-    <link rel="stylesheet" href="/static/assets/css/amazeui.min.css"/>
-    <link rel="stylesheet" href="/static/assets/css/amazeui.datatables.min.css"/>
-    <link rel="stylesheet" href="/static/assets/css/app.css">
-    <script src="/static/assets/js/jquery.min.js"></script>
+    <script src="/gen/static/assets/js/echarts.min.js"></script>
+    <link rel="stylesheet" href="/gen/static/assets/css/amazeui.min.css"/>
+    <link rel="stylesheet" href="/gen/static/assets/css/amazeui.datatables.min.css"/>
+    <link rel="stylesheet" href="/gen/static/assets/css/app.css">
+    <script src="/gen/static/assets/js/jquery.min.js"></script>
 
 </head>
 
 <body data-type="widgets">
-<script src="/static/assets/js/theme.js"></script>
+<script src="/gen/static/assets/js/theme.js"></script>
 <div class="am-g tpl-g">
     <!-- 头部 -->
     <!--<header>-->
@@ -181,9 +181,9 @@
     </div>
 </div>
 
-<script src="/static/assets/js/amazeui.min.js"></script>
-<script src="/static/assets/js/amazeui.datatables.min.js"></script>
-<script src="/static/assets/js/dataTables.responsive.min.js"></script>
-<script src="/static/assets/js/app.js"></script>
+<script src="/gen/static/assets/js/amazeui.min.js"></script>
+<script src="/gen/static/assets/js/amazeui.datatables.min.js"></script>
+<script src="/gen/static/assets/js/dataTables.responsive.min.js"></script>
+<script src="/gen/static/assets/js/app.js"></script>
 </body>
 </html>

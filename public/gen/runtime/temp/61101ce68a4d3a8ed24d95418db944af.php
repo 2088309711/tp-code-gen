@@ -1,36 +1,37 @@
+<?php if (!defined('THINK_PATH')) exit(); /*a:0:{}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>{:get_db_config('projectName')}</title>
-    <meta name="description" content="{:get_db_config('projectName')}-由ThinkphpHelper生成">
+    <title><?php echo get_db_config('projectName'); ?></title>
+    <meta name="description" content="<?php echo get_db_config('projectName'); ?>-由ThinkphpHelper生成">
     <meta name="keywords" content="index">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="renderer" content="webkit">
     <meta name="author" content="sjj">
     <meta http-equiv="Cache-Control" content="no-siteapp"/>
-    <link rel="icon" type="image/png" href="{:TARGET_PUBLIC_NAME}assets/i/favicon.png">
-    <link rel="apple-touch-icon-precomposed" href="{:TARGET_PUBLIC_NAME}assets/i/app-icon72x72@2x.png">
+    <link rel="icon" type="image/png" href="<?php echo TARGET_PUBLIC_NAME; ?>assets/i/favicon.png">
+    <link rel="apple-touch-icon-precomposed" href="<?php echo TARGET_PUBLIC_NAME; ?>assets/i/app-icon72x72@2x.png">
     <meta name="apple-mobile-web-app-title" content="Amaze UI"/>
-    <script src="{:TARGET_PUBLIC_NAME}static/assets/js/echarts.min.js"></script>
-    <link rel="stylesheet" href="{:TARGET_PUBLIC_NAME}static/assets/css/amazeui.min.css"/>
-    <link rel="stylesheet" href="{:TARGET_PUBLIC_NAME}static/assets/css/amazeui.datatables.min.css"/>
-    <link rel="stylesheet" href="{:TARGET_PUBLIC_NAME}static/assets/css/amazeui.datetimepicker.css"/>
-    <link rel="stylesheet" href="{:TARGET_PUBLIC_NAME}static/assets/css/app.css">
-    <script src="{:TARGET_PUBLIC_NAME}static/assets/js/jquery.min.js"></script>
+    <script src="<?php echo TARGET_PUBLIC_NAME; ?>static/assets/js/echarts.min.js"></script>
+    <link rel="stylesheet" href="<?php echo TARGET_PUBLIC_NAME; ?>static/assets/css/amazeui.min.css"/>
+    <link rel="stylesheet" href="<?php echo TARGET_PUBLIC_NAME; ?>static/assets/css/amazeui.datatables.min.css"/>
+    <link rel="stylesheet" href="<?php echo TARGET_PUBLIC_NAME; ?>static/assets/css/amazeui.datetimepicker.css"/>
+    <link rel="stylesheet" href="<?php echo TARGET_PUBLIC_NAME; ?>static/assets/css/app.css">
+    <script src="<?php echo TARGET_PUBLIC_NAME; ?>static/assets/js/jquery.min.js"></script>
 </head>
 <body>
 
 <body data-type="index">
-<script src="{:TARGET_PUBLIC_NAME}static/assets/js/theme.js"></script>
+<script src="<?php echo TARGET_PUBLIC_NAME; ?>static/assets/js/theme.js"></script>
 <div class="am-g tpl-g">
     <!-- 头部 -->
     <header>
         <!-- logo -->
         <div class="am-fl tpl-header-logo">
-            <a href="javascript:;"><img src="{:TARGET_PUBLIC_NAME}static/assets/img/logo.png" alt=""></a>
+            <a href="javascript:;"><img src="<?php echo TARGET_PUBLIC_NAME; ?>static/assets/img/logo.png" alt=""></a>
         </div>
         <!-- 右侧内容 -->
         <div class="tpl-header-fluid">
@@ -66,7 +67,7 @@
                             <li class="tpl-dropdown-menu-messages">
                                 <a href="javascript:;" class="tpl-dropdown-menu-messages-item am-cf">
                                     <div class="menu-messages-ico">
-                                        <img src="{:TARGET_PUBLIC_NAME}static/assets/img/user04.png" alt="">
+                                        <img src="<?php echo TARGET_PUBLIC_NAME; ?>static/assets/img/user04.png" alt="">
                                     </div>
                                     <div class="menu-messages-time">
                                         3小时前
@@ -87,7 +88,7 @@
                             <li class="tpl-dropdown-menu-messages">
                                 <a href="javascript:;" class="tpl-dropdown-menu-messages-item am-cf">
                                     <div class="menu-messages-ico">
-                                        <img src="{:TARGET_PUBLIC_NAME}static/assets/img/user02.png" alt="">
+                                        <img src="<?php echo TARGET_PUBLIC_NAME; ?>static/assets/img/user02.png" alt="">
                                     </div>
                                     <div class="menu-messages-time">
                                         5天前
@@ -188,19 +189,19 @@
         </div>
     </div>
     <!-- 侧边导航栏 -->
-    {literal}{include file="menu1" /}{/literal}
+    {include file="menu1" /}
 
     <!-- 内容区域 -->
-    {literal}{block name="content"}主要内容{/block}{/literal}
+    {block name="content"}主要内容{/block}
 </div>
 </div>
-<script src="{:TARGET_PUBLIC_NAME}static/assets/js/amazeui.min.js"></script>
-<script src="{:TARGET_PUBLIC_NAME}static/assets/js/amazeui.datatables.min.js"></script>
-<script src="{:TARGET_PUBLIC_NAME}static/assets/js/dataTables.responsive.min.js"></script>
-<script src="{:TARGET_PUBLIC_NAME}static/assets/js/amazeui.datetimepicker.min.js"></script>
-<script src="{:TARGET_PUBLIC_NAME}static/assets/js/locales/amazeui.datetimepicker.zh-CN.js" type="text/javascript"
+<script src="<?php echo TARGET_PUBLIC_NAME; ?>static/assets/js/amazeui.min.js"></script>
+<script src="<?php echo TARGET_PUBLIC_NAME; ?>static/assets/js/amazeui.datatables.min.js"></script>
+<script src="<?php echo TARGET_PUBLIC_NAME; ?>static/assets/js/dataTables.responsive.min.js"></script>
+<script src="<?php echo TARGET_PUBLIC_NAME; ?>static/assets/js/amazeui.datetimepicker.min.js"></script>
+<script src="<?php echo TARGET_PUBLIC_NAME; ?>static/assets/js/locales/amazeui.datetimepicker.zh-CN.js" type="text/javascript"
         charset="UTF-8"></script>
-<script src="{:TARGET_PUBLIC_NAME}static/assets/js/app.js"></script>
+<script src="<?php echo TARGET_PUBLIC_NAME; ?>static/assets/js/app.js"></script>
 </body>
 
 </html>
