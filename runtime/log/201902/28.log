@@ -1,0 +1,62 @@
+---------------------------------------------------------------
+[ 2019-02-28T10:43:31+08:00 ] 127.0.0.1 GET /index.php//gen/ModelCode/index
+[ info ] code.com/index.php//gen/ModelCode/index [运行时间：0.089381s][吞吐率：11.19req/s] [内存消耗：1,067.85kb] [文件加载：38]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp-code-gen\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'gen',
+    1 => 'ModelCode',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=8781605888',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://code.com/gen/index.php/CreateLayout/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.90 Safari/537.36 2345Explorer/9.6.0.18627',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'code.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-28T10:43:43+08:00 ] 127.0.0.1 GET /index.php/gen/ModelCode/index
+[ info ] code.com/index.php/gen/ModelCode/index [运行时间：0.032922s][吞吐率：30.38req/s] [内存消耗：1,067.86kb] [文件加载：38]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp-code-gen\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'gen',
+    1 => 'ModelCode',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=8781605888',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://code.com/gen/index.php/CreateLayout/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.90 Safari/537.36 2345Explorer/9.6.0.18627',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'code.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File

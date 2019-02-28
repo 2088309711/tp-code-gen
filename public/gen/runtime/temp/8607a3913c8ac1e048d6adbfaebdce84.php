@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:73:"F:\phpStudy\WWW\tp-code-gen\public\gen\codeRepository\amaze\View\add.html";i:1546415995;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:73:"F:\phpStudy\WWW\tp-code-gen\public\gen\codeRepository\amaze\View\add.html";i:1551258611;}*/ ?>
 {extend name="layout" /}
 {block name="content"}
 <!-- 内容区域 -->
@@ -15,20 +15,21 @@
                     </div>
                     <div class="widget-body am-fr">
                         <form class="am-form tpl-form-border-form" method="post">
-	<?php if(is_array($tableInfoArray) || $tableInfoArray instanceof \think\Collection || $tableInfoArray instanceof \think\Paginator): $i = 0; $__LIST__ = $tableInfoArray;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$tableInfo): $mod = ($i % 2 );++$i;if($tableInfo[$columnNameKey] != 'id'): ?>
-	<div class="am-form-group">
-			<label for="<?php echo $tableInfo[$columnNameKey]; ?>" class="am-u-sm-12 am-form-label am-text-left"><?php echo getFieldTitle($tableName, $tableInfo[$columnNameKey]); ?>
-					<span class="tpl-form-line-small-title"><?php echo $tableInfo[$columnNameKey]; ?></span></label>
-			<div class="am-u-sm-12">
-					<?php echo $tableInfo['input']; ?>
-			</div>
-	</div>
-	<?php endif; endforeach; endif; else: echo "" ;endif; ?>
-	<div class="am-form-group">
-			<div class="am-u-sm-12 am-u-sm-push-12">
-					<button type="submit" class="am-btn am-btn-primary tpl-btn-bg-color-success ">提交</button>
-			</div>
-	</div>
+    <?php if(is_array($tableInfoArray) || $tableInfoArray instanceof \think\Collection || $tableInfoArray instanceof \think\Paginator): $i = 0; $__LIST__ = $tableInfoArray;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$tableInfo): $mod = ($i % 2 );++$i;if($tableInfo[$columnNameKey] != 'id'): ?>
+    <div class="am-form-group">
+        <label for="<?php echo $tableInfo[$columnNameKey]; ?>" class="am-u-sm-12 am-form-label am-text-left"><?php echo getFieldTitle($tableName,
+            $tableInfo[$columnNameKey]); ?>
+            <span class="tpl-form-line-small-title"><?php echo $tableInfo[$columnNameKey]; ?></span></label>
+        <div class="am-u-sm-12">
+            <?php echo $tableInfo['input']; ?>
+        </div>
+    </div>
+    <?php endif; endforeach; endif; else: echo "" ;endif; ?>
+    <div class="am-form-group">
+        <div class="am-u-sm-12 am-u-sm-push-12">
+            <button type="submit" class="am-btn am-btn-primary tpl-btn-bg-color-success ">提交</button>
+        </div>
+    </div>
 </form>
                     </div>
                 </div>

@@ -4440,3 +4440,105 @@
 [ sql ] [ SQL ] SELECT value FROM config WHERE  name = 'moduleName' LIMIT 1 [ RunTime:0.000390s ]
 [ sql ] [ SQL ] SELECT value FROM config WHERE  name = 'theme' LIMIT 1 [ RunTime:0.000280s ]
 [ sql ] [ SQL ] SELECT value FROM config WHERE  name = 'theme' LIMIT 1 [ RunTime:0.000421s ]
+---------------------------------------------------------------
+[ 2019-02-27T17:26:15+08:00 ] 127.0.0.1 GET /gen/CreateLayout
+[ info ] code.com/gen/CreateLayout [运行时间：0.069911s][吞吐率：14.30req/s] [内存消耗：2,246.48kb] [文件加载：48]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp-code-gen\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'gen'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'gen',
+    1 => 'CreateLayout',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'code.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.90 Safari/537.36 2345Explorer/9.6.0.18627',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://code.com/gen/ModelCode/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=8781605888; PHPSESSID=hfv5ea14ch1oviinnu94675hf4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT sqlite
+[ info ] [ RUN ] app\gen\Controller\CreateLayout->index[ F:\phpStudy\WWW\tp-code-gen\public\gen\application\gen\controller\CreateLayout.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\tp-code-gen\public\gen/application/gen\view\create_layout\index.html [ array (
+  0 => 'pk',
+  1 => 'trueTable',
+  2 => 'db_prefix',
+  3 => 'tableNameList',
+  4 => 'moduleName',
+  5 => 'layoutName',
+  6 => 'page_name',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000378s ] sqlite:./db/tph.db
+[ sql ] [ SQL ] PRAGMA table_info( config ) [ RunTime:0.000393s ]
+[ sql ] [ SQL ] SELECT value FROM config WHERE  name = 'projectPath' LIMIT 1 [ RunTime:0.000150s ]
+[ sql ] [ SQL ] SELECT value FROM config WHERE  name = 'projectPath' LIMIT 1 [ RunTime:0.000158s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012071s ] mysql:host=127.0.0.1;dbname=tp-code-gen;charset=utf8
+[ sql ] [ SQL ] select table_name from information_schema.tables where table_schema='tp-code-gen' and table_type='base table' [ RunTime:0.001140s ]
+[ sql ] [ SQL ] SELECT value FROM config WHERE  name = 'moduleName' LIMIT 1 [ RunTime:0.000229s ]
+[ sql ] [ SQL ] SELECT value FROM config WHERE  name = 'theme' LIMIT 1 [ RunTime:0.000145s ]
+[ sql ] [ SQL ] SELECT value FROM config WHERE  name = 'theme' LIMIT 1 [ RunTime:0.000140s ]
+---------------------------------------------------------------
+[ 2019-02-27T17:26:15+08:00 ] 127.0.0.1 GET /gen/CreateLayout
+[ info ] code.com/gen/CreateLayout [运行时间：0.077065s][吞吐率：12.98req/s] [内存消耗：2,246.48kb] [文件加载：48]
+[ info ] [ LANG ] F:\phpStudy\WWW\tp-code-gen\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'gen'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'gen',
+    1 => 'CreateLayout',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'code.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.90 Safari/537.36 2345Explorer/9.6.0.18627',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://code.com/gen/ModelCode/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=8781605888; PHPSESSID=hfv5ea14ch1oviinnu94675hf4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT sqlite
+[ info ] [ RUN ] app\gen\Controller\CreateLayout->index[ F:\phpStudy\WWW\tp-code-gen\public\gen\application\gen\controller\CreateLayout.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\tp-code-gen\public\gen/application/gen\view\create_layout\index.html [ array (
+  0 => 'pk',
+  1 => 'trueTable',
+  2 => 'db_prefix',
+  3 => 'tableNameList',
+  4 => 'moduleName',
+  5 => 'layoutName',
+  6 => 'page_name',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000389s ] sqlite:./db/tph.db
+[ sql ] [ SQL ] PRAGMA table_info( config ) [ RunTime:0.000372s ]
+[ sql ] [ SQL ] SELECT value FROM config WHERE  name = 'projectPath' LIMIT 1 [ RunTime:0.000158s ]
+[ sql ] [ SQL ] SELECT value FROM config WHERE  name = 'projectPath' LIMIT 1 [ RunTime:0.000297s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003067s ] mysql:host=127.0.0.1;dbname=tp-code-gen;charset=utf8
+[ sql ] [ SQL ] select table_name from information_schema.tables where table_schema='tp-code-gen' and table_type='base table' [ RunTime:0.001959s ]
+[ sql ] [ SQL ] SELECT value FROM config WHERE  name = 'moduleName' LIMIT 1 [ RunTime:0.000446s ]
+[ sql ] [ SQL ] SELECT value FROM config WHERE  name = 'theme' LIMIT 1 [ RunTime:0.000456s ]
+[ sql ] [ SQL ] SELECT value FROM config WHERE  name = 'theme' LIMIT 1 [ RunTime:0.000918s ]

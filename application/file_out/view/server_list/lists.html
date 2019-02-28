@@ -1,4 +1,3 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:75:"F:\phpStudy\WWW\tp-code-gen\public\gen\codeRepository\amaze\View\lists.html";i:1551258636;}*/ ?>
 {extend name="layout" /}
 {block name="content"}
 <!-- 内容区域 -->
@@ -8,7 +7,7 @@
             <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
                 <div class="widget am-cf">
                     <div class="widget-head am-cf">
-                        <div class="widget-title  am-cf">管理<?php echo $tableName; ?></div>
+                        <div class="widget-title  am-cf">管理server_list</div>
                     </div>
                     <div class="widget-body  am-fr">
     <div class="am-u-sm-12 am-u-md-6 am-u-lg-6">
@@ -16,7 +15,7 @@
             <div class="am-btn-toolbar">
                 <div class="am-btn-group am-btn-group-xs">
                     <a class="am-btn am-btn-default am-btn-success"
-                       href="{:url('<?php echo $tableName; ?>/add')}">
+                       href="{:url('server_list/add')}">
                         <span class="am-icon-plus"></span> 新增
                     </a>
                     <!--
@@ -32,24 +31,34 @@
         <table width="100%" class="am-table am-table-compact am-table-striped tpl-table-black " id="example-r">
             <thead>
             <tr>
-                <?php if(is_array($tableInfoArray) || $tableInfoArray instanceof \think\Collection || $tableInfoArray instanceof \think\Paginator): $i = 0; $__LIST__ = $tableInfoArray;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$tableInfo): $mod = ($i % 2 );++$i;?>
-                <th><?php echo getFieldTitle($tableName, $tableInfo[$columnNameKey]); ?></th>
-                <?php endforeach; endif; else: echo "" ;endif; ?>
-                <th>操作</th>
+                                <th>id</th>
+                                <th>name</th>
+                                <th>access</th>
+                                <th>client_id</th>
+                                <th>staff_id</th>
+                                <th>create_time</th>
+                                <th>update_time</th>
+                                <th>active_time</th>
+                                <th>操作</th>
             </tr>
             </thead>
             <tbody>
-            {volist name="<?php echo $tableName; ?>List" id="vo"}
+            {volist name="server_listList" id="vo"}
             <tr class="gradeX">
-                <?php if(is_array($tableInfoArray) || $tableInfoArray instanceof \think\Collection || $tableInfoArray instanceof \think\Paginator): $i = 0; $__LIST__ = $tableInfoArray;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$tableInfo): $mod = ($i % 2 );++$i;?>
-                <td>{$vo.<?php echo $tableInfo[$columnNameKey]; ?>}</td>
-                <?php endforeach; endif; else: echo "" ;endif; ?>
-                <td>
+                                <td>{$vo.id}</td>
+                                <td>{$vo.name}</td>
+                                <td>{$vo.access}</td>
+                                <td>{$vo.client_id}</td>
+                                <td>{$vo.staff_id}</td>
+                                <td>{$vo.create_time}</td>
+                                <td>{$vo.update_time}</td>
+                                <td>{$vo.active_time}</td>
+                                <td>
                     <div class="tpl-table-black-operation">
-                        <a href="{:url('<?php echo $tableName; ?>/edit', ['id'=>$vo['id']])}">
+                        <a href="{:url('server_list/edit', ['id'=>$vo['id']])}">
                             <i class="am-icon-pencil"></i> 编辑
                         </a>
-                        <a href="{:url('<?php echo $tableName; ?>/delete', ['id'=>$vo['id']])}"
+                        <a href="{:url('server_list/delete', ['id'=>$vo['id']])}"
                            onclick='return confirm("确定删除吗？")' class="tpl-table-black-operation-del">
                             <i class="am-icon-trash"></i> 删除
                         </a>
@@ -65,7 +74,7 @@
 
         <div class="am-fr">
             <ul class="am-pagination tpl-pagination">
-                {$<?php echo $tableName; ?>List->render()}
+                {$server_listList->render()}
             </ul>
         </div>
     </div>

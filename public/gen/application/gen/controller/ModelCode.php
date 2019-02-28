@@ -60,8 +60,7 @@ class ModelCode extends Base
     //生成模型文件
     public function createModelFile()
     {
-
-
+        
         $modelPath = BASE_PATH . get_db_config('projectPath') . 'file_out' . DS . 'model' . DS;
         $tableName = getTableName(input('tableName'));
         if (!file_exists($modelPath)) {

@@ -80,15 +80,25 @@ function get_module_name_list()
     return array_diff($allFileList, $ignoreList);
 }
 
-//获取列名列表
-function getTableInfoArray($tableName)
+/**
+ * 获取列名列表
+ * @param $tableName
+ * @param bool $prefix 是否带上前缀
+ * @return array|mixed|string
+ * @throws \think\db\exception\BindParamException
+ * @throws \think\exception\PDOException
+ */
+function getTableInfoArray($tableName, $prefix = false)
 {
     $dbType = config('database.type');
     $Model = db(); // 实例化一个model对象 没有对应任何数据表
+
+
     if ($dbType == 'mysql') {
         $dbName = config('database.database');
-        $result = $Model->query("select * from information_schema.columns where table_schema='" . $dbName . "' and table_name='" . config('database.prefix') . $tableName . "'");
-        //$result = $Model->query("select * from information_schema.columns where table_schema='".$dbName."' and table_name='".$tableName."'");
+        $result = $Model->query("select * from information_schema.columns where table_schema='" . $dbName . "' and table_name='" . ($prefix ? '' : config('database.prefix')) . $tableName . "'");
+
+
         $result = changeColumCase($result); //修正information_schema大小写问题
         return $result;
     } else { //sqlite

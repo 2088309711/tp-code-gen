@@ -24,7 +24,6 @@ class ControllerCode extends Base
     //生成控制器代码
     public function generateControllerCode()
     {
-
         $tableName = getTableName(input('tableName'));
         $moduleName = input('moduleName');
         $this->assign('tableName', $tableName);

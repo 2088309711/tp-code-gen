@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:81:"F:\phpStudy\WWW\tp-code-gen\public\gen/application/gen\view\model_code\index.html";i:1551255983;s:69:"F:\phpStudy\WWW\tp-code-gen\public\gen\application\gen\view\main.html";i:1551259222;s:69:"F:\phpStudy\WWW\tp-code-gen\public\gen\application\gen\view\menu.html";i:1551250332;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:81:"F:\phpStudy\WWW\tp-code-gen\public\gen/application/gen\view\model_code\index.html";i:1551255983;s:69:"F:\phpStudy\WWW\tp-code-gen\public\gen\application\gen\view\main.html";i:1551259222;s:69:"F:\phpStudy\WWW\tp-code-gen\public\gen\application\gen\view\menu.html";i:1551322195;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -69,40 +69,46 @@
 
             <!-- 菜单 -->
             <li class="sidebar-nav-link">
-    <a href="<?php echo APP_NAME; ?>/CreateLayout"
+    <a href="<?php echo APP_NAME; ?>/index.php/CreateLayout"
        <?php if($page_name == 'public-file'): ?>class="active" <?php endif; ?>>
-    <i class="am-icon-wpforms sidebar-nav-link-logo"></i> 公共文件
+    <i class="am-icon-wpforms sidebar-nav-link-logo"></i> 资源
     </a>
 </li>
 
 <li class="sidebar-nav-link">
-    <a href="<?php echo APP_NAME; ?>/WedgitCode/menu"
+    <a href="<?php echo APP_NAME; ?>/index.php/WedgitCode/menu"
        <?php if($page_name == 'menu'): ?>class="active" <?php endif; ?>>
     <i class="am-icon-wpforms sidebar-nav-link-logo"></i> 菜单
     </a>
 </li>
 
 <li class="sidebar-nav-link">
-    <a href="<?php echo APP_NAME; ?>/ViewCode"
+    <a href="<?php echo APP_NAME; ?>/index.php/ViewCode"
        <?php if($page_name == 'front-file'): ?>class="active" <?php endif; ?>>
     <i class="am-icon-wpforms sidebar-nav-link-logo"></i> 视图
     </a>
 </li>
 
 <li class="sidebar-nav-link">
-    <a href="<?php echo APP_NAME; ?>/ControllerCode"
+    <a href="<?php echo APP_NAME; ?>/index.php/ControllerCode"
        <?php if($page_name == 'controll-file'): ?>class="active" <?php endif; ?>>
     <i class="am-icon-wpforms sidebar-nav-link-logo"></i> 控制器
     </a>
 </li>
 
 <li class="sidebar-nav-link">
-    <a href="<?php echo APP_NAME; ?>/ModelCode/index"
+    <a href="<?php echo APP_NAME; ?>/index.php/ModelCode/index"
        <?php if($page_name == 'auto-model'): ?>class="active" <?php endif; ?>>
     <i class="am-icon-wpforms sidebar-nav-link-logo"></i> 模型
     </a>
 </li>
 
+<li class="sidebar-nav-link">
+    <a href="<?php echo APP_NAME; ?>/index.php/ValidateCode/index"
+       <?php if($page_name == 'validate'): ?>class="active" <?php endif; ?>>
+    <i class="am-icon-wpforms sidebar-nav-link-logo"></i> 验证器
+    </a>
+</li>
 
 
 
