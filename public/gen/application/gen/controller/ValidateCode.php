@@ -81,6 +81,9 @@ class ValidateCode extends Base
     //生成验证器代码
     public function generateValidateCode($tableName, $rule, $message)
     {
+
+        $moduleName = 'index';
+
         $this->assign('tableName', getTableName($tableName));
 
         $codeBasePath = CODE_TEMPLATE . DS . 'amaze' . DS;
@@ -88,6 +91,7 @@ class ValidateCode extends Base
 
         $this->assign('rule', $rule);
         $this->assign('message', $message);
+        $this->assign('moduleName', $moduleName);
 
         return PHP_HEAD . $this->display($template, [], [], ['view_path' => $codeBasePath . 'Validate' . DS]);
     }

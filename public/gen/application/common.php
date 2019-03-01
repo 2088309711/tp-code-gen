@@ -72,13 +72,6 @@ function get_table_name_list()
     return '数据库类型不支持';
 }
 
-//读取项目目录下的文件夹，供用户选择哪个才是module目录
-function get_module_name_list()
-{
-    $ignoreList = config('tphconfig.ignoreList');
-    $allFileList = getDirList(BASE_PATH . get_db_config('projectPath'));
-    return array_diff($allFileList, $ignoreList);
-}
 
 /**
  * 获取列名列表
@@ -122,22 +115,6 @@ function getColumnNameKey()
     }
 }
 
-//仅获取目录列表
-function getDirList($directory)
-{
-    $files = array();
-    try {
-        $dir = new \DirectoryIterator($directory);
-    } catch (Exception $e) {
-        throw new Exception($directory . ' is not readable');
-    }
-    foreach ($dir as $file) {
-        if ($file->isDot()) continue;
-        if ($file->isFile()) continue;
-        $files[] = $file->getFileName();
-    }
-    return $files;
-}
 
 //把带下划线命名转换为驼峰命名（首字母大写）
 function tableNameToModelName($tableName)
@@ -151,15 +128,15 @@ function tableNameToModelName($tableName)
 }
 
 //把带下划线命名转换为驼峰命名（首字母小写）
-function columNameToVarName($columName)
-{
-    $tempArray = explode('_', $columName);
-    $result = "";
-    for ($i = 0; $i < count($tempArray); $i++) {
-        $result .= ucfirst($tempArray[$i]);
-    }
-    return lcfirst($result);
-}
+//function columNameToVarName($columName)
+//{
+//    $tempArray = explode('_', $columName);
+//    $result = "";
+//    for ($i = 0; $i < count($tempArray); $i++) {
+//        $result .= ucfirst($tempArray[$i]);
+//    }
+//    return lcfirst($result);
+//}
 
 // 转化键名为小写-用于修正mysql information_schema返回键名在不同环境下大小写不同的问题
 //$columInfoArray 返回的表信息
@@ -236,49 +213,6 @@ function pressInputTypeTemplate($tableName, $fieldName, $value = null, $codeLib 
         }
     }
     return $templateBasePath . $folder . "text.html";
-}
-
-
-if (!function_exists('testView')) {
-    /**
-     * 渲染模板输出
-     * @param string $template 模板文件
-     * @param array $vars 模板变量
-     * @param integer $code 状态码
-     * @param callable $filter 内容过滤
-     * @return \think\response\View
-     */
-    function testView($template = '', $vars = [], $code = 200)
-    {
-        return \think\Response::create($template, 'view', $code)->assign($vars);
-    }
-}
-
-//读取前端风格模板文件夹列表
-function getThemeList()
-{
-    $themeNameList0 = FileUtil::getDirList(__ROOT__ . DS . CODE_TEMPLATE);
-    $themeNameList = array();
-    foreach ($themeNameList0 as $themeDirName) {
-        if (substr($themeDirName, -5) == 'theme') {    //判断以layout结尾的才是布局文件夹
-            $themeNameList[] = $themeDirName;
-        }
-    }
-    return $themeNameList;
-}
-
-
-//读取后端风格模板文件夹列表
-function getCodelibList()
-{
-    $codelibNameList0 = FileUtil::getDirList(__ROOT__ . DS . CODE_TEMPLATE);
-    $codelibDirNameList = array();
-    foreach ($codelibNameList0 as $codelibDirName) {
-        if (substr($codelibDirName, -5) != 'theme') {    //判断以layout结尾的才是布局文件夹
-            $codelibDirNameList[] = $codelibDirName;
-        }
-    }
-    return $codelibDirNameList;
 }
 
 

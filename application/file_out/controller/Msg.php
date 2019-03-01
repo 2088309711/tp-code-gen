@@ -1,7 +1,7 @@
 <?php
 
 //由ThinkphpHelper自动生成,请根据需要修改
-namespace app\\controller;
+namespace app\index\controller;
 
 use think\Controller;
 
@@ -9,7 +9,7 @@ class Msg extends Controller{
 	protected $model = null;
 
 	public function _initialize(){	//初始化
-		$this->model = new \app\\model\Msg;
+		$this->model = new \app\index\model\Msg;
 	}
 	    //默认入口
     public function index(){

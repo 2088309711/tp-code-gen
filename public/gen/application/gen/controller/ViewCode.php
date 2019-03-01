@@ -18,15 +18,6 @@ class ViewCode extends Base
         return view();
     }
 
-
-    /*
-     *
-     *  目标模块 index
-        前端风格 amaze_theme
-        布局模板 layout
-     *
-     */
-
     //一键生成表单文件
     public function generateAllView()
     {
