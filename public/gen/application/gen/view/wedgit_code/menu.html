@@ -10,70 +10,6 @@
                 </div>
                 <div class="widget-body am-fr">
                     <form class="am-form tpl-form-border-form">
-                        <div class="am-form-group">
-                            <label class="am-u-sm-12 am-form-label am-text-left">目标模块
-                            </label>
-                            <div class="am-u-sm-12">
-                                <input type="text" class="tpl-form-input am-margin-top-xs" id="moduleName"
-                                       value="{$moduleName}" disabled>
-                            </div>
-                        </div>
-
-                        <div class="am-form-group">
-                            <label class="am-u-sm-12 am-form-label am-text-left">风格模板
-                            </label>
-                            <div class="am-u-sm-12">
-                                <input type="text" class="tpl-form-input am-margin-top-xs" id="layoutName"
-                                       value="{$layoutName}" disabled>
-                            </div>
-                        </div>
-
-                        <div class="am-form-group">
-                            <label class="am-u-sm-12 am-form-label am-text-left">代码模板
-                            </label>
-                            <div class="am-u-sm-12">
-                                <input type="text" class="tpl-form-input am-margin-top-xs" id="codelibName"
-                                       value="{$codelibName}" disabled>
-                            </div>
-                        </div>
-
-                        <div class="am-form-group">
-                            <label class="am-u-sm-12 am-form-label am-text-left">菜单模板
-                            </label>
-                            <div class="am-u-sm-12">
-
-                                <select id="menuName">
-                                    {volist name="menuList" id="menu" }
-                                    <option value="{$menu}">{$menu}</option>
-                                    {/volist}
-                                </select>
-
-                            </div>
-                        </div>
-
-                        <div class="am-form-group">
-                            <label class="am-u-sm-12 am-form-label am-text-left">保存文件名
-                            </label>
-                            <div class="am-u-sm-12">
-                                <input type="text" class="tpl-form-input am-margin-top-xs" name="saveFileName"
-                                       value="menu1" id="saveFileName">
-                            </div>
-                        </div>
-
-                        <div class="am-form-group">
-                            <label class="am-u-sm-12 am-form-label am-text-left">数据表
-                            </label>
-                            <div class="am-u-sm-12">
-
-                                {volist name="tableNameList" id="table" }
-                                <label class="am-checkbox">
-                                    <input type="checkbox" name="table" value="{$table}" data-am-ucheck checked>
-                                    {$table}
-                                </label>
-                                {/volist}
-
-                            </div>
-                        </div>
 
                         <div class="am-form-group">
                             <div class="am-u-sm-12 am-u-sm-push-12">
@@ -98,25 +34,7 @@
 <script type="text/javascript">
     $(function () {
         $('#submit').click(function () {
-            var moduleName = $('#moduleName').val();
-            var checkedBox = $('input:checked');
-            var selectTableName = [];
-            var saveFile = $('#saveFileName').val();
-            var menuName = $('#menuName').val();
-            var codelibName = $('#codelibName').val();
-            checkedBox.each(function () {
-                selectTableName.push($(this).val());
-            });
-            var layoutName = $('#layoutName').val();
-
-            $.post("{:url(CONTROLLER_NAME.'/creatFiles')}", {
-                'moduleName': moduleName,
-                'selectTableName': selectTableName,
-                'theme': layoutName,
-                'codelib': codelibName,
-                'menuName': menuName,
-                'saveFileName': saveFile
-            }, function (data) {
+            $.post("{:url(CONTROLLER_NAME.'/creatFiles')}", function (data) {
                 $('#result-panel').removeClass('am-hide');
                 $('#result').html(data);
             });

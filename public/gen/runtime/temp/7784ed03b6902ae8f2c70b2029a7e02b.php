@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:84:"F:\phpStudy\WWW\tp-code-gen\public\gen/application/gen\view\validate_code\index.html";i:1551322983;s:69:"F:\phpStudy\WWW\tp-code-gen\public\gen\application\gen\view\main.html";i:1551259222;s:69:"F:\phpStudy\WWW\tp-code-gen\public\gen\application\gen\view\menu.html";i:1551322195;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:84:"F:\phpStudy\WWW\tp-code-gen\public\gen/application/gen\view\validate_code\index.html";i:1551409518;s:69:"F:\phpStudy\WWW\tp-code-gen\public\gen\application\gen\view\main.html";i:1551259222;s:69:"F:\phpStudy\WWW\tp-code-gen\public\gen\application\gen\view\menu.html";i:1551322195;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -136,7 +136,7 @@
                             <div class="am-u-sm-12 am-u-sm-push-12">
                                 <button type="button" class="am-btn am-btn-primary tpl-btn-bg-color-success"
                                         id="submit">
-                                    一键生成
+                                    生成
                                 </button>
                             </div>
                         </div>

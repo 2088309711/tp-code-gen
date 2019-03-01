@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:80:"F:\phpStudy\WWW\tp-code-gen\public\gen/application/gen\view\view_code\index.html";i:1546590690;s:69:"F:\phpStudy\WWW\tp-code-gen\public\gen\application\gen\view\main.html";i:1551259222;s:69:"F:\phpStudy\WWW\tp-code-gen\public\gen\application\gen\view\menu.html";i:1551322195;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:80:"F:\phpStudy\WWW\tp-code-gen\public\gen/application/gen\view\view_code\index.html";i:1551408750;s:69:"F:\phpStudy\WWW\tp-code-gen\public\gen\application\gen\view\main.html";i:1551259222;s:69:"F:\phpStudy\WWW\tp-code-gen\public\gen\application\gen\view\menu.html";i:1551322195;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -132,51 +132,7 @@
                 </div>
                 <div class="widget-body am-fr">
                     <form class="am-form tpl-form-border-form">
-                        <div class="am-form-group">
-                            <label class="am-u-sm-12 am-form-label am-text-left">目标模块
-                            </label>
-                            <div class="am-u-sm-12">
-                                <input type="text" class="tpl-form-input am-margin-top-xs" id="moduleName"
-                                       value="<?php echo $moduleName; ?>" disabled>
-                            </div>
-                        </div>
 
-                        <div class="am-form-group">
-                            <label class="am-u-sm-12 am-form-label am-text-left">前端风格
-                            </label>
-                            <div class="am-u-sm-12">
-
-
-                                <select id="theme">
-                                    <?php if(is_array($themeList) || $themeList instanceof \think\Collection || $themeList instanceof \think\Paginator): $i = 0; $__LIST__ = $themeList;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$theme): $mod = ($i % 2 );++$i;?>
-                                    <option value="<?php echo $theme; ?>"><?php echo $theme; ?></option>
-                                    <?php endforeach; endif; else: echo "" ;endif; ?>
-                                </select>
-
-                            </div>
-                        </div>
-
-                        <div class="am-form-group">
-                            <label class="am-u-sm-12 am-form-label am-text-left">布局模板
-                            </label>
-                            <div class="am-u-sm-12">
-                                <input type="text" class="tpl-form-input am-margin-top-xs" id="layoutList"
-                                       value="layout" placeholder="逗号分隔,可留空">
-                            </div>
-                        </div>
-
-                        <div class="am-form-group">
-                            <label class="am-u-sm-12 am-form-label am-text-left">数据表
-                            </label>
-                            <div class="am-u-sm-12">
-                                <?php if(is_array($tableNameList) || $tableNameList instanceof \think\Collection || $tableNameList instanceof \think\Paginator): $i = 0; $__LIST__ = $tableNameList;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$table): $mod = ($i % 2 );++$i;?>
-                                <label class="am-checkbox">
-                                    <input type="checkbox" name="table" value="<?php echo $table; ?>" data-am-ucheck checked>
-                                    <?php echo $table; ?>
-                                </label>
-                                <?php endforeach; endif; else: echo "" ;endif; ?>
-                            </div>
-                        </div>
 
                         <div class="am-form-group">
                             <div class="am-u-sm-12 am-u-sm-push-12">
@@ -187,8 +143,6 @@
                             </div>
                         </div>
 
-                        <!--$('#result-panel').removeClass('am-hide');-->
-                        <!--$('#result').html(data);-->
                         <div class="am-panel am-panel-default am-hide" id="result-panel">
                             <div class="am-panel-bd am-text-break" id="result"></div>
                         </div>
@@ -202,36 +156,14 @@
 </div>
 
 <script type="text/javascript">
-    var db_prefix = '<?php echo $db_prefix; ?>';
-
     $(function () {
         $('#submit').click(function () {
-            var theme = $('#theme').val();
-            var module = $('#moduleName').val();
-            var checkedBox = $('input:checked');
-            var selectTableName = [];
-            if (db_prefix != '') {
-                checkedBox.each(function () {
-                    selectTableName.push($(this).val().replace(db_prefix, ''));
-                });
-                console.log(selectTableName)
-            } else {
-                checkedBox.each(function () {
-                    selectTableName.push($(this).val());
-                });
-            }
-
-            $.post("<?php echo CONTROLLER_NAME; ?>/generateAllView", {
-                'moduleName': module,
-                'selectTableName': selectTableName,
-                'theme': theme
-            }, function (data) {
+            $.post("<?php echo CONTROLLER_NAME; ?>/generateAllView", function (data) {
                 $('#result-panel').removeClass('am-hide');
                 $('#result').html(data);
             });
         });
     });
-
 </script>
 
 

@@ -3,16 +3,44 @@
   <component name="ChangeListManager">
     <list default="true" id="d89094ab-8929-4a9d-99dd-6681107802de" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/gen/application/common.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/common.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/file_out/validate/CorpusData.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/file_out/validate/CorpusGroup.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/file_out/validate/Example.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/file_out/validate/Msg.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/file_out/validate/ServerList.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/file_out/validate/Staff.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/file_out/view/corpus_data/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/file_out/view/corpus_data/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/file_out/view/corpus_data/lists.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/file_out/view/corpus_group/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/file_out/view/corpus_group/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/file_out/view/corpus_group/lists.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/file_out/view/example/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/file_out/view/example/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/file_out/view/example/lists.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/file_out/view/msg/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/file_out/view/msg/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/file_out/view/msg/lists.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/file_out/view/server_list/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/file_out/view/server_list/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/file_out/view/server_list/lists.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/file_out/view/staff/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/file_out/view/staff/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/file_out/view/staff/lists.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/public/gen/application/gen/controller/ControllerCode.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/controller/ControllerCode.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/controller/CreateLayout.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/controller/CreateLayout.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/gen/application/gen/controller/ModelCode.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/controller/ModelCode.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/menu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/gen/runtime/log/201902/27.log" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/runtime/log/201902/27.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/gen/runtime/temp/11a3a7a8bc109330cb8201c9d19d087e.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/runtime/temp/11a3a7a8bc109330cb8201c9d19d087e.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/gen/runtime/temp/6bfeddca44b2a970ccd5edf63ddeab2f.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/runtime/temp/6bfeddca44b2a970ccd5edf63ddeab2f.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/controller/ViewCode.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/controller/ViewCode.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/controller/WedgitCode.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/controller/WedgitCode.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/controller_code/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/controller_code/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/create_layout/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/create_layout/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/model_code/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/model_code/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/validate_code/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/validate_code/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/view_code/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/view_code/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/application/gen/view/wedgit_code/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/gen/view/wedgit_code/menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/gen/runtime/temp/2f3f32637e6a996042ecb4f30e36d5b1.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/runtime/temp/2f3f32637e6a996042ecb4f30e36d5b1.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/gen/runtime/temp/6c7d01ef97e55ab1a2d464c8c2b4d179.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/runtime/temp/6c7d01ef97e55ab1a2d464c8c2b4d179.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/gen/runtime/temp/7921c2ba1c51fe05fb795912311d5ff1.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/runtime/temp/7921c2ba1c51fe05fb795912311d5ff1.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/gen/runtime/temp/8607a3913c8ac1e048d6adbfaebdce84.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/runtime/temp/8607a3913c8ac1e048d6adbfaebdce84.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/gen/runtime/temp/a57e2689689561556b07d26bc21230ec.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/runtime/temp/a57e2689689561556b07d26bc21230ec.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/gen/runtime/temp/c3a726d25ff1d942d9768df325c54428.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/runtime/temp/c3a726d25ff1d942d9768df325c54428.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/gen/runtime/temp/d59bdb4fc48fdeaa7ceb0f5894deac4b.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/runtime/temp/d59bdb4fc48fdeaa7ceb0f5894deac4b.php" afterDir="false" />
@@ -42,83 +70,64 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="common.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/gen/application/common.php">
+    <leaf>
+      <file leaf-file-name="Base.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/gen/application/gen/controller/Base.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="40" column="9" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+            <state relative-caret-position="110">
+              <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
               <folding>
-                <element signature="e#16#48#0#PHP" expanded="true" />
+                <element signature="e#128#149#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CorpusData.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/file_out/validate/CorpusData.php">
+      <file leaf-file-name="ControllerCode.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/gen/application/gen/controller/ControllerCode.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+            <state relative-caret-position="176">
+              <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Example.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/file_out/validate/Example.php">
+      <file leaf-file-name="CreateLayout.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/gen/application/gen/controller/CreateLayout.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="593" selection-start-line="593" selection-end-line="593" />
+            <state relative-caret-position="418">
+              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+              <folding>
+                <element signature="e#6#28#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Msg.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/file_out/validate/Msg.php">
+      <file leaf-file-name="FileUtil.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/gen/application/gen/controller/FileUtil.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/gen/application/gen/view/model_code/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-5341" />
+            <state relative-caret-position="269">
+              <caret line="39" column="35" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
+            </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rule.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/gen/codeRepository/amaze/Validate/rule.html">
+      <file leaf-file-name="Index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/gen/application/gen/controller/Index.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="ModelCode.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/gen/application/gen/controller/ModelCode.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="88">
-              <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="scene.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/gen/codeRepository/amaze/Validate/scene.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="59" selection-start-line="1" selection-start-column="59" selection-end-line="1" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ServerList.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/file_out/validate/ServerList.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="193" column="2" selection-start-line="193" selection-start-column="2" selection-end-line="193" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Staff.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/file_out/validate/Staff.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7277" />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="validate.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/gen/codeRepository/amaze/Validate/validate.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="12" selection-start-column="12" selection-end-column="12" />
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -126,11 +135,29 @@
       <file leaf-file-name="ValidateCode.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/gen/application/gen/controller/ValidateCode.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
+            <state relative-caret-position="1958">
               <caret line="89" column="30" selection-start-line="89" selection-start-column="23" selection-end-line="89" selection-end-column="30" />
               <folding>
                 <element signature="e#6#99#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ViewCode.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/gen/application/gen/controller/ViewCode.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WedgitCode.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/gen/application/gen/controller/WedgitCode.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -146,7 +173,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>$moduleName</find>
       <find>db_prefix</find>
       <find>saveFile</find>
       <find>readMenuList</find>
@@ -176,6 +202,7 @@
       <find>$rs</find>
       <find>$value</find>
       <find>moduleName</find>
+      <find>input</find>
     </findStrings>
     <replaceStrings>
       <replace>gen</replace>
@@ -206,24 +233,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/public/gen/application/gen/view/controller_code/index.html" />
-        <option value="$PROJECT_DIR$/public/gen/application/gen/controller/Index.php" />
-        <option value="$PROJECT_DIR$/public/gen/application/gen/view/wedgit_code/menu.html" />
-        <option value="$PROJECT_DIR$/public/gen/codeRepository/amaze/Controller/add.html" />
-        <option value="$PROJECT_DIR$/application/index/file_out/view/layout.html" />
         <option value="$PROJECT_DIR$/public/gen/index.php" />
         <option value="$PROJECT_DIR$/public/static/assets/css/app.css" />
         <option value="$PROJECT_DIR$/public/static/assets/js/theme.js" />
-        <option value="$PROJECT_DIR$/public/gen/application/gen/controller/CreateLayout.php" />
         <option value="$PROJECT_DIR$/public/gen/application/config.php" />
         <option value="$PROJECT_DIR$/application/config.php" />
-        <option value="$PROJECT_DIR$/public/gen/application/gen/view/model_code/index.html" />
         <option value="$PROJECT_DIR$/public/gen/application/helper.php" />
         <option value="$PROJECT_DIR$/public/gen/application/gen/controller/Base.php" />
         <option value="$PROJECT_DIR$/public/gen/application/gen/controller/FileUtil.php" />
         <option value="$PROJECT_DIR$/public/gen/application/gen/controller/ProjectConfig.php" />
-        <option value="$PROJECT_DIR$/public/gen/application/gen/controller/ViewCode.php" />
-        <option value="$PROJECT_DIR$/public/gen/application/gen/controller/WedgitCode.php" />
         <option value="$PROJECT_DIR$/application/index/controller/CorpusData.php" />
         <option value="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/view/add.html" />
         <option value="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/view/edit.html" />
@@ -245,10 +263,7 @@
         <option value="$PROJECT_DIR$/public/gen/static/assets/css/app.css" />
         <option value="$PROJECT_DIR$/public/gen/static/assets/js/theme.js" />
         <option value="$PROJECT_DIR$/public/gen/application/gen/view/menu.html" />
-        <option value="$PROJECT_DIR$/public/gen/application/gen/view/validate_code/index.html" />
-        <option value="$PROJECT_DIR$/public/gen/application/gen/controller/ModelCode.php" />
         <option value="$PROJECT_DIR$/public/gen/application/common.php" />
-        <option value="$PROJECT_DIR$/public/gen/application/gen/controller/ControllerCode.php" />
         <option value="$PROJECT_DIR$/public/gen/codeRepository/amaze/Validate/rule.html" />
         <option value="$PROJECT_DIR$/public/gen/application/gen/controller/ValidateCode.php" />
         <option value="$PROJECT_DIR$/public/gen/codeRepository/amaze/Validate/msg.html" />
@@ -257,6 +272,18 @@
         <option value="$PROJECT_DIR$/application/file_out/validate/ServerList.php" />
         <option value="$PROJECT_DIR$/public/gen/codeRepository/amaze/Validate/scene.html" />
         <option value="$PROJECT_DIR$/application/file_out/validate/Example.php" />
+        <option value="$PROJECT_DIR$/public/gen/application/gen/view/create_layout/index.html" />
+        <option value="$PROJECT_DIR$/public/gen/application/gen/controller/CreateLayout.php" />
+        <option value="$PROJECT_DIR$/public/gen/application/gen/view/wedgit_code/menu.html" />
+        <option value="$PROJECT_DIR$/public/gen/application/gen/controller/WedgitCode.php" />
+        <option value="$PROJECT_DIR$/public/gen/application/gen/controller/ViewCode.php" />
+        <option value="$PROJECT_DIR$/public/gen/application/gen/view/view_code/index.html" />
+        <option value="$PROJECT_DIR$/application/file_out/view/msg/edit.html" />
+        <option value="$PROJECT_DIR$/public/gen/application/gen/view/controller_code/index.html" />
+        <option value="$PROJECT_DIR$/public/gen/application/gen/view/validate_code/index.html" />
+        <option value="$PROJECT_DIR$/public/gen/application/gen/view/model_code/index.html" />
+        <option value="$PROJECT_DIR$/public/gen/application/gen/controller/ModelCode.php" />
+        <option value="$PROJECT_DIR$/public/gen/application/gen/controller/ControllerCode.php" />
       </list>
     </option>
   </component>
@@ -295,7 +322,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -319,30 +345,7 @@
               <item name="tp-code-gen" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="file_out" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="validate" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="tp-code-gen" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tp-code-gen" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="file_out" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="view" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="tp-code-gen" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tp-code-gen" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="file_out" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="view" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="msg" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="tp-code-gen" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tp-code-gen" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="file_out" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="view" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="server_list" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="tp-code-gen" type="b2602c69:ProjectViewProjectNode" />
@@ -403,61 +406,58 @@
               <item name="tp-code-gen" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="gen" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="codeRepository" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="tp-code-gen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tp-code-gen" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="gen" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="codeRepository" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="amaze_theme" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="tp-code-gen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tp-code-gen" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="gen" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="codeRepository" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="amaze_theme" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="view" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="validate_code" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="tp-code-gen" type="b2602c69:ProjectViewProjectNode" />
               <item name="tp-code-gen" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="gen" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="codeRepository" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="tp-code-gen" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tp-code-gen" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="gen" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="codeRepository" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="amaze" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="tp-code-gen" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tp-code-gen" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="gen" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="codeRepository" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="amaze" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Validate" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="static" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SearchEverywhereHistoryKey" value="codeRepository&#9;null&#9;null&#10;tph2&#9;null&#9;null&#10;.gitignore&#9;FILE&#9;file://F:/phpStudy/WWW/tp-code-gen/public/static/.gitignore" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../code-help" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\phpStudy\WWW\tp-code-gen\public\static" />
-      <recent name="F:\phpStudy\WWW\tp-code-gen\public\gen\application\gen\view\view_code" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\phpStudy\WWW\tp-code-gen\public\gen\codeRepository\amaze\Validate" />
       <recent name="F:\phpStudy\WWW\tp-code-gen\public\gen\static" />
       <recent name="F:\phpStudy\WWW\tp-code-gen\public\gen\application\gen\view\model_code" />
       <recent name="F:\phpStudy\WWW\tp-code-gen\public\gen\application\gen\view\controller_code" />
       <recent name="F:\phpStudy\WWW\tp-code-gen\public\gen\application\gen\view" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\phpStudy\WWW\tp-code-gen\public\static" />
+      <recent name="F:\phpStudy\WWW\tp-code-gen\public\gen\application\gen\view\view_code" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -490,12 +490,13 @@
       <workItem from="1546853103414" duration="16000" />
       <workItem from="1551233297705" duration="21838000" />
       <workItem from="1551315734770" duration="1474000" />
-      <workItem from="1551317520884" duration="14038000" />
+      <workItem from="1551317520884" duration="14371000" />
+      <workItem from="1551405693147" duration="4209000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90593000" />
+    <option name="totallyTimeSpent" value="95135000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -510,7 +511,7 @@
     <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.47058824" visible="true" weight="0.2174888" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.47058824" visible="true" weight="0.19282511" />
       <window_info anchor="bottom" id="TODO" order="11" weight="0.32733223" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
@@ -544,55 +545,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/view/edit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/view/lists.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/view/layout.view.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1034">
-          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/view/menu1.menu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/view/getList.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/view/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/view/info.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/view/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-977">
@@ -705,20 +657,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/view/menu1.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/static/admin/assets/css/amazeui.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="193">
           <caret column="106987" selection-start-column="106987" selection-end-column="106987" />
-          <folding>
-            <element signature="e#41987#42310#1" expanded="true" />
-            <element signature="e#171285#172400#2" expanded="true" />
-            <element signature="e#173179#175302#2" expanded="true" />
-            <element signature="e#175449#177656#2" expanded="true" />
-            <element signature="e#177808#178199#2" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -726,20 +668,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="193">
           <caret line="352" column="1" selection-start-line="352" selection-start-column="1" selection-end-line="352" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/gen/application/gen/view/model_code/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="74" column="19" lean-forward="true" selection-start-line="74" selection-start-column="19" selection-end-line="74" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/gen/application/gen/controller/ModelCode.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="62" column="8" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -757,39 +685,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/gen/application/gen/controller/ViewCode.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-242">
-          <caret line="46" column="40" selection-start-line="46" selection-start-column="40" selection-end-line="46" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/gen/codeRepository/amaze/Controller/controller.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
           <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/gen/application/gen/view/validate_code/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="38" column="40" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/gen/codeRepository/amaze/Controller/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/gen/application/gen/controller/ControllerCode.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-132">
-          <caret line="37" column="33" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/gen/codeRepository/amaze/Controller/edit.html">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/public/gen/application/gen/view/menu.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -798,26 +699,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/gen/codeRepository/amaze/Controller/delList.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/gen/codeRepository/amaze/Controller/delete.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/gen/codeRepository/amaze/Controller/add.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
           <caret line="3" column="54" lean-forward="true" selection-start-line="3" selection-start-column="54" selection-end-line="3" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/gen/application/gen/controller/ValidateCode.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="89" column="30" selection-start-line="89" selection-start-column="23" selection-end-line="89" selection-end-column="30" />
-          <folding>
-            <element signature="e#6#99#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -871,7 +756,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/file_out/validate/ServerList.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
+        <state relative-caret-position="357">
           <caret line="193" column="2" selection-start-line="193" selection-start-column="2" selection-end-line="193" selection-end-column="2" />
         </state>
       </provider>
@@ -885,8 +770,127 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/file_out/validate/Example.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="593" selection-start-line="593" selection-end-line="593" />
+        <state relative-caret-position="-11493">
+          <caret line="52" column="44" lean-forward="true" selection-start-line="52" selection-start-column="44" selection-end-line="52" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/file_out/view/layout.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/gen/application/gen/view/create_layout/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="858">
+          <caret line="39" column="40" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/gen/application/gen/view/wedgit_code/menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="770">
+          <caret line="35" column="40" lean-forward="true" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/file_out/view/menu1.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/file_out/view/msg/edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2772">
+          <caret line="126" column="22" selection-start-line="126" selection-start-column="22" selection-end-line="126" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/gen/application/gen/view/view_code/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/gen/application/gen/view/validate_code/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/gen/application/gen/view/controller_code/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/gen/application/gen/view/model_code/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="39" column="35" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/gen/application/gen/controller/WedgitCode.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/gen/application/gen/controller/ViewCode.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/gen/application/gen/controller/ValidateCode.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1958">
+          <caret line="89" column="30" selection-start-line="89" selection-start-column="23" selection-end-line="89" selection-end-column="30" />
+          <folding>
+            <element signature="e#6#99#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/gen/application/gen/controller/ModelCode.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/gen/application/gen/controller/Index.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/gen/application/gen/controller/FileUtil.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/gen/application/gen/controller/CreateLayout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="e#6#28#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/gen/application/gen/controller/Base.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding>
+            <element signature="e#128#149#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/gen/application/gen/controller/ControllerCode.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
         </state>
       </provider>
     </entry>

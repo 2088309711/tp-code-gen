@@ -9,32 +9,20 @@
 namespace app\gen\Controller;
 
 
-use think\Request;
-
-
 class ModelCode extends Base
 {
 
     //简易模型代码生成
     public function index()
     {
-        $this->assign('db_prefix', config('database.prefix'));
-        $tableNameList = get_table_name_list();
-        $this->assign('tableNameList', $tableNameList);
-        $moduleNameList = get_module_name_list();
-        $this->assign('moduleNameList', $moduleNameList);
-        $moduleName = get_db_config('moduleName');
-        $this->assign('moduleName', $moduleName);
         $this->assign('page_name', 'auto-model');
-        return $this->fetch();
+        return view();
     }
 
-
     //生成模型代码源码
-    public function generateModelCode()
+    public function generateModelCode($tableName)
     {
-        $tableName = getTableName(input('tableName'));
-        $moduleName = input('moduleName');
+        $moduleName = 'index';
         $this->assign('tableName', $tableName);
         $this->assign('moduleName', $moduleName);
         $codelibName = get_db_config('codeLib') == '' ? 'default' : get_db_config('codeLib');
@@ -46,31 +34,26 @@ class ModelCode extends Base
     //一键生成所有代码对应的文件，
     public function creatAllFiles()
     {
-        $tableNameList = input()['selectTableName'];
-
+        $tableNameList = get_table_name_list();
         $res = '';
-        for ($i = 0; $i < count($tableNameList); $i++) {
-            Request::instance()->post(['tableName' => $tableNameList[$i]]);
-            $res .= $this->createModelFile() . "<br>";
+        foreach ($tableNameList as $value) {
+            $res .= $this->createModelFile(getTableName($value)) . "<br>";
         }
         return $res;
     }
 
-
     //生成模型文件
-    public function createModelFile()
+    public function createModelFile($tableName)
     {
-        
         $modelPath = BASE_PATH . get_db_config('projectPath') . 'file_out' . DS . 'model' . DS;
-        $tableName = getTableName(input('tableName'));
+
         if (!file_exists($modelPath)) {
             FileUtil::createDir($modelPath);
         }
-        $code = $this->generateModelCode();
+        $code = $this->generateModelCode($tableName);
         $filePath = $modelPath . tableNameToModelName($tableName) . ".php";
         file_put_contents($filePath, $code);
         return '生成成功，生成路径为：' . $filePath;
     }
-
 
 }

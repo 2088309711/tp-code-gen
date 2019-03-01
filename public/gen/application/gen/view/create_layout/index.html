@@ -10,23 +10,7 @@
                 </div>
                 <div class="widget-body am-fr">
                     <form class="am-form tpl-form-border-form">
-                        <div class="am-form-group">
-                            <label class="am-u-sm-12 am-form-label am-text-left">目标模块
-                            </label>
-                            <div class="am-u-sm-12">
-                                <input type="text" class="tpl-form-input am-margin-top-xs" id="module-name"
-                                       value="{$moduleName}" disabled>
-                            </div>
-                        </div>
 
-                        <div class="am-form-group">
-                            <label class="am-u-sm-12 am-form-label am-text-left">风格模板
-                            </label>
-                            <div class="am-u-sm-12">
-                                <input type="text" class="tpl-form-input am-margin-top-xs" id="layout-name"
-                                       value="{$layoutName}" disabled>
-                            </div>
-                        </div>
 
                         <div class="am-form-group">
                             <div class="am-u-sm-12 am-u-sm-push-12">
@@ -51,10 +35,7 @@
 <script type="text/javascript">
     $(function () {
         $('#submit').click(function () {
-            $.post("{:CONTROLLER_NAME}/creatFiles", {
-                'moduleName': $('#module-name').val(),
-                'layoutName': $('#layout-name').val()
-            }, function (data) {
+            $.post("{:CONTROLLER_NAME}/creatFiles", function (data) {
                 $('#result-panel').removeClass('am-hide');
                 $('#result').html(data);
             });

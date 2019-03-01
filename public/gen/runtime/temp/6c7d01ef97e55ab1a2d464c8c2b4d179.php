@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:86:"F:\phpStudy\WWW\tp-code-gen\public\gen/application/gen\view\controller_code\index.html";i:1546592188;s:69:"F:\phpStudy\WWW\tp-code-gen\public\gen\application\gen\view\main.html";i:1551259222;s:69:"F:\phpStudy\WWW\tp-code-gen\public\gen\application\gen\view\menu.html";i:1551322011;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:86:"F:\phpStudy\WWW\tp-code-gen\public\gen/application/gen\view\controller_code\index.html";i:1551408921;s:69:"F:\phpStudy\WWW\tp-code-gen\public\gen\application\gen\view\main.html";i:1551259222;s:69:"F:\phpStudy\WWW\tp-code-gen\public\gen\application\gen\view\menu.html";i:1551322195;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -104,8 +104,8 @@
 </li>
 
 <li class="sidebar-nav-link">
-    <a href="<?php echo APP_NAME; ?>/index.php/ModelCode/index"
-       <?php if($page_name == 'auto-model'): ?>class="active" <?php endif; ?>>
+    <a href="<?php echo APP_NAME; ?>/index.php/ValidateCode/index"
+       <?php if($page_name == 'validate'): ?>class="active" <?php endif; ?>>
     <i class="am-icon-wpforms sidebar-nav-link-logo"></i> 验证器
     </a>
 </li>
@@ -131,29 +131,7 @@
                 </div>
                 <div class="widget-body am-fr">
                     <form class="am-form tpl-form-border-form">
-                        <div class="am-form-group">
-                            <label for="user-name" class="am-u-sm-12 am-form-label am-text-left">目标模块
-                            </label>
-                            <div class="am-u-sm-12">
-                                <input type="text" class="tpl-form-input am-margin-top-xs" id="moduleName"
-                                       name="moduleName" value="<?php echo $moduleName; ?>" disabled>
-                            </div>
-                        </div>
 
-                        <div class="am-form-group">
-                            <label for="user-name" class="am-u-sm-12 am-form-label am-text-left">数据表
-                            </label>
-                            <div class="am-u-sm-12">
-
-                                <?php if(is_array($tableNameList) || $tableNameList instanceof \think\Collection || $tableNameList instanceof \think\Paginator): $i = 0; $__LIST__ = $tableNameList;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$table): $mod = ($i % 2 );++$i;?>
-                                <label class="am-checkbox">
-                                    <input type="checkbox" name="table" value="<?php echo $table; ?>" data-am-ucheck checked>
-                                    <?php echo $table; ?>
-                                </label>
-                                <?php endforeach; endif; else: echo "" ;endif; ?>
-
-                            </div>
-                        </div>
 
                         <div class="am-form-group">
                             <div class="am-u-sm-12 am-u-sm-push-12">
@@ -164,8 +142,6 @@
                             </div>
                         </div>
 
-                        <!--$('#result-panel').removeClass('am-hide');-->
-                        <!--$('#result').html(data);-->
                         <div class="am-panel am-panel-default am-hide" id="result-panel">
                             <div class="am-panel-bd am-text-break" id="result"></div>
                         </div>
@@ -178,28 +154,9 @@
 </div>
 
 <script type="text/javascript">
-
-    var createFlieUrl = '<?php echo CONTROLLER_NAME; ?>/creatAllFiles/',
-        db_prefix = '<?php echo $db_prefix; ?>';
-
     $(function () {
         $('#submit').click(function () {
-            var moduleName = $('#moduleName').val();
-            var checkedBox = $('input:checked');
-            var selectTableName = [];
-            if (db_prefix != '') {
-                checkedBox.each(function () {
-                    selectTableName.push($(this).val().replace(db_prefix, ''));
-                });
-            } else {
-                checkedBox.each(function () {
-                    selectTableName.push($(this).val());
-                });
-            }
-            $.post(createFlieUrl, {
-                "moduleName": moduleName,
-                "selectTableName": selectTableName
-            }, function (data) {
+            $.post('<?php echo CONTROLLER_NAME; ?>/creatAllFiles/', function (data) {
                 $('#result-panel').removeClass('am-hide');
                 $('#result').html(data);
             });

@@ -10,29 +10,7 @@
                 </div>
                 <div class="widget-body am-fr">
                     <form class="am-form tpl-form-border-form">
-                        <div class="am-form-group">
-                            <label class="am-u-sm-12 am-form-label am-text-left">目标模块
-                            </label>
-                            <div class="am-u-sm-12">
-                                <input type="text" class="tpl-form-input am-margin-top-xs" id="moduleName"
-                                       name="moduleName" value="{$moduleName}" disabled>
-                            </div>
-                        </div>
 
-                        <div class="am-form-group">
-                            <label class="am-u-sm-12 am-form-label am-text-left">数据表
-                            </label>
-                            <div class="am-u-sm-12">
-
-                                {volist name="tableNameList" id="table" }
-                                <label class="am-checkbox">
-                                    <input type="checkbox" name="table" value="{$table}" data-am-ucheck checked>
-                                    {$table}
-                                </label>
-                                {/volist}
-
-                            </div>
-                        </div>
 
                         <div class="am-form-group">
                             <div class="am-u-sm-12 am-u-sm-push-12">
@@ -57,34 +35,13 @@
 </div>
 
 <script type="text/javascript">
-    var db_prefix = '{$db_prefix}';
-
     $(function () {
         $('#submit').click(function () {
-
-            moduleName = $('#moduleName').val();
-            checkedBox = $('input:checked');
-            selectTableName = [];
-            if (db_prefix != '') {
-                checkedBox.each(function () {
-                    selectTableName.push($(this).val().replace(db_prefix, ''));
-                });
-            } else {
-                checkedBox.each(function () {
-                    selectTableName.push($(this).val());
-                });
-            }
-
-            $.post('/gen/{:CONTROLLER_NAME}/creatAllFiles/', {
-                "moduleName": moduleName,
-                "selectTableName": selectTableName
-            }, function (data) {
+            $.post('/gen/index.php/{:CONTROLLER_NAME}/creatAllFiles/', function (data) {
                 $('#result-panel').removeClass('am-hide');
                 $('#result').html(data);
             });
-
         });
     });
-
 </script>
 {/block}

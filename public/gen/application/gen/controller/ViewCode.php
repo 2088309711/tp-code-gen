@@ -14,23 +14,25 @@ class ViewCode extends Base
 
     public function index()
     {
-        $this->assign('db_prefix', config('database.prefix'));
-        $tableNameList = get_table_name_list();
-        $this->assign('tableNameList', $tableNameList);
-        $moduleName = get_db_config('moduleName');
-        $this->assign('moduleName', $moduleName);
-        $themeList = getThemeList();
-        $this->assign('themeList', $themeList);
         $this->assign('page_name', 'front-file');
-        return $this->fetch();
+        return view();
     }
+
+
+    /*
+     *
+     *  目标模块 index
+        前端风格 amaze_theme
+        布局模板 layout
+     *
+     */
 
     //一键生成表单文件
     public function generateAllView()
     {
         $defaultActionList = ['add', 'edit', 'lists']; //默认生成增，改，查
 
-        $tableNameList = input()['selectTableName'];
+        $tableNameList = get_table_name_list();
 
         $modelPath = BASE_PATH . get_db_config('projectPath') . 'file_out' . DS . 'view' . DS;
         $res = '';
@@ -55,22 +57,22 @@ class ViewCode extends Base
 
 
     //生成视图代码
-    public function generateViewCode($actionName = null, $tableName = null)
+    public function generateViewCode($actionName, $tableName)
     {
-        $tableName = $tableName ? $tableName : getTableName(I('tableName'));
-        $moduleName = input('moduleName');
+
+        $moduleName = 'index';
         $controllerName = $tableName;
         $columnNameKey = getColumnNameKey();
         $tableInfoArray = getTableInfoArray($tableName);
-        //dump($columnNameKey);die;
+
         $tableInfoArray = $this->fillFormInputList($tableName, $tableInfoArray, $columnNameKey);
         $this->assign('tableName', $tableName);
         $this->assign('controllerName', $controllerName);
         $this->assign('moduleName', $moduleName);
         $this->assign('tableInfoArray', $tableInfoArray);
         $this->assign('columnNameKey', $columnNameKey);
-        $theme = input('theme');//代码风格
-        $actionName = $actionName ? $actionName : input('actionName');
+        $theme = 'amaze_theme';//代码风格
+
         $templateBasePath = CODE_TEMPLATE . DS . $theme . DS . "view" . DS;    //代码所在文件夹
         $codelibName = get_db_config('codeLib') == '' ? 'default' : get_db_config('codeLib');
         $codeBasePath = CODE_TEMPLATE . DS . $codelibName . DS;

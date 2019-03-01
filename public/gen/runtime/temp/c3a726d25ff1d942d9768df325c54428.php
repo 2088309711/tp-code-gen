@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:81:"F:\phpStudy\WWW\tp-code-gen\public\gen/application/gen\view\model_code\index.html";i:1551255983;s:69:"F:\phpStudy\WWW\tp-code-gen\public\gen\application\gen\view\main.html";i:1551259222;s:69:"F:\phpStudy\WWW\tp-code-gen\public\gen\application\gen\view\menu.html";i:1551322195;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:81:"F:\phpStudy\WWW\tp-code-gen\public\gen/application/gen\view\model_code\index.html";i:1551409634;s:69:"F:\phpStudy\WWW\tp-code-gen\public\gen\application\gen\view\main.html";i:1551259222;s:69:"F:\phpStudy\WWW\tp-code-gen\public\gen\application\gen\view\menu.html";i:1551322195;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -131,29 +131,7 @@
                 </div>
                 <div class="widget-body am-fr">
                     <form class="am-form tpl-form-border-form">
-                        <div class="am-form-group">
-                            <label class="am-u-sm-12 am-form-label am-text-left">目标模块
-                            </label>
-                            <div class="am-u-sm-12">
-                                <input type="text" class="tpl-form-input am-margin-top-xs" id="moduleName"
-                                       name="moduleName" value="<?php echo $moduleName; ?>" disabled>
-                            </div>
-                        </div>
 
-                        <div class="am-form-group">
-                            <label class="am-u-sm-12 am-form-label am-text-left">数据表
-                            </label>
-                            <div class="am-u-sm-12">
-
-                                <?php if(is_array($tableNameList) || $tableNameList instanceof \think\Collection || $tableNameList instanceof \think\Paginator): $i = 0; $__LIST__ = $tableNameList;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$table): $mod = ($i % 2 );++$i;?>
-                                <label class="am-checkbox">
-                                    <input type="checkbox" name="table" value="<?php echo $table; ?>" data-am-ucheck checked>
-                                    <?php echo $table; ?>
-                                </label>
-                                <?php endforeach; endif; else: echo "" ;endif; ?>
-
-                            </div>
-                        </div>
 
                         <div class="am-form-group">
                             <div class="am-u-sm-12 am-u-sm-push-12">
@@ -178,35 +156,14 @@
 </div>
 
 <script type="text/javascript">
-    var db_prefix = '<?php echo $db_prefix; ?>';
-
     $(function () {
         $('#submit').click(function () {
-
-            moduleName = $('#moduleName').val();
-            checkedBox = $('input:checked');
-            selectTableName = [];
-            if (db_prefix != '') {
-                checkedBox.each(function () {
-                    selectTableName.push($(this).val().replace(db_prefix, ''));
-                });
-            } else {
-                checkedBox.each(function () {
-                    selectTableName.push($(this).val());
-                });
-            }
-
-            $.post('/gen/<?php echo CONTROLLER_NAME; ?>/creatAllFiles/', {
-                "moduleName": moduleName,
-                "selectTableName": selectTableName
-            }, function (data) {
+            $.post('/gen/index.php/<?php echo CONTROLLER_NAME; ?>/creatAllFiles/', function (data) {
                 $('#result-panel').removeClass('am-hide');
                 $('#result').html(data);
             });
-
         });
     });
-
 </script>
 
         <!-- 内容区域 -->

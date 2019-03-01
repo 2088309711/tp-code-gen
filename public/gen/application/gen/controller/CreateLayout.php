@@ -11,23 +11,21 @@ class CreateLayout extends Base
 {
     public function index()
     {
-        $this->assign('db_prefix', config('database.prefix'));
-        $this->assign('tableNameList', get_table_name_list());
-        $this->assign('moduleName', get_db_config('moduleName'));
-        $layoutName = get_db_config('theme') == '' ? 'mac_theme' : get_db_config('theme');
-        $this->assign('layoutName', $layoutName);
         $this->assign('page_name', 'public-file');
-        return $this->fetch();
+        return view();
     }
 
     //在指定目录下创建布局模板文件
     public function creatFiles()
     {
-        $layoutName = input('layoutName');
+
+        $layoutName = 'amaze_theme';
         $layoutPath = BASE_PATH . get_db_config('projectPath') . 'file_out' . DS . 'view' . DS;
         $themePath = __ROOT__ . DS . CODE_TEMPLATE . DS . $layoutName . DS;
 
         $publicViewFileList = getFileListEndWith($themePath . 'view', 'view.html');
+
+
         foreach ($publicViewFileList as $publicViewFile) {
             $fileStr = file_get_contents($themePath . DS . 'view' . DS . $publicViewFile);
             $fileStr = $this->display($fileStr);//渲染模板内容
