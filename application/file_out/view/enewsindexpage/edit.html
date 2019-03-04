@@ -1,0 +1,54 @@
+{extend name="layout" /}
+{block name="content"}
+<!-- 内容区域 -->
+<div class="tpl-content-wrapper">
+    <div class="row-content am-cf">
+        <div class="row">
+            <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+                <div class="widget am-cf">
+                    <div class="widget-head am-cf">
+                        <div class="widget-title am-fl">编辑nj_enewsindexpage</div>
+                        <div class="widget-function am-fr">
+                            <a href="javascript:;" class="am-icon-cog"></a>
+                        </div>
+                    </div>
+                    <div class="widget-body am-fr">
+                        <form class="am-form tpl-form-border-form" method="post">
+        <div class="am-form-group">
+        <label for="tempid" class="am-u-sm-12 am-form-label am-text-left">tempid            <span class="tpl-form-line-small-title">tempid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsindexpage.tempid)"}{$enewsindexpage.tempid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="tempid" name="tempid" 
+	placeholder="请输入tempid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="tempname" class="am-u-sm-12 am-form-label am-text-left">tempname            <span class="tpl-form-line-small-title">tempname</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsindexpage.tempname)"}{$enewsindexpage.tempname}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="tempname" name="tempname" 
+	placeholder="请输入tempname">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="temptext" class="am-u-sm-12 am-form-label am-text-left">temptext            <span class="tpl-form-line-small-title">temptext</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsindexpage.temptext)"}{$enewsindexpage.temptext}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="temptext" name="temptext" 
+	placeholder="请输入temptext">        </div>
+    </div>
+        <div class="am-form-group">
+        <div class="am-u-sm-12 am-u-sm-push-12">
+            <button type="submit" class="am-btn am-btn-primary tpl-btn-bg-color-success ">提交</button>
+        </div>
+    </div>
+</form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{/block}

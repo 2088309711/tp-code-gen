@@ -1,0 +1,158 @@
+{extend name="layout" /}
+{block name="content"}
+<!-- 内容区域 -->
+<div class="tpl-content-wrapper">
+    <div class="row-content am-cf">
+        <div class="row">
+            <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+                <div class="widget am-cf">
+                    <div class="widget-head am-cf">
+                        <div class="widget-title am-fl">编辑nj_enewssearch</div>
+                        <div class="widget-function am-fr">
+                            <a href="javascript:;" class="am-icon-cog"></a>
+                        </div>
+                    </div>
+                    <div class="widget-body am-fr">
+                        <form class="am-form tpl-form-border-form" method="post">
+        <div class="am-form-group">
+        <label for="searchid" class="am-u-sm-12 am-form-label am-text-left">searchid            <span class="tpl-form-line-small-title">searchid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewssearch.searchid)"}{$enewssearch.searchid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="searchid" name="searchid" 
+	placeholder="请输入searchid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="keyboard" class="am-u-sm-12 am-form-label am-text-left">keyboard            <span class="tpl-form-line-small-title">keyboard</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewssearch.keyboard)"}{$enewssearch.keyboard}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="keyboard" name="keyboard" 
+	placeholder="请输入keyboard">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="searchtime" class="am-u-sm-12 am-form-label am-text-left">searchtime            <span class="tpl-form-line-small-title">searchtime</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewssearch.searchtime)"}{$enewssearch.searchtime}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="searchtime" name="searchtime" 
+	placeholder="请输入searchtime">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="searchclass" class="am-u-sm-12 am-form-label am-text-left">searchclass            <span class="tpl-form-line-small-title">searchclass</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewssearch.searchclass)"}{$enewssearch.searchclass}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="searchclass" name="searchclass" 
+	placeholder="请输入searchclass">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="result_num" class="am-u-sm-12 am-form-label am-text-left">result_num            <span class="tpl-form-line-small-title">result_num</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewssearch.result_num)"}{$enewssearch.result_num}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="result_num" name="result_num" 
+	placeholder="请输入result_num">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="searchip" class="am-u-sm-12 am-form-label am-text-left">searchip            <span class="tpl-form-line-small-title">searchip</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewssearch.searchip)"}{$enewssearch.searchip}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="searchip" name="searchip" 
+	placeholder="请输入searchip">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="classid" class="am-u-sm-12 am-form-label am-text-left">classid            <span class="tpl-form-line-small-title">classid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewssearch.classid)"}{$enewssearch.classid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="classid" name="classid" 
+	placeholder="请输入classid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="onclick" class="am-u-sm-12 am-form-label am-text-left">onclick            <span class="tpl-form-line-small-title">onclick</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewssearch.onclick)"}{$enewssearch.onclick}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="onclick" name="onclick" 
+	placeholder="请输入onclick">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="orderby" class="am-u-sm-12 am-form-label am-text-left">orderby            <span class="tpl-form-line-small-title">orderby</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewssearch.orderby)"}{$enewssearch.orderby}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="orderby" name="orderby" 
+	placeholder="请输入orderby">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="myorder" class="am-u-sm-12 am-form-label am-text-left">myorder            <span class="tpl-form-line-small-title">myorder</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewssearch.myorder)"}{$enewssearch.myorder}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="myorder" name="myorder" 
+	placeholder="请输入myorder">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="checkpass" class="am-u-sm-12 am-form-label am-text-left">checkpass            <span class="tpl-form-line-small-title">checkpass</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewssearch.checkpass)"}{$enewssearch.checkpass}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="checkpass" name="checkpass" 
+	placeholder="请输入checkpass">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="tbname" class="am-u-sm-12 am-form-label am-text-left">tbname            <span class="tpl-form-line-small-title">tbname</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewssearch.tbname)"}{$enewssearch.tbname}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="tbname" name="tbname" 
+	placeholder="请输入tbname">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="tempid" class="am-u-sm-12 am-form-label am-text-left">tempid            <span class="tpl-form-line-small-title">tempid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewssearch.tempid)"}{$enewssearch.tempid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="tempid" name="tempid" 
+	placeholder="请输入tempid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="iskey" class="am-u-sm-12 am-form-label am-text-left">iskey            <span class="tpl-form-line-small-title">iskey</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewssearch.iskey)"}{$enewssearch.iskey}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="iskey" name="iskey" 
+	placeholder="请输入iskey">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="andsql" class="am-u-sm-12 am-form-label am-text-left">andsql            <span class="tpl-form-line-small-title">andsql</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewssearch.andsql)"}{$enewssearch.andsql}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="andsql" name="andsql" 
+	placeholder="请输入andsql">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="trueclassid" class="am-u-sm-12 am-form-label am-text-left">trueclassid            <span class="tpl-form-line-small-title">trueclassid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewssearch.trueclassid)"}{$enewssearch.trueclassid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="trueclassid" name="trueclassid" 
+	placeholder="请输入trueclassid">        </div>
+    </div>
+        <div class="am-form-group">
+        <div class="am-u-sm-12 am-u-sm-push-12">
+            <button type="submit" class="am-btn am-btn-primary tpl-btn-bg-color-success ">提交</button>
+        </div>
+    </div>
+</form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{/block}

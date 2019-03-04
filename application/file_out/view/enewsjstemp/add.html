@@ -1,0 +1,101 @@
+{extend name="layout" /}
+{block name="content"}
+<!-- 内容区域 -->
+<div class="tpl-content-wrapper">
+    <div class="row-content am-cf">
+        <div class="row">
+            <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+                <div class="widget am-cf">
+                    <div class="widget-head am-cf">
+                        <div class="widget-title am-fl">新建nj_enewsjstemp</div>
+                        <div class="widget-function am-fr">
+                            <a href="javascript:;" class="am-icon-cog"></a>
+                        </div>
+                    </div>
+                    <div class="widget-body am-fr">
+                        <form class="am-form tpl-form-border-form" method="post">
+        <div class="am-form-group">
+        <label for="tempid" class="am-u-sm-12 am-form-label am-text-left">tempid            <span class="tpl-form-line-small-title">tempid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsjstemp.tempid)"}{$enewsjstemp.tempid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="tempid" name="tempid" 
+	placeholder="请输入tempid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="tempname" class="am-u-sm-12 am-form-label am-text-left">tempname            <span class="tpl-form-line-small-title">tempname</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsjstemp.tempname)"}{$enewsjstemp.tempname}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="tempname" name="tempname" 
+	placeholder="请输入tempname">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="temptext" class="am-u-sm-12 am-form-label am-text-left">temptext            <span class="tpl-form-line-small-title">temptext</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsjstemp.temptext)"}{$enewsjstemp.temptext}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="temptext" name="temptext" 
+	placeholder="请输入temptext">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="classid" class="am-u-sm-12 am-form-label am-text-left">classid            <span class="tpl-form-line-small-title">classid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsjstemp.classid)"}{$enewsjstemp.classid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="classid" name="classid" 
+	placeholder="请输入classid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="isdefault" class="am-u-sm-12 am-form-label am-text-left">isdefault            <span class="tpl-form-line-small-title">isdefault</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsjstemp.isdefault)"}{$enewsjstemp.isdefault}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="isdefault" name="isdefault" 
+	placeholder="请输入isdefault">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="showdate" class="am-u-sm-12 am-form-label am-text-left">showdate            <span class="tpl-form-line-small-title">showdate</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsjstemp.showdate)"}{$enewsjstemp.showdate}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="showdate" name="showdate" 
+	placeholder="请输入showdate">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="modid" class="am-u-sm-12 am-form-label am-text-left">modid            <span class="tpl-form-line-small-title">modid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsjstemp.modid)"}{$enewsjstemp.modid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="modid" name="modid" 
+	placeholder="请输入modid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="subnews" class="am-u-sm-12 am-form-label am-text-left">subnews            <span class="tpl-form-line-small-title">subnews</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsjstemp.subnews)"}{$enewsjstemp.subnews}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="subnews" name="subnews" 
+	placeholder="请输入subnews">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="subtitle" class="am-u-sm-12 am-form-label am-text-left">subtitle            <span class="tpl-form-line-small-title">subtitle</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsjstemp.subtitle)"}{$enewsjstemp.subtitle}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="subtitle" name="subtitle" 
+	placeholder="请输入subtitle">        </div>
+    </div>
+        <div class="am-form-group">
+        <div class="am-u-sm-12 am-u-sm-push-12">
+            <button type="submit" class="am-btn am-btn-primary tpl-btn-bg-color-success ">提交</button>
+        </div>
+    </div>
+</form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{/block}

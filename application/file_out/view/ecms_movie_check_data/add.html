@@ -1,0 +1,125 @@
+{extend name="layout" /}
+{block name="content"}
+<!-- 内容区域 -->
+<div class="tpl-content-wrapper">
+    <div class="row-content am-cf">
+        <div class="row">
+            <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+                <div class="widget am-cf">
+                    <div class="widget-head am-cf">
+                        <div class="widget-title am-fl">新建nj_ecms_movie_check_data</div>
+                        <div class="widget-function am-fr">
+                            <a href="javascript:;" class="am-icon-cog"></a>
+                        </div>
+                    </div>
+                    <div class="widget-body am-fr">
+                        <form class="am-form tpl-form-border-form" method="post">
+        <div class="am-form-group">
+        <label for="classid" class="am-u-sm-12 am-form-label am-text-left">classid            <span class="tpl-form-line-small-title">classid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_movie_check_data.classid)"}{$ecms_movie_check_data.classid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="classid" name="classid" 
+	placeholder="请输入classid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="keyid" class="am-u-sm-12 am-form-label am-text-left">keyid            <span class="tpl-form-line-small-title">keyid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_movie_check_data.keyid)"}{$ecms_movie_check_data.keyid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="keyid" name="keyid" 
+	placeholder="请输入keyid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="dokey" class="am-u-sm-12 am-form-label am-text-left">dokey            <span class="tpl-form-line-small-title">dokey</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_movie_check_data.dokey)"}{$ecms_movie_check_data.dokey}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="dokey" name="dokey" 
+	placeholder="请输入dokey">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="newstempid" class="am-u-sm-12 am-form-label am-text-left">newstempid            <span class="tpl-form-line-small-title">newstempid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_movie_check_data.newstempid)"}{$ecms_movie_check_data.newstempid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="newstempid" name="newstempid" 
+	placeholder="请输入newstempid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="closepl" class="am-u-sm-12 am-form-label am-text-left">closepl            <span class="tpl-form-line-small-title">closepl</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_movie_check_data.closepl)"}{$ecms_movie_check_data.closepl}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="closepl" name="closepl" 
+	placeholder="请输入closepl">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="haveaddfen" class="am-u-sm-12 am-form-label am-text-left">haveaddfen            <span class="tpl-form-line-small-title">haveaddfen</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_movie_check_data.haveaddfen)"}{$ecms_movie_check_data.haveaddfen}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="haveaddfen" name="haveaddfen" 
+	placeholder="请输入haveaddfen">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="infotags" class="am-u-sm-12 am-form-label am-text-left">infotags            <span class="tpl-form-line-small-title">infotags</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_movie_check_data.infotags)"}{$ecms_movie_check_data.infotags}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="infotags" name="infotags" 
+	placeholder="请输入infotags">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="playdk" class="am-u-sm-12 am-form-label am-text-left">playdk            <span class="tpl-form-line-small-title">playdk</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_movie_check_data.playdk)"}{$ecms_movie_check_data.playdk}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="playdk" name="playdk" 
+	placeholder="请输入playdk">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="playtime" class="am-u-sm-12 am-form-label am-text-left">playtime            <span class="tpl-form-line-small-title">playtime</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_movie_check_data.playtime)"}{$ecms_movie_check_data.playtime}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="playtime" name="playtime" 
+	placeholder="请输入playtime">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="downpath" class="am-u-sm-12 am-form-label am-text-left">downpath            <span class="tpl-form-line-small-title">downpath</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_movie_check_data.downpath)"}{$ecms_movie_check_data.downpath}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="downpath" name="downpath" 
+	placeholder="请输入downpath">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="playerid" class="am-u-sm-12 am-form-label am-text-left">playerid            <span class="tpl-form-line-small-title">playerid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_movie_check_data.playerid)"}{$ecms_movie_check_data.playerid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="playerid" name="playerid" 
+	placeholder="请输入playerid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="onlinepath" class="am-u-sm-12 am-form-label am-text-left">onlinepath            <span class="tpl-form-line-small-title">onlinepath</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_movie_check_data.onlinepath)"}{$ecms_movie_check_data.onlinepath}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="onlinepath" name="onlinepath" 
+	placeholder="请输入onlinepath">        </div>
+    </div>
+        <div class="am-form-group">
+        <div class="am-u-sm-12 am-u-sm-push-12">
+            <button type="submit" class="am-btn am-btn-primary tpl-btn-bg-color-success ">提交</button>
+        </div>
+    </div>
+</form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{/block}

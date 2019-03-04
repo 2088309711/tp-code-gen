@@ -1,0 +1,133 @@
+{extend name="layout" /}
+{block name="content"}
+<!-- 内容区域 -->
+<div class="tpl-content-wrapper">
+    <div class="row-content am-cf">
+        <div class="row">
+            <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+                <div class="widget am-cf">
+                    <div class="widget-head am-cf">
+                        <div class="widget-title am-fl">新建nj_enewsmoreport</div>
+                        <div class="widget-function am-fr">
+                            <a href="javascript:;" class="am-icon-cog"></a>
+                        </div>
+                    </div>
+                    <div class="widget-body am-fr">
+                        <form class="am-form tpl-form-border-form" method="post">
+        <div class="am-form-group">
+        <label for="pid" class="am-u-sm-12 am-form-label am-text-left">pid            <span class="tpl-form-line-small-title">pid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsmoreport.pid)"}{$enewsmoreport.pid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="pid" name="pid" 
+	placeholder="请输入pid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="pname" class="am-u-sm-12 am-form-label am-text-left">pname            <span class="tpl-form-line-small-title">pname</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsmoreport.pname)"}{$enewsmoreport.pname}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="pname" name="pname" 
+	placeholder="请输入pname">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="purl" class="am-u-sm-12 am-form-label am-text-left">purl            <span class="tpl-form-line-small-title">purl</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsmoreport.purl)"}{$enewsmoreport.purl}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="purl" name="purl" 
+	placeholder="请输入purl">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="ppath" class="am-u-sm-12 am-form-label am-text-left">ppath            <span class="tpl-form-line-small-title">ppath</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsmoreport.ppath)"}{$enewsmoreport.ppath}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="ppath" name="ppath" 
+	placeholder="请输入ppath">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="postpass" class="am-u-sm-12 am-form-label am-text-left">postpass            <span class="tpl-form-line-small-title">postpass</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsmoreport.postpass)"}{$enewsmoreport.postpass}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="postpass" name="postpass" 
+	placeholder="请输入postpass">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="postfile" class="am-u-sm-12 am-form-label am-text-left">postfile            <span class="tpl-form-line-small-title">postfile</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsmoreport.postfile)"}{$enewsmoreport.postfile}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="postfile" name="postfile" 
+	placeholder="请输入postfile">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="tempgid" class="am-u-sm-12 am-form-label am-text-left">tempgid            <span class="tpl-form-line-small-title">tempgid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsmoreport.tempgid)"}{$enewsmoreport.tempgid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="tempgid" name="tempgid" 
+	placeholder="请输入tempgid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="mustdt" class="am-u-sm-12 am-form-label am-text-left">mustdt            <span class="tpl-form-line-small-title">mustdt</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsmoreport.mustdt)"}{$enewsmoreport.mustdt}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="mustdt" name="mustdt" 
+	placeholder="请输入mustdt">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="isclose" class="am-u-sm-12 am-form-label am-text-left">isclose            <span class="tpl-form-line-small-title">isclose</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsmoreport.isclose)"}{$enewsmoreport.isclose}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="isclose" name="isclose" 
+	placeholder="请输入isclose">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="closeadd" class="am-u-sm-12 am-form-label am-text-left">closeadd            <span class="tpl-form-line-small-title">closeadd</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsmoreport.closeadd)"}{$enewsmoreport.closeadd}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="closeadd" name="closeadd" 
+	placeholder="请输入closeadd">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="headersign" class="am-u-sm-12 am-form-label am-text-left">headersign            <span class="tpl-form-line-small-title">headersign</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsmoreport.headersign)"}{$enewsmoreport.headersign}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="headersign" name="headersign" 
+	placeholder="请输入headersign">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="openadmin" class="am-u-sm-12 am-form-label am-text-left">openadmin            <span class="tpl-form-line-small-title">openadmin</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsmoreport.openadmin)"}{$enewsmoreport.openadmin}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="openadmin" name="openadmin" 
+	placeholder="请输入openadmin">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="rehtml" class="am-u-sm-12 am-form-label am-text-left">rehtml            <span class="tpl-form-line-small-title">rehtml</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsmoreport.rehtml)"}{$enewsmoreport.rehtml}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="rehtml" name="rehtml" 
+	placeholder="请输入rehtml">        </div>
+    </div>
+        <div class="am-form-group">
+        <div class="am-u-sm-12 am-u-sm-push-12">
+            <button type="submit" class="am-btn am-btn-primary tpl-btn-bg-color-success ">提交</button>
+        </div>
+    </div>
+</form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{/block}

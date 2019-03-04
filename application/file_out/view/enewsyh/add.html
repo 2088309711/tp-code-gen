@@ -1,0 +1,157 @@
+{extend name="layout" /}
+{block name="content"}
+<!-- 内容区域 -->
+<div class="tpl-content-wrapper">
+    <div class="row-content am-cf">
+        <div class="row">
+            <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+                <div class="widget am-cf">
+                    <div class="widget-head am-cf">
+                        <div class="widget-title am-fl">新建nj_enewsyh</div>
+                        <div class="widget-function am-fr">
+                            <a href="javascript:;" class="am-icon-cog"></a>
+                        </div>
+                    </div>
+                    <div class="widget-body am-fr">
+                        <form class="am-form tpl-form-border-form" method="post">
+        <div class="am-form-group">
+        <label for="yhname" class="am-u-sm-12 am-form-label am-text-left">yhname            <span class="tpl-form-line-small-title">yhname</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsyh.yhname)"}{$enewsyh.yhname}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="yhname" name="yhname" 
+	placeholder="请输入yhname">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="yhtext" class="am-u-sm-12 am-form-label am-text-left">yhtext            <span class="tpl-form-line-small-title">yhtext</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsyh.yhtext)"}{$enewsyh.yhtext}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="yhtext" name="yhtext" 
+	placeholder="请输入yhtext">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="hlist" class="am-u-sm-12 am-form-label am-text-left">hlist            <span class="tpl-form-line-small-title">hlist</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsyh.hlist)"}{$enewsyh.hlist}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="hlist" name="hlist" 
+	placeholder="请输入hlist">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="qlist" class="am-u-sm-12 am-form-label am-text-left">qlist            <span class="tpl-form-line-small-title">qlist</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsyh.qlist)"}{$enewsyh.qlist}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="qlist" name="qlist" 
+	placeholder="请输入qlist">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="bqnew" class="am-u-sm-12 am-form-label am-text-left">bqnew            <span class="tpl-form-line-small-title">bqnew</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsyh.bqnew)"}{$enewsyh.bqnew}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="bqnew" name="bqnew" 
+	placeholder="请输入bqnew">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="bqhot" class="am-u-sm-12 am-form-label am-text-left">bqhot            <span class="tpl-form-line-small-title">bqhot</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsyh.bqhot)"}{$enewsyh.bqhot}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="bqhot" name="bqhot" 
+	placeholder="请输入bqhot">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="bqpl" class="am-u-sm-12 am-form-label am-text-left">bqpl            <span class="tpl-form-line-small-title">bqpl</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsyh.bqpl)"}{$enewsyh.bqpl}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="bqpl" name="bqpl" 
+	placeholder="请输入bqpl">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="bqgood" class="am-u-sm-12 am-form-label am-text-left">bqgood            <span class="tpl-form-line-small-title">bqgood</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsyh.bqgood)"}{$enewsyh.bqgood}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="bqgood" name="bqgood" 
+	placeholder="请输入bqgood">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="bqfirst" class="am-u-sm-12 am-form-label am-text-left">bqfirst            <span class="tpl-form-line-small-title">bqfirst</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsyh.bqfirst)"}{$enewsyh.bqfirst}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="bqfirst" name="bqfirst" 
+	placeholder="请输入bqfirst">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="bqdown" class="am-u-sm-12 am-form-label am-text-left">bqdown            <span class="tpl-form-line-small-title">bqdown</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsyh.bqdown)"}{$enewsyh.bqdown}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="bqdown" name="bqdown" 
+	placeholder="请输入bqdown">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="otherlink" class="am-u-sm-12 am-form-label am-text-left">otherlink            <span class="tpl-form-line-small-title">otherlink</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsyh.otherlink)"}{$enewsyh.otherlink}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="otherlink" name="otherlink" 
+	placeholder="请输入otherlink">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="qmlist" class="am-u-sm-12 am-form-label am-text-left">qmlist            <span class="tpl-form-line-small-title">qmlist</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsyh.qmlist)"}{$enewsyh.qmlist}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="qmlist" name="qmlist" 
+	placeholder="请输入qmlist">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="dobq" class="am-u-sm-12 am-form-label am-text-left">dobq            <span class="tpl-form-line-small-title">dobq</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsyh.dobq)"}{$enewsyh.dobq}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="dobq" name="dobq" 
+	placeholder="请输入dobq">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="dojs" class="am-u-sm-12 am-form-label am-text-left">dojs            <span class="tpl-form-line-small-title">dojs</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsyh.dojs)"}{$enewsyh.dojs}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="dojs" name="dojs" 
+	placeholder="请输入dojs">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="dosbq" class="am-u-sm-12 am-form-label am-text-left">dosbq            <span class="tpl-form-line-small-title">dosbq</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsyh.dosbq)"}{$enewsyh.dosbq}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="dosbq" name="dosbq" 
+	placeholder="请输入dosbq">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="rehtml" class="am-u-sm-12 am-form-label am-text-left">rehtml            <span class="tpl-form-line-small-title">rehtml</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsyh.rehtml)"}{$enewsyh.rehtml}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="rehtml" name="rehtml" 
+	placeholder="请输入rehtml">        </div>
+    </div>
+        <div class="am-form-group">
+        <div class="am-u-sm-12 am-u-sm-push-12">
+            <button type="submit" class="am-btn am-btn-primary tpl-btn-bg-color-success ">提交</button>
+        </div>
+    </div>
+</form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{/block}

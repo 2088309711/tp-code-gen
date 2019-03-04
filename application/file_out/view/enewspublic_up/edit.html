@@ -1,0 +1,127 @@
+{extend name="layout" /}
+{block name="content"}
+<!-- 内容区域 -->
+<div class="tpl-content-wrapper">
+    <div class="row-content am-cf">
+        <div class="row">
+            <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+                <div class="widget am-cf">
+                    <div class="widget-head am-cf">
+                        <div class="widget-title am-fl">编辑nj_enewspublic_up</div>
+                        <div class="widget-function am-fr">
+                            <a href="javascript:;" class="am-icon-cog"></a>
+                        </div>
+                    </div>
+                    <div class="widget-body am-fr">
+                        <form class="am-form tpl-form-border-form" method="post">
+        <input type="hidden" name="id" value="{$enewspublic_up.id}"/>
+        <div class="am-form-group">
+        <label for="lasttimeinfo" class="am-u-sm-12 am-form-label am-text-left">lasttimeinfo            <span class="tpl-form-line-small-title">lasttimeinfo</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspublic_up.lasttimeinfo)"}{$enewspublic_up.lasttimeinfo}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="lasttimeinfo" name="lasttimeinfo" 
+	placeholder="请输入lasttimeinfo">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="lasttimepl" class="am-u-sm-12 am-form-label am-text-left">lasttimepl            <span class="tpl-form-line-small-title">lasttimepl</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspublic_up.lasttimepl)"}{$enewspublic_up.lasttimepl}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="lasttimepl" name="lasttimepl" 
+	placeholder="请输入lasttimepl">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="lastnuminfo" class="am-u-sm-12 am-form-label am-text-left">lastnuminfo            <span class="tpl-form-line-small-title">lastnuminfo</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspublic_up.lastnuminfo)"}{$enewspublic_up.lastnuminfo}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="lastnuminfo" name="lastnuminfo" 
+	placeholder="请输入lastnuminfo">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="lastnumpl" class="am-u-sm-12 am-form-label am-text-left">lastnumpl            <span class="tpl-form-line-small-title">lastnumpl</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspublic_up.lastnumpl)"}{$enewspublic_up.lastnumpl}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="lastnumpl" name="lastnumpl" 
+	placeholder="请输入lastnumpl">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="lastnuminfotb" class="am-u-sm-12 am-form-label am-text-left">lastnuminfotb            <span class="tpl-form-line-small-title">lastnuminfotb</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspublic_up.lastnuminfotb)"}{$enewspublic_up.lastnuminfotb}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="lastnuminfotb" name="lastnuminfotb" 
+	placeholder="请输入lastnuminfotb">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="lastnumpltb" class="am-u-sm-12 am-form-label am-text-left">lastnumpltb            <span class="tpl-form-line-small-title">lastnumpltb</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspublic_up.lastnumpltb)"}{$enewspublic_up.lastnumpltb}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="lastnumpltb" name="lastnumpltb" 
+	placeholder="请输入lastnumpltb">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="todaytimeinfo" class="am-u-sm-12 am-form-label am-text-left">todaytimeinfo            <span class="tpl-form-line-small-title">todaytimeinfo</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspublic_up.todaytimeinfo)"}{$enewspublic_up.todaytimeinfo}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="todaytimeinfo" name="todaytimeinfo" 
+	placeholder="请输入todaytimeinfo">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="todaytimepl" class="am-u-sm-12 am-form-label am-text-left">todaytimepl            <span class="tpl-form-line-small-title">todaytimepl</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspublic_up.todaytimepl)"}{$enewspublic_up.todaytimepl}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="todaytimepl" name="todaytimepl" 
+	placeholder="请输入todaytimepl">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="todaynuminfo" class="am-u-sm-12 am-form-label am-text-left">todaynuminfo            <span class="tpl-form-line-small-title">todaynuminfo</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspublic_up.todaynuminfo)"}{$enewspublic_up.todaynuminfo}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="todaynuminfo" name="todaynuminfo" 
+	placeholder="请输入todaynuminfo">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="yesterdaynuminfo" class="am-u-sm-12 am-form-label am-text-left">yesterdaynuminfo            <span class="tpl-form-line-small-title">yesterdaynuminfo</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspublic_up.yesterdaynuminfo)"}{$enewspublic_up.yesterdaynuminfo}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="yesterdaynuminfo" name="yesterdaynuminfo" 
+	placeholder="请输入yesterdaynuminfo">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="todaynumpl" class="am-u-sm-12 am-form-label am-text-left">todaynumpl            <span class="tpl-form-line-small-title">todaynumpl</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspublic_up.todaynumpl)"}{$enewspublic_up.todaynumpl}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="todaynumpl" name="todaynumpl" 
+	placeholder="请输入todaynumpl">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="yesterdaynumpl" class="am-u-sm-12 am-form-label am-text-left">yesterdaynumpl            <span class="tpl-form-line-small-title">yesterdaynumpl</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspublic_up.yesterdaynumpl)"}{$enewspublic_up.yesterdaynumpl}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="yesterdaynumpl" name="yesterdaynumpl" 
+	placeholder="请输入yesterdaynumpl">        </div>
+    </div>
+        <div class="am-form-group">
+        <div class="am-u-sm-12 am-u-sm-push-12">
+            <button type="submit" class="am-btn am-btn-primary tpl-btn-bg-color-success ">提交</button>
+        </div>
+    </div>
+</form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{/block}

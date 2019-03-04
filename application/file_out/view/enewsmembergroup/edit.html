@@ -1,0 +1,150 @@
+{extend name="layout" /}
+{block name="content"}
+<!-- 内容区域 -->
+<div class="tpl-content-wrapper">
+    <div class="row-content am-cf">
+        <div class="row">
+            <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+                <div class="widget am-cf">
+                    <div class="widget-head am-cf">
+                        <div class="widget-title am-fl">编辑nj_enewsmembergroup</div>
+                        <div class="widget-function am-fr">
+                            <a href="javascript:;" class="am-icon-cog"></a>
+                        </div>
+                    </div>
+                    <div class="widget-body am-fr">
+                        <form class="am-form tpl-form-border-form" method="post">
+        <div class="am-form-group">
+        <label for="groupid" class="am-u-sm-12 am-form-label am-text-left">groupid            <span class="tpl-form-line-small-title">groupid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsmembergroup.groupid)"}{$enewsmembergroup.groupid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="groupid" name="groupid" 
+	placeholder="请输入groupid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="groupname" class="am-u-sm-12 am-form-label am-text-left">groupname            <span class="tpl-form-line-small-title">groupname</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsmembergroup.groupname)"}{$enewsmembergroup.groupname}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="groupname" name="groupname" 
+	placeholder="请输入groupname">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="level" class="am-u-sm-12 am-form-label am-text-left">level            <span class="tpl-form-line-small-title">level</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsmembergroup.level)"}{$enewsmembergroup.level}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="level" name="level" 
+	placeholder="请输入level">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="checked" class="am-u-sm-12 am-form-label am-text-left">checked            <span class="tpl-form-line-small-title">checked</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsmembergroup.checked)"}{$enewsmembergroup.checked}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="checked" name="checked" 
+	placeholder="请输入checked">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="favanum" class="am-u-sm-12 am-form-label am-text-left">favanum            <span class="tpl-form-line-small-title">favanum</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsmembergroup.favanum)"}{$enewsmembergroup.favanum}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="favanum" name="favanum" 
+	placeholder="请输入favanum">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="daydown" class="am-u-sm-12 am-form-label am-text-left">daydown            <span class="tpl-form-line-small-title">daydown</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsmembergroup.daydown)"}{$enewsmembergroup.daydown}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="daydown" name="daydown" 
+	placeholder="请输入daydown">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="msglen" class="am-u-sm-12 am-form-label am-text-left">msglen            <span class="tpl-form-line-small-title">msglen</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsmembergroup.msglen)"}{$enewsmembergroup.msglen}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="msglen" name="msglen" 
+	placeholder="请输入msglen">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="msgnum" class="am-u-sm-12 am-form-label am-text-left">msgnum            <span class="tpl-form-line-small-title">msgnum</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsmembergroup.msgnum)"}{$enewsmembergroup.msgnum}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="msgnum" name="msgnum" 
+	placeholder="请输入msgnum">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="canreg" class="am-u-sm-12 am-form-label am-text-left">canreg            <span class="tpl-form-line-small-title">canreg</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsmembergroup.canreg)"}{$enewsmembergroup.canreg}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="canreg" name="canreg" 
+	placeholder="请输入canreg">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="formid" class="am-u-sm-12 am-form-label am-text-left">formid            <span class="tpl-form-line-small-title">formid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsmembergroup.formid)"}{$enewsmembergroup.formid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="formid" name="formid" 
+	placeholder="请输入formid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="regchecked" class="am-u-sm-12 am-form-label am-text-left">regchecked            <span class="tpl-form-line-small-title">regchecked</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsmembergroup.regchecked)"}{$enewsmembergroup.regchecked}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="regchecked" name="regchecked" 
+	placeholder="请输入regchecked">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="spacestyleid" class="am-u-sm-12 am-form-label am-text-left">spacestyleid            <span class="tpl-form-line-small-title">spacestyleid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsmembergroup.spacestyleid)"}{$enewsmembergroup.spacestyleid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="spacestyleid" name="spacestyleid" 
+	placeholder="请输入spacestyleid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="dayaddinfo" class="am-u-sm-12 am-form-label am-text-left">dayaddinfo            <span class="tpl-form-line-small-title">dayaddinfo</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsmembergroup.dayaddinfo)"}{$enewsmembergroup.dayaddinfo}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="dayaddinfo" name="dayaddinfo" 
+	placeholder="请输入dayaddinfo">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="infochecked" class="am-u-sm-12 am-form-label am-text-left">infochecked            <span class="tpl-form-line-small-title">infochecked</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsmembergroup.infochecked)"}{$enewsmembergroup.infochecked}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="infochecked" name="infochecked" 
+	placeholder="请输入infochecked">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="plchecked" class="am-u-sm-12 am-form-label am-text-left">plchecked            <span class="tpl-form-line-small-title">plchecked</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsmembergroup.plchecked)"}{$enewsmembergroup.plchecked}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="plchecked" name="plchecked" 
+	placeholder="请输入plchecked">        </div>
+    </div>
+        <div class="am-form-group">
+        <div class="am-u-sm-12 am-u-sm-push-12">
+            <button type="submit" class="am-btn am-btn-primary tpl-btn-bg-color-success ">提交</button>
+        </div>
+    </div>
+</form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{/block}

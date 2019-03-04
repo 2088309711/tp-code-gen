@@ -1,0 +1,110 @@
+{extend name="layout" /}
+{block name="content"}
+<!-- 内容区域 -->
+<div class="tpl-content-wrapper">
+    <div class="row-content am-cf">
+        <div class="row">
+            <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+                <div class="widget am-cf">
+                    <div class="widget-head am-cf">
+                        <div class="widget-title am-fl">编辑nj_enewshmsg</div>
+                        <div class="widget-function am-fr">
+                            <a href="javascript:;" class="am-icon-cog"></a>
+                        </div>
+                    </div>
+                    <div class="widget-body am-fr">
+                        <form class="am-form tpl-form-border-form" method="post">
+        <div class="am-form-group">
+        <label for="mid" class="am-u-sm-12 am-form-label am-text-left">mid            <span class="tpl-form-line-small-title">mid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewshmsg.mid)"}{$enewshmsg.mid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="mid" name="mid" 
+	placeholder="请输入mid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="title" class="am-u-sm-12 am-form-label am-text-left">title            <span class="tpl-form-line-small-title">title</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewshmsg.title)"}{$enewshmsg.title}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="title" name="title" 
+	placeholder="请输入title">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="msgtext" class="am-u-sm-12 am-form-label am-text-left">msgtext            <span class="tpl-form-line-small-title">msgtext</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewshmsg.msgtext)"}{$enewshmsg.msgtext}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="msgtext" name="msgtext" 
+	placeholder="请输入msgtext">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="haveread" class="am-u-sm-12 am-form-label am-text-left">haveread            <span class="tpl-form-line-small-title">haveread</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewshmsg.haveread)"}{$enewshmsg.haveread}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="haveread" name="haveread" 
+	placeholder="请输入haveread">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="msgtime" class="am-u-sm-12 am-form-label am-text-left">msgtime            <span class="tpl-form-line-small-title">msgtime</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewshmsg.msgtime)"}{$enewshmsg.msgtime}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="msgtime" name="msgtime" 
+	placeholder="请输入msgtime">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="to_username" class="am-u-sm-12 am-form-label am-text-left">to_username            <span class="tpl-form-line-small-title">to_username</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewshmsg.to_username)"}{$enewshmsg.to_username}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="to_username" name="to_username" 
+	placeholder="请输入to_username">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="from_userid" class="am-u-sm-12 am-form-label am-text-left">from_userid            <span class="tpl-form-line-small-title">from_userid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewshmsg.from_userid)"}{$enewshmsg.from_userid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="from_userid" name="from_userid" 
+	placeholder="请输入from_userid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="from_username" class="am-u-sm-12 am-form-label am-text-left">from_username            <span class="tpl-form-line-small-title">from_username</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewshmsg.from_username)"}{$enewshmsg.from_username}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="from_username" name="from_username" 
+	placeholder="请输入from_username">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="isadmin" class="am-u-sm-12 am-form-label am-text-left">isadmin            <span class="tpl-form-line-small-title">isadmin</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewshmsg.isadmin)"}{$enewshmsg.isadmin}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="isadmin" name="isadmin" 
+	placeholder="请输入isadmin">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="issys" class="am-u-sm-12 am-form-label am-text-left">issys            <span class="tpl-form-line-small-title">issys</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewshmsg.issys)"}{$enewshmsg.issys}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="issys" name="issys" 
+	placeholder="请输入issys">        </div>
+    </div>
+        <div class="am-form-group">
+        <div class="am-u-sm-12 am-u-sm-push-12">
+            <button type="submit" class="am-btn am-btn-primary tpl-btn-bg-color-success ">提交</button>
+        </div>
+    </div>
+</form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{/block}

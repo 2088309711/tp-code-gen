@@ -1,0 +1,454 @@
+{extend name="layout" /}
+{block name="content"}
+<!-- 内容区域 -->
+<div class="tpl-content-wrapper">
+    <div class="row-content am-cf">
+        <div class="row">
+            <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+                <div class="widget am-cf">
+                    <div class="widget-head am-cf">
+                        <div class="widget-title am-fl">编辑nj_ecms_infoclass_photo</div>
+                        <div class="widget-function am-fr">
+                            <a href="javascript:;" class="am-icon-cog"></a>
+                        </div>
+                    </div>
+                    <div class="widget-body am-fr">
+                        <form class="am-form tpl-form-border-form" method="post">
+        <div class="am-form-group">
+        <label for="classid" class="am-u-sm-12 am-form-label am-text-left">classid            <span class="tpl-form-line-small-title">classid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_photo.classid)"}{$ecms_infoclass_photo.classid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="classid" name="classid" 
+	placeholder="请输入classid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="zz_title" class="am-u-sm-12 am-form-label am-text-left">zz_title            <span class="tpl-form-line-small-title">zz_title</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_photo.zz_title)"}{$ecms_infoclass_photo.zz_title}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="zz_title" name="zz_title" 
+	placeholder="请输入zz_title">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="z_title" class="am-u-sm-12 am-form-label am-text-left">z_title            <span class="tpl-form-line-small-title">z_title</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_photo.z_title)"}{$ecms_infoclass_photo.z_title}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="z_title" name="z_title" 
+	placeholder="请输入z_title">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="qz_title" class="am-u-sm-12 am-form-label am-text-left">qz_title            <span class="tpl-form-line-small-title">qz_title</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_photo.qz_title)"}{$ecms_infoclass_photo.qz_title}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="qz_title" name="qz_title" 
+	placeholder="请输入qz_title">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="save_title" class="am-u-sm-12 am-form-label am-text-left">save_title            <span class="tpl-form-line-small-title">save_title</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_photo.save_title)"}{$ecms_infoclass_photo.save_title}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="save_title" name="save_title" 
+	placeholder="请输入save_title">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="zz_titlepic" class="am-u-sm-12 am-form-label am-text-left">zz_titlepic            <span class="tpl-form-line-small-title">zz_titlepic</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_photo.zz_titlepic)"}{$ecms_infoclass_photo.zz_titlepic}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="zz_titlepic" name="zz_titlepic" 
+	placeholder="请输入zz_titlepic">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="z_titlepic" class="am-u-sm-12 am-form-label am-text-left">z_titlepic            <span class="tpl-form-line-small-title">z_titlepic</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_photo.z_titlepic)"}{$ecms_infoclass_photo.z_titlepic}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="z_titlepic" name="z_titlepic" 
+	placeholder="请输入z_titlepic">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="qz_titlepic" class="am-u-sm-12 am-form-label am-text-left">qz_titlepic            <span class="tpl-form-line-small-title">qz_titlepic</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_photo.qz_titlepic)"}{$ecms_infoclass_photo.qz_titlepic}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="qz_titlepic" name="qz_titlepic" 
+	placeholder="请输入qz_titlepic">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="save_titlepic" class="am-u-sm-12 am-form-label am-text-left">save_titlepic            <span class="tpl-form-line-small-title">save_titlepic</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_photo.save_titlepic)"}{$ecms_infoclass_photo.save_titlepic}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="save_titlepic" name="save_titlepic" 
+	placeholder="请输入save_titlepic">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="zz_newstime" class="am-u-sm-12 am-form-label am-text-left">zz_newstime            <span class="tpl-form-line-small-title">zz_newstime</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_photo.zz_newstime)"}{$ecms_infoclass_photo.zz_newstime}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="zz_newstime" name="zz_newstime" 
+	placeholder="请输入zz_newstime">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="z_newstime" class="am-u-sm-12 am-form-label am-text-left">z_newstime            <span class="tpl-form-line-small-title">z_newstime</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_photo.z_newstime)"}{$ecms_infoclass_photo.z_newstime}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="z_newstime" name="z_newstime" 
+	placeholder="请输入z_newstime">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="qz_newstime" class="am-u-sm-12 am-form-label am-text-left">qz_newstime            <span class="tpl-form-line-small-title">qz_newstime</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_photo.qz_newstime)"}{$ecms_infoclass_photo.qz_newstime}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="qz_newstime" name="qz_newstime" 
+	placeholder="请输入qz_newstime">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="save_newstime" class="am-u-sm-12 am-form-label am-text-left">save_newstime            <span class="tpl-form-line-small-title">save_newstime</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_photo.save_newstime)"}{$ecms_infoclass_photo.save_newstime}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="save_newstime" name="save_newstime" 
+	placeholder="请输入save_newstime">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="zz_filesize" class="am-u-sm-12 am-form-label am-text-left">zz_filesize            <span class="tpl-form-line-small-title">zz_filesize</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_photo.zz_filesize)"}{$ecms_infoclass_photo.zz_filesize}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="zz_filesize" name="zz_filesize" 
+	placeholder="请输入zz_filesize">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="z_filesize" class="am-u-sm-12 am-form-label am-text-left">z_filesize            <span class="tpl-form-line-small-title">z_filesize</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_photo.z_filesize)"}{$ecms_infoclass_photo.z_filesize}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="z_filesize" name="z_filesize" 
+	placeholder="请输入z_filesize">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="qz_filesize" class="am-u-sm-12 am-form-label am-text-left">qz_filesize            <span class="tpl-form-line-small-title">qz_filesize</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_photo.qz_filesize)"}{$ecms_infoclass_photo.qz_filesize}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="qz_filesize" name="qz_filesize" 
+	placeholder="请输入qz_filesize">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="save_filesize" class="am-u-sm-12 am-form-label am-text-left">save_filesize            <span class="tpl-form-line-small-title">save_filesize</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_photo.save_filesize)"}{$ecms_infoclass_photo.save_filesize}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="save_filesize" name="save_filesize" 
+	placeholder="请输入save_filesize">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="zz_picsize" class="am-u-sm-12 am-form-label am-text-left">zz_picsize            <span class="tpl-form-line-small-title">zz_picsize</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_photo.zz_picsize)"}{$ecms_infoclass_photo.zz_picsize}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="zz_picsize" name="zz_picsize" 
+	placeholder="请输入zz_picsize">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="z_picsize" class="am-u-sm-12 am-form-label am-text-left">z_picsize            <span class="tpl-form-line-small-title">z_picsize</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_photo.z_picsize)"}{$ecms_infoclass_photo.z_picsize}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="z_picsize" name="z_picsize" 
+	placeholder="请输入z_picsize">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="qz_picsize" class="am-u-sm-12 am-form-label am-text-left">qz_picsize            <span class="tpl-form-line-small-title">qz_picsize</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_photo.qz_picsize)"}{$ecms_infoclass_photo.qz_picsize}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="qz_picsize" name="qz_picsize" 
+	placeholder="请输入qz_picsize">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="save_picsize" class="am-u-sm-12 am-form-label am-text-left">save_picsize            <span class="tpl-form-line-small-title">save_picsize</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_photo.save_picsize)"}{$ecms_infoclass_photo.save_picsize}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="save_picsize" name="save_picsize" 
+	placeholder="请输入save_picsize">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="zz_picfbl" class="am-u-sm-12 am-form-label am-text-left">zz_picfbl            <span class="tpl-form-line-small-title">zz_picfbl</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_photo.zz_picfbl)"}{$ecms_infoclass_photo.zz_picfbl}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="zz_picfbl" name="zz_picfbl" 
+	placeholder="请输入zz_picfbl">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="z_picfbl" class="am-u-sm-12 am-form-label am-text-left">z_picfbl            <span class="tpl-form-line-small-title">z_picfbl</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_photo.z_picfbl)"}{$ecms_infoclass_photo.z_picfbl}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="z_picfbl" name="z_picfbl" 
+	placeholder="请输入z_picfbl">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="qz_picfbl" class="am-u-sm-12 am-form-label am-text-left">qz_picfbl            <span class="tpl-form-line-small-title">qz_picfbl</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_photo.qz_picfbl)"}{$ecms_infoclass_photo.qz_picfbl}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="qz_picfbl" name="qz_picfbl" 
+	placeholder="请输入qz_picfbl">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="save_picfbl" class="am-u-sm-12 am-form-label am-text-left">save_picfbl            <span class="tpl-form-line-small-title">save_picfbl</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_photo.save_picfbl)"}{$ecms_infoclass_photo.save_picfbl}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="save_picfbl" name="save_picfbl" 
+	placeholder="请输入save_picfbl">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="zz_picfrom" class="am-u-sm-12 am-form-label am-text-left">zz_picfrom            <span class="tpl-form-line-small-title">zz_picfrom</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_photo.zz_picfrom)"}{$ecms_infoclass_photo.zz_picfrom}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="zz_picfrom" name="zz_picfrom" 
+	placeholder="请输入zz_picfrom">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="z_picfrom" class="am-u-sm-12 am-form-label am-text-left">z_picfrom            <span class="tpl-form-line-small-title">z_picfrom</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_photo.z_picfrom)"}{$ecms_infoclass_photo.z_picfrom}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="z_picfrom" name="z_picfrom" 
+	placeholder="请输入z_picfrom">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="qz_picfrom" class="am-u-sm-12 am-form-label am-text-left">qz_picfrom            <span class="tpl-form-line-small-title">qz_picfrom</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_photo.qz_picfrom)"}{$ecms_infoclass_photo.qz_picfrom}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="qz_picfrom" name="qz_picfrom" 
+	placeholder="请输入qz_picfrom">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="save_picfrom" class="am-u-sm-12 am-form-label am-text-left">save_picfrom            <span class="tpl-form-line-small-title">save_picfrom</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_photo.save_picfrom)"}{$ecms_infoclass_photo.save_picfrom}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="save_picfrom" name="save_picfrom" 
+	placeholder="请输入save_picfrom">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="zz_picurl" class="am-u-sm-12 am-form-label am-text-left">zz_picurl            <span class="tpl-form-line-small-title">zz_picurl</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_photo.zz_picurl)"}{$ecms_infoclass_photo.zz_picurl}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="zz_picurl" name="zz_picurl" 
+	placeholder="请输入zz_picurl">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="z_picurl" class="am-u-sm-12 am-form-label am-text-left">z_picurl            <span class="tpl-form-line-small-title">z_picurl</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_photo.z_picurl)"}{$ecms_infoclass_photo.z_picurl}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="z_picurl" name="z_picurl" 
+	placeholder="请输入z_picurl">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="qz_picurl" class="am-u-sm-12 am-form-label am-text-left">qz_picurl            <span class="tpl-form-line-small-title">qz_picurl</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_photo.qz_picurl)"}{$ecms_infoclass_photo.qz_picurl}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="qz_picurl" name="qz_picurl" 
+	placeholder="请输入qz_picurl">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="save_picurl" class="am-u-sm-12 am-form-label am-text-left">save_picurl            <span class="tpl-form-line-small-title">save_picurl</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_photo.save_picurl)"}{$ecms_infoclass_photo.save_picurl}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="save_picurl" name="save_picurl" 
+	placeholder="请输入save_picurl">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="zz_morepic" class="am-u-sm-12 am-form-label am-text-left">zz_morepic            <span class="tpl-form-line-small-title">zz_morepic</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_photo.zz_morepic)"}{$ecms_infoclass_photo.zz_morepic}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="zz_morepic" name="zz_morepic" 
+	placeholder="请输入zz_morepic">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="z_morepic" class="am-u-sm-12 am-form-label am-text-left">z_morepic            <span class="tpl-form-line-small-title">z_morepic</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_photo.z_morepic)"}{$ecms_infoclass_photo.z_morepic}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="z_morepic" name="z_morepic" 
+	placeholder="请输入z_morepic">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="qz_morepic" class="am-u-sm-12 am-form-label am-text-left">qz_morepic            <span class="tpl-form-line-small-title">qz_morepic</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_photo.qz_morepic)"}{$ecms_infoclass_photo.qz_morepic}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="qz_morepic" name="qz_morepic" 
+	placeholder="请输入qz_morepic">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="save_morepic" class="am-u-sm-12 am-form-label am-text-left">save_morepic            <span class="tpl-form-line-small-title">save_morepic</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_photo.save_morepic)"}{$ecms_infoclass_photo.save_morepic}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="save_morepic" name="save_morepic" 
+	placeholder="请输入save_morepic">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="zz_num" class="am-u-sm-12 am-form-label am-text-left">zz_num            <span class="tpl-form-line-small-title">zz_num</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_photo.zz_num)"}{$ecms_infoclass_photo.zz_num}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="zz_num" name="zz_num" 
+	placeholder="请输入zz_num">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="z_num" class="am-u-sm-12 am-form-label am-text-left">z_num            <span class="tpl-form-line-small-title">z_num</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_photo.z_num)"}{$ecms_infoclass_photo.z_num}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="z_num" name="z_num" 
+	placeholder="请输入z_num">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="qz_num" class="am-u-sm-12 am-form-label am-text-left">qz_num            <span class="tpl-form-line-small-title">qz_num</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_photo.qz_num)"}{$ecms_infoclass_photo.qz_num}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="qz_num" name="qz_num" 
+	placeholder="请输入qz_num">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="save_num" class="am-u-sm-12 am-form-label am-text-left">save_num            <span class="tpl-form-line-small-title">save_num</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_photo.save_num)"}{$ecms_infoclass_photo.save_num}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="save_num" name="save_num" 
+	placeholder="请输入save_num">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="zz_width" class="am-u-sm-12 am-form-label am-text-left">zz_width            <span class="tpl-form-line-small-title">zz_width</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_photo.zz_width)"}{$ecms_infoclass_photo.zz_width}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="zz_width" name="zz_width" 
+	placeholder="请输入zz_width">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="z_width" class="am-u-sm-12 am-form-label am-text-left">z_width            <span class="tpl-form-line-small-title">z_width</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_photo.z_width)"}{$ecms_infoclass_photo.z_width}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="z_width" name="z_width" 
+	placeholder="请输入z_width">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="qz_width" class="am-u-sm-12 am-form-label am-text-left">qz_width            <span class="tpl-form-line-small-title">qz_width</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_photo.qz_width)"}{$ecms_infoclass_photo.qz_width}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="qz_width" name="qz_width" 
+	placeholder="请输入qz_width">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="save_width" class="am-u-sm-12 am-form-label am-text-left">save_width            <span class="tpl-form-line-small-title">save_width</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_photo.save_width)"}{$ecms_infoclass_photo.save_width}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="save_width" name="save_width" 
+	placeholder="请输入save_width">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="zz_height" class="am-u-sm-12 am-form-label am-text-left">zz_height            <span class="tpl-form-line-small-title">zz_height</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_photo.zz_height)"}{$ecms_infoclass_photo.zz_height}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="zz_height" name="zz_height" 
+	placeholder="请输入zz_height">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="z_height" class="am-u-sm-12 am-form-label am-text-left">z_height            <span class="tpl-form-line-small-title">z_height</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_photo.z_height)"}{$ecms_infoclass_photo.z_height}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="z_height" name="z_height" 
+	placeholder="请输入z_height">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="qz_height" class="am-u-sm-12 am-form-label am-text-left">qz_height            <span class="tpl-form-line-small-title">qz_height</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_photo.qz_height)"}{$ecms_infoclass_photo.qz_height}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="qz_height" name="qz_height" 
+	placeholder="请输入qz_height">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="save_height" class="am-u-sm-12 am-form-label am-text-left">save_height            <span class="tpl-form-line-small-title">save_height</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_photo.save_height)"}{$ecms_infoclass_photo.save_height}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="save_height" name="save_height" 
+	placeholder="请输入save_height">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="zz_picsay" class="am-u-sm-12 am-form-label am-text-left">zz_picsay            <span class="tpl-form-line-small-title">zz_picsay</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_photo.zz_picsay)"}{$ecms_infoclass_photo.zz_picsay}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="zz_picsay" name="zz_picsay" 
+	placeholder="请输入zz_picsay">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="z_picsay" class="am-u-sm-12 am-form-label am-text-left">z_picsay            <span class="tpl-form-line-small-title">z_picsay</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_photo.z_picsay)"}{$ecms_infoclass_photo.z_picsay}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="z_picsay" name="z_picsay" 
+	placeholder="请输入z_picsay">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="qz_picsay" class="am-u-sm-12 am-form-label am-text-left">qz_picsay            <span class="tpl-form-line-small-title">qz_picsay</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_photo.qz_picsay)"}{$ecms_infoclass_photo.qz_picsay}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="qz_picsay" name="qz_picsay" 
+	placeholder="请输入qz_picsay">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="save_picsay" class="am-u-sm-12 am-form-label am-text-left">save_picsay            <span class="tpl-form-line-small-title">save_picsay</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_photo.save_picsay)"}{$ecms_infoclass_photo.save_picsay}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="save_picsay" name="save_picsay" 
+	placeholder="请输入save_picsay">        </div>
+    </div>
+        <div class="am-form-group">
+        <div class="am-u-sm-12 am-u-sm-push-12">
+            <button type="submit" class="am-btn am-btn-primary tpl-btn-bg-color-success ">提交</button>
+        </div>
+    </div>
+</form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{/block}

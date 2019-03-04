@@ -1,0 +1,101 @@
+{extend name="layout" /}
+{block name="content"}
+<!-- 内容区域 -->
+<div class="tpl-content-wrapper">
+    <div class="row-content am-cf">
+        <div class="row">
+            <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+                <div class="widget am-cf">
+                    <div class="widget-head am-cf">
+                        <div class="widget-title am-fl">新建nj_enewsgoodtype</div>
+                        <div class="widget-function am-fr">
+                            <a href="javascript:;" class="am-icon-cog"></a>
+                        </div>
+                    </div>
+                    <div class="widget-body am-fr">
+                        <form class="am-form tpl-form-border-form" method="post">
+        <div class="am-form-group">
+        <label for="tid" class="am-u-sm-12 am-form-label am-text-left">tid            <span class="tpl-form-line-small-title">tid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgoodtype.tid)"}{$enewsgoodtype.tid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="tid" name="tid" 
+	placeholder="请输入tid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="tname" class="am-u-sm-12 am-form-label am-text-left">tname            <span class="tpl-form-line-small-title">tname</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgoodtype.tname)"}{$enewsgoodtype.tname}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="tname" name="tname" 
+	placeholder="请输入tname">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="ttype" class="am-u-sm-12 am-form-label am-text-left">ttype            <span class="tpl-form-line-small-title">ttype</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgoodtype.ttype)"}{$enewsgoodtype.ttype}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="ttype" name="ttype" 
+	placeholder="请输入ttype">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="levelid" class="am-u-sm-12 am-form-label am-text-left">levelid            <span class="tpl-form-line-small-title">levelid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgoodtype.levelid)"}{$enewsgoodtype.levelid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="levelid" name="levelid" 
+	placeholder="请输入levelid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="myorder" class="am-u-sm-12 am-form-label am-text-left">myorder            <span class="tpl-form-line-small-title">myorder</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgoodtype.myorder)"}{$enewsgoodtype.myorder}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="myorder" name="myorder" 
+	placeholder="请输入myorder">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="groupid" class="am-u-sm-12 am-form-label am-text-left">groupid            <span class="tpl-form-line-small-title">groupid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgoodtype.groupid)"}{$enewsgoodtype.groupid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="groupid" name="groupid" 
+	placeholder="请输入groupid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="showall" class="am-u-sm-12 am-form-label am-text-left">showall            <span class="tpl-form-line-small-title">showall</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgoodtype.showall)"}{$enewsgoodtype.showall}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="showall" name="showall" 
+	placeholder="请输入showall">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="showcid" class="am-u-sm-12 am-form-label am-text-left">showcid            <span class="tpl-form-line-small-title">showcid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgoodtype.showcid)"}{$enewsgoodtype.showcid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="showcid" name="showcid" 
+	placeholder="请输入showcid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="hiddencid" class="am-u-sm-12 am-form-label am-text-left">hiddencid            <span class="tpl-form-line-small-title">hiddencid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgoodtype.hiddencid)"}{$enewsgoodtype.hiddencid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="hiddencid" name="hiddencid" 
+	placeholder="请输入hiddencid">        </div>
+    </div>
+        <div class="am-form-group">
+        <div class="am-u-sm-12 am-u-sm-push-12">
+            <button type="submit" class="am-btn am-btn-primary tpl-btn-bg-color-success ">提交</button>
+        </div>
+    </div>
+</form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{/block}

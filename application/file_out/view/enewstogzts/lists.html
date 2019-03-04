@@ -1,0 +1,99 @@
+{extend name="layout" /}
+{block name="content"}
+<!-- 内容区域 -->
+<div class="tpl-content-wrapper">
+    <div class="row-content am-cf">
+        <div class="row">
+            <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+                <div class="widget am-cf">
+                    <div class="widget-head am-cf">
+                        <div class="widget-title  am-cf">管理enewstogzts</div>
+                    </div>
+                    <div class="widget-body  am-fr">
+    <div class="am-u-sm-12 am-u-md-6 am-u-lg-6">
+        <div class="am-form-group">
+            <div class="am-btn-toolbar">
+                <div class="am-btn-group am-btn-group-xs">
+                    <a class="am-btn am-btn-default am-btn-success"
+                       href="{:url('enewstogzts/add')}">
+                        <span class="am-icon-plus"></span> 新增
+                    </a>
+                    <!--
+                    <button type="button" class="am-btn am-btn-default am-btn-secondary"><span class="am-icon-save"></span> 保存</button>
+                    <button type="button" class="am-btn am-btn-default am-btn-warning"><span class="am-icon-archive"></span> 审核</button>
+                    <button type="button" class="am-btn am-btn-default am-btn-danger"><span class="am-icon-trash-o"></span> 删除</button>
+                    -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="am-u-sm-12">
+        <table width="100%" class="am-table am-table-compact am-table-striped tpl-table-black " id="example-r">
+            <thead>
+            <tr>
+                                <th>togid</th>
+                                <th>keyboard</th>
+                                <th>searchf</th>
+                                <th>query</th>
+                                <th>specialsearch</th>
+                                <th>classid</th>
+                                <th>retype</th>
+                                <th>startday</th>
+                                <th>endday</th>
+                                <th>startid</th>
+                                <th>endid</th>
+                                <th>pline</th>
+                                <th>doecmszt</th>
+                                <th>togztname</th>
+                                <th>操作</th>
+            </tr>
+            </thead>
+            <tbody>
+            {volist name="enewstogztsList" id="vo"}
+            <tr class="gradeX">
+                                <td>{$vo.togid}</td>
+                                <td>{$vo.keyboard}</td>
+                                <td>{$vo.searchf}</td>
+                                <td>{$vo.query}</td>
+                                <td>{$vo.specialsearch}</td>
+                                <td>{$vo.classid}</td>
+                                <td>{$vo.retype}</td>
+                                <td>{$vo.startday}</td>
+                                <td>{$vo.endday}</td>
+                                <td>{$vo.startid}</td>
+                                <td>{$vo.endid}</td>
+                                <td>{$vo.pline}</td>
+                                <td>{$vo.doecmszt}</td>
+                                <td>{$vo.togztname}</td>
+                                <td>
+                    <div class="tpl-table-black-operation">
+                        <a href="{:url('enewstogzts/edit', ['id'=>$vo['id']])}">
+                            <i class="am-icon-pencil"></i> 编辑
+                        </a>
+                        <a href="{:url('enewstogzts/delete', ['id'=>$vo['id']])}"
+                           onclick='return confirm("确定删除吗？")' class="tpl-table-black-operation-del">
+                            <i class="am-icon-trash"></i> 删除
+                        </a>
+                    </div>
+                </td>
+            </tr>
+            {/volist}
+            <!-- more data -->
+            </tbody>
+        </table>
+    </div>
+    <div class="am-u-lg-12 am-cf">
+
+        <div class="am-fr">
+            <ul class="am-pagination tpl-pagination">
+                {$enewstogztsList->render()}
+            </ul>
+        </div>
+    </div>
+</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{/block}

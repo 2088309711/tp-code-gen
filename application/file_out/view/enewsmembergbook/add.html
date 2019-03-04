@@ -1,0 +1,117 @@
+{extend name="layout" /}
+{block name="content"}
+<!-- 内容区域 -->
+<div class="tpl-content-wrapper">
+    <div class="row-content am-cf">
+        <div class="row">
+            <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+                <div class="widget am-cf">
+                    <div class="widget-head am-cf">
+                        <div class="widget-title am-fl">新建nj_enewsmembergbook</div>
+                        <div class="widget-function am-fr">
+                            <a href="javascript:;" class="am-icon-cog"></a>
+                        </div>
+                    </div>
+                    <div class="widget-body am-fr">
+                        <form class="am-form tpl-form-border-form" method="post">
+        <div class="am-form-group">
+        <label for="gid" class="am-u-sm-12 am-form-label am-text-left">gid            <span class="tpl-form-line-small-title">gid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsmembergbook.gid)"}{$enewsmembergbook.gid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="gid" name="gid" 
+	placeholder="请输入gid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="userid" class="am-u-sm-12 am-form-label am-text-left">userid            <span class="tpl-form-line-small-title">userid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsmembergbook.userid)"}{$enewsmembergbook.userid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="userid" name="userid" 
+	placeholder="请输入userid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="isprivate" class="am-u-sm-12 am-form-label am-text-left">isprivate            <span class="tpl-form-line-small-title">isprivate</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsmembergbook.isprivate)"}{$enewsmembergbook.isprivate}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="isprivate" name="isprivate" 
+	placeholder="请输入isprivate">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="uid" class="am-u-sm-12 am-form-label am-text-left">uid            <span class="tpl-form-line-small-title">uid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsmembergbook.uid)"}{$enewsmembergbook.uid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="uid" name="uid" 
+	placeholder="请输入uid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="uname" class="am-u-sm-12 am-form-label am-text-left">uname            <span class="tpl-form-line-small-title">uname</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsmembergbook.uname)"}{$enewsmembergbook.uname}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="uname" name="uname" 
+	placeholder="请输入uname">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="ip" class="am-u-sm-12 am-form-label am-text-left">ip            <span class="tpl-form-line-small-title">ip</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsmembergbook.ip)"}{$enewsmembergbook.ip}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="ip" name="ip" 
+	placeholder="请输入ip">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="addtime" class="am-u-sm-12 am-form-label am-text-left">addtime            <span class="tpl-form-line-small-title">addtime</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsmembergbook.addtime)"}{$enewsmembergbook.addtime}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="addtime" name="addtime" 
+	placeholder="请输入addtime">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="gbtext" class="am-u-sm-12 am-form-label am-text-left">gbtext            <span class="tpl-form-line-small-title">gbtext</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsmembergbook.gbtext)"}{$enewsmembergbook.gbtext}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="gbtext" name="gbtext" 
+	placeholder="请输入gbtext">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="retext" class="am-u-sm-12 am-form-label am-text-left">retext            <span class="tpl-form-line-small-title">retext</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsmembergbook.retext)"}{$enewsmembergbook.retext}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="retext" name="retext" 
+	placeholder="请输入retext">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="checked" class="am-u-sm-12 am-form-label am-text-left">checked            <span class="tpl-form-line-small-title">checked</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsmembergbook.checked)"}{$enewsmembergbook.checked}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="checked" name="checked" 
+	placeholder="请输入checked">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="eipport" class="am-u-sm-12 am-form-label am-text-left">eipport            <span class="tpl-form-line-small-title">eipport</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsmembergbook.eipport)"}{$enewsmembergbook.eipport}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="eipport" name="eipport" 
+	placeholder="请输入eipport">        </div>
+    </div>
+        <div class="am-form-group">
+        <div class="am-u-sm-12 am-u-sm-push-12">
+            <button type="submit" class="am-btn am-btn-primary tpl-btn-bg-color-success ">提交</button>
+        </div>
+    </div>
+</form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{/block}

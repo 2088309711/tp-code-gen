@@ -1,0 +1,86 @@
+{extend name="layout" /}
+{block name="content"}
+<!-- 内容区域 -->
+<div class="tpl-content-wrapper">
+    <div class="row-content am-cf">
+        <div class="row">
+            <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+                <div class="widget am-cf">
+                    <div class="widget-head am-cf">
+                        <div class="widget-title am-fl">编辑nj_enewsspacestyle</div>
+                        <div class="widget-function am-fr">
+                            <a href="javascript:;" class="am-icon-cog"></a>
+                        </div>
+                    </div>
+                    <div class="widget-body am-fr">
+                        <form class="am-form tpl-form-border-form" method="post">
+        <div class="am-form-group">
+        <label for="styleid" class="am-u-sm-12 am-form-label am-text-left">styleid            <span class="tpl-form-line-small-title">styleid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsspacestyle.styleid)"}{$enewsspacestyle.styleid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="styleid" name="styleid" 
+	placeholder="请输入styleid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="stylename" class="am-u-sm-12 am-form-label am-text-left">stylename            <span class="tpl-form-line-small-title">stylename</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsspacestyle.stylename)"}{$enewsspacestyle.stylename}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="stylename" name="stylename" 
+	placeholder="请输入stylename">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="stylepic" class="am-u-sm-12 am-form-label am-text-left">stylepic            <span class="tpl-form-line-small-title">stylepic</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsspacestyle.stylepic)"}{$enewsspacestyle.stylepic}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="stylepic" name="stylepic" 
+	placeholder="请输入stylepic">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="stylesay" class="am-u-sm-12 am-form-label am-text-left">stylesay            <span class="tpl-form-line-small-title">stylesay</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsspacestyle.stylesay)"}{$enewsspacestyle.stylesay}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="stylesay" name="stylesay" 
+	placeholder="请输入stylesay">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="stylepath" class="am-u-sm-12 am-form-label am-text-left">stylepath            <span class="tpl-form-line-small-title">stylepath</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsspacestyle.stylepath)"}{$enewsspacestyle.stylepath}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="stylepath" name="stylepath" 
+	placeholder="请输入stylepath">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="isdefault" class="am-u-sm-12 am-form-label am-text-left">isdefault            <span class="tpl-form-line-small-title">isdefault</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsspacestyle.isdefault)"}{$enewsspacestyle.isdefault}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="isdefault" name="isdefault" 
+	placeholder="请输入isdefault">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="membergroup" class="am-u-sm-12 am-form-label am-text-left">membergroup            <span class="tpl-form-line-small-title">membergroup</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsspacestyle.membergroup)"}{$enewsspacestyle.membergroup}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="membergroup" name="membergroup" 
+	placeholder="请输入membergroup">        </div>
+    </div>
+        <div class="am-form-group">
+        <div class="am-u-sm-12 am-u-sm-push-12">
+            <button type="submit" class="am-btn am-btn-primary tpl-btn-bg-color-success ">提交</button>
+        </div>
+    </div>
+</form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{/block}

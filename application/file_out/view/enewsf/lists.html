@@ -1,0 +1,145 @@
+{extend name="layout" /}
+{block name="content"}
+<!-- 内容区域 -->
+<div class="tpl-content-wrapper">
+    <div class="row-content am-cf">
+        <div class="row">
+            <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+                <div class="widget am-cf">
+                    <div class="widget-head am-cf">
+                        <div class="widget-title  am-cf">管理enewsf</div>
+                    </div>
+                    <div class="widget-body  am-fr">
+    <div class="am-u-sm-12 am-u-md-6 am-u-lg-6">
+        <div class="am-form-group">
+            <div class="am-btn-toolbar">
+                <div class="am-btn-group am-btn-group-xs">
+                    <a class="am-btn am-btn-default am-btn-success"
+                       href="{:url('enewsf/add')}">
+                        <span class="am-icon-plus"></span> 新增
+                    </a>
+                    <!--
+                    <button type="button" class="am-btn am-btn-default am-btn-secondary"><span class="am-icon-save"></span> 保存</button>
+                    <button type="button" class="am-btn am-btn-default am-btn-warning"><span class="am-icon-archive"></span> 审核</button>
+                    <button type="button" class="am-btn am-btn-default am-btn-danger"><span class="am-icon-trash-o"></span> 删除</button>
+                    -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="am-u-sm-12">
+        <table width="100%" class="am-table am-table-compact am-table-striped tpl-table-black " id="example-r">
+            <thead>
+            <tr>
+                                <th>fid</th>
+                                <th>f</th>
+                                <th>fname</th>
+                                <th>fform</th>
+                                <th>fhtml</th>
+                                <th>fzs</th>
+                                <th>isadd</th>
+                                <th>isshow</th>
+                                <th>iscj</th>
+                                <th>cjhtml</th>
+                                <th>myorder</th>
+                                <th>ftype</th>
+                                <th>flen</th>
+                                <th>dotemp</th>
+                                <th>tid</th>
+                                <th>tbname</th>
+                                <th>savetxt</th>
+                                <th>fvalue</th>
+                                <th>iskey</th>
+                                <th>tobr</th>
+                                <th>dohtml</th>
+                                <th>qfhtml</th>
+                                <th>isonly</th>
+                                <th>linkfieldval</th>
+                                <th>samedata</th>
+                                <th>fformsize</th>
+                                <th>tbdataf</th>
+                                <th>ispage</th>
+                                <th>adddofun</th>
+                                <th>editdofun</th>
+                                <th>qadddofun</th>
+                                <th>qeditdofun</th>
+                                <th>linkfieldtb</th>
+                                <th>linkfieldshow</th>
+                                <th>editorys</th>
+                                <th>issmalltext</th>
+                                <th>fmvnum</th>
+                                <th>操作</th>
+            </tr>
+            </thead>
+            <tbody>
+            {volist name="enewsfList" id="vo"}
+            <tr class="gradeX">
+                                <td>{$vo.fid}</td>
+                                <td>{$vo.f}</td>
+                                <td>{$vo.fname}</td>
+                                <td>{$vo.fform}</td>
+                                <td>{$vo.fhtml}</td>
+                                <td>{$vo.fzs}</td>
+                                <td>{$vo.isadd}</td>
+                                <td>{$vo.isshow}</td>
+                                <td>{$vo.iscj}</td>
+                                <td>{$vo.cjhtml}</td>
+                                <td>{$vo.myorder}</td>
+                                <td>{$vo.ftype}</td>
+                                <td>{$vo.flen}</td>
+                                <td>{$vo.dotemp}</td>
+                                <td>{$vo.tid}</td>
+                                <td>{$vo.tbname}</td>
+                                <td>{$vo.savetxt}</td>
+                                <td>{$vo.fvalue}</td>
+                                <td>{$vo.iskey}</td>
+                                <td>{$vo.tobr}</td>
+                                <td>{$vo.dohtml}</td>
+                                <td>{$vo.qfhtml}</td>
+                                <td>{$vo.isonly}</td>
+                                <td>{$vo.linkfieldval}</td>
+                                <td>{$vo.samedata}</td>
+                                <td>{$vo.fformsize}</td>
+                                <td>{$vo.tbdataf}</td>
+                                <td>{$vo.ispage}</td>
+                                <td>{$vo.adddofun}</td>
+                                <td>{$vo.editdofun}</td>
+                                <td>{$vo.qadddofun}</td>
+                                <td>{$vo.qeditdofun}</td>
+                                <td>{$vo.linkfieldtb}</td>
+                                <td>{$vo.linkfieldshow}</td>
+                                <td>{$vo.editorys}</td>
+                                <td>{$vo.issmalltext}</td>
+                                <td>{$vo.fmvnum}</td>
+                                <td>
+                    <div class="tpl-table-black-operation">
+                        <a href="{:url('enewsf/edit', ['id'=>$vo['id']])}">
+                            <i class="am-icon-pencil"></i> 编辑
+                        </a>
+                        <a href="{:url('enewsf/delete', ['id'=>$vo['id']])}"
+                           onclick='return confirm("确定删除吗？")' class="tpl-table-black-operation-del">
+                            <i class="am-icon-trash"></i> 删除
+                        </a>
+                    </div>
+                </td>
+            </tr>
+            {/volist}
+            <!-- more data -->
+            </tbody>
+        </table>
+    </div>
+    <div class="am-u-lg-12 am-cf">
+
+        <div class="am-fr">
+            <ul class="am-pagination tpl-pagination">
+                {$enewsfList->render()}
+            </ul>
+        </div>
+    </div>
+</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{/block}

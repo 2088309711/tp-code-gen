@@ -1,0 +1,375 @@
+{extend name="layout" /}
+{block name="content"}
+<!-- 内容区域 -->
+<div class="tpl-content-wrapper">
+    <div class="row-content am-cf">
+        <div class="row">
+            <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+                <div class="widget am-cf">
+                    <div class="widget-head am-cf">
+                        <div class="widget-title am-fl">编辑nj_ecms_shop</div>
+                        <div class="widget-function am-fr">
+                            <a href="javascript:;" class="am-icon-cog"></a>
+                        </div>
+                    </div>
+                    <div class="widget-body am-fr">
+                        <form class="am-form tpl-form-border-form" method="post">
+        <input type="hidden" name="id" value="{$ecms_shop.id}"/>
+        <div class="am-form-group">
+        <label for="classid" class="am-u-sm-12 am-form-label am-text-left">classid            <span class="tpl-form-line-small-title">classid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_shop.classid)"}{$ecms_shop.classid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="classid" name="classid" 
+	placeholder="请输入classid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="ttid" class="am-u-sm-12 am-form-label am-text-left">ttid            <span class="tpl-form-line-small-title">ttid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_shop.ttid)"}{$ecms_shop.ttid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="ttid" name="ttid" 
+	placeholder="请输入ttid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="onclick" class="am-u-sm-12 am-form-label am-text-left">onclick            <span class="tpl-form-line-small-title">onclick</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_shop.onclick)"}{$ecms_shop.onclick}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="onclick" name="onclick" 
+	placeholder="请输入onclick">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="plnum" class="am-u-sm-12 am-form-label am-text-left">plnum            <span class="tpl-form-line-small-title">plnum</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_shop.plnum)"}{$ecms_shop.plnum}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="plnum" name="plnum" 
+	placeholder="请输入plnum">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="totaldown" class="am-u-sm-12 am-form-label am-text-left">totaldown            <span class="tpl-form-line-small-title">totaldown</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_shop.totaldown)"}{$ecms_shop.totaldown}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="totaldown" name="totaldown" 
+	placeholder="请输入totaldown">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="newspath" class="am-u-sm-12 am-form-label am-text-left">newspath            <span class="tpl-form-line-small-title">newspath</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_shop.newspath)"}{$ecms_shop.newspath}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="newspath" name="newspath" 
+	placeholder="请输入newspath">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="filename" class="am-u-sm-12 am-form-label am-text-left">filename            <span class="tpl-form-line-small-title">filename</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_shop.filename)"}{$ecms_shop.filename}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="filename" name="filename" 
+	placeholder="请输入filename">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="userid" class="am-u-sm-12 am-form-label am-text-left">userid            <span class="tpl-form-line-small-title">userid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_shop.userid)"}{$ecms_shop.userid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="userid" name="userid" 
+	placeholder="请输入userid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="username" class="am-u-sm-12 am-form-label am-text-left">username            <span class="tpl-form-line-small-title">username</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_shop.username)"}{$ecms_shop.username}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="username" name="username" 
+	placeholder="请输入username">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="firsttitle" class="am-u-sm-12 am-form-label am-text-left">firsttitle            <span class="tpl-form-line-small-title">firsttitle</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_shop.firsttitle)"}{$ecms_shop.firsttitle}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="firsttitle" name="firsttitle" 
+	placeholder="请输入firsttitle">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="isgood" class="am-u-sm-12 am-form-label am-text-left">isgood            <span class="tpl-form-line-small-title">isgood</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_shop.isgood)"}{$ecms_shop.isgood}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="isgood" name="isgood" 
+	placeholder="请输入isgood">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="ispic" class="am-u-sm-12 am-form-label am-text-left">ispic            <span class="tpl-form-line-small-title">ispic</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_shop.ispic)"}{$ecms_shop.ispic}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="ispic" name="ispic" 
+	placeholder="请输入ispic">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="istop" class="am-u-sm-12 am-form-label am-text-left">istop            <span class="tpl-form-line-small-title">istop</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_shop.istop)"}{$ecms_shop.istop}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="istop" name="istop" 
+	placeholder="请输入istop">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="isqf" class="am-u-sm-12 am-form-label am-text-left">isqf            <span class="tpl-form-line-small-title">isqf</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_shop.isqf)"}{$ecms_shop.isqf}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="isqf" name="isqf" 
+	placeholder="请输入isqf">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="ismember" class="am-u-sm-12 am-form-label am-text-left">ismember            <span class="tpl-form-line-small-title">ismember</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_shop.ismember)"}{$ecms_shop.ismember}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="ismember" name="ismember" 
+	placeholder="请输入ismember">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="isurl" class="am-u-sm-12 am-form-label am-text-left">isurl            <span class="tpl-form-line-small-title">isurl</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_shop.isurl)"}{$ecms_shop.isurl}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="isurl" name="isurl" 
+	placeholder="请输入isurl">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="truetime" class="am-u-sm-12 am-form-label am-text-left">truetime            <span class="tpl-form-line-small-title">truetime</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_shop.truetime)"}{$ecms_shop.truetime}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="truetime" name="truetime" 
+	placeholder="请输入truetime">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="lastdotime" class="am-u-sm-12 am-form-label am-text-left">lastdotime            <span class="tpl-form-line-small-title">lastdotime</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_shop.lastdotime)"}{$ecms_shop.lastdotime}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="lastdotime" name="lastdotime" 
+	placeholder="请输入lastdotime">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="havehtml" class="am-u-sm-12 am-form-label am-text-left">havehtml            <span class="tpl-form-line-small-title">havehtml</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_shop.havehtml)"}{$ecms_shop.havehtml}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="havehtml" name="havehtml" 
+	placeholder="请输入havehtml">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="groupid" class="am-u-sm-12 am-form-label am-text-left">groupid            <span class="tpl-form-line-small-title">groupid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_shop.groupid)"}{$ecms_shop.groupid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="groupid" name="groupid" 
+	placeholder="请输入groupid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="userfen" class="am-u-sm-12 am-form-label am-text-left">userfen            <span class="tpl-form-line-small-title">userfen</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_shop.userfen)"}{$ecms_shop.userfen}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="userfen" name="userfen" 
+	placeholder="请输入userfen">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="titlefont" class="am-u-sm-12 am-form-label am-text-left">titlefont            <span class="tpl-form-line-small-title">titlefont</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_shop.titlefont)"}{$ecms_shop.titlefont}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="titlefont" name="titlefont" 
+	placeholder="请输入titlefont">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="titleurl" class="am-u-sm-12 am-form-label am-text-left">titleurl            <span class="tpl-form-line-small-title">titleurl</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_shop.titleurl)"}{$ecms_shop.titleurl}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="titleurl" name="titleurl" 
+	placeholder="请输入titleurl">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="stb" class="am-u-sm-12 am-form-label am-text-left">stb            <span class="tpl-form-line-small-title">stb</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_shop.stb)"}{$ecms_shop.stb}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="stb" name="stb" 
+	placeholder="请输入stb">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="fstb" class="am-u-sm-12 am-form-label am-text-left">fstb            <span class="tpl-form-line-small-title">fstb</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_shop.fstb)"}{$ecms_shop.fstb}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="fstb" name="fstb" 
+	placeholder="请输入fstb">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="restb" class="am-u-sm-12 am-form-label am-text-left">restb            <span class="tpl-form-line-small-title">restb</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_shop.restb)"}{$ecms_shop.restb}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="restb" name="restb" 
+	placeholder="请输入restb">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="keyboard" class="am-u-sm-12 am-form-label am-text-left">keyboard            <span class="tpl-form-line-small-title">keyboard</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_shop.keyboard)"}{$ecms_shop.keyboard}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="keyboard" name="keyboard" 
+	placeholder="请输入keyboard">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="title" class="am-u-sm-12 am-form-label am-text-left">title            <span class="tpl-form-line-small-title">title</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_shop.title)"}{$ecms_shop.title}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="title" name="title" 
+	placeholder="请输入title">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="newstime" class="am-u-sm-12 am-form-label am-text-left">newstime            <span class="tpl-form-line-small-title">newstime</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_shop.newstime)"}{$ecms_shop.newstime}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="newstime" name="newstime" 
+	placeholder="请输入newstime">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="titlepic" class="am-u-sm-12 am-form-label am-text-left">titlepic            <span class="tpl-form-line-small-title">titlepic</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_shop.titlepic)"}{$ecms_shop.titlepic}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="titlepic" name="titlepic" 
+	placeholder="请输入titlepic">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="eckuid" class="am-u-sm-12 am-form-label am-text-left">eckuid            <span class="tpl-form-line-small-title">eckuid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_shop.eckuid)"}{$ecms_shop.eckuid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="eckuid" name="eckuid" 
+	placeholder="请输入eckuid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="productno" class="am-u-sm-12 am-form-label am-text-left">productno            <span class="tpl-form-line-small-title">productno</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_shop.productno)"}{$ecms_shop.productno}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="productno" name="productno" 
+	placeholder="请输入productno">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="pbrand" class="am-u-sm-12 am-form-label am-text-left">pbrand            <span class="tpl-form-line-small-title">pbrand</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_shop.pbrand)"}{$ecms_shop.pbrand}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="pbrand" name="pbrand" 
+	placeholder="请输入pbrand">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="intro" class="am-u-sm-12 am-form-label am-text-left">intro            <span class="tpl-form-line-small-title">intro</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_shop.intro)"}{$ecms_shop.intro}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="intro" name="intro" 
+	placeholder="请输入intro">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="unit" class="am-u-sm-12 am-form-label am-text-left">unit            <span class="tpl-form-line-small-title">unit</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_shop.unit)"}{$ecms_shop.unit}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="unit" name="unit" 
+	placeholder="请输入unit">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="weight" class="am-u-sm-12 am-form-label am-text-left">weight            <span class="tpl-form-line-small-title">weight</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_shop.weight)"}{$ecms_shop.weight}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="weight" name="weight" 
+	placeholder="请输入weight">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="tprice" class="am-u-sm-12 am-form-label am-text-left">tprice            <span class="tpl-form-line-small-title">tprice</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_shop.tprice)"}{$ecms_shop.tprice}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="tprice" name="tprice" 
+	placeholder="请输入tprice">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="price" class="am-u-sm-12 am-form-label am-text-left">price            <span class="tpl-form-line-small-title">price</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_shop.price)"}{$ecms_shop.price}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="price" name="price" 
+	placeholder="请输入price">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="buyfen" class="am-u-sm-12 am-form-label am-text-left">buyfen            <span class="tpl-form-line-small-title">buyfen</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_shop.buyfen)"}{$ecms_shop.buyfen}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="buyfen" name="buyfen" 
+	placeholder="请输入buyfen">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="pmaxnum" class="am-u-sm-12 am-form-label am-text-left">pmaxnum            <span class="tpl-form-line-small-title">pmaxnum</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_shop.pmaxnum)"}{$ecms_shop.pmaxnum}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="pmaxnum" name="pmaxnum" 
+	placeholder="请输入pmaxnum">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="productpic" class="am-u-sm-12 am-form-label am-text-left">productpic            <span class="tpl-form-line-small-title">productpic</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_shop.productpic)"}{$ecms_shop.productpic}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="productpic" name="productpic" 
+	placeholder="请输入productpic">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="newstext" class="am-u-sm-12 am-form-label am-text-left">newstext            <span class="tpl-form-line-small-title">newstext</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_shop.newstext)"}{$ecms_shop.newstext}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="newstext" name="newstext" 
+	placeholder="请输入newstext">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="psalenum" class="am-u-sm-12 am-form-label am-text-left">psalenum            <span class="tpl-form-line-small-title">psalenum</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_shop.psalenum)"}{$ecms_shop.psalenum}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="psalenum" name="psalenum" 
+	placeholder="请输入psalenum">        </div>
+    </div>
+        <div class="am-form-group">
+        <div class="am-u-sm-12 am-u-sm-push-12">
+            <button type="submit" class="am-btn am-btn-primary tpl-btn-bg-color-success ">提交</button>
+        </div>
+    </div>
+</form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{/block}

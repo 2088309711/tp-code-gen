@@ -1,0 +1,289 @@
+{extend name="layout" /}
+{block name="content"}
+<!-- 内容区域 -->
+<div class="tpl-content-wrapper">
+    <div class="row-content am-cf">
+        <div class="row">
+            <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+                <div class="widget am-cf">
+                    <div class="widget-head am-cf">
+                        <div class="widget-title  am-cf">管理enewsgroup</div>
+                    </div>
+                    <div class="widget-body  am-fr">
+    <div class="am-u-sm-12 am-u-md-6 am-u-lg-6">
+        <div class="am-form-group">
+            <div class="am-btn-toolbar">
+                <div class="am-btn-group am-btn-group-xs">
+                    <a class="am-btn am-btn-default am-btn-success"
+                       href="{:url('enewsgroup/add')}">
+                        <span class="am-icon-plus"></span> 新增
+                    </a>
+                    <!--
+                    <button type="button" class="am-btn am-btn-default am-btn-secondary"><span class="am-icon-save"></span> 保存</button>
+                    <button type="button" class="am-btn am-btn-default am-btn-warning"><span class="am-icon-archive"></span> 审核</button>
+                    <button type="button" class="am-btn am-btn-default am-btn-danger"><span class="am-icon-trash-o"></span> 删除</button>
+                    -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="am-u-sm-12">
+        <table width="100%" class="am-table am-table-compact am-table-striped tpl-table-black " id="example-r">
+            <thead>
+            <tr>
+                                <th>groupid</th>
+                                <th>groupname</th>
+                                <th>dopublic</th>
+                                <th>doclass</th>
+                                <th>dotemplate</th>
+                                <th>dopicnews</th>
+                                <th>dofile</th>
+                                <th>douser</th>
+                                <th>dolog</th>
+                                <th>domember</th>
+                                <th>dobefrom</th>
+                                <th>doword</th>
+                                <th>dokey</th>
+                                <th>doad</th>
+                                <th>dovote</th>
+                                <th>dogroup</th>
+                                <th>doall</th>
+                                <th>docj</th>
+                                <th>dobq</th>
+                                <th>domovenews</th>
+                                <th>dopostdata</th>
+                                <th>dochangedata</th>
+                                <th>dopl</th>
+                                <th>dof</th>
+                                <th>dom</th>
+                                <th>dodo</th>
+                                <th>dodbdata</th>
+                                <th>dorepnewstext</th>
+                                <th>dotempvar</th>
+                                <th>dostats</th>
+                                <th>dowriter</th>
+                                <th>dototaldata</th>
+                                <th>dosearchkey</th>
+                                <th>dozt</th>
+                                <th>docard</th>
+                                <th>dolink</th>
+                                <th>doselfinfo</th>
+                                <th>doexecsql</th>
+                                <th>dotable</th>
+                                <th>dodownurl</th>
+                                <th>dodeldownrecord</th>
+                                <th>doshoppayfs</th>
+                                <th>doshopps</th>
+                                <th>doshopdd</th>
+                                <th>dogbook</th>
+                                <th>dofeedback</th>
+                                <th>douserpage</th>
+                                <th>donotcj</th>
+                                <th>dodownerror</th>
+                                <th>dodelinfodata</th>
+                                <th>doaddinfo</th>
+                                <th>doeditinfo</th>
+                                <th>dodelinfo</th>
+                                <th>doadminstyle</th>
+                                <th>dorepdownpath</th>
+                                <th>douserjs</th>
+                                <th>douserlist</th>
+                                <th>domsg</th>
+                                <th>dosendemail</th>
+                                <th>dosetmclass</th>
+                                <th>doinfodoc</th>
+                                <th>dotempgroup</th>
+                                <th>dofeedbackf</th>
+                                <th>dotask</th>
+                                <th>domemberf</th>
+                                <th>dospacestyle</th>
+                                <th>dospacedata</th>
+                                <th>dovotemod</th>
+                                <th>doplayer</th>
+                                <th>dowap</th>
+                                <th>dopay</th>
+                                <th>dobuygroup</th>
+                                <th>dosearchall</th>
+                                <th>doinfotype</th>
+                                <th>doplf</th>
+                                <th>dopltable</th>
+                                <th>dochadminstyle</th>
+                                <th>dotags</th>
+                                <th>dosp</th>
+                                <th>doyh</th>
+                                <th>dofirewall</th>
+                                <th>dosetsafe</th>
+                                <th>douserclass</th>
+                                <th>doworkflow</th>
+                                <th>domenu</th>
+                                <th>dopubvar</th>
+                                <th>doclassf</th>
+                                <th>doztf</th>
+                                <th>dofiletable</th>
+                                <th>docheckinfo</th>
+                                <th>dogoodinfo</th>
+                                <th>dodocinfo</th>
+                                <th>domoveinfo</th>
+                                <th>dodttemp</th>
+                                <th>doloadcj</th>
+                                <th>domustcheck</th>
+                                <th>docheckedit</th>
+                                <th>domemberconnect</th>
+                                <th>doprecode</th>
+                                <th>domoreport</th>
+                                <th>docanhtml</th>
+                                <th>dodelclass</th>
+                                <th>doinfofile</th>
+                                <th>doingroup</th>
+                                <th>domembergroup</th>
+                                <th>doviewgroup</th>
+                                <th>domadmingroup</th>
+                                <th>dochmoreport</th>
+                                <th>doisqf</th>
+                                <th>操作</th>
+            </tr>
+            </thead>
+            <tbody>
+            {volist name="enewsgroupList" id="vo"}
+            <tr class="gradeX">
+                                <td>{$vo.groupid}</td>
+                                <td>{$vo.groupname}</td>
+                                <td>{$vo.dopublic}</td>
+                                <td>{$vo.doclass}</td>
+                                <td>{$vo.dotemplate}</td>
+                                <td>{$vo.dopicnews}</td>
+                                <td>{$vo.dofile}</td>
+                                <td>{$vo.douser}</td>
+                                <td>{$vo.dolog}</td>
+                                <td>{$vo.domember}</td>
+                                <td>{$vo.dobefrom}</td>
+                                <td>{$vo.doword}</td>
+                                <td>{$vo.dokey}</td>
+                                <td>{$vo.doad}</td>
+                                <td>{$vo.dovote}</td>
+                                <td>{$vo.dogroup}</td>
+                                <td>{$vo.doall}</td>
+                                <td>{$vo.docj}</td>
+                                <td>{$vo.dobq}</td>
+                                <td>{$vo.domovenews}</td>
+                                <td>{$vo.dopostdata}</td>
+                                <td>{$vo.dochangedata}</td>
+                                <td>{$vo.dopl}</td>
+                                <td>{$vo.dof}</td>
+                                <td>{$vo.dom}</td>
+                                <td>{$vo.dodo}</td>
+                                <td>{$vo.dodbdata}</td>
+                                <td>{$vo.dorepnewstext}</td>
+                                <td>{$vo.dotempvar}</td>
+                                <td>{$vo.dostats}</td>
+                                <td>{$vo.dowriter}</td>
+                                <td>{$vo.dototaldata}</td>
+                                <td>{$vo.dosearchkey}</td>
+                                <td>{$vo.dozt}</td>
+                                <td>{$vo.docard}</td>
+                                <td>{$vo.dolink}</td>
+                                <td>{$vo.doselfinfo}</td>
+                                <td>{$vo.doexecsql}</td>
+                                <td>{$vo.dotable}</td>
+                                <td>{$vo.dodownurl}</td>
+                                <td>{$vo.dodeldownrecord}</td>
+                                <td>{$vo.doshoppayfs}</td>
+                                <td>{$vo.doshopps}</td>
+                                <td>{$vo.doshopdd}</td>
+                                <td>{$vo.dogbook}</td>
+                                <td>{$vo.dofeedback}</td>
+                                <td>{$vo.douserpage}</td>
+                                <td>{$vo.donotcj}</td>
+                                <td>{$vo.dodownerror}</td>
+                                <td>{$vo.dodelinfodata}</td>
+                                <td>{$vo.doaddinfo}</td>
+                                <td>{$vo.doeditinfo}</td>
+                                <td>{$vo.dodelinfo}</td>
+                                <td>{$vo.doadminstyle}</td>
+                                <td>{$vo.dorepdownpath}</td>
+                                <td>{$vo.douserjs}</td>
+                                <td>{$vo.douserlist}</td>
+                                <td>{$vo.domsg}</td>
+                                <td>{$vo.dosendemail}</td>
+                                <td>{$vo.dosetmclass}</td>
+                                <td>{$vo.doinfodoc}</td>
+                                <td>{$vo.dotempgroup}</td>
+                                <td>{$vo.dofeedbackf}</td>
+                                <td>{$vo.dotask}</td>
+                                <td>{$vo.domemberf}</td>
+                                <td>{$vo.dospacestyle}</td>
+                                <td>{$vo.dospacedata}</td>
+                                <td>{$vo.dovotemod}</td>
+                                <td>{$vo.doplayer}</td>
+                                <td>{$vo.dowap}</td>
+                                <td>{$vo.dopay}</td>
+                                <td>{$vo.dobuygroup}</td>
+                                <td>{$vo.dosearchall}</td>
+                                <td>{$vo.doinfotype}</td>
+                                <td>{$vo.doplf}</td>
+                                <td>{$vo.dopltable}</td>
+                                <td>{$vo.dochadminstyle}</td>
+                                <td>{$vo.dotags}</td>
+                                <td>{$vo.dosp}</td>
+                                <td>{$vo.doyh}</td>
+                                <td>{$vo.dofirewall}</td>
+                                <td>{$vo.dosetsafe}</td>
+                                <td>{$vo.douserclass}</td>
+                                <td>{$vo.doworkflow}</td>
+                                <td>{$vo.domenu}</td>
+                                <td>{$vo.dopubvar}</td>
+                                <td>{$vo.doclassf}</td>
+                                <td>{$vo.doztf}</td>
+                                <td>{$vo.dofiletable}</td>
+                                <td>{$vo.docheckinfo}</td>
+                                <td>{$vo.dogoodinfo}</td>
+                                <td>{$vo.dodocinfo}</td>
+                                <td>{$vo.domoveinfo}</td>
+                                <td>{$vo.dodttemp}</td>
+                                <td>{$vo.doloadcj}</td>
+                                <td>{$vo.domustcheck}</td>
+                                <td>{$vo.docheckedit}</td>
+                                <td>{$vo.domemberconnect}</td>
+                                <td>{$vo.doprecode}</td>
+                                <td>{$vo.domoreport}</td>
+                                <td>{$vo.docanhtml}</td>
+                                <td>{$vo.dodelclass}</td>
+                                <td>{$vo.doinfofile}</td>
+                                <td>{$vo.doingroup}</td>
+                                <td>{$vo.domembergroup}</td>
+                                <td>{$vo.doviewgroup}</td>
+                                <td>{$vo.domadmingroup}</td>
+                                <td>{$vo.dochmoreport}</td>
+                                <td>{$vo.doisqf}</td>
+                                <td>
+                    <div class="tpl-table-black-operation">
+                        <a href="{:url('enewsgroup/edit', ['id'=>$vo['id']])}">
+                            <i class="am-icon-pencil"></i> 编辑
+                        </a>
+                        <a href="{:url('enewsgroup/delete', ['id'=>$vo['id']])}"
+                           onclick='return confirm("确定删除吗？")' class="tpl-table-black-operation-del">
+                            <i class="am-icon-trash"></i> 删除
+                        </a>
+                    </div>
+                </td>
+            </tr>
+            {/volist}
+            <!-- more data -->
+            </tbody>
+        </table>
+    </div>
+    <div class="am-u-lg-12 am-cf">
+
+        <div class="am-fr">
+            <ul class="am-pagination tpl-pagination">
+                {$enewsgroupList->render()}
+            </ul>
+        </div>
+    </div>
+</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{/block}

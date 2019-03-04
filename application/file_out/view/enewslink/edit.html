@@ -1,0 +1,150 @@
+{extend name="layout" /}
+{block name="content"}
+<!-- 内容区域 -->
+<div class="tpl-content-wrapper">
+    <div class="row-content am-cf">
+        <div class="row">
+            <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+                <div class="widget am-cf">
+                    <div class="widget-head am-cf">
+                        <div class="widget-title am-fl">编辑nj_enewslink</div>
+                        <div class="widget-function am-fr">
+                            <a href="javascript:;" class="am-icon-cog"></a>
+                        </div>
+                    </div>
+                    <div class="widget-body am-fr">
+                        <form class="am-form tpl-form-border-form" method="post">
+        <div class="am-form-group">
+        <label for="lid" class="am-u-sm-12 am-form-label am-text-left">lid            <span class="tpl-form-line-small-title">lid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewslink.lid)"}{$enewslink.lid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="lid" name="lid" 
+	placeholder="请输入lid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="lname" class="am-u-sm-12 am-form-label am-text-left">lname            <span class="tpl-form-line-small-title">lname</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewslink.lname)"}{$enewslink.lname}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="lname" name="lname" 
+	placeholder="请输入lname">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="lpic" class="am-u-sm-12 am-form-label am-text-left">lpic            <span class="tpl-form-line-small-title">lpic</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewslink.lpic)"}{$enewslink.lpic}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="lpic" name="lpic" 
+	placeholder="请输入lpic">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="lurl" class="am-u-sm-12 am-form-label am-text-left">lurl            <span class="tpl-form-line-small-title">lurl</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewslink.lurl)"}{$enewslink.lurl}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="lurl" name="lurl" 
+	placeholder="请输入lurl">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="ltime" class="am-u-sm-12 am-form-label am-text-left">ltime            <span class="tpl-form-line-small-title">ltime</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewslink.ltime)"}{$enewslink.ltime}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="ltime" name="ltime" 
+	placeholder="请输入ltime">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="onclick" class="am-u-sm-12 am-form-label am-text-left">onclick            <span class="tpl-form-line-small-title">onclick</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewslink.onclick)"}{$enewslink.onclick}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="onclick" name="onclick" 
+	placeholder="请输入onclick">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="width" class="am-u-sm-12 am-form-label am-text-left">width            <span class="tpl-form-line-small-title">width</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewslink.width)"}{$enewslink.width}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="width" name="width" 
+	placeholder="请输入width">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="height" class="am-u-sm-12 am-form-label am-text-left">height            <span class="tpl-form-line-small-title">height</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewslink.height)"}{$enewslink.height}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="height" name="height" 
+	placeholder="请输入height">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="target" class="am-u-sm-12 am-form-label am-text-left">target            <span class="tpl-form-line-small-title">target</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewslink.target)"}{$enewslink.target}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="target" name="target" 
+	placeholder="请输入target">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="myorder" class="am-u-sm-12 am-form-label am-text-left">myorder            <span class="tpl-form-line-small-title">myorder</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewslink.myorder)"}{$enewslink.myorder}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="myorder" name="myorder" 
+	placeholder="请输入myorder">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="email" class="am-u-sm-12 am-form-label am-text-left">email            <span class="tpl-form-line-small-title">email</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewslink.email)"}{$enewslink.email}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="email" name="email" 
+	placeholder="请输入email">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="lsay" class="am-u-sm-12 am-form-label am-text-left">lsay            <span class="tpl-form-line-small-title">lsay</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewslink.lsay)"}{$enewslink.lsay}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="lsay" name="lsay" 
+	placeholder="请输入lsay">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="checked" class="am-u-sm-12 am-form-label am-text-left">checked            <span class="tpl-form-line-small-title">checked</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewslink.checked)"}{$enewslink.checked}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="checked" name="checked" 
+	placeholder="请输入checked">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="ltype" class="am-u-sm-12 am-form-label am-text-left">ltype            <span class="tpl-form-line-small-title">ltype</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewslink.ltype)"}{$enewslink.ltype}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="ltype" name="ltype" 
+	placeholder="请输入ltype">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="classid" class="am-u-sm-12 am-form-label am-text-left">classid            <span class="tpl-form-line-small-title">classid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewslink.classid)"}{$enewslink.classid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="classid" name="classid" 
+	placeholder="请输入classid">        </div>
+    </div>
+        <div class="am-form-group">
+        <div class="am-u-sm-12 am-u-sm-push-12">
+            <button type="submit" class="am-btn am-btn-primary tpl-btn-bg-color-success ">提交</button>
+        </div>
+    </div>
+</form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{/block}

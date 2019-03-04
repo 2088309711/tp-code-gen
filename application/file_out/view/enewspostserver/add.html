@@ -1,0 +1,141 @@
+{extend name="layout" /}
+{block name="content"}
+<!-- 内容区域 -->
+<div class="tpl-content-wrapper">
+    <div class="row-content am-cf">
+        <div class="row">
+            <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+                <div class="widget am-cf">
+                    <div class="widget-head am-cf">
+                        <div class="widget-title am-fl">新建nj_enewspostserver</div>
+                        <div class="widget-function am-fr">
+                            <a href="javascript:;" class="am-icon-cog"></a>
+                        </div>
+                    </div>
+                    <div class="widget-body am-fr">
+                        <form class="am-form tpl-form-border-form" method="post">
+        <div class="am-form-group">
+        <label for="pid" class="am-u-sm-12 am-form-label am-text-left">pid            <span class="tpl-form-line-small-title">pid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspostserver.pid)"}{$enewspostserver.pid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="pid" name="pid" 
+	placeholder="请输入pid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="pname" class="am-u-sm-12 am-form-label am-text-left">pname            <span class="tpl-form-line-small-title">pname</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspostserver.pname)"}{$enewspostserver.pname}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="pname" name="pname" 
+	placeholder="请输入pname">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="purl" class="am-u-sm-12 am-form-label am-text-left">purl            <span class="tpl-form-line-small-title">purl</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspostserver.purl)"}{$enewspostserver.purl}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="purl" name="purl" 
+	placeholder="请输入purl">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="ptype" class="am-u-sm-12 am-form-label am-text-left">ptype            <span class="tpl-form-line-small-title">ptype</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspostserver.ptype)"}{$enewspostserver.ptype}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="ptype" name="ptype" 
+	placeholder="请输入ptype">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="ftphost" class="am-u-sm-12 am-form-label am-text-left">ftphost            <span class="tpl-form-line-small-title">ftphost</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspostserver.ftphost)"}{$enewspostserver.ftphost}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="ftphost" name="ftphost" 
+	placeholder="请输入ftphost">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="ftpport" class="am-u-sm-12 am-form-label am-text-left">ftpport            <span class="tpl-form-line-small-title">ftpport</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspostserver.ftpport)"}{$enewspostserver.ftpport}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="ftpport" name="ftpport" 
+	placeholder="请输入ftpport">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="ftpusername" class="am-u-sm-12 am-form-label am-text-left">ftpusername            <span class="tpl-form-line-small-title">ftpusername</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspostserver.ftpusername)"}{$enewspostserver.ftpusername}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="ftpusername" name="ftpusername" 
+	placeholder="请输入ftpusername">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="ftppassword" class="am-u-sm-12 am-form-label am-text-left">ftppassword            <span class="tpl-form-line-small-title">ftppassword</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspostserver.ftppassword)"}{$enewspostserver.ftppassword}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="ftppassword" name="ftppassword" 
+	placeholder="请输入ftppassword">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="ftppath" class="am-u-sm-12 am-form-label am-text-left">ftppath            <span class="tpl-form-line-small-title">ftppath</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspostserver.ftppath)"}{$enewspostserver.ftppath}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="ftppath" name="ftppath" 
+	placeholder="请输入ftppath">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="ftpmode" class="am-u-sm-12 am-form-label am-text-left">ftpmode            <span class="tpl-form-line-small-title">ftpmode</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspostserver.ftpmode)"}{$enewspostserver.ftpmode}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="ftpmode" name="ftpmode" 
+	placeholder="请输入ftpmode">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="ftpssl" class="am-u-sm-12 am-form-label am-text-left">ftpssl            <span class="tpl-form-line-small-title">ftpssl</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspostserver.ftpssl)"}{$enewspostserver.ftpssl}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="ftpssl" name="ftpssl" 
+	placeholder="请输入ftpssl">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="ftppasv" class="am-u-sm-12 am-form-label am-text-left">ftppasv            <span class="tpl-form-line-small-title">ftppasv</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspostserver.ftppasv)"}{$enewspostserver.ftppasv}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="ftppasv" name="ftppasv" 
+	placeholder="请输入ftppasv">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="ftpouttime" class="am-u-sm-12 am-form-label am-text-left">ftpouttime            <span class="tpl-form-line-small-title">ftpouttime</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspostserver.ftpouttime)"}{$enewspostserver.ftpouttime}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="ftpouttime" name="ftpouttime" 
+	placeholder="请输入ftpouttime">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="lastposttime" class="am-u-sm-12 am-form-label am-text-left">lastposttime            <span class="tpl-form-line-small-title">lastposttime</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspostserver.lastposttime)"}{$enewspostserver.lastposttime}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="lastposttime" name="lastposttime" 
+	placeholder="请输入lastposttime">        </div>
+    </div>
+        <div class="am-form-group">
+        <div class="am-u-sm-12 am-u-sm-push-12">
+            <button type="submit" class="am-btn am-btn-primary tpl-btn-bg-color-success ">提交</button>
+        </div>
+    </div>
+</form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{/block}

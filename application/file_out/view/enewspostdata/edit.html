@@ -1,0 +1,62 @@
+{extend name="layout" /}
+{block name="content"}
+<!-- 内容区域 -->
+<div class="tpl-content-wrapper">
+    <div class="row-content am-cf">
+        <div class="row">
+            <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+                <div class="widget am-cf">
+                    <div class="widget-head am-cf">
+                        <div class="widget-title am-fl">编辑nj_enewspostdata</div>
+                        <div class="widget-function am-fr">
+                            <a href="javascript:;" class="am-icon-cog"></a>
+                        </div>
+                    </div>
+                    <div class="widget-body am-fr">
+                        <form class="am-form tpl-form-border-form" method="post">
+        <div class="am-form-group">
+        <label for="postid" class="am-u-sm-12 am-form-label am-text-left">postid            <span class="tpl-form-line-small-title">postid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspostdata.postid)"}{$enewspostdata.postid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="postid" name="postid" 
+	placeholder="请输入postid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="rnd" class="am-u-sm-12 am-form-label am-text-left">rnd            <span class="tpl-form-line-small-title">rnd</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspostdata.rnd)"}{$enewspostdata.rnd}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="rnd" name="rnd" 
+	placeholder="请输入rnd">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="postdata" class="am-u-sm-12 am-form-label am-text-left">postdata            <span class="tpl-form-line-small-title">postdata</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspostdata.postdata)"}{$enewspostdata.postdata}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="postdata" name="postdata" 
+	placeholder="请输入postdata">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="ispath" class="am-u-sm-12 am-form-label am-text-left">ispath            <span class="tpl-form-line-small-title">ispath</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspostdata.ispath)"}{$enewspostdata.ispath}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="ispath" name="ispath" 
+	placeholder="请输入ispath">        </div>
+    </div>
+        <div class="am-form-group">
+        <div class="am-u-sm-12 am-u-sm-push-12">
+            <button type="submit" class="am-btn am-btn-primary tpl-btn-bg-color-success ">提交</button>
+        </div>
+    </div>
+</form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{/block}

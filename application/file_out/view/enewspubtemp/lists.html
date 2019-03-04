@@ -1,0 +1,111 @@
+{extend name="layout" /}
+{block name="content"}
+<!-- 内容区域 -->
+<div class="tpl-content-wrapper">
+    <div class="row-content am-cf">
+        <div class="row">
+            <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+                <div class="widget am-cf">
+                    <div class="widget-head am-cf">
+                        <div class="widget-title  am-cf">管理enewspubtemp</div>
+                    </div>
+                    <div class="widget-body  am-fr">
+    <div class="am-u-sm-12 am-u-md-6 am-u-lg-6">
+        <div class="am-form-group">
+            <div class="am-btn-toolbar">
+                <div class="am-btn-group am-btn-group-xs">
+                    <a class="am-btn am-btn-default am-btn-success"
+                       href="{:url('enewspubtemp/add')}">
+                        <span class="am-icon-plus"></span> 新增
+                    </a>
+                    <!--
+                    <button type="button" class="am-btn am-btn-default am-btn-secondary"><span class="am-icon-save"></span> 保存</button>
+                    <button type="button" class="am-btn am-btn-default am-btn-warning"><span class="am-icon-archive"></span> 审核</button>
+                    <button type="button" class="am-btn am-btn-default am-btn-danger"><span class="am-icon-trash-o"></span> 删除</button>
+                    -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="am-u-sm-12">
+        <table width="100%" class="am-table am-table-compact am-table-striped tpl-table-black " id="example-r">
+            <thead>
+            <tr>
+                                <th>id</th>
+                                <th>indextemp</th>
+                                <th>cptemp</th>
+                                <th>searchtemp</th>
+                                <th>searchjstemp</th>
+                                <th>searchjstemp1</th>
+                                <th>otherlinktemp</th>
+                                <th>downsofttemp</th>
+                                <th>onlinemovietemp</th>
+                                <th>listpagetemp</th>
+                                <th>gbooktemp</th>
+                                <th>loginiframe</th>
+                                <th>otherlinktempsub</th>
+                                <th>otherlinktempdate</th>
+                                <th>loginjstemp</th>
+                                <th>downpagetemp</th>
+                                <th>pljstemp</th>
+                                <th>schalltemp</th>
+                                <th>schallsubnum</th>
+                                <th>schalldate</th>
+                                <th>操作</th>
+            </tr>
+            </thead>
+            <tbody>
+            {volist name="enewspubtempList" id="vo"}
+            <tr class="gradeX">
+                                <td>{$vo.id}</td>
+                                <td>{$vo.indextemp}</td>
+                                <td>{$vo.cptemp}</td>
+                                <td>{$vo.searchtemp}</td>
+                                <td>{$vo.searchjstemp}</td>
+                                <td>{$vo.searchjstemp1}</td>
+                                <td>{$vo.otherlinktemp}</td>
+                                <td>{$vo.downsofttemp}</td>
+                                <td>{$vo.onlinemovietemp}</td>
+                                <td>{$vo.listpagetemp}</td>
+                                <td>{$vo.gbooktemp}</td>
+                                <td>{$vo.loginiframe}</td>
+                                <td>{$vo.otherlinktempsub}</td>
+                                <td>{$vo.otherlinktempdate}</td>
+                                <td>{$vo.loginjstemp}</td>
+                                <td>{$vo.downpagetemp}</td>
+                                <td>{$vo.pljstemp}</td>
+                                <td>{$vo.schalltemp}</td>
+                                <td>{$vo.schallsubnum}</td>
+                                <td>{$vo.schalldate}</td>
+                                <td>
+                    <div class="tpl-table-black-operation">
+                        <a href="{:url('enewspubtemp/edit', ['id'=>$vo['id']])}">
+                            <i class="am-icon-pencil"></i> 编辑
+                        </a>
+                        <a href="{:url('enewspubtemp/delete', ['id'=>$vo['id']])}"
+                           onclick='return confirm("确定删除吗？")' class="tpl-table-black-operation-del">
+                            <i class="am-icon-trash"></i> 删除
+                        </a>
+                    </div>
+                </td>
+            </tr>
+            {/volist}
+            <!-- more data -->
+            </tbody>
+        </table>
+    </div>
+    <div class="am-u-lg-12 am-cf">
+
+        <div class="am-fr">
+            <ul class="am-pagination tpl-pagination">
+                {$enewspubtempList->render()}
+            </ul>
+        </div>
+    </div>
+</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{/block}

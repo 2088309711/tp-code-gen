@@ -17,28 +17,984 @@
     <ul class="sidebar-nav">
         <li class="sidebar-nav-heading">控制面板 <span class="sidebar-nav-heading-info"> Dashboard</span></li>
 <li class="sidebar-nav-link">
-    <a href="{:url(\\think\\Request::instance()->module().'/CorpusData/lists')}">
-        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>im_corpus_data    </a>
+    <a href="{:url(\\think\\Request::instance()->module().'/EcmsArticle/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_ecms_article    </a>
 </li>
 <li class="sidebar-nav-link">
-    <a href="{:url(\\think\\Request::instance()->module().'/CorpusGroup/lists')}">
-        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>im_corpus_group    </a>
+    <a href="{:url(\\think\\Request::instance()->module().'/EcmsArticleCheck/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_ecms_article_check    </a>
 </li>
 <li class="sidebar-nav-link">
-    <a href="{:url(\\think\\Request::instance()->module().'/Example/lists')}">
-        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>im_example    </a>
+    <a href="{:url(\\think\\Request::instance()->module().'/EcmsArticleCheckData/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_ecms_article_check_data    </a>
 </li>
 <li class="sidebar-nav-link">
-    <a href="{:url(\\think\\Request::instance()->module().'/Msg/lists')}">
-        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>im_msg    </a>
+    <a href="{:url(\\think\\Request::instance()->module().'/EcmsArticleData1/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_ecms_article_data_1    </a>
 </li>
 <li class="sidebar-nav-link">
-    <a href="{:url(\\think\\Request::instance()->module().'/ServerList/lists')}">
-        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>im_server_list    </a>
+    <a href="{:url(\\think\\Request::instance()->module().'/EcmsArticleDoc/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_ecms_article_doc    </a>
 </li>
 <li class="sidebar-nav-link">
-    <a href="{:url(\\think\\Request::instance()->module().'/Staff/lists')}">
-        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>im_staff    </a>
+    <a href="{:url(\\think\\Request::instance()->module().'/EcmsArticleDocData/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_ecms_article_doc_data    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/EcmsArticleDocIndex/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_ecms_article_doc_index    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/EcmsArticleIndex/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_ecms_article_index    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/EcmsDownload/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_ecms_download    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/EcmsDownloadCheck/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_ecms_download_check    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/EcmsDownloadCheckData/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_ecms_download_check_data    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/EcmsDownloadData1/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_ecms_download_data_1    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/EcmsDownloadDoc/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_ecms_download_doc    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/EcmsDownloadDocData/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_ecms_download_doc_data    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/EcmsDownloadDocIndex/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_ecms_download_doc_index    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/EcmsDownloadIndex/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_ecms_download_index    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/EcmsFlash/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_ecms_flash    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/EcmsFlashCheck/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_ecms_flash_check    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/EcmsFlashCheckData/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_ecms_flash_check_data    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/EcmsFlashData1/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_ecms_flash_data_1    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/EcmsFlashDoc/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_ecms_flash_doc    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/EcmsFlashDocData/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_ecms_flash_doc_data    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/EcmsFlashDocIndex/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_ecms_flash_doc_index    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/EcmsFlashIndex/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_ecms_flash_index    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/EcmsInfo/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_ecms_info    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/EcmsInfoCheck/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_ecms_info_check    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/EcmsInfoCheckData/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_ecms_info_check_data    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/EcmsInfoData1/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_ecms_info_data_1    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/EcmsInfoDoc/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_ecms_info_doc    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/EcmsInfoDocData/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_ecms_info_doc_data    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/EcmsInfoDocIndex/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_ecms_info_doc_index    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/EcmsInfoIndex/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_ecms_info_index    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/EcmsInfoclassArticle/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_ecms_infoclass_article    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/EcmsInfoclassDownload/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_ecms_infoclass_download    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/EcmsInfoclassFlash/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_ecms_infoclass_flash    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/EcmsInfoclassInfo/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_ecms_infoclass_info    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/EcmsInfoclassMovie/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_ecms_infoclass_movie    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/EcmsInfoclassNews/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_ecms_infoclass_news    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/EcmsInfoclassPhoto/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_ecms_infoclass_photo    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/EcmsInfoclassShop/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_ecms_infoclass_shop    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/EcmsInfotmpArticle/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_ecms_infotmp_article    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/EcmsInfotmpDownload/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_ecms_infotmp_download    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/EcmsInfotmpFlash/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_ecms_infotmp_flash    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/EcmsInfotmpInfo/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_ecms_infotmp_info    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/EcmsInfotmpMovie/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_ecms_infotmp_movie    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/EcmsInfotmpNews/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_ecms_infotmp_news    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/EcmsInfotmpPhoto/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_ecms_infotmp_photo    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/EcmsInfotmpShop/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_ecms_infotmp_shop    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/EcmsMovie/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_ecms_movie    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/EcmsMovieCheck/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_ecms_movie_check    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/EcmsMovieCheckData/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_ecms_movie_check_data    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/EcmsMovieData1/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_ecms_movie_data_1    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/EcmsMovieDoc/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_ecms_movie_doc    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/EcmsMovieDocData/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_ecms_movie_doc_data    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/EcmsMovieDocIndex/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_ecms_movie_doc_index    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/EcmsMovieIndex/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_ecms_movie_index    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/EcmsNews/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_ecms_news    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/EcmsNewsCheck/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_ecms_news_check    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/EcmsNewsCheckData/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_ecms_news_check_data    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/EcmsNewsData1/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_ecms_news_data_1    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/EcmsNewsDoc/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_ecms_news_doc    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/EcmsNewsDocData/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_ecms_news_doc_data    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/EcmsNewsDocIndex/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_ecms_news_doc_index    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/EcmsNewsIndex/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_ecms_news_index    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/EcmsPhoto/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_ecms_photo    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/EcmsPhotoCheck/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_ecms_photo_check    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/EcmsPhotoCheckData/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_ecms_photo_check_data    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/EcmsPhotoData1/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_ecms_photo_data_1    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/EcmsPhotoDoc/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_ecms_photo_doc    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/EcmsPhotoDocData/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_ecms_photo_doc_data    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/EcmsPhotoDocIndex/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_ecms_photo_doc_index    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/EcmsPhotoIndex/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_ecms_photo_index    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/EcmsShop/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_ecms_shop    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/EcmsShopCheck/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_ecms_shop_check    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/EcmsShopCheckData/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_ecms_shop_check_data    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/EcmsShopData1/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_ecms_shop_data_1    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/EcmsShopDoc/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_ecms_shop_doc    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/EcmsShopDocData/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_ecms_shop_doc_data    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/EcmsShopDocIndex/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_ecms_shop_doc_index    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/EcmsShopIndex/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_ecms_shop_index    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewsad/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsad    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewsadclass/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsadclass    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewsadminstyle/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsadminstyle    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewsag/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsag    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewsautodo/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsautodo    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewsbefrom/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsbefrom    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewsbq/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsbq    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewsbqclass/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsbqclass    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewsbqtemp/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsbqtemp    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewsbqtempclass/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsbqtempclass    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewsbuybak/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsbuybak    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewsbuygroup/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsbuygroup    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewscard/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewscard    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewsclass/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsclass    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/EnewsclassStats/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsclass_stats    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/EnewsclassStatsIp/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsclass_stats_ip    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/EnewsclassStatsSet/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsclass_stats_set    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewsclassadd/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsclassadd    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewsclassf/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsclassf    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewsclassnavcache/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsclassnavcache    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewsclasstemp/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsclasstemp    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewsclasstempclass/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsclasstempclass    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewsdiggips/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsdiggips    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewsdo/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsdo    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewsdolog/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsdolog    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewsdownerror/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsdownerror    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewsdownrecord/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsdownrecord    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewsdownurlqz/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsdownurlqz    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewserrorclass/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewserrorclass    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewsf/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsf    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewsfava/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsfava    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewsfavaclass/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsfavaclass    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewsfeedback/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsfeedback    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewsfeedbackclass/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsfeedbackclass    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewsfeedbackf/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsfeedbackf    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewsfile1/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsfile_1    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/EnewsfileMember/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsfile_member    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/EnewsfileOther/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsfile_other    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/EnewsfilePublic/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsfile_public    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewsgbook/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsgbook    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewsgbookclass/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsgbookclass    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewsgfenip/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsgfenip    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewsgoodtype/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsgoodtype    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewsgroup/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsgroup    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewshmsg/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewshmsg    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewshnotice/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewshnotice    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewshy/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewshy    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewshyclass/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewshyclass    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewsindexpage/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsindexpage    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewsinfoclass/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsinfoclass    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewsinfotype/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsinfotype    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewsinfovote/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsinfovote    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewsingroup/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsingroup    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewsjstemp/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsjstemp    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewsjstempclass/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsjstempclass    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewskey/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewskey    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewskeyclass/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewskeyclass    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewslink/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewslink    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewslinkclass/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewslinkclass    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewslinktmp/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewslinktmp    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewslisttemp/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewslisttemp    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewslisttempclass/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewslisttempclass    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewslog/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewslog    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewsloginfail/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsloginfail    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewsmember/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsmember    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/EnewsmemberConnect/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsmember_connect    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/EnewsmemberConnectApp/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsmember_connect_app    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewsmemberadd/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsmemberadd    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewsmemberf/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsmemberf    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewsmemberfeedback/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsmemberfeedback    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewsmemberform/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsmemberform    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewsmembergbook/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsmembergbook    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewsmembergroup/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsmembergroup    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewsmemberpub/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsmemberpub    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewsmenu/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsmenu    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewsmenuclass/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsmenuclass    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewsmod/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsmod    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewsmoreport/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsmoreport    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewsnewstemp/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsnewstemp    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewsnewstempclass/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsnewstempclass    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewsnotcj/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsnotcj    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewsnotice/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsnotice    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewspage/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewspage    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewspageclass/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewspageclass    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewspagetemp/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewspagetemp    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewspayapi/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewspayapi    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewspayrecord/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewspayrecord    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewspic/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewspic    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewspicclass/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewspicclass    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewspl1/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewspl_1    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/EnewsplSet/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewspl_set    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewsplayer/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsplayer    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewsplf/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsplf    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewspltemp/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewspltemp    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewspostdata/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewspostdata    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewspostserver/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewspostserver    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewsprinttemp/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsprinttemp    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewspublic/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewspublic    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/EnewspublicFc/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewspublic_fc    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/EnewspublicUp/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewspublic_up    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewspublicadd/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewspublicadd    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewspubtemp/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewspubtemp    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewspubvar/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewspubvar    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewspubvarclass/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewspubvarclass    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewsqmsg/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsqmsg    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewssearch/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewssearch    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewssearchall/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewssearchall    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/EnewssearchallLoad/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewssearchall_load    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewssearchtemp/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewssearchtemp    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewssearchtempclass/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewssearchtempclass    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/EnewsshopAddress/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsshop_address    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/EnewsshopDdlog/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsshop_ddlog    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/EnewsshopPrecode/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsshop_precode    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/EnewsshopSet/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsshop_set    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewsshopdd/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsshopdd    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/EnewsshopddAdd/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsshopdd_add    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewsshoppayfs/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsshoppayfs    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewsshopps/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsshopps    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewssp/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewssp    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewssp1/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewssp_1    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewssp2/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewssp_2    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewssp3/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewssp_3    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewssp3Bak/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewssp_3_bak    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewsspacestyle/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsspacestyle    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewsspclass/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsspclass    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewssql/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewssql    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewstable/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewstable    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewstags/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewstags    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewstagsclass/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewstagsclass    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewstagsdata/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewstagsdata    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewstask/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewstask    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewstempbak/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewstempbak    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewstempdt/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewstempdt    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewstempgroup/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewstempgroup    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewstempvar/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewstempvar    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewstempvarclass/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewstempvarclass    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewstogzts/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewstogzts    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewsuser/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsuser    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewsuseradd/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsuseradd    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewsuserclass/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsuserclass    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewsuserjs/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsuserjs    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewsuserjsclass/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsuserjsclass    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewsuserlist/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsuserlist    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewsuserlistclass/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsuserlistclass    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewsuserloginck/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsuserloginck    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewsvg/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsvg    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewsvglist/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsvglist    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewsvote/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsvote    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewsvotemod/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsvotemod    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewsvotetemp/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsvotetemp    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewswapstyle/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewswapstyle    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewswfinfo/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewswfinfo    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewswfinfolog/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewswfinfolog    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewswords/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewswords    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewsworkflow/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsworkflow    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewsworkflowitem/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsworkflowitem    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewswriter/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewswriter    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewsyh/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsyh    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewszt/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewszt    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewsztadd/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsztadd    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewsztclass/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsztclass    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewsztf/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsztf    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewsztinfo/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewsztinfo    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewszttype/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewszttype    </a>
+</li>
+<li class="sidebar-nav-link">
+    <a href="{:url(\\think\\Request::instance()->module().'/Enewszttypeadd/lists')}">
+        <i class="am-icon-wpforms sidebar-nav-link-logo"></i>nj_enewszttypeadd    </a>
 </li>
     </ul>
 </div>

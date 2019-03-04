@@ -1,0 +1,110 @@
+{extend name="layout" /}
+{block name="content"}
+<!-- 内容区域 -->
+<div class="tpl-content-wrapper">
+    <div class="row-content am-cf">
+        <div class="row">
+            <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+                <div class="widget am-cf">
+                    <div class="widget-head am-cf">
+                        <div class="widget-title am-fl">编辑nj_enewstable</div>
+                        <div class="widget-function am-fr">
+                            <a href="javascript:;" class="am-icon-cog"></a>
+                        </div>
+                    </div>
+                    <div class="widget-body am-fr">
+                        <form class="am-form tpl-form-border-form" method="post">
+        <div class="am-form-group">
+        <label for="tid" class="am-u-sm-12 am-form-label am-text-left">tid            <span class="tpl-form-line-small-title">tid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewstable.tid)"}{$enewstable.tid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="tid" name="tid" 
+	placeholder="请输入tid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="tbname" class="am-u-sm-12 am-form-label am-text-left">tbname            <span class="tpl-form-line-small-title">tbname</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewstable.tbname)"}{$enewstable.tbname}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="tbname" name="tbname" 
+	placeholder="请输入tbname">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="tname" class="am-u-sm-12 am-form-label am-text-left">tname            <span class="tpl-form-line-small-title">tname</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewstable.tname)"}{$enewstable.tname}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="tname" name="tname" 
+	placeholder="请输入tname">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="tsay" class="am-u-sm-12 am-form-label am-text-left">tsay            <span class="tpl-form-line-small-title">tsay</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewstable.tsay)"}{$enewstable.tsay}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="tsay" name="tsay" 
+	placeholder="请输入tsay">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="isdefault" class="am-u-sm-12 am-form-label am-text-left">isdefault            <span class="tpl-form-line-small-title">isdefault</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewstable.isdefault)"}{$enewstable.isdefault}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="isdefault" name="isdefault" 
+	placeholder="请输入isdefault">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="datatbs" class="am-u-sm-12 am-form-label am-text-left">datatbs            <span class="tpl-form-line-small-title">datatbs</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewstable.datatbs)"}{$enewstable.datatbs}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="datatbs" name="datatbs" 
+	placeholder="请输入datatbs">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="deftb" class="am-u-sm-12 am-form-label am-text-left">deftb            <span class="tpl-form-line-small-title">deftb</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewstable.deftb)"}{$enewstable.deftb}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="deftb" name="deftb" 
+	placeholder="请输入deftb">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="yhid" class="am-u-sm-12 am-form-label am-text-left">yhid            <span class="tpl-form-line-small-title">yhid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewstable.yhid)"}{$enewstable.yhid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="yhid" name="yhid" 
+	placeholder="请输入yhid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="mid" class="am-u-sm-12 am-form-label am-text-left">mid            <span class="tpl-form-line-small-title">mid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewstable.mid)"}{$enewstable.mid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="mid" name="mid" 
+	placeholder="请输入mid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="intb" class="am-u-sm-12 am-form-label am-text-left">intb            <span class="tpl-form-line-small-title">intb</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewstable.intb)"}{$enewstable.intb}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="intb" name="intb" 
+	placeholder="请输入intb">        </div>
+    </div>
+        <div class="am-form-group">
+        <div class="am-u-sm-12 am-u-sm-push-12">
+            <button type="submit" class="am-btn am-btn-primary tpl-btn-bg-color-success ">提交</button>
+        </div>
+    </div>
+</form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{/block}

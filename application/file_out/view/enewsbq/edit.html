@@ -1,0 +1,110 @@
+{extend name="layout" /}
+{block name="content"}
+<!-- 内容区域 -->
+<div class="tpl-content-wrapper">
+    <div class="row-content am-cf">
+        <div class="row">
+            <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+                <div class="widget am-cf">
+                    <div class="widget-head am-cf">
+                        <div class="widget-title am-fl">编辑nj_enewsbq</div>
+                        <div class="widget-function am-fr">
+                            <a href="javascript:;" class="am-icon-cog"></a>
+                        </div>
+                    </div>
+                    <div class="widget-body am-fr">
+                        <form class="am-form tpl-form-border-form" method="post">
+        <div class="am-form-group">
+        <label for="bqid" class="am-u-sm-12 am-form-label am-text-left">bqid            <span class="tpl-form-line-small-title">bqid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsbq.bqid)"}{$enewsbq.bqid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="bqid" name="bqid" 
+	placeholder="请输入bqid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="bqname" class="am-u-sm-12 am-form-label am-text-left">bqname            <span class="tpl-form-line-small-title">bqname</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsbq.bqname)"}{$enewsbq.bqname}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="bqname" name="bqname" 
+	placeholder="请输入bqname">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="bqsay" class="am-u-sm-12 am-form-label am-text-left">bqsay            <span class="tpl-form-line-small-title">bqsay</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsbq.bqsay)"}{$enewsbq.bqsay}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="bqsay" name="bqsay" 
+	placeholder="请输入bqsay">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="funname" class="am-u-sm-12 am-form-label am-text-left">funname            <span class="tpl-form-line-small-title">funname</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsbq.funname)"}{$enewsbq.funname}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="funname" name="funname" 
+	placeholder="请输入funname">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="bq" class="am-u-sm-12 am-form-label am-text-left">bq            <span class="tpl-form-line-small-title">bq</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsbq.bq)"}{$enewsbq.bq}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="bq" name="bq" 
+	placeholder="请输入bq">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="issys" class="am-u-sm-12 am-form-label am-text-left">issys            <span class="tpl-form-line-small-title">issys</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsbq.issys)"}{$enewsbq.issys}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="issys" name="issys" 
+	placeholder="请输入issys">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="bqgs" class="am-u-sm-12 am-form-label am-text-left">bqgs            <span class="tpl-form-line-small-title">bqgs</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsbq.bqgs)"}{$enewsbq.bqgs}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="bqgs" name="bqgs" 
+	placeholder="请输入bqgs">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="isclose" class="am-u-sm-12 am-form-label am-text-left">isclose            <span class="tpl-form-line-small-title">isclose</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsbq.isclose)"}{$enewsbq.isclose}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="isclose" name="isclose" 
+	placeholder="请输入isclose">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="classid" class="am-u-sm-12 am-form-label am-text-left">classid            <span class="tpl-form-line-small-title">classid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsbq.classid)"}{$enewsbq.classid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="classid" name="classid" 
+	placeholder="请输入classid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="myorder" class="am-u-sm-12 am-form-label am-text-left">myorder            <span class="tpl-form-line-small-title">myorder</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsbq.myorder)"}{$enewsbq.myorder}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="myorder" name="myorder" 
+	placeholder="请输入myorder">        </div>
+    </div>
+        <div class="am-form-group">
+        <div class="am-u-sm-12 am-u-sm-push-12">
+            <button type="submit" class="am-btn am-btn-primary tpl-btn-bg-color-success ">提交</button>
+        </div>
+    </div>
+</form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{/block}

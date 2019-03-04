@@ -1,0 +1,93 @@
+{extend name="layout" /}
+{block name="content"}
+<!-- 内容区域 -->
+<div class="tpl-content-wrapper">
+    <div class="row-content am-cf">
+        <div class="row">
+            <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+                <div class="widget am-cf">
+                    <div class="widget-head am-cf">
+                        <div class="widget-title am-fl">新建nj_enewssearchall_load</div>
+                        <div class="widget-function am-fr">
+                            <a href="javascript:;" class="am-icon-cog"></a>
+                        </div>
+                    </div>
+                    <div class="widget-body am-fr">
+                        <form class="am-form tpl-form-border-form" method="post">
+        <div class="am-form-group">
+        <label for="lid" class="am-u-sm-12 am-form-label am-text-left">lid            <span class="tpl-form-line-small-title">lid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewssearchall_load.lid)"}{$enewssearchall_load.lid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="lid" name="lid" 
+	placeholder="请输入lid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="tbname" class="am-u-sm-12 am-form-label am-text-left">tbname            <span class="tpl-form-line-small-title">tbname</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewssearchall_load.tbname)"}{$enewssearchall_load.tbname}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="tbname" name="tbname" 
+	placeholder="请输入tbname">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="titlefield" class="am-u-sm-12 am-form-label am-text-left">titlefield            <span class="tpl-form-line-small-title">titlefield</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewssearchall_load.titlefield)"}{$enewssearchall_load.titlefield}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="titlefield" name="titlefield" 
+	placeholder="请输入titlefield">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="infotextfield" class="am-u-sm-12 am-form-label am-text-left">infotextfield            <span class="tpl-form-line-small-title">infotextfield</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewssearchall_load.infotextfield)"}{$enewssearchall_load.infotextfield}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="infotextfield" name="infotextfield" 
+	placeholder="请输入infotextfield">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="smalltextfield" class="am-u-sm-12 am-form-label am-text-left">smalltextfield            <span class="tpl-form-line-small-title">smalltextfield</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewssearchall_load.smalltextfield)"}{$enewssearchall_load.smalltextfield}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="smalltextfield" name="smalltextfield" 
+	placeholder="请输入smalltextfield">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="loadnum" class="am-u-sm-12 am-form-label am-text-left">loadnum            <span class="tpl-form-line-small-title">loadnum</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewssearchall_load.loadnum)"}{$enewssearchall_load.loadnum}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="loadnum" name="loadnum" 
+	placeholder="请输入loadnum">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="lasttime" class="am-u-sm-12 am-form-label am-text-left">lasttime            <span class="tpl-form-line-small-title">lasttime</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewssearchall_load.lasttime)"}{$enewssearchall_load.lasttime}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="lasttime" name="lasttime" 
+	placeholder="请输入lasttime">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="lastid" class="am-u-sm-12 am-form-label am-text-left">lastid            <span class="tpl-form-line-small-title">lastid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewssearchall_load.lastid)"}{$enewssearchall_load.lastid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="lastid" name="lastid" 
+	placeholder="请输入lastid">        </div>
+    </div>
+        <div class="am-form-group">
+        <div class="am-u-sm-12 am-u-sm-push-12">
+            <button type="submit" class="am-btn am-btn-primary tpl-btn-bg-color-success ">提交</button>
+        </div>
+    </div>
+</form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{/block}

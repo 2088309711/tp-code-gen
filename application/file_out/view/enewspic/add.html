@@ -1,0 +1,109 @@
+{extend name="layout" /}
+{block name="content"}
+<!-- 内容区域 -->
+<div class="tpl-content-wrapper">
+    <div class="row-content am-cf">
+        <div class="row">
+            <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+                <div class="widget am-cf">
+                    <div class="widget-head am-cf">
+                        <div class="widget-title am-fl">新建nj_enewspic</div>
+                        <div class="widget-function am-fr">
+                            <a href="javascript:;" class="am-icon-cog"></a>
+                        </div>
+                    </div>
+                    <div class="widget-body am-fr">
+                        <form class="am-form tpl-form-border-form" method="post">
+        <div class="am-form-group">
+        <label for="picid" class="am-u-sm-12 am-form-label am-text-left">picid            <span class="tpl-form-line-small-title">picid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspic.picid)"}{$enewspic.picid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="picid" name="picid" 
+	placeholder="请输入picid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="title" class="am-u-sm-12 am-form-label am-text-left">title            <span class="tpl-form-line-small-title">title</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspic.title)"}{$enewspic.title}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="title" name="title" 
+	placeholder="请输入title">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="pic_url" class="am-u-sm-12 am-form-label am-text-left">pic_url            <span class="tpl-form-line-small-title">pic_url</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspic.pic_url)"}{$enewspic.pic_url}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="pic_url" name="pic_url" 
+	placeholder="请输入pic_url">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="url" class="am-u-sm-12 am-form-label am-text-left">url            <span class="tpl-form-line-small-title">url</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspic.url)"}{$enewspic.url}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="url" name="url" 
+	placeholder="请输入url">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="pic_width" class="am-u-sm-12 am-form-label am-text-left">pic_width            <span class="tpl-form-line-small-title">pic_width</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspic.pic_width)"}{$enewspic.pic_width}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="pic_width" name="pic_width" 
+	placeholder="请输入pic_width">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="pic_height" class="am-u-sm-12 am-form-label am-text-left">pic_height            <span class="tpl-form-line-small-title">pic_height</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspic.pic_height)"}{$enewspic.pic_height}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="pic_height" name="pic_height" 
+	placeholder="请输入pic_height">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="open_pic" class="am-u-sm-12 am-form-label am-text-left">open_pic            <span class="tpl-form-line-small-title">open_pic</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspic.open_pic)"}{$enewspic.open_pic}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="open_pic" name="open_pic" 
+	placeholder="请输入open_pic">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="border" class="am-u-sm-12 am-form-label am-text-left">border            <span class="tpl-form-line-small-title">border</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspic.border)"}{$enewspic.border}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="border" name="border" 
+	placeholder="请输入border">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="pictext" class="am-u-sm-12 am-form-label am-text-left">pictext            <span class="tpl-form-line-small-title">pictext</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspic.pictext)"}{$enewspic.pictext}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="pictext" name="pictext" 
+	placeholder="请输入pictext">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="classid" class="am-u-sm-12 am-form-label am-text-left">classid            <span class="tpl-form-line-small-title">classid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspic.classid)"}{$enewspic.classid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="classid" name="classid" 
+	placeholder="请输入classid">        </div>
+    </div>
+        <div class="am-form-group">
+        <div class="am-u-sm-12 am-u-sm-push-12">
+            <button type="submit" class="am-btn am-btn-primary tpl-btn-bg-color-success ">提交</button>
+        </div>
+    </div>
+</form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{/block}

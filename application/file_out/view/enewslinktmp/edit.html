@@ -1,0 +1,62 @@
+{extend name="layout" /}
+{block name="content"}
+<!-- 内容区域 -->
+<div class="tpl-content-wrapper">
+    <div class="row-content am-cf">
+        <div class="row">
+            <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+                <div class="widget am-cf">
+                    <div class="widget-head am-cf">
+                        <div class="widget-title am-fl">编辑nj_enewslinktmp</div>
+                        <div class="widget-function am-fr">
+                            <a href="javascript:;" class="am-icon-cog"></a>
+                        </div>
+                    </div>
+                    <div class="widget-body am-fr">
+                        <form class="am-form tpl-form-border-form" method="post">
+        <div class="am-form-group">
+        <label for="newsurl" class="am-u-sm-12 am-form-label am-text-left">newsurl            <span class="tpl-form-line-small-title">newsurl</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewslinktmp.newsurl)"}{$enewslinktmp.newsurl}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="newsurl" name="newsurl" 
+	placeholder="请输入newsurl">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="checkrnd" class="am-u-sm-12 am-form-label am-text-left">checkrnd            <span class="tpl-form-line-small-title">checkrnd</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewslinktmp.checkrnd)"}{$enewslinktmp.checkrnd}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="checkrnd" name="checkrnd" 
+	placeholder="请输入checkrnd">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="linkid" class="am-u-sm-12 am-form-label am-text-left">linkid            <span class="tpl-form-line-small-title">linkid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewslinktmp.linkid)"}{$enewslinktmp.linkid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="linkid" name="linkid" 
+	placeholder="请输入linkid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="titlepic" class="am-u-sm-12 am-form-label am-text-left">titlepic            <span class="tpl-form-line-small-title">titlepic</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewslinktmp.titlepic)"}{$enewslinktmp.titlepic}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="titlepic" name="titlepic" 
+	placeholder="请输入titlepic">        </div>
+    </div>
+        <div class="am-form-group">
+        <div class="am-u-sm-12 am-u-sm-push-12">
+            <button type="submit" class="am-btn am-btn-primary tpl-btn-bg-color-success ">提交</button>
+        </div>
+    </div>
+</form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{/block}

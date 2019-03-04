@@ -1,0 +1,901 @@
+{extend name="layout" /}
+{block name="content"}
+<!-- 内容区域 -->
+<div class="tpl-content-wrapper">
+    <div class="row-content am-cf">
+        <div class="row">
+            <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+                <div class="widget am-cf">
+                    <div class="widget-head am-cf">
+                        <div class="widget-title am-fl">新建nj_enewsgroup</div>
+                        <div class="widget-function am-fr">
+                            <a href="javascript:;" class="am-icon-cog"></a>
+                        </div>
+                    </div>
+                    <div class="widget-body am-fr">
+                        <form class="am-form tpl-form-border-form" method="post">
+        <div class="am-form-group">
+        <label for="groupid" class="am-u-sm-12 am-form-label am-text-left">groupid            <span class="tpl-form-line-small-title">groupid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.groupid)"}{$enewsgroup.groupid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="groupid" name="groupid" 
+	placeholder="请输入groupid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="groupname" class="am-u-sm-12 am-form-label am-text-left">groupname            <span class="tpl-form-line-small-title">groupname</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.groupname)"}{$enewsgroup.groupname}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="groupname" name="groupname" 
+	placeholder="请输入groupname">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="dopublic" class="am-u-sm-12 am-form-label am-text-left">dopublic            <span class="tpl-form-line-small-title">dopublic</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.dopublic)"}{$enewsgroup.dopublic}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="dopublic" name="dopublic" 
+	placeholder="请输入dopublic">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="doclass" class="am-u-sm-12 am-form-label am-text-left">doclass            <span class="tpl-form-line-small-title">doclass</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.doclass)"}{$enewsgroup.doclass}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="doclass" name="doclass" 
+	placeholder="请输入doclass">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="dotemplate" class="am-u-sm-12 am-form-label am-text-left">dotemplate            <span class="tpl-form-line-small-title">dotemplate</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.dotemplate)"}{$enewsgroup.dotemplate}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="dotemplate" name="dotemplate" 
+	placeholder="请输入dotemplate">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="dopicnews" class="am-u-sm-12 am-form-label am-text-left">dopicnews            <span class="tpl-form-line-small-title">dopicnews</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.dopicnews)"}{$enewsgroup.dopicnews}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="dopicnews" name="dopicnews" 
+	placeholder="请输入dopicnews">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="dofile" class="am-u-sm-12 am-form-label am-text-left">dofile            <span class="tpl-form-line-small-title">dofile</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.dofile)"}{$enewsgroup.dofile}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="dofile" name="dofile" 
+	placeholder="请输入dofile">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="douser" class="am-u-sm-12 am-form-label am-text-left">douser            <span class="tpl-form-line-small-title">douser</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.douser)"}{$enewsgroup.douser}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="douser" name="douser" 
+	placeholder="请输入douser">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="dolog" class="am-u-sm-12 am-form-label am-text-left">dolog            <span class="tpl-form-line-small-title">dolog</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.dolog)"}{$enewsgroup.dolog}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="dolog" name="dolog" 
+	placeholder="请输入dolog">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="domember" class="am-u-sm-12 am-form-label am-text-left">domember            <span class="tpl-form-line-small-title">domember</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.domember)"}{$enewsgroup.domember}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="domember" name="domember" 
+	placeholder="请输入domember">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="dobefrom" class="am-u-sm-12 am-form-label am-text-left">dobefrom            <span class="tpl-form-line-small-title">dobefrom</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.dobefrom)"}{$enewsgroup.dobefrom}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="dobefrom" name="dobefrom" 
+	placeholder="请输入dobefrom">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="doword" class="am-u-sm-12 am-form-label am-text-left">doword            <span class="tpl-form-line-small-title">doword</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.doword)"}{$enewsgroup.doword}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="doword" name="doword" 
+	placeholder="请输入doword">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="dokey" class="am-u-sm-12 am-form-label am-text-left">dokey            <span class="tpl-form-line-small-title">dokey</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.dokey)"}{$enewsgroup.dokey}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="dokey" name="dokey" 
+	placeholder="请输入dokey">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="doad" class="am-u-sm-12 am-form-label am-text-left">doad            <span class="tpl-form-line-small-title">doad</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.doad)"}{$enewsgroup.doad}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="doad" name="doad" 
+	placeholder="请输入doad">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="dovote" class="am-u-sm-12 am-form-label am-text-left">dovote            <span class="tpl-form-line-small-title">dovote</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.dovote)"}{$enewsgroup.dovote}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="dovote" name="dovote" 
+	placeholder="请输入dovote">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="dogroup" class="am-u-sm-12 am-form-label am-text-left">dogroup            <span class="tpl-form-line-small-title">dogroup</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.dogroup)"}{$enewsgroup.dogroup}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="dogroup" name="dogroup" 
+	placeholder="请输入dogroup">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="doall" class="am-u-sm-12 am-form-label am-text-left">doall            <span class="tpl-form-line-small-title">doall</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.doall)"}{$enewsgroup.doall}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="doall" name="doall" 
+	placeholder="请输入doall">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="docj" class="am-u-sm-12 am-form-label am-text-left">docj            <span class="tpl-form-line-small-title">docj</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.docj)"}{$enewsgroup.docj}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="docj" name="docj" 
+	placeholder="请输入docj">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="dobq" class="am-u-sm-12 am-form-label am-text-left">dobq            <span class="tpl-form-line-small-title">dobq</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.dobq)"}{$enewsgroup.dobq}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="dobq" name="dobq" 
+	placeholder="请输入dobq">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="domovenews" class="am-u-sm-12 am-form-label am-text-left">domovenews            <span class="tpl-form-line-small-title">domovenews</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.domovenews)"}{$enewsgroup.domovenews}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="domovenews" name="domovenews" 
+	placeholder="请输入domovenews">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="dopostdata" class="am-u-sm-12 am-form-label am-text-left">dopostdata            <span class="tpl-form-line-small-title">dopostdata</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.dopostdata)"}{$enewsgroup.dopostdata}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="dopostdata" name="dopostdata" 
+	placeholder="请输入dopostdata">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="dochangedata" class="am-u-sm-12 am-form-label am-text-left">dochangedata            <span class="tpl-form-line-small-title">dochangedata</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.dochangedata)"}{$enewsgroup.dochangedata}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="dochangedata" name="dochangedata" 
+	placeholder="请输入dochangedata">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="dopl" class="am-u-sm-12 am-form-label am-text-left">dopl            <span class="tpl-form-line-small-title">dopl</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.dopl)"}{$enewsgroup.dopl}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="dopl" name="dopl" 
+	placeholder="请输入dopl">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="dof" class="am-u-sm-12 am-form-label am-text-left">dof            <span class="tpl-form-line-small-title">dof</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.dof)"}{$enewsgroup.dof}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="dof" name="dof" 
+	placeholder="请输入dof">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="dom" class="am-u-sm-12 am-form-label am-text-left">dom            <span class="tpl-form-line-small-title">dom</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.dom)"}{$enewsgroup.dom}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="dom" name="dom" 
+	placeholder="请输入dom">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="dodo" class="am-u-sm-12 am-form-label am-text-left">dodo            <span class="tpl-form-line-small-title">dodo</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.dodo)"}{$enewsgroup.dodo}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="dodo" name="dodo" 
+	placeholder="请输入dodo">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="dodbdata" class="am-u-sm-12 am-form-label am-text-left">dodbdata            <span class="tpl-form-line-small-title">dodbdata</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.dodbdata)"}{$enewsgroup.dodbdata}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="dodbdata" name="dodbdata" 
+	placeholder="请输入dodbdata">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="dorepnewstext" class="am-u-sm-12 am-form-label am-text-left">dorepnewstext            <span class="tpl-form-line-small-title">dorepnewstext</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.dorepnewstext)"}{$enewsgroup.dorepnewstext}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="dorepnewstext" name="dorepnewstext" 
+	placeholder="请输入dorepnewstext">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="dotempvar" class="am-u-sm-12 am-form-label am-text-left">dotempvar            <span class="tpl-form-line-small-title">dotempvar</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.dotempvar)"}{$enewsgroup.dotempvar}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="dotempvar" name="dotempvar" 
+	placeholder="请输入dotempvar">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="dostats" class="am-u-sm-12 am-form-label am-text-left">dostats            <span class="tpl-form-line-small-title">dostats</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.dostats)"}{$enewsgroup.dostats}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="dostats" name="dostats" 
+	placeholder="请输入dostats">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="dowriter" class="am-u-sm-12 am-form-label am-text-left">dowriter            <span class="tpl-form-line-small-title">dowriter</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.dowriter)"}{$enewsgroup.dowriter}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="dowriter" name="dowriter" 
+	placeholder="请输入dowriter">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="dototaldata" class="am-u-sm-12 am-form-label am-text-left">dototaldata            <span class="tpl-form-line-small-title">dototaldata</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.dototaldata)"}{$enewsgroup.dototaldata}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="dototaldata" name="dototaldata" 
+	placeholder="请输入dototaldata">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="dosearchkey" class="am-u-sm-12 am-form-label am-text-left">dosearchkey            <span class="tpl-form-line-small-title">dosearchkey</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.dosearchkey)"}{$enewsgroup.dosearchkey}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="dosearchkey" name="dosearchkey" 
+	placeholder="请输入dosearchkey">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="dozt" class="am-u-sm-12 am-form-label am-text-left">dozt            <span class="tpl-form-line-small-title">dozt</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.dozt)"}{$enewsgroup.dozt}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="dozt" name="dozt" 
+	placeholder="请输入dozt">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="docard" class="am-u-sm-12 am-form-label am-text-left">docard            <span class="tpl-form-line-small-title">docard</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.docard)"}{$enewsgroup.docard}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="docard" name="docard" 
+	placeholder="请输入docard">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="dolink" class="am-u-sm-12 am-form-label am-text-left">dolink            <span class="tpl-form-line-small-title">dolink</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.dolink)"}{$enewsgroup.dolink}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="dolink" name="dolink" 
+	placeholder="请输入dolink">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="doselfinfo" class="am-u-sm-12 am-form-label am-text-left">doselfinfo            <span class="tpl-form-line-small-title">doselfinfo</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.doselfinfo)"}{$enewsgroup.doselfinfo}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="doselfinfo" name="doselfinfo" 
+	placeholder="请输入doselfinfo">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="doexecsql" class="am-u-sm-12 am-form-label am-text-left">doexecsql            <span class="tpl-form-line-small-title">doexecsql</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.doexecsql)"}{$enewsgroup.doexecsql}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="doexecsql" name="doexecsql" 
+	placeholder="请输入doexecsql">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="dotable" class="am-u-sm-12 am-form-label am-text-left">dotable            <span class="tpl-form-line-small-title">dotable</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.dotable)"}{$enewsgroup.dotable}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="dotable" name="dotable" 
+	placeholder="请输入dotable">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="dodownurl" class="am-u-sm-12 am-form-label am-text-left">dodownurl            <span class="tpl-form-line-small-title">dodownurl</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.dodownurl)"}{$enewsgroup.dodownurl}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="dodownurl" name="dodownurl" 
+	placeholder="请输入dodownurl">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="dodeldownrecord" class="am-u-sm-12 am-form-label am-text-left">dodeldownrecord            <span class="tpl-form-line-small-title">dodeldownrecord</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.dodeldownrecord)"}{$enewsgroup.dodeldownrecord}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="dodeldownrecord" name="dodeldownrecord" 
+	placeholder="请输入dodeldownrecord">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="doshoppayfs" class="am-u-sm-12 am-form-label am-text-left">doshoppayfs            <span class="tpl-form-line-small-title">doshoppayfs</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.doshoppayfs)"}{$enewsgroup.doshoppayfs}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="doshoppayfs" name="doshoppayfs" 
+	placeholder="请输入doshoppayfs">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="doshopps" class="am-u-sm-12 am-form-label am-text-left">doshopps            <span class="tpl-form-line-small-title">doshopps</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.doshopps)"}{$enewsgroup.doshopps}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="doshopps" name="doshopps" 
+	placeholder="请输入doshopps">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="doshopdd" class="am-u-sm-12 am-form-label am-text-left">doshopdd            <span class="tpl-form-line-small-title">doshopdd</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.doshopdd)"}{$enewsgroup.doshopdd}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="doshopdd" name="doshopdd" 
+	placeholder="请输入doshopdd">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="dogbook" class="am-u-sm-12 am-form-label am-text-left">dogbook            <span class="tpl-form-line-small-title">dogbook</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.dogbook)"}{$enewsgroup.dogbook}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="dogbook" name="dogbook" 
+	placeholder="请输入dogbook">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="dofeedback" class="am-u-sm-12 am-form-label am-text-left">dofeedback            <span class="tpl-form-line-small-title">dofeedback</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.dofeedback)"}{$enewsgroup.dofeedback}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="dofeedback" name="dofeedback" 
+	placeholder="请输入dofeedback">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="douserpage" class="am-u-sm-12 am-form-label am-text-left">douserpage            <span class="tpl-form-line-small-title">douserpage</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.douserpage)"}{$enewsgroup.douserpage}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="douserpage" name="douserpage" 
+	placeholder="请输入douserpage">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="donotcj" class="am-u-sm-12 am-form-label am-text-left">donotcj            <span class="tpl-form-line-small-title">donotcj</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.donotcj)"}{$enewsgroup.donotcj}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="donotcj" name="donotcj" 
+	placeholder="请输入donotcj">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="dodownerror" class="am-u-sm-12 am-form-label am-text-left">dodownerror            <span class="tpl-form-line-small-title">dodownerror</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.dodownerror)"}{$enewsgroup.dodownerror}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="dodownerror" name="dodownerror" 
+	placeholder="请输入dodownerror">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="dodelinfodata" class="am-u-sm-12 am-form-label am-text-left">dodelinfodata            <span class="tpl-form-line-small-title">dodelinfodata</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.dodelinfodata)"}{$enewsgroup.dodelinfodata}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="dodelinfodata" name="dodelinfodata" 
+	placeholder="请输入dodelinfodata">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="doaddinfo" class="am-u-sm-12 am-form-label am-text-left">doaddinfo            <span class="tpl-form-line-small-title">doaddinfo</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.doaddinfo)"}{$enewsgroup.doaddinfo}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="doaddinfo" name="doaddinfo" 
+	placeholder="请输入doaddinfo">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="doeditinfo" class="am-u-sm-12 am-form-label am-text-left">doeditinfo            <span class="tpl-form-line-small-title">doeditinfo</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.doeditinfo)"}{$enewsgroup.doeditinfo}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="doeditinfo" name="doeditinfo" 
+	placeholder="请输入doeditinfo">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="dodelinfo" class="am-u-sm-12 am-form-label am-text-left">dodelinfo            <span class="tpl-form-line-small-title">dodelinfo</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.dodelinfo)"}{$enewsgroup.dodelinfo}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="dodelinfo" name="dodelinfo" 
+	placeholder="请输入dodelinfo">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="doadminstyle" class="am-u-sm-12 am-form-label am-text-left">doadminstyle            <span class="tpl-form-line-small-title">doadminstyle</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.doadminstyle)"}{$enewsgroup.doadminstyle}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="doadminstyle" name="doadminstyle" 
+	placeholder="请输入doadminstyle">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="dorepdownpath" class="am-u-sm-12 am-form-label am-text-left">dorepdownpath            <span class="tpl-form-line-small-title">dorepdownpath</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.dorepdownpath)"}{$enewsgroup.dorepdownpath}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="dorepdownpath" name="dorepdownpath" 
+	placeholder="请输入dorepdownpath">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="douserjs" class="am-u-sm-12 am-form-label am-text-left">douserjs            <span class="tpl-form-line-small-title">douserjs</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.douserjs)"}{$enewsgroup.douserjs}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="douserjs" name="douserjs" 
+	placeholder="请输入douserjs">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="douserlist" class="am-u-sm-12 am-form-label am-text-left">douserlist            <span class="tpl-form-line-small-title">douserlist</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.douserlist)"}{$enewsgroup.douserlist}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="douserlist" name="douserlist" 
+	placeholder="请输入douserlist">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="domsg" class="am-u-sm-12 am-form-label am-text-left">domsg            <span class="tpl-form-line-small-title">domsg</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.domsg)"}{$enewsgroup.domsg}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="domsg" name="domsg" 
+	placeholder="请输入domsg">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="dosendemail" class="am-u-sm-12 am-form-label am-text-left">dosendemail            <span class="tpl-form-line-small-title">dosendemail</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.dosendemail)"}{$enewsgroup.dosendemail}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="dosendemail" name="dosendemail" 
+	placeholder="请输入dosendemail">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="dosetmclass" class="am-u-sm-12 am-form-label am-text-left">dosetmclass            <span class="tpl-form-line-small-title">dosetmclass</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.dosetmclass)"}{$enewsgroup.dosetmclass}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="dosetmclass" name="dosetmclass" 
+	placeholder="请输入dosetmclass">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="doinfodoc" class="am-u-sm-12 am-form-label am-text-left">doinfodoc            <span class="tpl-form-line-small-title">doinfodoc</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.doinfodoc)"}{$enewsgroup.doinfodoc}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="doinfodoc" name="doinfodoc" 
+	placeholder="请输入doinfodoc">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="dotempgroup" class="am-u-sm-12 am-form-label am-text-left">dotempgroup            <span class="tpl-form-line-small-title">dotempgroup</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.dotempgroup)"}{$enewsgroup.dotempgroup}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="dotempgroup" name="dotempgroup" 
+	placeholder="请输入dotempgroup">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="dofeedbackf" class="am-u-sm-12 am-form-label am-text-left">dofeedbackf            <span class="tpl-form-line-small-title">dofeedbackf</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.dofeedbackf)"}{$enewsgroup.dofeedbackf}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="dofeedbackf" name="dofeedbackf" 
+	placeholder="请输入dofeedbackf">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="dotask" class="am-u-sm-12 am-form-label am-text-left">dotask            <span class="tpl-form-line-small-title">dotask</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.dotask)"}{$enewsgroup.dotask}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="dotask" name="dotask" 
+	placeholder="请输入dotask">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="domemberf" class="am-u-sm-12 am-form-label am-text-left">domemberf            <span class="tpl-form-line-small-title">domemberf</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.domemberf)"}{$enewsgroup.domemberf}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="domemberf" name="domemberf" 
+	placeholder="请输入domemberf">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="dospacestyle" class="am-u-sm-12 am-form-label am-text-left">dospacestyle            <span class="tpl-form-line-small-title">dospacestyle</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.dospacestyle)"}{$enewsgroup.dospacestyle}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="dospacestyle" name="dospacestyle" 
+	placeholder="请输入dospacestyle">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="dospacedata" class="am-u-sm-12 am-form-label am-text-left">dospacedata            <span class="tpl-form-line-small-title">dospacedata</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.dospacedata)"}{$enewsgroup.dospacedata}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="dospacedata" name="dospacedata" 
+	placeholder="请输入dospacedata">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="dovotemod" class="am-u-sm-12 am-form-label am-text-left">dovotemod            <span class="tpl-form-line-small-title">dovotemod</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.dovotemod)"}{$enewsgroup.dovotemod}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="dovotemod" name="dovotemod" 
+	placeholder="请输入dovotemod">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="doplayer" class="am-u-sm-12 am-form-label am-text-left">doplayer            <span class="tpl-form-line-small-title">doplayer</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.doplayer)"}{$enewsgroup.doplayer}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="doplayer" name="doplayer" 
+	placeholder="请输入doplayer">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="dowap" class="am-u-sm-12 am-form-label am-text-left">dowap            <span class="tpl-form-line-small-title">dowap</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.dowap)"}{$enewsgroup.dowap}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="dowap" name="dowap" 
+	placeholder="请输入dowap">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="dopay" class="am-u-sm-12 am-form-label am-text-left">dopay            <span class="tpl-form-line-small-title">dopay</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.dopay)"}{$enewsgroup.dopay}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="dopay" name="dopay" 
+	placeholder="请输入dopay">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="dobuygroup" class="am-u-sm-12 am-form-label am-text-left">dobuygroup            <span class="tpl-form-line-small-title">dobuygroup</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.dobuygroup)"}{$enewsgroup.dobuygroup}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="dobuygroup" name="dobuygroup" 
+	placeholder="请输入dobuygroup">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="dosearchall" class="am-u-sm-12 am-form-label am-text-left">dosearchall            <span class="tpl-form-line-small-title">dosearchall</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.dosearchall)"}{$enewsgroup.dosearchall}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="dosearchall" name="dosearchall" 
+	placeholder="请输入dosearchall">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="doinfotype" class="am-u-sm-12 am-form-label am-text-left">doinfotype            <span class="tpl-form-line-small-title">doinfotype</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.doinfotype)"}{$enewsgroup.doinfotype}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="doinfotype" name="doinfotype" 
+	placeholder="请输入doinfotype">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="doplf" class="am-u-sm-12 am-form-label am-text-left">doplf            <span class="tpl-form-line-small-title">doplf</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.doplf)"}{$enewsgroup.doplf}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="doplf" name="doplf" 
+	placeholder="请输入doplf">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="dopltable" class="am-u-sm-12 am-form-label am-text-left">dopltable            <span class="tpl-form-line-small-title">dopltable</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.dopltable)"}{$enewsgroup.dopltable}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="dopltable" name="dopltable" 
+	placeholder="请输入dopltable">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="dochadminstyle" class="am-u-sm-12 am-form-label am-text-left">dochadminstyle            <span class="tpl-form-line-small-title">dochadminstyle</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.dochadminstyle)"}{$enewsgroup.dochadminstyle}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="dochadminstyle" name="dochadminstyle" 
+	placeholder="请输入dochadminstyle">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="dotags" class="am-u-sm-12 am-form-label am-text-left">dotags            <span class="tpl-form-line-small-title">dotags</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.dotags)"}{$enewsgroup.dotags}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="dotags" name="dotags" 
+	placeholder="请输入dotags">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="dosp" class="am-u-sm-12 am-form-label am-text-left">dosp            <span class="tpl-form-line-small-title">dosp</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.dosp)"}{$enewsgroup.dosp}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="dosp" name="dosp" 
+	placeholder="请输入dosp">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="doyh" class="am-u-sm-12 am-form-label am-text-left">doyh            <span class="tpl-form-line-small-title">doyh</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.doyh)"}{$enewsgroup.doyh}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="doyh" name="doyh" 
+	placeholder="请输入doyh">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="dofirewall" class="am-u-sm-12 am-form-label am-text-left">dofirewall            <span class="tpl-form-line-small-title">dofirewall</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.dofirewall)"}{$enewsgroup.dofirewall}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="dofirewall" name="dofirewall" 
+	placeholder="请输入dofirewall">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="dosetsafe" class="am-u-sm-12 am-form-label am-text-left">dosetsafe            <span class="tpl-form-line-small-title">dosetsafe</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.dosetsafe)"}{$enewsgroup.dosetsafe}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="dosetsafe" name="dosetsafe" 
+	placeholder="请输入dosetsafe">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="douserclass" class="am-u-sm-12 am-form-label am-text-left">douserclass            <span class="tpl-form-line-small-title">douserclass</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.douserclass)"}{$enewsgroup.douserclass}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="douserclass" name="douserclass" 
+	placeholder="请输入douserclass">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="doworkflow" class="am-u-sm-12 am-form-label am-text-left">doworkflow            <span class="tpl-form-line-small-title">doworkflow</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.doworkflow)"}{$enewsgroup.doworkflow}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="doworkflow" name="doworkflow" 
+	placeholder="请输入doworkflow">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="domenu" class="am-u-sm-12 am-form-label am-text-left">domenu            <span class="tpl-form-line-small-title">domenu</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.domenu)"}{$enewsgroup.domenu}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="domenu" name="domenu" 
+	placeholder="请输入domenu">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="dopubvar" class="am-u-sm-12 am-form-label am-text-left">dopubvar            <span class="tpl-form-line-small-title">dopubvar</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.dopubvar)"}{$enewsgroup.dopubvar}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="dopubvar" name="dopubvar" 
+	placeholder="请输入dopubvar">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="doclassf" class="am-u-sm-12 am-form-label am-text-left">doclassf            <span class="tpl-form-line-small-title">doclassf</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.doclassf)"}{$enewsgroup.doclassf}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="doclassf" name="doclassf" 
+	placeholder="请输入doclassf">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="doztf" class="am-u-sm-12 am-form-label am-text-left">doztf            <span class="tpl-form-line-small-title">doztf</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.doztf)"}{$enewsgroup.doztf}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="doztf" name="doztf" 
+	placeholder="请输入doztf">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="dofiletable" class="am-u-sm-12 am-form-label am-text-left">dofiletable            <span class="tpl-form-line-small-title">dofiletable</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.dofiletable)"}{$enewsgroup.dofiletable}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="dofiletable" name="dofiletable" 
+	placeholder="请输入dofiletable">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="docheckinfo" class="am-u-sm-12 am-form-label am-text-left">docheckinfo            <span class="tpl-form-line-small-title">docheckinfo</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.docheckinfo)"}{$enewsgroup.docheckinfo}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="docheckinfo" name="docheckinfo" 
+	placeholder="请输入docheckinfo">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="dogoodinfo" class="am-u-sm-12 am-form-label am-text-left">dogoodinfo            <span class="tpl-form-line-small-title">dogoodinfo</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.dogoodinfo)"}{$enewsgroup.dogoodinfo}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="dogoodinfo" name="dogoodinfo" 
+	placeholder="请输入dogoodinfo">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="dodocinfo" class="am-u-sm-12 am-form-label am-text-left">dodocinfo            <span class="tpl-form-line-small-title">dodocinfo</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.dodocinfo)"}{$enewsgroup.dodocinfo}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="dodocinfo" name="dodocinfo" 
+	placeholder="请输入dodocinfo">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="domoveinfo" class="am-u-sm-12 am-form-label am-text-left">domoveinfo            <span class="tpl-form-line-small-title">domoveinfo</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.domoveinfo)"}{$enewsgroup.domoveinfo}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="domoveinfo" name="domoveinfo" 
+	placeholder="请输入domoveinfo">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="dodttemp" class="am-u-sm-12 am-form-label am-text-left">dodttemp            <span class="tpl-form-line-small-title">dodttemp</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.dodttemp)"}{$enewsgroup.dodttemp}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="dodttemp" name="dodttemp" 
+	placeholder="请输入dodttemp">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="doloadcj" class="am-u-sm-12 am-form-label am-text-left">doloadcj            <span class="tpl-form-line-small-title">doloadcj</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.doloadcj)"}{$enewsgroup.doloadcj}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="doloadcj" name="doloadcj" 
+	placeholder="请输入doloadcj">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="domustcheck" class="am-u-sm-12 am-form-label am-text-left">domustcheck            <span class="tpl-form-line-small-title">domustcheck</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.domustcheck)"}{$enewsgroup.domustcheck}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="domustcheck" name="domustcheck" 
+	placeholder="请输入domustcheck">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="docheckedit" class="am-u-sm-12 am-form-label am-text-left">docheckedit            <span class="tpl-form-line-small-title">docheckedit</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.docheckedit)"}{$enewsgroup.docheckedit}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="docheckedit" name="docheckedit" 
+	placeholder="请输入docheckedit">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="domemberconnect" class="am-u-sm-12 am-form-label am-text-left">domemberconnect            <span class="tpl-form-line-small-title">domemberconnect</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.domemberconnect)"}{$enewsgroup.domemberconnect}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="domemberconnect" name="domemberconnect" 
+	placeholder="请输入domemberconnect">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="doprecode" class="am-u-sm-12 am-form-label am-text-left">doprecode            <span class="tpl-form-line-small-title">doprecode</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.doprecode)"}{$enewsgroup.doprecode}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="doprecode" name="doprecode" 
+	placeholder="请输入doprecode">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="domoreport" class="am-u-sm-12 am-form-label am-text-left">domoreport            <span class="tpl-form-line-small-title">domoreport</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.domoreport)"}{$enewsgroup.domoreport}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="domoreport" name="domoreport" 
+	placeholder="请输入domoreport">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="docanhtml" class="am-u-sm-12 am-form-label am-text-left">docanhtml            <span class="tpl-form-line-small-title">docanhtml</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.docanhtml)"}{$enewsgroup.docanhtml}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="docanhtml" name="docanhtml" 
+	placeholder="请输入docanhtml">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="dodelclass" class="am-u-sm-12 am-form-label am-text-left">dodelclass            <span class="tpl-form-line-small-title">dodelclass</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.dodelclass)"}{$enewsgroup.dodelclass}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="dodelclass" name="dodelclass" 
+	placeholder="请输入dodelclass">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="doinfofile" class="am-u-sm-12 am-form-label am-text-left">doinfofile            <span class="tpl-form-line-small-title">doinfofile</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.doinfofile)"}{$enewsgroup.doinfofile}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="doinfofile" name="doinfofile" 
+	placeholder="请输入doinfofile">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="doingroup" class="am-u-sm-12 am-form-label am-text-left">doingroup            <span class="tpl-form-line-small-title">doingroup</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.doingroup)"}{$enewsgroup.doingroup}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="doingroup" name="doingroup" 
+	placeholder="请输入doingroup">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="domembergroup" class="am-u-sm-12 am-form-label am-text-left">domembergroup            <span class="tpl-form-line-small-title">domembergroup</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.domembergroup)"}{$enewsgroup.domembergroup}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="domembergroup" name="domembergroup" 
+	placeholder="请输入domembergroup">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="doviewgroup" class="am-u-sm-12 am-form-label am-text-left">doviewgroup            <span class="tpl-form-line-small-title">doviewgroup</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.doviewgroup)"}{$enewsgroup.doviewgroup}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="doviewgroup" name="doviewgroup" 
+	placeholder="请输入doviewgroup">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="domadmingroup" class="am-u-sm-12 am-form-label am-text-left">domadmingroup            <span class="tpl-form-line-small-title">domadmingroup</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.domadmingroup)"}{$enewsgroup.domadmingroup}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="domadmingroup" name="domadmingroup" 
+	placeholder="请输入domadmingroup">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="dochmoreport" class="am-u-sm-12 am-form-label am-text-left">dochmoreport            <span class="tpl-form-line-small-title">dochmoreport</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.dochmoreport)"}{$enewsgroup.dochmoreport}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="dochmoreport" name="dochmoreport" 
+	placeholder="请输入dochmoreport">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="doisqf" class="am-u-sm-12 am-form-label am-text-left">doisqf            <span class="tpl-form-line-small-title">doisqf</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgroup.doisqf)"}{$enewsgroup.doisqf}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="doisqf" name="doisqf" 
+	placeholder="请输入doisqf">        </div>
+    </div>
+        <div class="am-form-group">
+        <div class="am-u-sm-12 am-u-sm-push-12">
+            <button type="submit" class="am-btn am-btn-primary tpl-btn-bg-color-success ">提交</button>
+        </div>
+    </div>
+</form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{/block}

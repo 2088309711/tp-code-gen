@@ -12,6 +12,8 @@ define('PHP_HEAD', "<?php\r\n");    //php文件头，放模板中会被解析
 $tphDbConfig = include_once(APP_PATH . 'tphdbconfig.php');
 \think\Config::set('tphdb', $tphDbConfig);
 
+set_time_limit(100);
+
 //转换带前缀的表名
 //tableName:带前缀的表名
 //首字母大写

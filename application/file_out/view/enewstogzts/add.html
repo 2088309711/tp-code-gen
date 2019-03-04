@@ -1,0 +1,141 @@
+{extend name="layout" /}
+{block name="content"}
+<!-- 内容区域 -->
+<div class="tpl-content-wrapper">
+    <div class="row-content am-cf">
+        <div class="row">
+            <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+                <div class="widget am-cf">
+                    <div class="widget-head am-cf">
+                        <div class="widget-title am-fl">新建nj_enewstogzts</div>
+                        <div class="widget-function am-fr">
+                            <a href="javascript:;" class="am-icon-cog"></a>
+                        </div>
+                    </div>
+                    <div class="widget-body am-fr">
+                        <form class="am-form tpl-form-border-form" method="post">
+        <div class="am-form-group">
+        <label for="togid" class="am-u-sm-12 am-form-label am-text-left">togid            <span class="tpl-form-line-small-title">togid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewstogzts.togid)"}{$enewstogzts.togid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="togid" name="togid" 
+	placeholder="请输入togid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="keyboard" class="am-u-sm-12 am-form-label am-text-left">keyboard            <span class="tpl-form-line-small-title">keyboard</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewstogzts.keyboard)"}{$enewstogzts.keyboard}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="keyboard" name="keyboard" 
+	placeholder="请输入keyboard">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="searchf" class="am-u-sm-12 am-form-label am-text-left">searchf            <span class="tpl-form-line-small-title">searchf</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewstogzts.searchf)"}{$enewstogzts.searchf}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="searchf" name="searchf" 
+	placeholder="请输入searchf">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="query" class="am-u-sm-12 am-form-label am-text-left">query            <span class="tpl-form-line-small-title">query</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewstogzts.query)"}{$enewstogzts.query}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="query" name="query" 
+	placeholder="请输入query">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="specialsearch" class="am-u-sm-12 am-form-label am-text-left">specialsearch            <span class="tpl-form-line-small-title">specialsearch</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewstogzts.specialsearch)"}{$enewstogzts.specialsearch}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="specialsearch" name="specialsearch" 
+	placeholder="请输入specialsearch">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="classid" class="am-u-sm-12 am-form-label am-text-left">classid            <span class="tpl-form-line-small-title">classid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewstogzts.classid)"}{$enewstogzts.classid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="classid" name="classid" 
+	placeholder="请输入classid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="retype" class="am-u-sm-12 am-form-label am-text-left">retype            <span class="tpl-form-line-small-title">retype</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewstogzts.retype)"}{$enewstogzts.retype}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="retype" name="retype" 
+	placeholder="请输入retype">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="startday" class="am-u-sm-12 am-form-label am-text-left">startday            <span class="tpl-form-line-small-title">startday</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewstogzts.startday)"}{$enewstogzts.startday}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="startday" name="startday" 
+	placeholder="请输入startday">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="endday" class="am-u-sm-12 am-form-label am-text-left">endday            <span class="tpl-form-line-small-title">endday</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewstogzts.endday)"}{$enewstogzts.endday}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="endday" name="endday" 
+	placeholder="请输入endday">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="startid" class="am-u-sm-12 am-form-label am-text-left">startid            <span class="tpl-form-line-small-title">startid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewstogzts.startid)"}{$enewstogzts.startid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="startid" name="startid" 
+	placeholder="请输入startid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="endid" class="am-u-sm-12 am-form-label am-text-left">endid            <span class="tpl-form-line-small-title">endid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewstogzts.endid)"}{$enewstogzts.endid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="endid" name="endid" 
+	placeholder="请输入endid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="pline" class="am-u-sm-12 am-form-label am-text-left">pline            <span class="tpl-form-line-small-title">pline</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewstogzts.pline)"}{$enewstogzts.pline}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="pline" name="pline" 
+	placeholder="请输入pline">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="doecmszt" class="am-u-sm-12 am-form-label am-text-left">doecmszt            <span class="tpl-form-line-small-title">doecmszt</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewstogzts.doecmszt)"}{$enewstogzts.doecmszt}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="doecmszt" name="doecmszt" 
+	placeholder="请输入doecmszt">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="togztname" class="am-u-sm-12 am-form-label am-text-left">togztname            <span class="tpl-form-line-small-title">togztname</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewstogzts.togztname)"}{$enewstogzts.togztname}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="togztname" name="togztname" 
+	placeholder="请输入togztname">        </div>
+    </div>
+        <div class="am-form-group">
+        <div class="am-u-sm-12 am-u-sm-push-12">
+            <button type="submit" class="am-btn am-btn-primary tpl-btn-bg-color-success ">提交</button>
+        </div>
+    </div>
+</form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{/block}

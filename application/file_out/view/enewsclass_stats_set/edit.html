@@ -1,0 +1,62 @@
+{extend name="layout" /}
+{block name="content"}
+<!-- 内容区域 -->
+<div class="tpl-content-wrapper">
+    <div class="row-content am-cf">
+        <div class="row">
+            <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+                <div class="widget am-cf">
+                    <div class="widget-head am-cf">
+                        <div class="widget-title am-fl">编辑nj_enewsclass_stats_set</div>
+                        <div class="widget-function am-fr">
+                            <a href="javascript:;" class="am-icon-cog"></a>
+                        </div>
+                    </div>
+                    <div class="widget-body am-fr">
+                        <form class="am-form tpl-form-border-form" method="post">
+        <div class="am-form-group">
+        <label for="openstats" class="am-u-sm-12 am-form-label am-text-left">openstats            <span class="tpl-form-line-small-title">openstats</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsclass_stats_set.openstats)"}{$enewsclass_stats_set.openstats}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="openstats" name="openstats" 
+	placeholder="请输入openstats">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="pvtime" class="am-u-sm-12 am-form-label am-text-left">pvtime            <span class="tpl-form-line-small-title">pvtime</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsclass_stats_set.pvtime)"}{$enewsclass_stats_set.pvtime}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="pvtime" name="pvtime" 
+	placeholder="请输入pvtime">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="statsdate" class="am-u-sm-12 am-form-label am-text-left">statsdate            <span class="tpl-form-line-small-title">statsdate</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsclass_stats_set.statsdate)"}{$enewsclass_stats_set.statsdate}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="statsdate" name="statsdate" 
+	placeholder="请输入statsdate">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="changedate" class="am-u-sm-12 am-form-label am-text-left">changedate            <span class="tpl-form-line-small-title">changedate</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsclass_stats_set.changedate)"}{$enewsclass_stats_set.changedate}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="changedate" name="changedate" 
+	placeholder="请输入changedate">        </div>
+    </div>
+        <div class="am-form-group">
+        <div class="am-u-sm-12 am-u-sm-push-12">
+            <button type="submit" class="am-btn am-btn-primary tpl-btn-bg-color-success ">提交</button>
+        </div>
+    </div>
+</form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{/block}

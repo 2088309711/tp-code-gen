@@ -1,0 +1,107 @@
+{extend name="layout" /}
+{block name="content"}
+<!-- 内容区域 -->
+<div class="tpl-content-wrapper">
+    <div class="row-content am-cf">
+        <div class="row">
+            <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+                <div class="widget am-cf">
+                    <div class="widget-head am-cf">
+                        <div class="widget-title  am-cf">管理enewspl_set</div>
+                    </div>
+                    <div class="widget-body  am-fr">
+    <div class="am-u-sm-12 am-u-md-6 am-u-lg-6">
+        <div class="am-form-group">
+            <div class="am-btn-toolbar">
+                <div class="am-btn-group am-btn-group-xs">
+                    <a class="am-btn am-btn-default am-btn-success"
+                       href="{:url('enewspl_set/add')}">
+                        <span class="am-icon-plus"></span> 新增
+                    </a>
+                    <!--
+                    <button type="button" class="am-btn am-btn-default am-btn-secondary"><span class="am-icon-save"></span> 保存</button>
+                    <button type="button" class="am-btn am-btn-default am-btn-warning"><span class="am-icon-archive"></span> 审核</button>
+                    <button type="button" class="am-btn am-btn-default am-btn-danger"><span class="am-icon-trash-o"></span> 删除</button>
+                    -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="am-u-sm-12">
+        <table width="100%" class="am-table am-table-compact am-table-striped tpl-table-black " id="example-r">
+            <thead>
+            <tr>
+                                <th>id</th>
+                                <th>pltime</th>
+                                <th>plsize</th>
+                                <th>plincludesize</th>
+                                <th>plkey_ok</th>
+                                <th>plface</th>
+                                <th>plfacenum</th>
+                                <th>plgroupid</th>
+                                <th>plclosewords</th>
+                                <th>plf</th>
+                                <th>plmustf</th>
+                                <th>pldatatbs</th>
+                                <th>defpltempid</th>
+                                <th>pl_num</th>
+                                <th>pldeftb</th>
+                                <th>plurl</th>
+                                <th>plmaxfloor</th>
+                                <th>plquotetemp</th>
+                                <th>操作</th>
+            </tr>
+            </thead>
+            <tbody>
+            {volist name="enewspl_setList" id="vo"}
+            <tr class="gradeX">
+                                <td>{$vo.id}</td>
+                                <td>{$vo.pltime}</td>
+                                <td>{$vo.plsize}</td>
+                                <td>{$vo.plincludesize}</td>
+                                <td>{$vo.plkey_ok}</td>
+                                <td>{$vo.plface}</td>
+                                <td>{$vo.plfacenum}</td>
+                                <td>{$vo.plgroupid}</td>
+                                <td>{$vo.plclosewords}</td>
+                                <td>{$vo.plf}</td>
+                                <td>{$vo.plmustf}</td>
+                                <td>{$vo.pldatatbs}</td>
+                                <td>{$vo.defpltempid}</td>
+                                <td>{$vo.pl_num}</td>
+                                <td>{$vo.pldeftb}</td>
+                                <td>{$vo.plurl}</td>
+                                <td>{$vo.plmaxfloor}</td>
+                                <td>{$vo.plquotetemp}</td>
+                                <td>
+                    <div class="tpl-table-black-operation">
+                        <a href="{:url('enewspl_set/edit', ['id'=>$vo['id']])}">
+                            <i class="am-icon-pencil"></i> 编辑
+                        </a>
+                        <a href="{:url('enewspl_set/delete', ['id'=>$vo['id']])}"
+                           onclick='return confirm("确定删除吗？")' class="tpl-table-black-operation-del">
+                            <i class="am-icon-trash"></i> 删除
+                        </a>
+                    </div>
+                </td>
+            </tr>
+            {/volist}
+            <!-- more data -->
+            </tbody>
+        </table>
+    </div>
+    <div class="am-u-lg-12 am-cf">
+
+        <div class="am-fr">
+            <ul class="am-pagination tpl-pagination">
+                {$enewspl_setList->render()}
+            </ul>
+        </div>
+    </div>
+</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{/block}

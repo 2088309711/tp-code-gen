@@ -1,0 +1,86 @@
+{extend name="layout" /}
+{block name="content"}
+<!-- 内容区域 -->
+<div class="tpl-content-wrapper">
+    <div class="row-content am-cf">
+        <div class="row">
+            <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+                <div class="widget am-cf">
+                    <div class="widget-head am-cf">
+                        <div class="widget-title am-fl">编辑nj_enewsdo</div>
+                        <div class="widget-function am-fr">
+                            <a href="javascript:;" class="am-icon-cog"></a>
+                        </div>
+                    </div>
+                    <div class="widget-body am-fr">
+                        <form class="am-form tpl-form-border-form" method="post">
+        <div class="am-form-group">
+        <label for="doid" class="am-u-sm-12 am-form-label am-text-left">doid            <span class="tpl-form-line-small-title">doid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsdo.doid)"}{$enewsdo.doid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="doid" name="doid" 
+	placeholder="请输入doid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="doname" class="am-u-sm-12 am-form-label am-text-left">doname            <span class="tpl-form-line-small-title">doname</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsdo.doname)"}{$enewsdo.doname}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="doname" name="doname" 
+	placeholder="请输入doname">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="dotime" class="am-u-sm-12 am-form-label am-text-left">dotime            <span class="tpl-form-line-small-title">dotime</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsdo.dotime)"}{$enewsdo.dotime}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="dotime" name="dotime" 
+	placeholder="请输入dotime">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="isopen" class="am-u-sm-12 am-form-label am-text-left">isopen            <span class="tpl-form-line-small-title">isopen</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsdo.isopen)"}{$enewsdo.isopen}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="isopen" name="isopen" 
+	placeholder="请输入isopen">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="doing" class="am-u-sm-12 am-form-label am-text-left">doing            <span class="tpl-form-line-small-title">doing</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsdo.doing)"}{$enewsdo.doing}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="doing" name="doing" 
+	placeholder="请输入doing">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="classid" class="am-u-sm-12 am-form-label am-text-left">classid            <span class="tpl-form-line-small-title">classid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsdo.classid)"}{$enewsdo.classid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="classid" name="classid" 
+	placeholder="请输入classid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="lasttime" class="am-u-sm-12 am-form-label am-text-left">lasttime            <span class="tpl-form-line-small-title">lasttime</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsdo.lasttime)"}{$enewsdo.lasttime}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="lasttime" name="lasttime" 
+	placeholder="请输入lasttime">        </div>
+    </div>
+        <div class="am-form-group">
+        <div class="am-u-sm-12 am-u-sm-push-12">
+            <button type="submit" class="am-btn am-btn-primary tpl-btn-bg-color-success ">提交</button>
+        </div>
+    </div>
+</form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{/block}

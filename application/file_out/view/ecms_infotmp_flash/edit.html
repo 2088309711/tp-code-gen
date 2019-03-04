@@ -1,0 +1,183 @@
+{extend name="layout" /}
+{block name="content"}
+<!-- 内容区域 -->
+<div class="tpl-content-wrapper">
+    <div class="row-content am-cf">
+        <div class="row">
+            <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+                <div class="widget am-cf">
+                    <div class="widget-head am-cf">
+                        <div class="widget-title am-fl">编辑nj_ecms_infotmp_flash</div>
+                        <div class="widget-function am-fr">
+                            <a href="javascript:;" class="am-icon-cog"></a>
+                        </div>
+                    </div>
+                    <div class="widget-body am-fr">
+                        <form class="am-form tpl-form-border-form" method="post">
+        <input type="hidden" name="id" value="{$ecms_infotmp_flash.id}"/>
+        <div class="am-form-group">
+        <label for="classid" class="am-u-sm-12 am-form-label am-text-left">classid            <span class="tpl-form-line-small-title">classid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infotmp_flash.classid)"}{$ecms_infotmp_flash.classid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="classid" name="classid" 
+	placeholder="请输入classid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="oldurl" class="am-u-sm-12 am-form-label am-text-left">oldurl            <span class="tpl-form-line-small-title">oldurl</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infotmp_flash.oldurl)"}{$ecms_infotmp_flash.oldurl}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="oldurl" name="oldurl" 
+	placeholder="请输入oldurl">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="checked" class="am-u-sm-12 am-form-label am-text-left">checked            <span class="tpl-form-line-small-title">checked</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infotmp_flash.checked)"}{$ecms_infotmp_flash.checked}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="checked" name="checked" 
+	placeholder="请输入checked">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="tmptime" class="am-u-sm-12 am-form-label am-text-left">tmptime            <span class="tpl-form-line-small-title">tmptime</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infotmp_flash.tmptime)"}{$ecms_infotmp_flash.tmptime}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="tmptime" name="tmptime" 
+	placeholder="请输入tmptime">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="userid" class="am-u-sm-12 am-form-label am-text-left">userid            <span class="tpl-form-line-small-title">userid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infotmp_flash.userid)"}{$ecms_infotmp_flash.userid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="userid" name="userid" 
+	placeholder="请输入userid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="username" class="am-u-sm-12 am-form-label am-text-left">username            <span class="tpl-form-line-small-title">username</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infotmp_flash.username)"}{$ecms_infotmp_flash.username}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="username" name="username" 
+	placeholder="请输入username">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="truetime" class="am-u-sm-12 am-form-label am-text-left">truetime            <span class="tpl-form-line-small-title">truetime</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infotmp_flash.truetime)"}{$ecms_infotmp_flash.truetime}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="truetime" name="truetime" 
+	placeholder="请输入truetime">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="keyboard" class="am-u-sm-12 am-form-label am-text-left">keyboard            <span class="tpl-form-line-small-title">keyboard</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infotmp_flash.keyboard)"}{$ecms_infotmp_flash.keyboard}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="keyboard" name="keyboard" 
+	placeholder="请输入keyboard">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="title" class="am-u-sm-12 am-form-label am-text-left">title            <span class="tpl-form-line-small-title">title</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infotmp_flash.title)"}{$ecms_infotmp_flash.title}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="title" name="title" 
+	placeholder="请输入title">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="newstime" class="am-u-sm-12 am-form-label am-text-left">newstime            <span class="tpl-form-line-small-title">newstime</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infotmp_flash.newstime)"}{$ecms_infotmp_flash.newstime}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="newstime" name="newstime" 
+	placeholder="请输入newstime">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="titlepic" class="am-u-sm-12 am-form-label am-text-left">titlepic            <span class="tpl-form-line-small-title">titlepic</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infotmp_flash.titlepic)"}{$ecms_infotmp_flash.titlepic}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="titlepic" name="titlepic" 
+	placeholder="请输入titlepic">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="flashwriter" class="am-u-sm-12 am-form-label am-text-left">flashwriter            <span class="tpl-form-line-small-title">flashwriter</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infotmp_flash.flashwriter)"}{$ecms_infotmp_flash.flashwriter}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="flashwriter" name="flashwriter" 
+	placeholder="请输入flashwriter">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="email" class="am-u-sm-12 am-form-label am-text-left">email            <span class="tpl-form-line-small-title">email</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infotmp_flash.email)"}{$ecms_infotmp_flash.email}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="email" name="email" 
+	placeholder="请输入email">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="star" class="am-u-sm-12 am-form-label am-text-left">star            <span class="tpl-form-line-small-title">star</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infotmp_flash.star)"}{$ecms_infotmp_flash.star}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="star" name="star" 
+	placeholder="请输入star">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="filesize" class="am-u-sm-12 am-form-label am-text-left">filesize            <span class="tpl-form-line-small-title">filesize</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infotmp_flash.filesize)"}{$ecms_infotmp_flash.filesize}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="filesize" name="filesize" 
+	placeholder="请输入filesize">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="flashurl" class="am-u-sm-12 am-form-label am-text-left">flashurl            <span class="tpl-form-line-small-title">flashurl</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infotmp_flash.flashurl)"}{$ecms_infotmp_flash.flashurl}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="flashurl" name="flashurl" 
+	placeholder="请输入flashurl">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="width" class="am-u-sm-12 am-form-label am-text-left">width            <span class="tpl-form-line-small-title">width</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infotmp_flash.width)"}{$ecms_infotmp_flash.width}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="width" name="width" 
+	placeholder="请输入width">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="height" class="am-u-sm-12 am-form-label am-text-left">height            <span class="tpl-form-line-small-title">height</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infotmp_flash.height)"}{$ecms_infotmp_flash.height}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="height" name="height" 
+	placeholder="请输入height">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="flashsay" class="am-u-sm-12 am-form-label am-text-left">flashsay            <span class="tpl-form-line-small-title">flashsay</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infotmp_flash.flashsay)"}{$ecms_infotmp_flash.flashsay}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="flashsay" name="flashsay" 
+	placeholder="请输入flashsay">        </div>
+    </div>
+        <div class="am-form-group">
+        <div class="am-u-sm-12 am-u-sm-push-12">
+            <button type="submit" class="am-btn am-btn-primary tpl-btn-bg-color-success ">提交</button>
+        </div>
+    </div>
+</form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{/block}

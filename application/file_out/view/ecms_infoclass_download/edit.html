@@ -1,0 +1,518 @@
+{extend name="layout" /}
+{block name="content"}
+<!-- 内容区域 -->
+<div class="tpl-content-wrapper">
+    <div class="row-content am-cf">
+        <div class="row">
+            <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+                <div class="widget am-cf">
+                    <div class="widget-head am-cf">
+                        <div class="widget-title am-fl">编辑nj_ecms_infoclass_download</div>
+                        <div class="widget-function am-fr">
+                            <a href="javascript:;" class="am-icon-cog"></a>
+                        </div>
+                    </div>
+                    <div class="widget-body am-fr">
+                        <form class="am-form tpl-form-border-form" method="post">
+        <div class="am-form-group">
+        <label for="classid" class="am-u-sm-12 am-form-label am-text-left">classid            <span class="tpl-form-line-small-title">classid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_download.classid)"}{$ecms_infoclass_download.classid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="classid" name="classid" 
+	placeholder="请输入classid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="zz_title" class="am-u-sm-12 am-form-label am-text-left">zz_title            <span class="tpl-form-line-small-title">zz_title</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_download.zz_title)"}{$ecms_infoclass_download.zz_title}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="zz_title" name="zz_title" 
+	placeholder="请输入zz_title">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="z_title" class="am-u-sm-12 am-form-label am-text-left">z_title            <span class="tpl-form-line-small-title">z_title</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_download.z_title)"}{$ecms_infoclass_download.z_title}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="z_title" name="z_title" 
+	placeholder="请输入z_title">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="qz_title" class="am-u-sm-12 am-form-label am-text-left">qz_title            <span class="tpl-form-line-small-title">qz_title</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_download.qz_title)"}{$ecms_infoclass_download.qz_title}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="qz_title" name="qz_title" 
+	placeholder="请输入qz_title">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="save_title" class="am-u-sm-12 am-form-label am-text-left">save_title            <span class="tpl-form-line-small-title">save_title</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_download.save_title)"}{$ecms_infoclass_download.save_title}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="save_title" name="save_title" 
+	placeholder="请输入save_title">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="zz_titlepic" class="am-u-sm-12 am-form-label am-text-left">zz_titlepic            <span class="tpl-form-line-small-title">zz_titlepic</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_download.zz_titlepic)"}{$ecms_infoclass_download.zz_titlepic}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="zz_titlepic" name="zz_titlepic" 
+	placeholder="请输入zz_titlepic">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="z_titlepic" class="am-u-sm-12 am-form-label am-text-left">z_titlepic            <span class="tpl-form-line-small-title">z_titlepic</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_download.z_titlepic)"}{$ecms_infoclass_download.z_titlepic}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="z_titlepic" name="z_titlepic" 
+	placeholder="请输入z_titlepic">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="qz_titlepic" class="am-u-sm-12 am-form-label am-text-left">qz_titlepic            <span class="tpl-form-line-small-title">qz_titlepic</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_download.qz_titlepic)"}{$ecms_infoclass_download.qz_titlepic}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="qz_titlepic" name="qz_titlepic" 
+	placeholder="请输入qz_titlepic">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="save_titlepic" class="am-u-sm-12 am-form-label am-text-left">save_titlepic            <span class="tpl-form-line-small-title">save_titlepic</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_download.save_titlepic)"}{$ecms_infoclass_download.save_titlepic}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="save_titlepic" name="save_titlepic" 
+	placeholder="请输入save_titlepic">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="zz_newstime" class="am-u-sm-12 am-form-label am-text-left">zz_newstime            <span class="tpl-form-line-small-title">zz_newstime</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_download.zz_newstime)"}{$ecms_infoclass_download.zz_newstime}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="zz_newstime" name="zz_newstime" 
+	placeholder="请输入zz_newstime">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="z_newstime" class="am-u-sm-12 am-form-label am-text-left">z_newstime            <span class="tpl-form-line-small-title">z_newstime</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_download.z_newstime)"}{$ecms_infoclass_download.z_newstime}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="z_newstime" name="z_newstime" 
+	placeholder="请输入z_newstime">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="qz_newstime" class="am-u-sm-12 am-form-label am-text-left">qz_newstime            <span class="tpl-form-line-small-title">qz_newstime</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_download.qz_newstime)"}{$ecms_infoclass_download.qz_newstime}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="qz_newstime" name="qz_newstime" 
+	placeholder="请输入qz_newstime">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="save_newstime" class="am-u-sm-12 am-form-label am-text-left">save_newstime            <span class="tpl-form-line-small-title">save_newstime</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_download.save_newstime)"}{$ecms_infoclass_download.save_newstime}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="save_newstime" name="save_newstime" 
+	placeholder="请输入save_newstime">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="zz_softwriter" class="am-u-sm-12 am-form-label am-text-left">zz_softwriter            <span class="tpl-form-line-small-title">zz_softwriter</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_download.zz_softwriter)"}{$ecms_infoclass_download.zz_softwriter}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="zz_softwriter" name="zz_softwriter" 
+	placeholder="请输入zz_softwriter">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="z_softwriter" class="am-u-sm-12 am-form-label am-text-left">z_softwriter            <span class="tpl-form-line-small-title">z_softwriter</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_download.z_softwriter)"}{$ecms_infoclass_download.z_softwriter}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="z_softwriter" name="z_softwriter" 
+	placeholder="请输入z_softwriter">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="qz_softwriter" class="am-u-sm-12 am-form-label am-text-left">qz_softwriter            <span class="tpl-form-line-small-title">qz_softwriter</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_download.qz_softwriter)"}{$ecms_infoclass_download.qz_softwriter}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="qz_softwriter" name="qz_softwriter" 
+	placeholder="请输入qz_softwriter">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="save_softwriter" class="am-u-sm-12 am-form-label am-text-left">save_softwriter            <span class="tpl-form-line-small-title">save_softwriter</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_download.save_softwriter)"}{$ecms_infoclass_download.save_softwriter}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="save_softwriter" name="save_softwriter" 
+	placeholder="请输入save_softwriter">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="zz_homepage" class="am-u-sm-12 am-form-label am-text-left">zz_homepage            <span class="tpl-form-line-small-title">zz_homepage</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_download.zz_homepage)"}{$ecms_infoclass_download.zz_homepage}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="zz_homepage" name="zz_homepage" 
+	placeholder="请输入zz_homepage">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="z_homepage" class="am-u-sm-12 am-form-label am-text-left">z_homepage            <span class="tpl-form-line-small-title">z_homepage</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_download.z_homepage)"}{$ecms_infoclass_download.z_homepage}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="z_homepage" name="z_homepage" 
+	placeholder="请输入z_homepage">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="qz_homepage" class="am-u-sm-12 am-form-label am-text-left">qz_homepage            <span class="tpl-form-line-small-title">qz_homepage</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_download.qz_homepage)"}{$ecms_infoclass_download.qz_homepage}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="qz_homepage" name="qz_homepage" 
+	placeholder="请输入qz_homepage">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="save_homepage" class="am-u-sm-12 am-form-label am-text-left">save_homepage            <span class="tpl-form-line-small-title">save_homepage</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_download.save_homepage)"}{$ecms_infoclass_download.save_homepage}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="save_homepage" name="save_homepage" 
+	placeholder="请输入save_homepage">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="zz_demo" class="am-u-sm-12 am-form-label am-text-left">zz_demo            <span class="tpl-form-line-small-title">zz_demo</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_download.zz_demo)"}{$ecms_infoclass_download.zz_demo}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="zz_demo" name="zz_demo" 
+	placeholder="请输入zz_demo">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="z_demo" class="am-u-sm-12 am-form-label am-text-left">z_demo            <span class="tpl-form-line-small-title">z_demo</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_download.z_demo)"}{$ecms_infoclass_download.z_demo}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="z_demo" name="z_demo" 
+	placeholder="请输入z_demo">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="qz_demo" class="am-u-sm-12 am-form-label am-text-left">qz_demo            <span class="tpl-form-line-small-title">qz_demo</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_download.qz_demo)"}{$ecms_infoclass_download.qz_demo}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="qz_demo" name="qz_demo" 
+	placeholder="请输入qz_demo">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="save_demo" class="am-u-sm-12 am-form-label am-text-left">save_demo            <span class="tpl-form-line-small-title">save_demo</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_download.save_demo)"}{$ecms_infoclass_download.save_demo}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="save_demo" name="save_demo" 
+	placeholder="请输入save_demo">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="zz_softfj" class="am-u-sm-12 am-form-label am-text-left">zz_softfj            <span class="tpl-form-line-small-title">zz_softfj</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_download.zz_softfj)"}{$ecms_infoclass_download.zz_softfj}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="zz_softfj" name="zz_softfj" 
+	placeholder="请输入zz_softfj">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="z_softfj" class="am-u-sm-12 am-form-label am-text-left">z_softfj            <span class="tpl-form-line-small-title">z_softfj</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_download.z_softfj)"}{$ecms_infoclass_download.z_softfj}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="z_softfj" name="z_softfj" 
+	placeholder="请输入z_softfj">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="qz_softfj" class="am-u-sm-12 am-form-label am-text-left">qz_softfj            <span class="tpl-form-line-small-title">qz_softfj</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_download.qz_softfj)"}{$ecms_infoclass_download.qz_softfj}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="qz_softfj" name="qz_softfj" 
+	placeholder="请输入qz_softfj">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="save_softfj" class="am-u-sm-12 am-form-label am-text-left">save_softfj            <span class="tpl-form-line-small-title">save_softfj</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_download.save_softfj)"}{$ecms_infoclass_download.save_softfj}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="save_softfj" name="save_softfj" 
+	placeholder="请输入save_softfj">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="zz_language" class="am-u-sm-12 am-form-label am-text-left">zz_language            <span class="tpl-form-line-small-title">zz_language</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_download.zz_language)"}{$ecms_infoclass_download.zz_language}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="zz_language" name="zz_language" 
+	placeholder="请输入zz_language">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="z_language" class="am-u-sm-12 am-form-label am-text-left">z_language            <span class="tpl-form-line-small-title">z_language</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_download.z_language)"}{$ecms_infoclass_download.z_language}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="z_language" name="z_language" 
+	placeholder="请输入z_language">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="qz_language" class="am-u-sm-12 am-form-label am-text-left">qz_language            <span class="tpl-form-line-small-title">qz_language</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_download.qz_language)"}{$ecms_infoclass_download.qz_language}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="qz_language" name="qz_language" 
+	placeholder="请输入qz_language">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="save_language" class="am-u-sm-12 am-form-label am-text-left">save_language            <span class="tpl-form-line-small-title">save_language</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_download.save_language)"}{$ecms_infoclass_download.save_language}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="save_language" name="save_language" 
+	placeholder="请输入save_language">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="zz_softtype" class="am-u-sm-12 am-form-label am-text-left">zz_softtype            <span class="tpl-form-line-small-title">zz_softtype</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_download.zz_softtype)"}{$ecms_infoclass_download.zz_softtype}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="zz_softtype" name="zz_softtype" 
+	placeholder="请输入zz_softtype">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="z_softtype" class="am-u-sm-12 am-form-label am-text-left">z_softtype            <span class="tpl-form-line-small-title">z_softtype</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_download.z_softtype)"}{$ecms_infoclass_download.z_softtype}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="z_softtype" name="z_softtype" 
+	placeholder="请输入z_softtype">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="qz_softtype" class="am-u-sm-12 am-form-label am-text-left">qz_softtype            <span class="tpl-form-line-small-title">qz_softtype</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_download.qz_softtype)"}{$ecms_infoclass_download.qz_softtype}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="qz_softtype" name="qz_softtype" 
+	placeholder="请输入qz_softtype">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="save_softtype" class="am-u-sm-12 am-form-label am-text-left">save_softtype            <span class="tpl-form-line-small-title">save_softtype</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_download.save_softtype)"}{$ecms_infoclass_download.save_softtype}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="save_softtype" name="save_softtype" 
+	placeholder="请输入save_softtype">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="zz_softsq" class="am-u-sm-12 am-form-label am-text-left">zz_softsq            <span class="tpl-form-line-small-title">zz_softsq</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_download.zz_softsq)"}{$ecms_infoclass_download.zz_softsq}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="zz_softsq" name="zz_softsq" 
+	placeholder="请输入zz_softsq">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="z_softsq" class="am-u-sm-12 am-form-label am-text-left">z_softsq            <span class="tpl-form-line-small-title">z_softsq</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_download.z_softsq)"}{$ecms_infoclass_download.z_softsq}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="z_softsq" name="z_softsq" 
+	placeholder="请输入z_softsq">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="qz_softsq" class="am-u-sm-12 am-form-label am-text-left">qz_softsq            <span class="tpl-form-line-small-title">qz_softsq</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_download.qz_softsq)"}{$ecms_infoclass_download.qz_softsq}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="qz_softsq" name="qz_softsq" 
+	placeholder="请输入qz_softsq">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="save_softsq" class="am-u-sm-12 am-form-label am-text-left">save_softsq            <span class="tpl-form-line-small-title">save_softsq</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_download.save_softsq)"}{$ecms_infoclass_download.save_softsq}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="save_softsq" name="save_softsq" 
+	placeholder="请输入save_softsq">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="zz_star" class="am-u-sm-12 am-form-label am-text-left">zz_star            <span class="tpl-form-line-small-title">zz_star</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_download.zz_star)"}{$ecms_infoclass_download.zz_star}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="zz_star" name="zz_star" 
+	placeholder="请输入zz_star">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="z_star" class="am-u-sm-12 am-form-label am-text-left">z_star            <span class="tpl-form-line-small-title">z_star</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_download.z_star)"}{$ecms_infoclass_download.z_star}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="z_star" name="z_star" 
+	placeholder="请输入z_star">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="qz_star" class="am-u-sm-12 am-form-label am-text-left">qz_star            <span class="tpl-form-line-small-title">qz_star</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_download.qz_star)"}{$ecms_infoclass_download.qz_star}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="qz_star" name="qz_star" 
+	placeholder="请输入qz_star">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="save_star" class="am-u-sm-12 am-form-label am-text-left">save_star            <span class="tpl-form-line-small-title">save_star</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_download.save_star)"}{$ecms_infoclass_download.save_star}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="save_star" name="save_star" 
+	placeholder="请输入save_star">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="zz_filetype" class="am-u-sm-12 am-form-label am-text-left">zz_filetype            <span class="tpl-form-line-small-title">zz_filetype</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_download.zz_filetype)"}{$ecms_infoclass_download.zz_filetype}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="zz_filetype" name="zz_filetype" 
+	placeholder="请输入zz_filetype">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="z_filetype" class="am-u-sm-12 am-form-label am-text-left">z_filetype            <span class="tpl-form-line-small-title">z_filetype</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_download.z_filetype)"}{$ecms_infoclass_download.z_filetype}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="z_filetype" name="z_filetype" 
+	placeholder="请输入z_filetype">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="qz_filetype" class="am-u-sm-12 am-form-label am-text-left">qz_filetype            <span class="tpl-form-line-small-title">qz_filetype</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_download.qz_filetype)"}{$ecms_infoclass_download.qz_filetype}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="qz_filetype" name="qz_filetype" 
+	placeholder="请输入qz_filetype">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="save_filetype" class="am-u-sm-12 am-form-label am-text-left">save_filetype            <span class="tpl-form-line-small-title">save_filetype</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_download.save_filetype)"}{$ecms_infoclass_download.save_filetype}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="save_filetype" name="save_filetype" 
+	placeholder="请输入save_filetype">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="zz_filesize" class="am-u-sm-12 am-form-label am-text-left">zz_filesize            <span class="tpl-form-line-small-title">zz_filesize</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_download.zz_filesize)"}{$ecms_infoclass_download.zz_filesize}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="zz_filesize" name="zz_filesize" 
+	placeholder="请输入zz_filesize">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="z_filesize" class="am-u-sm-12 am-form-label am-text-left">z_filesize            <span class="tpl-form-line-small-title">z_filesize</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_download.z_filesize)"}{$ecms_infoclass_download.z_filesize}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="z_filesize" name="z_filesize" 
+	placeholder="请输入z_filesize">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="qz_filesize" class="am-u-sm-12 am-form-label am-text-left">qz_filesize            <span class="tpl-form-line-small-title">qz_filesize</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_download.qz_filesize)"}{$ecms_infoclass_download.qz_filesize}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="qz_filesize" name="qz_filesize" 
+	placeholder="请输入qz_filesize">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="save_filesize" class="am-u-sm-12 am-form-label am-text-left">save_filesize            <span class="tpl-form-line-small-title">save_filesize</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_download.save_filesize)"}{$ecms_infoclass_download.save_filesize}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="save_filesize" name="save_filesize" 
+	placeholder="请输入save_filesize">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="zz_downpath" class="am-u-sm-12 am-form-label am-text-left">zz_downpath            <span class="tpl-form-line-small-title">zz_downpath</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_download.zz_downpath)"}{$ecms_infoclass_download.zz_downpath}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="zz_downpath" name="zz_downpath" 
+	placeholder="请输入zz_downpath">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="z_downpath" class="am-u-sm-12 am-form-label am-text-left">z_downpath            <span class="tpl-form-line-small-title">z_downpath</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_download.z_downpath)"}{$ecms_infoclass_download.z_downpath}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="z_downpath" name="z_downpath" 
+	placeholder="请输入z_downpath">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="qz_downpath" class="am-u-sm-12 am-form-label am-text-left">qz_downpath            <span class="tpl-form-line-small-title">qz_downpath</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_download.qz_downpath)"}{$ecms_infoclass_download.qz_downpath}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="qz_downpath" name="qz_downpath" 
+	placeholder="请输入qz_downpath">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="save_downpath" class="am-u-sm-12 am-form-label am-text-left">save_downpath            <span class="tpl-form-line-small-title">save_downpath</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_download.save_downpath)"}{$ecms_infoclass_download.save_downpath}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="save_downpath" name="save_downpath" 
+	placeholder="请输入save_downpath">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="zz_softsay" class="am-u-sm-12 am-form-label am-text-left">zz_softsay            <span class="tpl-form-line-small-title">zz_softsay</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_download.zz_softsay)"}{$ecms_infoclass_download.zz_softsay}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="zz_softsay" name="zz_softsay" 
+	placeholder="请输入zz_softsay">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="z_softsay" class="am-u-sm-12 am-form-label am-text-left">z_softsay            <span class="tpl-form-line-small-title">z_softsay</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_download.z_softsay)"}{$ecms_infoclass_download.z_softsay}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="z_softsay" name="z_softsay" 
+	placeholder="请输入z_softsay">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="qz_softsay" class="am-u-sm-12 am-form-label am-text-left">qz_softsay            <span class="tpl-form-line-small-title">qz_softsay</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_download.qz_softsay)"}{$ecms_infoclass_download.qz_softsay}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="qz_softsay" name="qz_softsay" 
+	placeholder="请输入qz_softsay">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="save_softsay" class="am-u-sm-12 am-form-label am-text-left">save_softsay            <span class="tpl-form-line-small-title">save_softsay</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_download.save_softsay)"}{$ecms_infoclass_download.save_softsay}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="save_softsay" name="save_softsay" 
+	placeholder="请输入save_softsay">        </div>
+    </div>
+        <div class="am-form-group">
+        <div class="am-u-sm-12 am-u-sm-push-12">
+            <button type="submit" class="am-btn am-btn-primary tpl-btn-bg-color-success ">提交</button>
+        </div>
+    </div>
+</form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{/block}

@@ -1,0 +1,78 @@
+{extend name="layout" /}
+{block name="content"}
+<!-- 内容区域 -->
+<div class="tpl-content-wrapper">
+    <div class="row-content am-cf">
+        <div class="row">
+            <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+                <div class="widget am-cf">
+                    <div class="widget-head am-cf">
+                        <div class="widget-title am-fl">编辑nj_enewsuserjs</div>
+                        <div class="widget-function am-fr">
+                            <a href="javascript:;" class="am-icon-cog"></a>
+                        </div>
+                    </div>
+                    <div class="widget-body am-fr">
+                        <form class="am-form tpl-form-border-form" method="post">
+        <div class="am-form-group">
+        <label for="jsid" class="am-u-sm-12 am-form-label am-text-left">jsid            <span class="tpl-form-line-small-title">jsid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsuserjs.jsid)"}{$enewsuserjs.jsid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="jsid" name="jsid" 
+	placeholder="请输入jsid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="jsname" class="am-u-sm-12 am-form-label am-text-left">jsname            <span class="tpl-form-line-small-title">jsname</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsuserjs.jsname)"}{$enewsuserjs.jsname}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="jsname" name="jsname" 
+	placeholder="请输入jsname">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="jssql" class="am-u-sm-12 am-form-label am-text-left">jssql            <span class="tpl-form-line-small-title">jssql</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsuserjs.jssql)"}{$enewsuserjs.jssql}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="jssql" name="jssql" 
+	placeholder="请输入jssql">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="jstempid" class="am-u-sm-12 am-form-label am-text-left">jstempid            <span class="tpl-form-line-small-title">jstempid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsuserjs.jstempid)"}{$enewsuserjs.jstempid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="jstempid" name="jstempid" 
+	placeholder="请输入jstempid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="jsfilename" class="am-u-sm-12 am-form-label am-text-left">jsfilename            <span class="tpl-form-line-small-title">jsfilename</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsuserjs.jsfilename)"}{$enewsuserjs.jsfilename}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="jsfilename" name="jsfilename" 
+	placeholder="请输入jsfilename">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="classid" class="am-u-sm-12 am-form-label am-text-left">classid            <span class="tpl-form-line-small-title">classid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsuserjs.classid)"}{$enewsuserjs.classid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="classid" name="classid" 
+	placeholder="请输入classid">        </div>
+    </div>
+        <div class="am-form-group">
+        <div class="am-u-sm-12 am-u-sm-push-12">
+            <button type="submit" class="am-btn am-btn-primary tpl-btn-bg-color-success ">提交</button>
+        </div>
+    </div>
+</form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{/block}

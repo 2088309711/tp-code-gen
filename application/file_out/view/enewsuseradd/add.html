@@ -1,0 +1,77 @@
+{extend name="layout" /}
+{block name="content"}
+<!-- 内容区域 -->
+<div class="tpl-content-wrapper">
+    <div class="row-content am-cf">
+        <div class="row">
+            <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+                <div class="widget am-cf">
+                    <div class="widget-head am-cf">
+                        <div class="widget-title am-fl">新建nj_enewsuseradd</div>
+                        <div class="widget-function am-fr">
+                            <a href="javascript:;" class="am-icon-cog"></a>
+                        </div>
+                    </div>
+                    <div class="widget-body am-fr">
+                        <form class="am-form tpl-form-border-form" method="post">
+        <div class="am-form-group">
+        <label for="userid" class="am-u-sm-12 am-form-label am-text-left">userid            <span class="tpl-form-line-small-title">userid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsuseradd.userid)"}{$enewsuseradd.userid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="userid" name="userid" 
+	placeholder="请输入userid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="equestion" class="am-u-sm-12 am-form-label am-text-left">equestion            <span class="tpl-form-line-small-title">equestion</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsuseradd.equestion)"}{$enewsuseradd.equestion}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="equestion" name="equestion" 
+	placeholder="请输入equestion">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="eanswer" class="am-u-sm-12 am-form-label am-text-left">eanswer            <span class="tpl-form-line-small-title">eanswer</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsuseradd.eanswer)"}{$enewsuseradd.eanswer}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="eanswer" name="eanswer" 
+	placeholder="请输入eanswer">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="openip" class="am-u-sm-12 am-form-label am-text-left">openip            <span class="tpl-form-line-small-title">openip</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsuseradd.openip)"}{$enewsuseradd.openip}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="openip" name="openip" 
+	placeholder="请输入openip">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="certkey" class="am-u-sm-12 am-form-label am-text-left">certkey            <span class="tpl-form-line-small-title">certkey</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsuseradd.certkey)"}{$enewsuseradd.certkey}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="certkey" name="certkey" 
+	placeholder="请输入certkey">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="certtime" class="am-u-sm-12 am-form-label am-text-left">certtime            <span class="tpl-form-line-small-title">certtime</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsuseradd.certtime)"}{$enewsuseradd.certtime}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="certtime" name="certtime" 
+	placeholder="请输入certtime">        </div>
+    </div>
+        <div class="am-form-group">
+        <div class="am-u-sm-12 am-u-sm-push-12">
+            <button type="submit" class="am-btn am-btn-primary tpl-btn-bg-color-success ">提交</button>
+        </div>
+    </div>
+</form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{/block}

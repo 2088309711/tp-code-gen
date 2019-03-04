@@ -1,0 +1,85 @@
+{extend name="layout" /}
+{block name="content"}
+<!-- 内容区域 -->
+<div class="tpl-content-wrapper">
+    <div class="row-content am-cf">
+        <div class="row">
+            <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+                <div class="widget am-cf">
+                    <div class="widget-head am-cf">
+                        <div class="widget-title am-fl">新建nj_enewsworkflow</div>
+                        <div class="widget-function am-fr">
+                            <a href="javascript:;" class="am-icon-cog"></a>
+                        </div>
+                    </div>
+                    <div class="widget-body am-fr">
+                        <form class="am-form tpl-form-border-form" method="post">
+        <div class="am-form-group">
+        <label for="wfid" class="am-u-sm-12 am-form-label am-text-left">wfid            <span class="tpl-form-line-small-title">wfid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsworkflow.wfid)"}{$enewsworkflow.wfid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="wfid" name="wfid" 
+	placeholder="请输入wfid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="wfname" class="am-u-sm-12 am-form-label am-text-left">wfname            <span class="tpl-form-line-small-title">wfname</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsworkflow.wfname)"}{$enewsworkflow.wfname}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="wfname" name="wfname" 
+	placeholder="请输入wfname">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="wftext" class="am-u-sm-12 am-form-label am-text-left">wftext            <span class="tpl-form-line-small-title">wftext</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsworkflow.wftext)"}{$enewsworkflow.wftext}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="wftext" name="wftext" 
+	placeholder="请输入wftext">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="myorder" class="am-u-sm-12 am-form-label am-text-left">myorder            <span class="tpl-form-line-small-title">myorder</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsworkflow.myorder)"}{$enewsworkflow.myorder}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="myorder" name="myorder" 
+	placeholder="请输入myorder">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="addtime" class="am-u-sm-12 am-form-label am-text-left">addtime            <span class="tpl-form-line-small-title">addtime</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsworkflow.addtime)"}{$enewsworkflow.addtime}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="addtime" name="addtime" 
+	placeholder="请输入addtime">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="adduser" class="am-u-sm-12 am-form-label am-text-left">adduser            <span class="tpl-form-line-small-title">adduser</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsworkflow.adduser)"}{$enewsworkflow.adduser}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="adduser" name="adduser" 
+	placeholder="请输入adduser">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="canedit" class="am-u-sm-12 am-form-label am-text-left">canedit            <span class="tpl-form-line-small-title">canedit</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsworkflow.canedit)"}{$enewsworkflow.canedit}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="canedit" name="canedit" 
+	placeholder="请输入canedit">        </div>
+    </div>
+        <div class="am-form-group">
+        <div class="am-u-sm-12 am-u-sm-push-12">
+            <button type="submit" class="am-btn am-btn-primary tpl-btn-bg-color-success ">提交</button>
+        </div>
+    </div>
+</form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{/block}

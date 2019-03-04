@@ -1,0 +1,165 @@
+{extend name="layout" /}
+{block name="content"}
+<!-- 内容区域 -->
+<div class="tpl-content-wrapper">
+    <div class="row-content am-cf">
+        <div class="row">
+            <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+                <div class="widget am-cf">
+                    <div class="widget-head am-cf">
+                        <div class="widget-title am-fl">新建nj_enewstempbak</div>
+                        <div class="widget-function am-fr">
+                            <a href="javascript:;" class="am-icon-cog"></a>
+                        </div>
+                    </div>
+                    <div class="widget-body am-fr">
+                        <form class="am-form tpl-form-border-form" method="post">
+        <div class="am-form-group">
+        <label for="bid" class="am-u-sm-12 am-form-label am-text-left">bid            <span class="tpl-form-line-small-title">bid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewstempbak.bid)"}{$enewstempbak.bid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="bid" name="bid" 
+	placeholder="请输入bid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="tempid" class="am-u-sm-12 am-form-label am-text-left">tempid            <span class="tpl-form-line-small-title">tempid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewstempbak.tempid)"}{$enewstempbak.tempid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="tempid" name="tempid" 
+	placeholder="请输入tempid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="tempname" class="am-u-sm-12 am-form-label am-text-left">tempname            <span class="tpl-form-line-small-title">tempname</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewstempbak.tempname)"}{$enewstempbak.tempname}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="tempname" name="tempname" 
+	placeholder="请输入tempname">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="temptext" class="am-u-sm-12 am-form-label am-text-left">temptext            <span class="tpl-form-line-small-title">temptext</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewstempbak.temptext)"}{$enewstempbak.temptext}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="temptext" name="temptext" 
+	placeholder="请输入temptext">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="subnews" class="am-u-sm-12 am-form-label am-text-left">subnews            <span class="tpl-form-line-small-title">subnews</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewstempbak.subnews)"}{$enewstempbak.subnews}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="subnews" name="subnews" 
+	placeholder="请输入subnews">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="isdefault" class="am-u-sm-12 am-form-label am-text-left">isdefault            <span class="tpl-form-line-small-title">isdefault</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewstempbak.isdefault)"}{$enewstempbak.isdefault}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="isdefault" name="isdefault" 
+	placeholder="请输入isdefault">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="listvar" class="am-u-sm-12 am-form-label am-text-left">listvar            <span class="tpl-form-line-small-title">listvar</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewstempbak.listvar)"}{$enewstempbak.listvar}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="listvar" name="listvar" 
+	placeholder="请输入listvar">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="rownum" class="am-u-sm-12 am-form-label am-text-left">rownum            <span class="tpl-form-line-small-title">rownum</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewstempbak.rownum)"}{$enewstempbak.rownum}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="rownum" name="rownum" 
+	placeholder="请输入rownum">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="modid" class="am-u-sm-12 am-form-label am-text-left">modid            <span class="tpl-form-line-small-title">modid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewstempbak.modid)"}{$enewstempbak.modid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="modid" name="modid" 
+	placeholder="请输入modid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="showdate" class="am-u-sm-12 am-form-label am-text-left">showdate            <span class="tpl-form-line-small-title">showdate</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewstempbak.showdate)"}{$enewstempbak.showdate}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="showdate" name="showdate" 
+	placeholder="请输入showdate">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="subtitle" class="am-u-sm-12 am-form-label am-text-left">subtitle            <span class="tpl-form-line-small-title">subtitle</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewstempbak.subtitle)"}{$enewstempbak.subtitle}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="subtitle" name="subtitle" 
+	placeholder="请输入subtitle">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="classid" class="am-u-sm-12 am-form-label am-text-left">classid            <span class="tpl-form-line-small-title">classid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewstempbak.classid)"}{$enewstempbak.classid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="classid" name="classid" 
+	placeholder="请输入classid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="docode" class="am-u-sm-12 am-form-label am-text-left">docode            <span class="tpl-form-line-small-title">docode</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewstempbak.docode)"}{$enewstempbak.docode}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="docode" name="docode" 
+	placeholder="请输入docode">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="baktime" class="am-u-sm-12 am-form-label am-text-left">baktime            <span class="tpl-form-line-small-title">baktime</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewstempbak.baktime)"}{$enewstempbak.baktime}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="baktime" name="baktime" 
+	placeholder="请输入baktime">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="temptype" class="am-u-sm-12 am-form-label am-text-left">temptype            <span class="tpl-form-line-small-title">temptype</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewstempbak.temptype)"}{$enewstempbak.temptype}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="temptype" name="temptype" 
+	placeholder="请输入temptype">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="gid" class="am-u-sm-12 am-form-label am-text-left">gid            <span class="tpl-form-line-small-title">gid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewstempbak.gid)"}{$enewstempbak.gid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="gid" name="gid" 
+	placeholder="请输入gid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="lastuser" class="am-u-sm-12 am-form-label am-text-left">lastuser            <span class="tpl-form-line-small-title">lastuser</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewstempbak.lastuser)"}{$enewstempbak.lastuser}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="lastuser" name="lastuser" 
+	placeholder="请输入lastuser">        </div>
+    </div>
+        <div class="am-form-group">
+        <div class="am-u-sm-12 am-u-sm-push-12">
+            <button type="submit" class="am-btn am-btn-primary tpl-btn-bg-color-success ">提交</button>
+        </div>
+    </div>
+</form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{/block}

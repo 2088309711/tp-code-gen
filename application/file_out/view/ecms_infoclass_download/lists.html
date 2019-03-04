@@ -1,0 +1,193 @@
+{extend name="layout" /}
+{block name="content"}
+<!-- 内容区域 -->
+<div class="tpl-content-wrapper">
+    <div class="row-content am-cf">
+        <div class="row">
+            <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+                <div class="widget am-cf">
+                    <div class="widget-head am-cf">
+                        <div class="widget-title  am-cf">管理ecms_infoclass_download</div>
+                    </div>
+                    <div class="widget-body  am-fr">
+    <div class="am-u-sm-12 am-u-md-6 am-u-lg-6">
+        <div class="am-form-group">
+            <div class="am-btn-toolbar">
+                <div class="am-btn-group am-btn-group-xs">
+                    <a class="am-btn am-btn-default am-btn-success"
+                       href="{:url('ecms_infoclass_download/add')}">
+                        <span class="am-icon-plus"></span> 新增
+                    </a>
+                    <!--
+                    <button type="button" class="am-btn am-btn-default am-btn-secondary"><span class="am-icon-save"></span> 保存</button>
+                    <button type="button" class="am-btn am-btn-default am-btn-warning"><span class="am-icon-archive"></span> 审核</button>
+                    <button type="button" class="am-btn am-btn-default am-btn-danger"><span class="am-icon-trash-o"></span> 删除</button>
+                    -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="am-u-sm-12">
+        <table width="100%" class="am-table am-table-compact am-table-striped tpl-table-black " id="example-r">
+            <thead>
+            <tr>
+                                <th>classid</th>
+                                <th>zz_title</th>
+                                <th>z_title</th>
+                                <th>qz_title</th>
+                                <th>save_title</th>
+                                <th>zz_titlepic</th>
+                                <th>z_titlepic</th>
+                                <th>qz_titlepic</th>
+                                <th>save_titlepic</th>
+                                <th>zz_newstime</th>
+                                <th>z_newstime</th>
+                                <th>qz_newstime</th>
+                                <th>save_newstime</th>
+                                <th>zz_softwriter</th>
+                                <th>z_softwriter</th>
+                                <th>qz_softwriter</th>
+                                <th>save_softwriter</th>
+                                <th>zz_homepage</th>
+                                <th>z_homepage</th>
+                                <th>qz_homepage</th>
+                                <th>save_homepage</th>
+                                <th>zz_demo</th>
+                                <th>z_demo</th>
+                                <th>qz_demo</th>
+                                <th>save_demo</th>
+                                <th>zz_softfj</th>
+                                <th>z_softfj</th>
+                                <th>qz_softfj</th>
+                                <th>save_softfj</th>
+                                <th>zz_language</th>
+                                <th>z_language</th>
+                                <th>qz_language</th>
+                                <th>save_language</th>
+                                <th>zz_softtype</th>
+                                <th>z_softtype</th>
+                                <th>qz_softtype</th>
+                                <th>save_softtype</th>
+                                <th>zz_softsq</th>
+                                <th>z_softsq</th>
+                                <th>qz_softsq</th>
+                                <th>save_softsq</th>
+                                <th>zz_star</th>
+                                <th>z_star</th>
+                                <th>qz_star</th>
+                                <th>save_star</th>
+                                <th>zz_filetype</th>
+                                <th>z_filetype</th>
+                                <th>qz_filetype</th>
+                                <th>save_filetype</th>
+                                <th>zz_filesize</th>
+                                <th>z_filesize</th>
+                                <th>qz_filesize</th>
+                                <th>save_filesize</th>
+                                <th>zz_downpath</th>
+                                <th>z_downpath</th>
+                                <th>qz_downpath</th>
+                                <th>save_downpath</th>
+                                <th>zz_softsay</th>
+                                <th>z_softsay</th>
+                                <th>qz_softsay</th>
+                                <th>save_softsay</th>
+                                <th>操作</th>
+            </tr>
+            </thead>
+            <tbody>
+            {volist name="ecms_infoclass_downloadList" id="vo"}
+            <tr class="gradeX">
+                                <td>{$vo.classid}</td>
+                                <td>{$vo.zz_title}</td>
+                                <td>{$vo.z_title}</td>
+                                <td>{$vo.qz_title}</td>
+                                <td>{$vo.save_title}</td>
+                                <td>{$vo.zz_titlepic}</td>
+                                <td>{$vo.z_titlepic}</td>
+                                <td>{$vo.qz_titlepic}</td>
+                                <td>{$vo.save_titlepic}</td>
+                                <td>{$vo.zz_newstime}</td>
+                                <td>{$vo.z_newstime}</td>
+                                <td>{$vo.qz_newstime}</td>
+                                <td>{$vo.save_newstime}</td>
+                                <td>{$vo.zz_softwriter}</td>
+                                <td>{$vo.z_softwriter}</td>
+                                <td>{$vo.qz_softwriter}</td>
+                                <td>{$vo.save_softwriter}</td>
+                                <td>{$vo.zz_homepage}</td>
+                                <td>{$vo.z_homepage}</td>
+                                <td>{$vo.qz_homepage}</td>
+                                <td>{$vo.save_homepage}</td>
+                                <td>{$vo.zz_demo}</td>
+                                <td>{$vo.z_demo}</td>
+                                <td>{$vo.qz_demo}</td>
+                                <td>{$vo.save_demo}</td>
+                                <td>{$vo.zz_softfj}</td>
+                                <td>{$vo.z_softfj}</td>
+                                <td>{$vo.qz_softfj}</td>
+                                <td>{$vo.save_softfj}</td>
+                                <td>{$vo.zz_language}</td>
+                                <td>{$vo.z_language}</td>
+                                <td>{$vo.qz_language}</td>
+                                <td>{$vo.save_language}</td>
+                                <td>{$vo.zz_softtype}</td>
+                                <td>{$vo.z_softtype}</td>
+                                <td>{$vo.qz_softtype}</td>
+                                <td>{$vo.save_softtype}</td>
+                                <td>{$vo.zz_softsq}</td>
+                                <td>{$vo.z_softsq}</td>
+                                <td>{$vo.qz_softsq}</td>
+                                <td>{$vo.save_softsq}</td>
+                                <td>{$vo.zz_star}</td>
+                                <td>{$vo.z_star}</td>
+                                <td>{$vo.qz_star}</td>
+                                <td>{$vo.save_star}</td>
+                                <td>{$vo.zz_filetype}</td>
+                                <td>{$vo.z_filetype}</td>
+                                <td>{$vo.qz_filetype}</td>
+                                <td>{$vo.save_filetype}</td>
+                                <td>{$vo.zz_filesize}</td>
+                                <td>{$vo.z_filesize}</td>
+                                <td>{$vo.qz_filesize}</td>
+                                <td>{$vo.save_filesize}</td>
+                                <td>{$vo.zz_downpath}</td>
+                                <td>{$vo.z_downpath}</td>
+                                <td>{$vo.qz_downpath}</td>
+                                <td>{$vo.save_downpath}</td>
+                                <td>{$vo.zz_softsay}</td>
+                                <td>{$vo.z_softsay}</td>
+                                <td>{$vo.qz_softsay}</td>
+                                <td>{$vo.save_softsay}</td>
+                                <td>
+                    <div class="tpl-table-black-operation">
+                        <a href="{:url('ecms_infoclass_download/edit', ['id'=>$vo['id']])}">
+                            <i class="am-icon-pencil"></i> 编辑
+                        </a>
+                        <a href="{:url('ecms_infoclass_download/delete', ['id'=>$vo['id']])}"
+                           onclick='return confirm("确定删除吗？")' class="tpl-table-black-operation-del">
+                            <i class="am-icon-trash"></i> 删除
+                        </a>
+                    </div>
+                </td>
+            </tr>
+            {/volist}
+            <!-- more data -->
+            </tbody>
+        </table>
+    </div>
+    <div class="am-u-lg-12 am-cf">
+
+        <div class="am-fr">
+            <ul class="am-pagination tpl-pagination">
+                {$ecms_infoclass_downloadList->render()}
+            </ul>
+        </div>
+    </div>
+</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{/block}

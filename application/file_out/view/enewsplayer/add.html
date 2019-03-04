@@ -1,0 +1,53 @@
+{extend name="layout" /}
+{block name="content"}
+<!-- 内容区域 -->
+<div class="tpl-content-wrapper">
+    <div class="row-content am-cf">
+        <div class="row">
+            <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+                <div class="widget am-cf">
+                    <div class="widget-head am-cf">
+                        <div class="widget-title am-fl">新建nj_enewsplayer</div>
+                        <div class="widget-function am-fr">
+                            <a href="javascript:;" class="am-icon-cog"></a>
+                        </div>
+                    </div>
+                    <div class="widget-body am-fr">
+                        <form class="am-form tpl-form-border-form" method="post">
+        <div class="am-form-group">
+        <label for="player" class="am-u-sm-12 am-form-label am-text-left">player            <span class="tpl-form-line-small-title">player</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsplayer.player)"}{$enewsplayer.player}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="player" name="player" 
+	placeholder="请输入player">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="filename" class="am-u-sm-12 am-form-label am-text-left">filename            <span class="tpl-form-line-small-title">filename</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsplayer.filename)"}{$enewsplayer.filename}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="filename" name="filename" 
+	placeholder="请输入filename">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="bz" class="am-u-sm-12 am-form-label am-text-left">bz            <span class="tpl-form-line-small-title">bz</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsplayer.bz)"}{$enewsplayer.bz}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="bz" name="bz" 
+	placeholder="请输入bz">        </div>
+    </div>
+        <div class="am-form-group">
+        <div class="am-u-sm-12 am-u-sm-push-12">
+            <button type="submit" class="am-btn am-btn-primary tpl-btn-bg-color-success ">提交</button>
+        </div>
+    </div>
+</form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{/block}

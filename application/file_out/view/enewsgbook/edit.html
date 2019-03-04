@@ -1,0 +1,134 @@
+{extend name="layout" /}
+{block name="content"}
+<!-- 内容区域 -->
+<div class="tpl-content-wrapper">
+    <div class="row-content am-cf">
+        <div class="row">
+            <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+                <div class="widget am-cf">
+                    <div class="widget-head am-cf">
+                        <div class="widget-title am-fl">编辑nj_enewsgbook</div>
+                        <div class="widget-function am-fr">
+                            <a href="javascript:;" class="am-icon-cog"></a>
+                        </div>
+                    </div>
+                    <div class="widget-body am-fr">
+                        <form class="am-form tpl-form-border-form" method="post">
+        <div class="am-form-group">
+        <label for="lyid" class="am-u-sm-12 am-form-label am-text-left">lyid            <span class="tpl-form-line-small-title">lyid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgbook.lyid)"}{$enewsgbook.lyid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="lyid" name="lyid" 
+	placeholder="请输入lyid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="name" class="am-u-sm-12 am-form-label am-text-left">name            <span class="tpl-form-line-small-title">name</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgbook.name)"}{$enewsgbook.name}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="name" name="name" 
+	placeholder="请输入name">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="email" class="am-u-sm-12 am-form-label am-text-left">email            <span class="tpl-form-line-small-title">email</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgbook.email)"}{$enewsgbook.email}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="email" name="email" 
+	placeholder="请输入email">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="mycall" class="am-u-sm-12 am-form-label am-text-left">mycall            <span class="tpl-form-line-small-title">mycall</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgbook.mycall)"}{$enewsgbook.mycall}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="mycall" name="mycall" 
+	placeholder="请输入mycall">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="lytime" class="am-u-sm-12 am-form-label am-text-left">lytime            <span class="tpl-form-line-small-title">lytime</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgbook.lytime)"}{$enewsgbook.lytime}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="lytime" name="lytime" 
+	placeholder="请输入lytime">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="lytext" class="am-u-sm-12 am-form-label am-text-left">lytext            <span class="tpl-form-line-small-title">lytext</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgbook.lytext)"}{$enewsgbook.lytext}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="lytext" name="lytext" 
+	placeholder="请输入lytext">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="retext" class="am-u-sm-12 am-form-label am-text-left">retext            <span class="tpl-form-line-small-title">retext</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgbook.retext)"}{$enewsgbook.retext}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="retext" name="retext" 
+	placeholder="请输入retext">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="bid" class="am-u-sm-12 am-form-label am-text-left">bid            <span class="tpl-form-line-small-title">bid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgbook.bid)"}{$enewsgbook.bid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="bid" name="bid" 
+	placeholder="请输入bid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="ip" class="am-u-sm-12 am-form-label am-text-left">ip            <span class="tpl-form-line-small-title">ip</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgbook.ip)"}{$enewsgbook.ip}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="ip" name="ip" 
+	placeholder="请输入ip">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="checked" class="am-u-sm-12 am-form-label am-text-left">checked            <span class="tpl-form-line-small-title">checked</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgbook.checked)"}{$enewsgbook.checked}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="checked" name="checked" 
+	placeholder="请输入checked">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="userid" class="am-u-sm-12 am-form-label am-text-left">userid            <span class="tpl-form-line-small-title">userid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgbook.userid)"}{$enewsgbook.userid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="userid" name="userid" 
+	placeholder="请输入userid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="username" class="am-u-sm-12 am-form-label am-text-left">username            <span class="tpl-form-line-small-title">username</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgbook.username)"}{$enewsgbook.username}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="username" name="username" 
+	placeholder="请输入username">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="eipport" class="am-u-sm-12 am-form-label am-text-left">eipport            <span class="tpl-form-line-small-title">eipport</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsgbook.eipport)"}{$enewsgbook.eipport}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="eipport" name="eipport" 
+	placeholder="请输入eipport">        </div>
+    </div>
+        <div class="am-form-group">
+        <div class="am-u-sm-12 am-u-sm-push-12">
+            <button type="submit" class="am-btn am-btn-primary tpl-btn-bg-color-success ">提交</button>
+        </div>
+    </div>
+</form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{/block}

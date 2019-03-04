@@ -1,0 +1,95 @@
+{extend name="layout" /}
+{block name="content"}
+<!-- 内容区域 -->
+<div class="tpl-content-wrapper">
+    <div class="row-content am-cf">
+        <div class="row">
+            <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+                <div class="widget am-cf">
+                    <div class="widget-head am-cf">
+                        <div class="widget-title am-fl">编辑nj_enewspayrecord</div>
+                        <div class="widget-function am-fr">
+                            <a href="javascript:;" class="am-icon-cog"></a>
+                        </div>
+                    </div>
+                    <div class="widget-body am-fr">
+                        <form class="am-form tpl-form-border-form" method="post">
+        <input type="hidden" name="id" value="{$enewspayrecord.id}"/>
+        <div class="am-form-group">
+        <label for="userid" class="am-u-sm-12 am-form-label am-text-left">userid            <span class="tpl-form-line-small-title">userid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspayrecord.userid)"}{$enewspayrecord.userid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="userid" name="userid" 
+	placeholder="请输入userid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="username" class="am-u-sm-12 am-form-label am-text-left">username            <span class="tpl-form-line-small-title">username</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspayrecord.username)"}{$enewspayrecord.username}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="username" name="username" 
+	placeholder="请输入username">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="orderid" class="am-u-sm-12 am-form-label am-text-left">orderid            <span class="tpl-form-line-small-title">orderid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspayrecord.orderid)"}{$enewspayrecord.orderid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="orderid" name="orderid" 
+	placeholder="请输入orderid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="money" class="am-u-sm-12 am-form-label am-text-left">money            <span class="tpl-form-line-small-title">money</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspayrecord.money)"}{$enewspayrecord.money}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="money" name="money" 
+	placeholder="请输入money">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="posttime" class="am-u-sm-12 am-form-label am-text-left">posttime            <span class="tpl-form-line-small-title">posttime</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspayrecord.posttime)"}{$enewspayrecord.posttime}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="posttime" name="posttime" 
+	placeholder="请输入posttime">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="paybz" class="am-u-sm-12 am-form-label am-text-left">paybz            <span class="tpl-form-line-small-title">paybz</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspayrecord.paybz)"}{$enewspayrecord.paybz}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="paybz" name="paybz" 
+	placeholder="请输入paybz">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="type" class="am-u-sm-12 am-form-label am-text-left">type            <span class="tpl-form-line-small-title">type</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspayrecord.type)"}{$enewspayrecord.type}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="type" name="type" 
+	placeholder="请输入type">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="payip" class="am-u-sm-12 am-form-label am-text-left">payip            <span class="tpl-form-line-small-title">payip</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspayrecord.payip)"}{$enewspayrecord.payip}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="payip" name="payip" 
+	placeholder="请输入payip">        </div>
+    </div>
+        <div class="am-form-group">
+        <div class="am-u-sm-12 am-u-sm-push-12">
+            <button type="submit" class="am-btn am-btn-primary tpl-btn-bg-color-success ">提交</button>
+        </div>
+    </div>
+</form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{/block}

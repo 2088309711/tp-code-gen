@@ -1,0 +1,93 @@
+{extend name="layout" /}
+{block name="content"}
+<!-- 内容区域 -->
+<div class="tpl-content-wrapper">
+    <div class="row-content am-cf">
+        <div class="row">
+            <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+                <div class="widget am-cf">
+                    <div class="widget-head am-cf">
+                        <div class="widget-title am-fl">新建nj_enewsdolog</div>
+                        <div class="widget-function am-fr">
+                            <a href="javascript:;" class="am-icon-cog"></a>
+                        </div>
+                    </div>
+                    <div class="widget-body am-fr">
+                        <form class="am-form tpl-form-border-form" method="post">
+        <div class="am-form-group">
+        <label for="logid" class="am-u-sm-12 am-form-label am-text-left">logid            <span class="tpl-form-line-small-title">logid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsdolog.logid)"}{$enewsdolog.logid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="logid" name="logid" 
+	placeholder="请输入logid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="logip" class="am-u-sm-12 am-form-label am-text-left">logip            <span class="tpl-form-line-small-title">logip</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsdolog.logip)"}{$enewsdolog.logip}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="logip" name="logip" 
+	placeholder="请输入logip">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="logtime" class="am-u-sm-12 am-form-label am-text-left">logtime            <span class="tpl-form-line-small-title">logtime</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsdolog.logtime)"}{$enewsdolog.logtime}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="logtime" name="logtime" 
+	placeholder="请输入logtime">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="username" class="am-u-sm-12 am-form-label am-text-left">username            <span class="tpl-form-line-small-title">username</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsdolog.username)"}{$enewsdolog.username}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="username" name="username" 
+	placeholder="请输入username">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="enews" class="am-u-sm-12 am-form-label am-text-left">enews            <span class="tpl-form-line-small-title">enews</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsdolog.enews)"}{$enewsdolog.enews}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="enews" name="enews" 
+	placeholder="请输入enews">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="doing" class="am-u-sm-12 am-form-label am-text-left">doing            <span class="tpl-form-line-small-title">doing</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsdolog.doing)"}{$enewsdolog.doing}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="doing" name="doing" 
+	placeholder="请输入doing">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="pubid" class="am-u-sm-12 am-form-label am-text-left">pubid            <span class="tpl-form-line-small-title">pubid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsdolog.pubid)"}{$enewsdolog.pubid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="pubid" name="pubid" 
+	placeholder="请输入pubid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="ipport" class="am-u-sm-12 am-form-label am-text-left">ipport            <span class="tpl-form-line-small-title">ipport</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsdolog.ipport)"}{$enewsdolog.ipport}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="ipport" name="ipport" 
+	placeholder="请输入ipport">        </div>
+    </div>
+        <div class="am-form-group">
+        <div class="am-u-sm-12 am-u-sm-push-12">
+            <button type="submit" class="am-btn am-btn-primary tpl-btn-bg-color-success ">提交</button>
+        </div>
+    </div>
+</form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{/block}

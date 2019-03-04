@@ -1,0 +1,173 @@
+{extend name="layout" /}
+{block name="content"}
+<!-- 内容区域 -->
+<div class="tpl-content-wrapper">
+    <div class="row-content am-cf">
+        <div class="row">
+            <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+                <div class="widget am-cf">
+                    <div class="widget-head am-cf">
+                        <div class="widget-title am-fl">新建nj_enewsclass_stats</div>
+                        <div class="widget-function am-fr">
+                            <a href="javascript:;" class="am-icon-cog"></a>
+                        </div>
+                    </div>
+                    <div class="widget-body am-fr">
+                        <form class="am-form tpl-form-border-form" method="post">
+        <div class="am-form-group">
+        <label for="classid" class="am-u-sm-12 am-form-label am-text-left">classid            <span class="tpl-form-line-small-title">classid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsclass_stats.classid)"}{$enewsclass_stats.classid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="classid" name="classid" 
+	placeholder="请输入classid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="uptime" class="am-u-sm-12 am-form-label am-text-left">uptime            <span class="tpl-form-line-small-title">uptime</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsclass_stats.uptime)"}{$enewsclass_stats.uptime}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="uptime" name="uptime" 
+	placeholder="请输入uptime">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="pvall" class="am-u-sm-12 am-form-label am-text-left">pvall            <span class="tpl-form-line-small-title">pvall</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsclass_stats.pvall)"}{$enewsclass_stats.pvall}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="pvall" name="pvall" 
+	placeholder="请输入pvall">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="pvyear" class="am-u-sm-12 am-form-label am-text-left">pvyear            <span class="tpl-form-line-small-title">pvyear</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsclass_stats.pvyear)"}{$enewsclass_stats.pvyear}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="pvyear" name="pvyear" 
+	placeholder="请输入pvyear">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="pvhalfyear" class="am-u-sm-12 am-form-label am-text-left">pvhalfyear            <span class="tpl-form-line-small-title">pvhalfyear</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsclass_stats.pvhalfyear)"}{$enewsclass_stats.pvhalfyear}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="pvhalfyear" name="pvhalfyear" 
+	placeholder="请输入pvhalfyear">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="pvquarter" class="am-u-sm-12 am-form-label am-text-left">pvquarter            <span class="tpl-form-line-small-title">pvquarter</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsclass_stats.pvquarter)"}{$enewsclass_stats.pvquarter}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="pvquarter" name="pvquarter" 
+	placeholder="请输入pvquarter">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="pvmonth" class="am-u-sm-12 am-form-label am-text-left">pvmonth            <span class="tpl-form-line-small-title">pvmonth</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsclass_stats.pvmonth)"}{$enewsclass_stats.pvmonth}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="pvmonth" name="pvmonth" 
+	placeholder="请输入pvmonth">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="pvweek" class="am-u-sm-12 am-form-label am-text-left">pvweek            <span class="tpl-form-line-small-title">pvweek</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsclass_stats.pvweek)"}{$enewsclass_stats.pvweek}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="pvweek" name="pvweek" 
+	placeholder="请输入pvweek">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="pvday" class="am-u-sm-12 am-form-label am-text-left">pvday            <span class="tpl-form-line-small-title">pvday</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsclass_stats.pvday)"}{$enewsclass_stats.pvday}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="pvday" name="pvday" 
+	placeholder="请输入pvday">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="pvyesterday" class="am-u-sm-12 am-form-label am-text-left">pvyesterday            <span class="tpl-form-line-small-title">pvyesterday</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsclass_stats.pvyesterday)"}{$enewsclass_stats.pvyesterday}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="pvyesterday" name="pvyesterday" 
+	placeholder="请输入pvyesterday">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="ipall" class="am-u-sm-12 am-form-label am-text-left">ipall            <span class="tpl-form-line-small-title">ipall</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsclass_stats.ipall)"}{$enewsclass_stats.ipall}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="ipall" name="ipall" 
+	placeholder="请输入ipall">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="ipyear" class="am-u-sm-12 am-form-label am-text-left">ipyear            <span class="tpl-form-line-small-title">ipyear</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsclass_stats.ipyear)"}{$enewsclass_stats.ipyear}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="ipyear" name="ipyear" 
+	placeholder="请输入ipyear">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="iphalfyear" class="am-u-sm-12 am-form-label am-text-left">iphalfyear            <span class="tpl-form-line-small-title">iphalfyear</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsclass_stats.iphalfyear)"}{$enewsclass_stats.iphalfyear}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="iphalfyear" name="iphalfyear" 
+	placeholder="请输入iphalfyear">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="ipquarter" class="am-u-sm-12 am-form-label am-text-left">ipquarter            <span class="tpl-form-line-small-title">ipquarter</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsclass_stats.ipquarter)"}{$enewsclass_stats.ipquarter}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="ipquarter" name="ipquarter" 
+	placeholder="请输入ipquarter">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="ipmonth" class="am-u-sm-12 am-form-label am-text-left">ipmonth            <span class="tpl-form-line-small-title">ipmonth</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsclass_stats.ipmonth)"}{$enewsclass_stats.ipmonth}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="ipmonth" name="ipmonth" 
+	placeholder="请输入ipmonth">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="ipweek" class="am-u-sm-12 am-form-label am-text-left">ipweek            <span class="tpl-form-line-small-title">ipweek</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsclass_stats.ipweek)"}{$enewsclass_stats.ipweek}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="ipweek" name="ipweek" 
+	placeholder="请输入ipweek">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="ipday" class="am-u-sm-12 am-form-label am-text-left">ipday            <span class="tpl-form-line-small-title">ipday</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsclass_stats.ipday)"}{$enewsclass_stats.ipday}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="ipday" name="ipday" 
+	placeholder="请输入ipday">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="ipyesterday" class="am-u-sm-12 am-form-label am-text-left">ipyesterday            <span class="tpl-form-line-small-title">ipyesterday</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsclass_stats.ipyesterday)"}{$enewsclass_stats.ipyesterday}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="ipyesterday" name="ipyesterday" 
+	placeholder="请输入ipyesterday">        </div>
+    </div>
+        <div class="am-form-group">
+        <div class="am-u-sm-12 am-u-sm-push-12">
+            <button type="submit" class="am-btn am-btn-primary tpl-btn-bg-color-success ">提交</button>
+        </div>
+    </div>
+</form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{/block}

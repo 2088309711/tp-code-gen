@@ -1,0 +1,147 @@
+{extend name="layout" /}
+{block name="content"}
+<!-- 内容区域 -->
+<div class="tpl-content-wrapper">
+    <div class="row-content am-cf">
+        <div class="row">
+            <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+                <div class="widget am-cf">
+                    <div class="widget-head am-cf">
+                        <div class="widget-title  am-cf">管理ecms_article</div>
+                    </div>
+                    <div class="widget-body  am-fr">
+    <div class="am-u-sm-12 am-u-md-6 am-u-lg-6">
+        <div class="am-form-group">
+            <div class="am-btn-toolbar">
+                <div class="am-btn-group am-btn-group-xs">
+                    <a class="am-btn am-btn-default am-btn-success"
+                       href="{:url('ecms_article/add')}">
+                        <span class="am-icon-plus"></span> 新增
+                    </a>
+                    <!--
+                    <button type="button" class="am-btn am-btn-default am-btn-secondary"><span class="am-icon-save"></span> 保存</button>
+                    <button type="button" class="am-btn am-btn-default am-btn-warning"><span class="am-icon-archive"></span> 审核</button>
+                    <button type="button" class="am-btn am-btn-default am-btn-danger"><span class="am-icon-trash-o"></span> 删除</button>
+                    -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="am-u-sm-12">
+        <table width="100%" class="am-table am-table-compact am-table-striped tpl-table-black " id="example-r">
+            <thead>
+            <tr>
+                                <th>id</th>
+                                <th>classid</th>
+                                <th>ttid</th>
+                                <th>onclick</th>
+                                <th>plnum</th>
+                                <th>totaldown</th>
+                                <th>newspath</th>
+                                <th>filename</th>
+                                <th>userid</th>
+                                <th>username</th>
+                                <th>firsttitle</th>
+                                <th>isgood</th>
+                                <th>ispic</th>
+                                <th>istop</th>
+                                <th>isqf</th>
+                                <th>ismember</th>
+                                <th>isurl</th>
+                                <th>truetime</th>
+                                <th>lastdotime</th>
+                                <th>havehtml</th>
+                                <th>groupid</th>
+                                <th>userfen</th>
+                                <th>titlefont</th>
+                                <th>titleurl</th>
+                                <th>stb</th>
+                                <th>fstb</th>
+                                <th>restb</th>
+                                <th>keyboard</th>
+                                <th>title</th>
+                                <th>newstime</th>
+                                <th>titlepic</th>
+                                <th>eckuid</th>
+                                <th>ftitle</th>
+                                <th>smalltext</th>
+                                <th>writer</th>
+                                <th>befrom</th>
+                                <th>newstext</th>
+                                <th>diggtop</th>
+                                <th>操作</th>
+            </tr>
+            </thead>
+            <tbody>
+            {volist name="ecms_articleList" id="vo"}
+            <tr class="gradeX">
+                                <td>{$vo.id}</td>
+                                <td>{$vo.classid}</td>
+                                <td>{$vo.ttid}</td>
+                                <td>{$vo.onclick}</td>
+                                <td>{$vo.plnum}</td>
+                                <td>{$vo.totaldown}</td>
+                                <td>{$vo.newspath}</td>
+                                <td>{$vo.filename}</td>
+                                <td>{$vo.userid}</td>
+                                <td>{$vo.username}</td>
+                                <td>{$vo.firsttitle}</td>
+                                <td>{$vo.isgood}</td>
+                                <td>{$vo.ispic}</td>
+                                <td>{$vo.istop}</td>
+                                <td>{$vo.isqf}</td>
+                                <td>{$vo.ismember}</td>
+                                <td>{$vo.isurl}</td>
+                                <td>{$vo.truetime}</td>
+                                <td>{$vo.lastdotime}</td>
+                                <td>{$vo.havehtml}</td>
+                                <td>{$vo.groupid}</td>
+                                <td>{$vo.userfen}</td>
+                                <td>{$vo.titlefont}</td>
+                                <td>{$vo.titleurl}</td>
+                                <td>{$vo.stb}</td>
+                                <td>{$vo.fstb}</td>
+                                <td>{$vo.restb}</td>
+                                <td>{$vo.keyboard}</td>
+                                <td>{$vo.title}</td>
+                                <td>{$vo.newstime}</td>
+                                <td>{$vo.titlepic}</td>
+                                <td>{$vo.eckuid}</td>
+                                <td>{$vo.ftitle}</td>
+                                <td>{$vo.smalltext}</td>
+                                <td>{$vo.writer}</td>
+                                <td>{$vo.befrom}</td>
+                                <td>{$vo.newstext}</td>
+                                <td>{$vo.diggtop}</td>
+                                <td>
+                    <div class="tpl-table-black-operation">
+                        <a href="{:url('ecms_article/edit', ['id'=>$vo['id']])}">
+                            <i class="am-icon-pencil"></i> 编辑
+                        </a>
+                        <a href="{:url('ecms_article/delete', ['id'=>$vo['id']])}"
+                           onclick='return confirm("确定删除吗？")' class="tpl-table-black-operation-del">
+                            <i class="am-icon-trash"></i> 删除
+                        </a>
+                    </div>
+                </td>
+            </tr>
+            {/volist}
+            <!-- more data -->
+            </tbody>
+        </table>
+    </div>
+    <div class="am-u-lg-12 am-cf">
+
+        <div class="am-fr">
+            <ul class="am-pagination tpl-pagination">
+                {$ecms_articleList->render()}
+            </ul>
+        </div>
+    </div>
+</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{/block}

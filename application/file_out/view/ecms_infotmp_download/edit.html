@@ -1,0 +1,215 @@
+{extend name="layout" /}
+{block name="content"}
+<!-- 内容区域 -->
+<div class="tpl-content-wrapper">
+    <div class="row-content am-cf">
+        <div class="row">
+            <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+                <div class="widget am-cf">
+                    <div class="widget-head am-cf">
+                        <div class="widget-title am-fl">编辑nj_ecms_infotmp_download</div>
+                        <div class="widget-function am-fr">
+                            <a href="javascript:;" class="am-icon-cog"></a>
+                        </div>
+                    </div>
+                    <div class="widget-body am-fr">
+                        <form class="am-form tpl-form-border-form" method="post">
+        <input type="hidden" name="id" value="{$ecms_infotmp_download.id}"/>
+        <div class="am-form-group">
+        <label for="classid" class="am-u-sm-12 am-form-label am-text-left">classid            <span class="tpl-form-line-small-title">classid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infotmp_download.classid)"}{$ecms_infotmp_download.classid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="classid" name="classid" 
+	placeholder="请输入classid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="oldurl" class="am-u-sm-12 am-form-label am-text-left">oldurl            <span class="tpl-form-line-small-title">oldurl</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infotmp_download.oldurl)"}{$ecms_infotmp_download.oldurl}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="oldurl" name="oldurl" 
+	placeholder="请输入oldurl">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="checked" class="am-u-sm-12 am-form-label am-text-left">checked            <span class="tpl-form-line-small-title">checked</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infotmp_download.checked)"}{$ecms_infotmp_download.checked}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="checked" name="checked" 
+	placeholder="请输入checked">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="tmptime" class="am-u-sm-12 am-form-label am-text-left">tmptime            <span class="tpl-form-line-small-title">tmptime</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infotmp_download.tmptime)"}{$ecms_infotmp_download.tmptime}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="tmptime" name="tmptime" 
+	placeholder="请输入tmptime">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="userid" class="am-u-sm-12 am-form-label am-text-left">userid            <span class="tpl-form-line-small-title">userid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infotmp_download.userid)"}{$ecms_infotmp_download.userid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="userid" name="userid" 
+	placeholder="请输入userid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="username" class="am-u-sm-12 am-form-label am-text-left">username            <span class="tpl-form-line-small-title">username</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infotmp_download.username)"}{$ecms_infotmp_download.username}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="username" name="username" 
+	placeholder="请输入username">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="truetime" class="am-u-sm-12 am-form-label am-text-left">truetime            <span class="tpl-form-line-small-title">truetime</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infotmp_download.truetime)"}{$ecms_infotmp_download.truetime}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="truetime" name="truetime" 
+	placeholder="请输入truetime">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="keyboard" class="am-u-sm-12 am-form-label am-text-left">keyboard            <span class="tpl-form-line-small-title">keyboard</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infotmp_download.keyboard)"}{$ecms_infotmp_download.keyboard}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="keyboard" name="keyboard" 
+	placeholder="请输入keyboard">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="title" class="am-u-sm-12 am-form-label am-text-left">title            <span class="tpl-form-line-small-title">title</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infotmp_download.title)"}{$ecms_infotmp_download.title}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="title" name="title" 
+	placeholder="请输入title">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="newstime" class="am-u-sm-12 am-form-label am-text-left">newstime            <span class="tpl-form-line-small-title">newstime</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infotmp_download.newstime)"}{$ecms_infotmp_download.newstime}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="newstime" name="newstime" 
+	placeholder="请输入newstime">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="titlepic" class="am-u-sm-12 am-form-label am-text-left">titlepic            <span class="tpl-form-line-small-title">titlepic</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infotmp_download.titlepic)"}{$ecms_infotmp_download.titlepic}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="titlepic" name="titlepic" 
+	placeholder="请输入titlepic">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="softwriter" class="am-u-sm-12 am-form-label am-text-left">softwriter            <span class="tpl-form-line-small-title">softwriter</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infotmp_download.softwriter)"}{$ecms_infotmp_download.softwriter}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="softwriter" name="softwriter" 
+	placeholder="请输入softwriter">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="homepage" class="am-u-sm-12 am-form-label am-text-left">homepage            <span class="tpl-form-line-small-title">homepage</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infotmp_download.homepage)"}{$ecms_infotmp_download.homepage}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="homepage" name="homepage" 
+	placeholder="请输入homepage">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="demo" class="am-u-sm-12 am-form-label am-text-left">demo            <span class="tpl-form-line-small-title">demo</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infotmp_download.demo)"}{$ecms_infotmp_download.demo}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="demo" name="demo" 
+	placeholder="请输入demo">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="softfj" class="am-u-sm-12 am-form-label am-text-left">softfj            <span class="tpl-form-line-small-title">softfj</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infotmp_download.softfj)"}{$ecms_infotmp_download.softfj}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="softfj" name="softfj" 
+	placeholder="请输入softfj">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="language" class="am-u-sm-12 am-form-label am-text-left">language            <span class="tpl-form-line-small-title">language</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infotmp_download.language)"}{$ecms_infotmp_download.language}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="language" name="language" 
+	placeholder="请输入language">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="softtype" class="am-u-sm-12 am-form-label am-text-left">softtype            <span class="tpl-form-line-small-title">softtype</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infotmp_download.softtype)"}{$ecms_infotmp_download.softtype}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="softtype" name="softtype" 
+	placeholder="请输入softtype">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="softsq" class="am-u-sm-12 am-form-label am-text-left">softsq            <span class="tpl-form-line-small-title">softsq</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infotmp_download.softsq)"}{$ecms_infotmp_download.softsq}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="softsq" name="softsq" 
+	placeholder="请输入softsq">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="star" class="am-u-sm-12 am-form-label am-text-left">star            <span class="tpl-form-line-small-title">star</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infotmp_download.star)"}{$ecms_infotmp_download.star}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="star" name="star" 
+	placeholder="请输入star">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="filetype" class="am-u-sm-12 am-form-label am-text-left">filetype            <span class="tpl-form-line-small-title">filetype</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infotmp_download.filetype)"}{$ecms_infotmp_download.filetype}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="filetype" name="filetype" 
+	placeholder="请输入filetype">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="filesize" class="am-u-sm-12 am-form-label am-text-left">filesize            <span class="tpl-form-line-small-title">filesize</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infotmp_download.filesize)"}{$ecms_infotmp_download.filesize}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="filesize" name="filesize" 
+	placeholder="请输入filesize">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="downpath" class="am-u-sm-12 am-form-label am-text-left">downpath            <span class="tpl-form-line-small-title">downpath</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infotmp_download.downpath)"}{$ecms_infotmp_download.downpath}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="downpath" name="downpath" 
+	placeholder="请输入downpath">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="softsay" class="am-u-sm-12 am-form-label am-text-left">softsay            <span class="tpl-form-line-small-title">softsay</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infotmp_download.softsay)"}{$ecms_infotmp_download.softsay}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="softsay" name="softsay" 
+	placeholder="请输入softsay">        </div>
+    </div>
+        <div class="am-form-group">
+        <div class="am-u-sm-12 am-u-sm-push-12">
+            <button type="submit" class="am-btn am-btn-primary tpl-btn-bg-color-success ">提交</button>
+        </div>
+    </div>
+</form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{/block}

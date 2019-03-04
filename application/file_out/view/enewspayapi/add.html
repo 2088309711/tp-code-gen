@@ -1,0 +1,133 @@
+{extend name="layout" /}
+{block name="content"}
+<!-- 内容区域 -->
+<div class="tpl-content-wrapper">
+    <div class="row-content am-cf">
+        <div class="row">
+            <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+                <div class="widget am-cf">
+                    <div class="widget-head am-cf">
+                        <div class="widget-title am-fl">新建nj_enewspayapi</div>
+                        <div class="widget-function am-fr">
+                            <a href="javascript:;" class="am-icon-cog"></a>
+                        </div>
+                    </div>
+                    <div class="widget-body am-fr">
+                        <form class="am-form tpl-form-border-form" method="post">
+        <div class="am-form-group">
+        <label for="payid" class="am-u-sm-12 am-form-label am-text-left">payid            <span class="tpl-form-line-small-title">payid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspayapi.payid)"}{$enewspayapi.payid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="payid" name="payid" 
+	placeholder="请输入payid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="paytype" class="am-u-sm-12 am-form-label am-text-left">paytype            <span class="tpl-form-line-small-title">paytype</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspayapi.paytype)"}{$enewspayapi.paytype}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="paytype" name="paytype" 
+	placeholder="请输入paytype">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="myorder" class="am-u-sm-12 am-form-label am-text-left">myorder            <span class="tpl-form-line-small-title">myorder</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspayapi.myorder)"}{$enewspayapi.myorder}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="myorder" name="myorder" 
+	placeholder="请输入myorder">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="payfee" class="am-u-sm-12 am-form-label am-text-left">payfee            <span class="tpl-form-line-small-title">payfee</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspayapi.payfee)"}{$enewspayapi.payfee}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="payfee" name="payfee" 
+	placeholder="请输入payfee">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="payuser" class="am-u-sm-12 am-form-label am-text-left">payuser            <span class="tpl-form-line-small-title">payuser</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspayapi.payuser)"}{$enewspayapi.payuser}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="payuser" name="payuser" 
+	placeholder="请输入payuser">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="partner" class="am-u-sm-12 am-form-label am-text-left">partner            <span class="tpl-form-line-small-title">partner</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspayapi.partner)"}{$enewspayapi.partner}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="partner" name="partner" 
+	placeholder="请输入partner">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="paykey" class="am-u-sm-12 am-form-label am-text-left">paykey            <span class="tpl-form-line-small-title">paykey</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspayapi.paykey)"}{$enewspayapi.paykey}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="paykey" name="paykey" 
+	placeholder="请输入paykey">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="paylogo" class="am-u-sm-12 am-form-label am-text-left">paylogo            <span class="tpl-form-line-small-title">paylogo</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspayapi.paylogo)"}{$enewspayapi.paylogo}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="paylogo" name="paylogo" 
+	placeholder="请输入paylogo">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="paysay" class="am-u-sm-12 am-form-label am-text-left">paysay            <span class="tpl-form-line-small-title">paysay</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspayapi.paysay)"}{$enewspayapi.paysay}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="paysay" name="paysay" 
+	placeholder="请输入paysay">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="payname" class="am-u-sm-12 am-form-label am-text-left">payname            <span class="tpl-form-line-small-title">payname</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspayapi.payname)"}{$enewspayapi.payname}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="payname" name="payname" 
+	placeholder="请输入payname">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="isclose" class="am-u-sm-12 am-form-label am-text-left">isclose            <span class="tpl-form-line-small-title">isclose</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspayapi.isclose)"}{$enewspayapi.isclose}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="isclose" name="isclose" 
+	placeholder="请输入isclose">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="payemail" class="am-u-sm-12 am-form-label am-text-left">payemail            <span class="tpl-form-line-small-title">payemail</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspayapi.payemail)"}{$enewspayapi.payemail}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="payemail" name="payemail" 
+	placeholder="请输入payemail">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="paymethod" class="am-u-sm-12 am-form-label am-text-left">paymethod            <span class="tpl-form-line-small-title">paymethod</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspayapi.paymethod)"}{$enewspayapi.paymethod}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="paymethod" name="paymethod" 
+	placeholder="请输入paymethod">        </div>
+    </div>
+        <div class="am-form-group">
+        <div class="am-u-sm-12 am-u-sm-push-12">
+            <button type="submit" class="am-btn am-btn-primary tpl-btn-bg-color-success ">提交</button>
+        </div>
+    </div>
+</form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{/block}

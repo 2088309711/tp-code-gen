@@ -1,0 +1,167 @@
+{extend name="layout" /}
+{block name="content"}
+<!-- 内容区域 -->
+<div class="tpl-content-wrapper">
+    <div class="row-content am-cf">
+        <div class="row">
+            <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+                <div class="widget am-cf">
+                    <div class="widget-head am-cf">
+                        <div class="widget-title am-fl">编辑nj_enewspl_set</div>
+                        <div class="widget-function am-fr">
+                            <a href="javascript:;" class="am-icon-cog"></a>
+                        </div>
+                    </div>
+                    <div class="widget-body am-fr">
+                        <form class="am-form tpl-form-border-form" method="post">
+        <input type="hidden" name="id" value="{$enewspl_set.id}"/>
+        <div class="am-form-group">
+        <label for="pltime" class="am-u-sm-12 am-form-label am-text-left">pltime            <span class="tpl-form-line-small-title">pltime</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspl_set.pltime)"}{$enewspl_set.pltime}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="pltime" name="pltime" 
+	placeholder="请输入pltime">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="plsize" class="am-u-sm-12 am-form-label am-text-left">plsize            <span class="tpl-form-line-small-title">plsize</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspl_set.plsize)"}{$enewspl_set.plsize}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="plsize" name="plsize" 
+	placeholder="请输入plsize">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="plincludesize" class="am-u-sm-12 am-form-label am-text-left">plincludesize            <span class="tpl-form-line-small-title">plincludesize</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspl_set.plincludesize)"}{$enewspl_set.plincludesize}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="plincludesize" name="plincludesize" 
+	placeholder="请输入plincludesize">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="plkey_ok" class="am-u-sm-12 am-form-label am-text-left">plkey_ok            <span class="tpl-form-line-small-title">plkey_ok</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspl_set.plkey_ok)"}{$enewspl_set.plkey_ok}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="plkey_ok" name="plkey_ok" 
+	placeholder="请输入plkey_ok">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="plface" class="am-u-sm-12 am-form-label am-text-left">plface            <span class="tpl-form-line-small-title">plface</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspl_set.plface)"}{$enewspl_set.plface}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="plface" name="plface" 
+	placeholder="请输入plface">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="plfacenum" class="am-u-sm-12 am-form-label am-text-left">plfacenum            <span class="tpl-form-line-small-title">plfacenum</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspl_set.plfacenum)"}{$enewspl_set.plfacenum}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="plfacenum" name="plfacenum" 
+	placeholder="请输入plfacenum">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="plgroupid" class="am-u-sm-12 am-form-label am-text-left">plgroupid            <span class="tpl-form-line-small-title">plgroupid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspl_set.plgroupid)"}{$enewspl_set.plgroupid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="plgroupid" name="plgroupid" 
+	placeholder="请输入plgroupid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="plclosewords" class="am-u-sm-12 am-form-label am-text-left">plclosewords            <span class="tpl-form-line-small-title">plclosewords</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspl_set.plclosewords)"}{$enewspl_set.plclosewords}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="plclosewords" name="plclosewords" 
+	placeholder="请输入plclosewords">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="plf" class="am-u-sm-12 am-form-label am-text-left">plf            <span class="tpl-form-line-small-title">plf</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspl_set.plf)"}{$enewspl_set.plf}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="plf" name="plf" 
+	placeholder="请输入plf">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="plmustf" class="am-u-sm-12 am-form-label am-text-left">plmustf            <span class="tpl-form-line-small-title">plmustf</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspl_set.plmustf)"}{$enewspl_set.plmustf}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="plmustf" name="plmustf" 
+	placeholder="请输入plmustf">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="pldatatbs" class="am-u-sm-12 am-form-label am-text-left">pldatatbs            <span class="tpl-form-line-small-title">pldatatbs</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspl_set.pldatatbs)"}{$enewspl_set.pldatatbs}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="pldatatbs" name="pldatatbs" 
+	placeholder="请输入pldatatbs">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="defpltempid" class="am-u-sm-12 am-form-label am-text-left">defpltempid            <span class="tpl-form-line-small-title">defpltempid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspl_set.defpltempid)"}{$enewspl_set.defpltempid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="defpltempid" name="defpltempid" 
+	placeholder="请输入defpltempid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="pl_num" class="am-u-sm-12 am-form-label am-text-left">pl_num            <span class="tpl-form-line-small-title">pl_num</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspl_set.pl_num)"}{$enewspl_set.pl_num}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="pl_num" name="pl_num" 
+	placeholder="请输入pl_num">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="pldeftb" class="am-u-sm-12 am-form-label am-text-left">pldeftb            <span class="tpl-form-line-small-title">pldeftb</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspl_set.pldeftb)"}{$enewspl_set.pldeftb}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="pldeftb" name="pldeftb" 
+	placeholder="请输入pldeftb">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="plurl" class="am-u-sm-12 am-form-label am-text-left">plurl            <span class="tpl-form-line-small-title">plurl</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspl_set.plurl)"}{$enewspl_set.plurl}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="plurl" name="plurl" 
+	placeholder="请输入plurl">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="plmaxfloor" class="am-u-sm-12 am-form-label am-text-left">plmaxfloor            <span class="tpl-form-line-small-title">plmaxfloor</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspl_set.plmaxfloor)"}{$enewspl_set.plmaxfloor}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="plmaxfloor" name="plmaxfloor" 
+	placeholder="请输入plmaxfloor">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="plquotetemp" class="am-u-sm-12 am-form-label am-text-left">plquotetemp            <span class="tpl-form-line-small-title">plquotetemp</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspl_set.plquotetemp)"}{$enewspl_set.plquotetemp}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="plquotetemp" name="plquotetemp" 
+	placeholder="请输入plquotetemp">        </div>
+    </div>
+        <div class="am-form-group">
+        <div class="am-u-sm-12 am-u-sm-push-12">
+            <button type="submit" class="am-btn am-btn-primary tpl-btn-bg-color-success ">提交</button>
+        </div>
+    </div>
+</form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{/block}

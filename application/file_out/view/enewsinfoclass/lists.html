@@ -1,0 +1,193 @@
+{extend name="layout" /}
+{block name="content"}
+<!-- 内容区域 -->
+<div class="tpl-content-wrapper">
+    <div class="row-content am-cf">
+        <div class="row">
+            <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+                <div class="widget am-cf">
+                    <div class="widget-head am-cf">
+                        <div class="widget-title  am-cf">管理enewsinfoclass</div>
+                    </div>
+                    <div class="widget-body  am-fr">
+    <div class="am-u-sm-12 am-u-md-6 am-u-lg-6">
+        <div class="am-form-group">
+            <div class="am-btn-toolbar">
+                <div class="am-btn-group am-btn-group-xs">
+                    <a class="am-btn am-btn-default am-btn-success"
+                       href="{:url('enewsinfoclass/add')}">
+                        <span class="am-icon-plus"></span> 新增
+                    </a>
+                    <!--
+                    <button type="button" class="am-btn am-btn-default am-btn-secondary"><span class="am-icon-save"></span> 保存</button>
+                    <button type="button" class="am-btn am-btn-default am-btn-warning"><span class="am-icon-archive"></span> 审核</button>
+                    <button type="button" class="am-btn am-btn-default am-btn-danger"><span class="am-icon-trash-o"></span> 删除</button>
+                    -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="am-u-sm-12">
+        <table width="100%" class="am-table am-table-compact am-table-striped tpl-table-black " id="example-r">
+            <thead>
+            <tr>
+                                <th>classid</th>
+                                <th>bclassid</th>
+                                <th>classname</th>
+                                <th>infourl</th>
+                                <th>newsclassid</th>
+                                <th>startday</th>
+                                <th>endday</th>
+                                <th>bz</th>
+                                <th>num</th>
+                                <th>copyimg</th>
+                                <th>renum</th>
+                                <th>keyboard</th>
+                                <th>oldword</th>
+                                <th>newword</th>
+                                <th>titlelen</th>
+                                <th>retitlewriter</th>
+                                <th>smalltextlen</th>
+                                <th>zz_smallurl</th>
+                                <th>zz_newsurl</th>
+                                <th>httpurl</th>
+                                <th>repad</th>
+                                <th>imgurl</th>
+                                <th>relistnum</th>
+                                <th>zz_titlepicl</th>
+                                <th>z_titlepicl</th>
+                                <th>qz_titlepicl</th>
+                                <th>save_titlepicl</th>
+                                <th>keynum</th>
+                                <th>insertnum</th>
+                                <th>copyflash</th>
+                                <th>tid</th>
+                                <th>tbname</th>
+                                <th>pagetype</th>
+                                <th>smallpagezz</th>
+                                <th>pagezz</th>
+                                <th>smallpageallzz</th>
+                                <th>pageallzz</th>
+                                <th>mark</th>
+                                <th>enpagecode</th>
+                                <th>recjtheurl</th>
+                                <th>hiddenload</th>
+                                <th>justloadin</th>
+                                <th>justloadcheck</th>
+                                <th>delloadinfo</th>
+                                <th>pagerepad</th>
+                                <th>newsztid</th>
+                                <th>getfirstpic</th>
+                                <th>oldpagerep</th>
+                                <th>newpagerep</th>
+                                <th>keeptime</th>
+                                <th>lasttime</th>
+                                <th>newstextisnull</th>
+                                <th>getfirstspic</th>
+                                <th>getfirstspicw</th>
+                                <th>getfirstspich</th>
+                                <th>doaddtextpage</th>
+                                <th>infourlispage</th>
+                                <th>repf</th>
+                                <th>repadf</th>
+                                <th>loadkeeptime</th>
+                                <th>isnullf</th>
+                                <th>操作</th>
+            </tr>
+            </thead>
+            <tbody>
+            {volist name="enewsinfoclassList" id="vo"}
+            <tr class="gradeX">
+                                <td>{$vo.classid}</td>
+                                <td>{$vo.bclassid}</td>
+                                <td>{$vo.classname}</td>
+                                <td>{$vo.infourl}</td>
+                                <td>{$vo.newsclassid}</td>
+                                <td>{$vo.startday}</td>
+                                <td>{$vo.endday}</td>
+                                <td>{$vo.bz}</td>
+                                <td>{$vo.num}</td>
+                                <td>{$vo.copyimg}</td>
+                                <td>{$vo.renum}</td>
+                                <td>{$vo.keyboard}</td>
+                                <td>{$vo.oldword}</td>
+                                <td>{$vo.newword}</td>
+                                <td>{$vo.titlelen}</td>
+                                <td>{$vo.retitlewriter}</td>
+                                <td>{$vo.smalltextlen}</td>
+                                <td>{$vo.zz_smallurl}</td>
+                                <td>{$vo.zz_newsurl}</td>
+                                <td>{$vo.httpurl}</td>
+                                <td>{$vo.repad}</td>
+                                <td>{$vo.imgurl}</td>
+                                <td>{$vo.relistnum}</td>
+                                <td>{$vo.zz_titlepicl}</td>
+                                <td>{$vo.z_titlepicl}</td>
+                                <td>{$vo.qz_titlepicl}</td>
+                                <td>{$vo.save_titlepicl}</td>
+                                <td>{$vo.keynum}</td>
+                                <td>{$vo.insertnum}</td>
+                                <td>{$vo.copyflash}</td>
+                                <td>{$vo.tid}</td>
+                                <td>{$vo.tbname}</td>
+                                <td>{$vo.pagetype}</td>
+                                <td>{$vo.smallpagezz}</td>
+                                <td>{$vo.pagezz}</td>
+                                <td>{$vo.smallpageallzz}</td>
+                                <td>{$vo.pageallzz}</td>
+                                <td>{$vo.mark}</td>
+                                <td>{$vo.enpagecode}</td>
+                                <td>{$vo.recjtheurl}</td>
+                                <td>{$vo.hiddenload}</td>
+                                <td>{$vo.justloadin}</td>
+                                <td>{$vo.justloadcheck}</td>
+                                <td>{$vo.delloadinfo}</td>
+                                <td>{$vo.pagerepad}</td>
+                                <td>{$vo.newsztid}</td>
+                                <td>{$vo.getfirstpic}</td>
+                                <td>{$vo.oldpagerep}</td>
+                                <td>{$vo.newpagerep}</td>
+                                <td>{$vo.keeptime}</td>
+                                <td>{$vo.lasttime}</td>
+                                <td>{$vo.newstextisnull}</td>
+                                <td>{$vo.getfirstspic}</td>
+                                <td>{$vo.getfirstspicw}</td>
+                                <td>{$vo.getfirstspich}</td>
+                                <td>{$vo.doaddtextpage}</td>
+                                <td>{$vo.infourlispage}</td>
+                                <td>{$vo.repf}</td>
+                                <td>{$vo.repadf}</td>
+                                <td>{$vo.loadkeeptime}</td>
+                                <td>{$vo.isnullf}</td>
+                                <td>
+                    <div class="tpl-table-black-operation">
+                        <a href="{:url('enewsinfoclass/edit', ['id'=>$vo['id']])}">
+                            <i class="am-icon-pencil"></i> 编辑
+                        </a>
+                        <a href="{:url('enewsinfoclass/delete', ['id'=>$vo['id']])}"
+                           onclick='return confirm("确定删除吗？")' class="tpl-table-black-operation-del">
+                            <i class="am-icon-trash"></i> 删除
+                        </a>
+                    </div>
+                </td>
+            </tr>
+            {/volist}
+            <!-- more data -->
+            </tbody>
+        </table>
+    </div>
+    <div class="am-u-lg-12 am-cf">
+
+        <div class="am-fr">
+            <ul class="am-pagination tpl-pagination">
+                {$enewsinfoclassList->render()}
+            </ul>
+        </div>
+    </div>
+</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{/block}

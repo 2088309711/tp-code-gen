@@ -1,0 +1,149 @@
+{extend name="layout" /}
+{block name="content"}
+<!-- 内容区域 -->
+<div class="tpl-content-wrapper">
+    <div class="row-content am-cf">
+        <div class="row">
+            <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+                <div class="widget am-cf">
+                    <div class="widget-head am-cf">
+                        <div class="widget-title am-fl">新建nj_ecms_photo_doc_data</div>
+                        <div class="widget-function am-fr">
+                            <a href="javascript:;" class="am-icon-cog"></a>
+                        </div>
+                    </div>
+                    <div class="widget-body am-fr">
+                        <form class="am-form tpl-form-border-form" method="post">
+        <div class="am-form-group">
+        <label for="classid" class="am-u-sm-12 am-form-label am-text-left">classid            <span class="tpl-form-line-small-title">classid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_photo_doc_data.classid)"}{$ecms_photo_doc_data.classid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="classid" name="classid" 
+	placeholder="请输入classid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="keyid" class="am-u-sm-12 am-form-label am-text-left">keyid            <span class="tpl-form-line-small-title">keyid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_photo_doc_data.keyid)"}{$ecms_photo_doc_data.keyid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="keyid" name="keyid" 
+	placeholder="请输入keyid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="dokey" class="am-u-sm-12 am-form-label am-text-left">dokey            <span class="tpl-form-line-small-title">dokey</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_photo_doc_data.dokey)"}{$ecms_photo_doc_data.dokey}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="dokey" name="dokey" 
+	placeholder="请输入dokey">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="newstempid" class="am-u-sm-12 am-form-label am-text-left">newstempid            <span class="tpl-form-line-small-title">newstempid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_photo_doc_data.newstempid)"}{$ecms_photo_doc_data.newstempid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="newstempid" name="newstempid" 
+	placeholder="请输入newstempid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="closepl" class="am-u-sm-12 am-form-label am-text-left">closepl            <span class="tpl-form-line-small-title">closepl</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_photo_doc_data.closepl)"}{$ecms_photo_doc_data.closepl}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="closepl" name="closepl" 
+	placeholder="请输入closepl">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="haveaddfen" class="am-u-sm-12 am-form-label am-text-left">haveaddfen            <span class="tpl-form-line-small-title">haveaddfen</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_photo_doc_data.haveaddfen)"}{$ecms_photo_doc_data.haveaddfen}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="haveaddfen" name="haveaddfen" 
+	placeholder="请输入haveaddfen">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="infotags" class="am-u-sm-12 am-form-label am-text-left">infotags            <span class="tpl-form-line-small-title">infotags</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_photo_doc_data.infotags)"}{$ecms_photo_doc_data.infotags}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="infotags" name="infotags" 
+	placeholder="请输入infotags">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="filesize" class="am-u-sm-12 am-form-label am-text-left">filesize            <span class="tpl-form-line-small-title">filesize</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_photo_doc_data.filesize)"}{$ecms_photo_doc_data.filesize}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="filesize" name="filesize" 
+	placeholder="请输入filesize">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="picsize" class="am-u-sm-12 am-form-label am-text-left">picsize            <span class="tpl-form-line-small-title">picsize</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_photo_doc_data.picsize)"}{$ecms_photo_doc_data.picsize}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="picsize" name="picsize" 
+	placeholder="请输入picsize">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="picfbl" class="am-u-sm-12 am-form-label am-text-left">picfbl            <span class="tpl-form-line-small-title">picfbl</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_photo_doc_data.picfbl)"}{$ecms_photo_doc_data.picfbl}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="picfbl" name="picfbl" 
+	placeholder="请输入picfbl">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="picfrom" class="am-u-sm-12 am-form-label am-text-left">picfrom            <span class="tpl-form-line-small-title">picfrom</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_photo_doc_data.picfrom)"}{$ecms_photo_doc_data.picfrom}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="picfrom" name="picfrom" 
+	placeholder="请输入picfrom">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="morepic" class="am-u-sm-12 am-form-label am-text-left">morepic            <span class="tpl-form-line-small-title">morepic</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_photo_doc_data.morepic)"}{$ecms_photo_doc_data.morepic}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="morepic" name="morepic" 
+	placeholder="请输入morepic">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="num" class="am-u-sm-12 am-form-label am-text-left">num            <span class="tpl-form-line-small-title">num</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_photo_doc_data.num)"}{$ecms_photo_doc_data.num}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="num" name="num" 
+	placeholder="请输入num">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="width" class="am-u-sm-12 am-form-label am-text-left">width            <span class="tpl-form-line-small-title">width</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_photo_doc_data.width)"}{$ecms_photo_doc_data.width}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="width" name="width" 
+	placeholder="请输入width">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="height" class="am-u-sm-12 am-form-label am-text-left">height            <span class="tpl-form-line-small-title">height</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_photo_doc_data.height)"}{$ecms_photo_doc_data.height}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="height" name="height" 
+	placeholder="请输入height">        </div>
+    </div>
+        <div class="am-form-group">
+        <div class="am-u-sm-12 am-u-sm-push-12">
+            <button type="submit" class="am-btn am-btn-primary tpl-btn-bg-color-success ">提交</button>
+        </div>
+    </div>
+</form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{/block}

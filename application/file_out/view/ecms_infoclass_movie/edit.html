@@ -1,0 +1,614 @@
+{extend name="layout" /}
+{block name="content"}
+<!-- 内容区域 -->
+<div class="tpl-content-wrapper">
+    <div class="row-content am-cf">
+        <div class="row">
+            <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+                <div class="widget am-cf">
+                    <div class="widget-head am-cf">
+                        <div class="widget-title am-fl">编辑nj_ecms_infoclass_movie</div>
+                        <div class="widget-function am-fr">
+                            <a href="javascript:;" class="am-icon-cog"></a>
+                        </div>
+                    </div>
+                    <div class="widget-body am-fr">
+                        <form class="am-form tpl-form-border-form" method="post">
+        <div class="am-form-group">
+        <label for="classid" class="am-u-sm-12 am-form-label am-text-left">classid            <span class="tpl-form-line-small-title">classid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_movie.classid)"}{$ecms_infoclass_movie.classid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="classid" name="classid" 
+	placeholder="请输入classid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="zz_title" class="am-u-sm-12 am-form-label am-text-left">zz_title            <span class="tpl-form-line-small-title">zz_title</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_movie.zz_title)"}{$ecms_infoclass_movie.zz_title}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="zz_title" name="zz_title" 
+	placeholder="请输入zz_title">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="z_title" class="am-u-sm-12 am-form-label am-text-left">z_title            <span class="tpl-form-line-small-title">z_title</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_movie.z_title)"}{$ecms_infoclass_movie.z_title}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="z_title" name="z_title" 
+	placeholder="请输入z_title">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="qz_title" class="am-u-sm-12 am-form-label am-text-left">qz_title            <span class="tpl-form-line-small-title">qz_title</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_movie.qz_title)"}{$ecms_infoclass_movie.qz_title}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="qz_title" name="qz_title" 
+	placeholder="请输入qz_title">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="save_title" class="am-u-sm-12 am-form-label am-text-left">save_title            <span class="tpl-form-line-small-title">save_title</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_movie.save_title)"}{$ecms_infoclass_movie.save_title}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="save_title" name="save_title" 
+	placeholder="请输入save_title">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="zz_titlepic" class="am-u-sm-12 am-form-label am-text-left">zz_titlepic            <span class="tpl-form-line-small-title">zz_titlepic</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_movie.zz_titlepic)"}{$ecms_infoclass_movie.zz_titlepic}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="zz_titlepic" name="zz_titlepic" 
+	placeholder="请输入zz_titlepic">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="z_titlepic" class="am-u-sm-12 am-form-label am-text-left">z_titlepic            <span class="tpl-form-line-small-title">z_titlepic</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_movie.z_titlepic)"}{$ecms_infoclass_movie.z_titlepic}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="z_titlepic" name="z_titlepic" 
+	placeholder="请输入z_titlepic">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="qz_titlepic" class="am-u-sm-12 am-form-label am-text-left">qz_titlepic            <span class="tpl-form-line-small-title">qz_titlepic</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_movie.qz_titlepic)"}{$ecms_infoclass_movie.qz_titlepic}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="qz_titlepic" name="qz_titlepic" 
+	placeholder="请输入qz_titlepic">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="save_titlepic" class="am-u-sm-12 am-form-label am-text-left">save_titlepic            <span class="tpl-form-line-small-title">save_titlepic</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_movie.save_titlepic)"}{$ecms_infoclass_movie.save_titlepic}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="save_titlepic" name="save_titlepic" 
+	placeholder="请输入save_titlepic">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="zz_newstime" class="am-u-sm-12 am-form-label am-text-left">zz_newstime            <span class="tpl-form-line-small-title">zz_newstime</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_movie.zz_newstime)"}{$ecms_infoclass_movie.zz_newstime}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="zz_newstime" name="zz_newstime" 
+	placeholder="请输入zz_newstime">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="z_newstime" class="am-u-sm-12 am-form-label am-text-left">z_newstime            <span class="tpl-form-line-small-title">z_newstime</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_movie.z_newstime)"}{$ecms_infoclass_movie.z_newstime}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="z_newstime" name="z_newstime" 
+	placeholder="请输入z_newstime">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="qz_newstime" class="am-u-sm-12 am-form-label am-text-left">qz_newstime            <span class="tpl-form-line-small-title">qz_newstime</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_movie.qz_newstime)"}{$ecms_infoclass_movie.qz_newstime}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="qz_newstime" name="qz_newstime" 
+	placeholder="请输入qz_newstime">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="save_newstime" class="am-u-sm-12 am-form-label am-text-left">save_newstime            <span class="tpl-form-line-small-title">save_newstime</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_movie.save_newstime)"}{$ecms_infoclass_movie.save_newstime}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="save_newstime" name="save_newstime" 
+	placeholder="请输入save_newstime">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="zz_movietype" class="am-u-sm-12 am-form-label am-text-left">zz_movietype            <span class="tpl-form-line-small-title">zz_movietype</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_movie.zz_movietype)"}{$ecms_infoclass_movie.zz_movietype}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="zz_movietype" name="zz_movietype" 
+	placeholder="请输入zz_movietype">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="z_movietype" class="am-u-sm-12 am-form-label am-text-left">z_movietype            <span class="tpl-form-line-small-title">z_movietype</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_movie.z_movietype)"}{$ecms_infoclass_movie.z_movietype}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="z_movietype" name="z_movietype" 
+	placeholder="请输入z_movietype">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="qz_movietype" class="am-u-sm-12 am-form-label am-text-left">qz_movietype            <span class="tpl-form-line-small-title">qz_movietype</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_movie.qz_movietype)"}{$ecms_infoclass_movie.qz_movietype}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="qz_movietype" name="qz_movietype" 
+	placeholder="请输入qz_movietype">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="save_movietype" class="am-u-sm-12 am-form-label am-text-left">save_movietype            <span class="tpl-form-line-small-title">save_movietype</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_movie.save_movietype)"}{$ecms_infoclass_movie.save_movietype}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="save_movietype" name="save_movietype" 
+	placeholder="请输入save_movietype">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="zz_company" class="am-u-sm-12 am-form-label am-text-left">zz_company            <span class="tpl-form-line-small-title">zz_company</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_movie.zz_company)"}{$ecms_infoclass_movie.zz_company}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="zz_company" name="zz_company" 
+	placeholder="请输入zz_company">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="z_company" class="am-u-sm-12 am-form-label am-text-left">z_company            <span class="tpl-form-line-small-title">z_company</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_movie.z_company)"}{$ecms_infoclass_movie.z_company}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="z_company" name="z_company" 
+	placeholder="请输入z_company">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="qz_company" class="am-u-sm-12 am-form-label am-text-left">qz_company            <span class="tpl-form-line-small-title">qz_company</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_movie.qz_company)"}{$ecms_infoclass_movie.qz_company}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="qz_company" name="qz_company" 
+	placeholder="请输入qz_company">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="save_company" class="am-u-sm-12 am-form-label am-text-left">save_company            <span class="tpl-form-line-small-title">save_company</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_movie.save_company)"}{$ecms_infoclass_movie.save_company}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="save_company" name="save_company" 
+	placeholder="请输入save_company">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="zz_movietime" class="am-u-sm-12 am-form-label am-text-left">zz_movietime            <span class="tpl-form-line-small-title">zz_movietime</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_movie.zz_movietime)"}{$ecms_infoclass_movie.zz_movietime}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="zz_movietime" name="zz_movietime" 
+	placeholder="请输入zz_movietime">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="z_movietime" class="am-u-sm-12 am-form-label am-text-left">z_movietime            <span class="tpl-form-line-small-title">z_movietime</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_movie.z_movietime)"}{$ecms_infoclass_movie.z_movietime}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="z_movietime" name="z_movietime" 
+	placeholder="请输入z_movietime">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="qz_movietime" class="am-u-sm-12 am-form-label am-text-left">qz_movietime            <span class="tpl-form-line-small-title">qz_movietime</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_movie.qz_movietime)"}{$ecms_infoclass_movie.qz_movietime}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="qz_movietime" name="qz_movietime" 
+	placeholder="请输入qz_movietime">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="save_movietime" class="am-u-sm-12 am-form-label am-text-left">save_movietime            <span class="tpl-form-line-small-title">save_movietime</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_movie.save_movietime)"}{$ecms_infoclass_movie.save_movietime}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="save_movietime" name="save_movietime" 
+	placeholder="请输入save_movietime">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="zz_player" class="am-u-sm-12 am-form-label am-text-left">zz_player            <span class="tpl-form-line-small-title">zz_player</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_movie.zz_player)"}{$ecms_infoclass_movie.zz_player}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="zz_player" name="zz_player" 
+	placeholder="请输入zz_player">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="z_player" class="am-u-sm-12 am-form-label am-text-left">z_player            <span class="tpl-form-line-small-title">z_player</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_movie.z_player)"}{$ecms_infoclass_movie.z_player}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="z_player" name="z_player" 
+	placeholder="请输入z_player">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="qz_player" class="am-u-sm-12 am-form-label am-text-left">qz_player            <span class="tpl-form-line-small-title">qz_player</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_movie.qz_player)"}{$ecms_infoclass_movie.qz_player}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="qz_player" name="qz_player" 
+	placeholder="请输入qz_player">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="save_player" class="am-u-sm-12 am-form-label am-text-left">save_player            <span class="tpl-form-line-small-title">save_player</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_movie.save_player)"}{$ecms_infoclass_movie.save_player}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="save_player" name="save_player" 
+	placeholder="请输入save_player">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="zz_playadmin" class="am-u-sm-12 am-form-label am-text-left">zz_playadmin            <span class="tpl-form-line-small-title">zz_playadmin</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_movie.zz_playadmin)"}{$ecms_infoclass_movie.zz_playadmin}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="zz_playadmin" name="zz_playadmin" 
+	placeholder="请输入zz_playadmin">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="z_playadmin" class="am-u-sm-12 am-form-label am-text-left">z_playadmin            <span class="tpl-form-line-small-title">z_playadmin</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_movie.z_playadmin)"}{$ecms_infoclass_movie.z_playadmin}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="z_playadmin" name="z_playadmin" 
+	placeholder="请输入z_playadmin">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="qz_playadmin" class="am-u-sm-12 am-form-label am-text-left">qz_playadmin            <span class="tpl-form-line-small-title">qz_playadmin</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_movie.qz_playadmin)"}{$ecms_infoclass_movie.qz_playadmin}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="qz_playadmin" name="qz_playadmin" 
+	placeholder="请输入qz_playadmin">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="save_playadmin" class="am-u-sm-12 am-form-label am-text-left">save_playadmin            <span class="tpl-form-line-small-title">save_playadmin</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_movie.save_playadmin)"}{$ecms_infoclass_movie.save_playadmin}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="save_playadmin" name="save_playadmin" 
+	placeholder="请输入save_playadmin">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="zz_filetype" class="am-u-sm-12 am-form-label am-text-left">zz_filetype            <span class="tpl-form-line-small-title">zz_filetype</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_movie.zz_filetype)"}{$ecms_infoclass_movie.zz_filetype}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="zz_filetype" name="zz_filetype" 
+	placeholder="请输入zz_filetype">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="z_filetype" class="am-u-sm-12 am-form-label am-text-left">z_filetype            <span class="tpl-form-line-small-title">z_filetype</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_movie.z_filetype)"}{$ecms_infoclass_movie.z_filetype}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="z_filetype" name="z_filetype" 
+	placeholder="请输入z_filetype">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="qz_filetype" class="am-u-sm-12 am-form-label am-text-left">qz_filetype            <span class="tpl-form-line-small-title">qz_filetype</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_movie.qz_filetype)"}{$ecms_infoclass_movie.qz_filetype}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="qz_filetype" name="qz_filetype" 
+	placeholder="请输入qz_filetype">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="save_filetype" class="am-u-sm-12 am-form-label am-text-left">save_filetype            <span class="tpl-form-line-small-title">save_filetype</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_movie.save_filetype)"}{$ecms_infoclass_movie.save_filetype}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="save_filetype" name="save_filetype" 
+	placeholder="请输入save_filetype">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="zz_filesize" class="am-u-sm-12 am-form-label am-text-left">zz_filesize            <span class="tpl-form-line-small-title">zz_filesize</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_movie.zz_filesize)"}{$ecms_infoclass_movie.zz_filesize}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="zz_filesize" name="zz_filesize" 
+	placeholder="请输入zz_filesize">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="z_filesize" class="am-u-sm-12 am-form-label am-text-left">z_filesize            <span class="tpl-form-line-small-title">z_filesize</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_movie.z_filesize)"}{$ecms_infoclass_movie.z_filesize}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="z_filesize" name="z_filesize" 
+	placeholder="请输入z_filesize">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="qz_filesize" class="am-u-sm-12 am-form-label am-text-left">qz_filesize            <span class="tpl-form-line-small-title">qz_filesize</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_movie.qz_filesize)"}{$ecms_infoclass_movie.qz_filesize}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="qz_filesize" name="qz_filesize" 
+	placeholder="请输入qz_filesize">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="save_filesize" class="am-u-sm-12 am-form-label am-text-left">save_filesize            <span class="tpl-form-line-small-title">save_filesize</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_movie.save_filesize)"}{$ecms_infoclass_movie.save_filesize}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="save_filesize" name="save_filesize" 
+	placeholder="请输入save_filesize">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="zz_star" class="am-u-sm-12 am-form-label am-text-left">zz_star            <span class="tpl-form-line-small-title">zz_star</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_movie.zz_star)"}{$ecms_infoclass_movie.zz_star}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="zz_star" name="zz_star" 
+	placeholder="请输入zz_star">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="z_star" class="am-u-sm-12 am-form-label am-text-left">z_star            <span class="tpl-form-line-small-title">z_star</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_movie.z_star)"}{$ecms_infoclass_movie.z_star}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="z_star" name="z_star" 
+	placeholder="请输入z_star">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="qz_star" class="am-u-sm-12 am-form-label am-text-left">qz_star            <span class="tpl-form-line-small-title">qz_star</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_movie.qz_star)"}{$ecms_infoclass_movie.qz_star}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="qz_star" name="qz_star" 
+	placeholder="请输入qz_star">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="save_star" class="am-u-sm-12 am-form-label am-text-left">save_star            <span class="tpl-form-line-small-title">save_star</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_movie.save_star)"}{$ecms_infoclass_movie.save_star}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="save_star" name="save_star" 
+	placeholder="请输入save_star">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="zz_playdk" class="am-u-sm-12 am-form-label am-text-left">zz_playdk            <span class="tpl-form-line-small-title">zz_playdk</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_movie.zz_playdk)"}{$ecms_infoclass_movie.zz_playdk}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="zz_playdk" name="zz_playdk" 
+	placeholder="请输入zz_playdk">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="z_playdk" class="am-u-sm-12 am-form-label am-text-left">z_playdk            <span class="tpl-form-line-small-title">z_playdk</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_movie.z_playdk)"}{$ecms_infoclass_movie.z_playdk}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="z_playdk" name="z_playdk" 
+	placeholder="请输入z_playdk">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="qz_playdk" class="am-u-sm-12 am-form-label am-text-left">qz_playdk            <span class="tpl-form-line-small-title">qz_playdk</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_movie.qz_playdk)"}{$ecms_infoclass_movie.qz_playdk}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="qz_playdk" name="qz_playdk" 
+	placeholder="请输入qz_playdk">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="save_playdk" class="am-u-sm-12 am-form-label am-text-left">save_playdk            <span class="tpl-form-line-small-title">save_playdk</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_movie.save_playdk)"}{$ecms_infoclass_movie.save_playdk}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="save_playdk" name="save_playdk" 
+	placeholder="请输入save_playdk">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="zz_playtime" class="am-u-sm-12 am-form-label am-text-left">zz_playtime            <span class="tpl-form-line-small-title">zz_playtime</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_movie.zz_playtime)"}{$ecms_infoclass_movie.zz_playtime}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="zz_playtime" name="zz_playtime" 
+	placeholder="请输入zz_playtime">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="z_playtime" class="am-u-sm-12 am-form-label am-text-left">z_playtime            <span class="tpl-form-line-small-title">z_playtime</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_movie.z_playtime)"}{$ecms_infoclass_movie.z_playtime}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="z_playtime" name="z_playtime" 
+	placeholder="请输入z_playtime">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="qz_playtime" class="am-u-sm-12 am-form-label am-text-left">qz_playtime            <span class="tpl-form-line-small-title">qz_playtime</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_movie.qz_playtime)"}{$ecms_infoclass_movie.qz_playtime}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="qz_playtime" name="qz_playtime" 
+	placeholder="请输入qz_playtime">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="save_playtime" class="am-u-sm-12 am-form-label am-text-left">save_playtime            <span class="tpl-form-line-small-title">save_playtime</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_movie.save_playtime)"}{$ecms_infoclass_movie.save_playtime}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="save_playtime" name="save_playtime" 
+	placeholder="请输入save_playtime">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="zz_moviefen" class="am-u-sm-12 am-form-label am-text-left">zz_moviefen            <span class="tpl-form-line-small-title">zz_moviefen</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_movie.zz_moviefen)"}{$ecms_infoclass_movie.zz_moviefen}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="zz_moviefen" name="zz_moviefen" 
+	placeholder="请输入zz_moviefen">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="z_moviefen" class="am-u-sm-12 am-form-label am-text-left">z_moviefen            <span class="tpl-form-line-small-title">z_moviefen</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_movie.z_moviefen)"}{$ecms_infoclass_movie.z_moviefen}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="z_moviefen" name="z_moviefen" 
+	placeholder="请输入z_moviefen">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="qz_moviefen" class="am-u-sm-12 am-form-label am-text-left">qz_moviefen            <span class="tpl-form-line-small-title">qz_moviefen</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_movie.qz_moviefen)"}{$ecms_infoclass_movie.qz_moviefen}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="qz_moviefen" name="qz_moviefen" 
+	placeholder="请输入qz_moviefen">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="save_moviefen" class="am-u-sm-12 am-form-label am-text-left">save_moviefen            <span class="tpl-form-line-small-title">save_moviefen</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_movie.save_moviefen)"}{$ecms_infoclass_movie.save_moviefen}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="save_moviefen" name="save_moviefen" 
+	placeholder="请输入save_moviefen">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="zz_downpath" class="am-u-sm-12 am-form-label am-text-left">zz_downpath            <span class="tpl-form-line-small-title">zz_downpath</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_movie.zz_downpath)"}{$ecms_infoclass_movie.zz_downpath}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="zz_downpath" name="zz_downpath" 
+	placeholder="请输入zz_downpath">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="z_downpath" class="am-u-sm-12 am-form-label am-text-left">z_downpath            <span class="tpl-form-line-small-title">z_downpath</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_movie.z_downpath)"}{$ecms_infoclass_movie.z_downpath}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="z_downpath" name="z_downpath" 
+	placeholder="请输入z_downpath">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="qz_downpath" class="am-u-sm-12 am-form-label am-text-left">qz_downpath            <span class="tpl-form-line-small-title">qz_downpath</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_movie.qz_downpath)"}{$ecms_infoclass_movie.qz_downpath}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="qz_downpath" name="qz_downpath" 
+	placeholder="请输入qz_downpath">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="save_downpath" class="am-u-sm-12 am-form-label am-text-left">save_downpath            <span class="tpl-form-line-small-title">save_downpath</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_movie.save_downpath)"}{$ecms_infoclass_movie.save_downpath}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="save_downpath" name="save_downpath" 
+	placeholder="请输入save_downpath">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="zz_playerid" class="am-u-sm-12 am-form-label am-text-left">zz_playerid            <span class="tpl-form-line-small-title">zz_playerid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_movie.zz_playerid)"}{$ecms_infoclass_movie.zz_playerid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="zz_playerid" name="zz_playerid" 
+	placeholder="请输入zz_playerid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="z_playerid" class="am-u-sm-12 am-form-label am-text-left">z_playerid            <span class="tpl-form-line-small-title">z_playerid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_movie.z_playerid)"}{$ecms_infoclass_movie.z_playerid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="z_playerid" name="z_playerid" 
+	placeholder="请输入z_playerid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="qz_playerid" class="am-u-sm-12 am-form-label am-text-left">qz_playerid            <span class="tpl-form-line-small-title">qz_playerid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_movie.qz_playerid)"}{$ecms_infoclass_movie.qz_playerid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="qz_playerid" name="qz_playerid" 
+	placeholder="请输入qz_playerid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="save_playerid" class="am-u-sm-12 am-form-label am-text-left">save_playerid            <span class="tpl-form-line-small-title">save_playerid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_movie.save_playerid)"}{$ecms_infoclass_movie.save_playerid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="save_playerid" name="save_playerid" 
+	placeholder="请输入save_playerid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="zz_onlinepath" class="am-u-sm-12 am-form-label am-text-left">zz_onlinepath            <span class="tpl-form-line-small-title">zz_onlinepath</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_movie.zz_onlinepath)"}{$ecms_infoclass_movie.zz_onlinepath}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="zz_onlinepath" name="zz_onlinepath" 
+	placeholder="请输入zz_onlinepath">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="z_onlinepath" class="am-u-sm-12 am-form-label am-text-left">z_onlinepath            <span class="tpl-form-line-small-title">z_onlinepath</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_movie.z_onlinepath)"}{$ecms_infoclass_movie.z_onlinepath}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="z_onlinepath" name="z_onlinepath" 
+	placeholder="请输入z_onlinepath">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="qz_onlinepath" class="am-u-sm-12 am-form-label am-text-left">qz_onlinepath            <span class="tpl-form-line-small-title">qz_onlinepath</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_movie.qz_onlinepath)"}{$ecms_infoclass_movie.qz_onlinepath}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="qz_onlinepath" name="qz_onlinepath" 
+	placeholder="请输入qz_onlinepath">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="save_onlinepath" class="am-u-sm-12 am-form-label am-text-left">save_onlinepath            <span class="tpl-form-line-small-title">save_onlinepath</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_movie.save_onlinepath)"}{$ecms_infoclass_movie.save_onlinepath}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="save_onlinepath" name="save_onlinepath" 
+	placeholder="请输入save_onlinepath">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="zz_moviesay" class="am-u-sm-12 am-form-label am-text-left">zz_moviesay            <span class="tpl-form-line-small-title">zz_moviesay</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_movie.zz_moviesay)"}{$ecms_infoclass_movie.zz_moviesay}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="zz_moviesay" name="zz_moviesay" 
+	placeholder="请输入zz_moviesay">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="z_moviesay" class="am-u-sm-12 am-form-label am-text-left">z_moviesay            <span class="tpl-form-line-small-title">z_moviesay</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_movie.z_moviesay)"}{$ecms_infoclass_movie.z_moviesay}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="z_moviesay" name="z_moviesay" 
+	placeholder="请输入z_moviesay">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="qz_moviesay" class="am-u-sm-12 am-form-label am-text-left">qz_moviesay            <span class="tpl-form-line-small-title">qz_moviesay</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_movie.qz_moviesay)"}{$ecms_infoclass_movie.qz_moviesay}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="qz_moviesay" name="qz_moviesay" 
+	placeholder="请输入qz_moviesay">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="save_moviesay" class="am-u-sm-12 am-form-label am-text-left">save_moviesay            <span class="tpl-form-line-small-title">save_moviesay</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_movie.save_moviesay)"}{$ecms_infoclass_movie.save_moviesay}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="save_moviesay" name="save_moviesay" 
+	placeholder="请输入save_moviesay">        </div>
+    </div>
+        <div class="am-form-group">
+        <div class="am-u-sm-12 am-u-sm-push-12">
+            <button type="submit" class="am-btn am-btn-primary tpl-btn-bg-color-success ">提交</button>
+        </div>
+    </div>
+</form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{/block}

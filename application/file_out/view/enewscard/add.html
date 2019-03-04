@@ -1,0 +1,109 @@
+{extend name="layout" /}
+{block name="content"}
+<!-- 内容区域 -->
+<div class="tpl-content-wrapper">
+    <div class="row-content am-cf">
+        <div class="row">
+            <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+                <div class="widget am-cf">
+                    <div class="widget-head am-cf">
+                        <div class="widget-title am-fl">新建nj_enewscard</div>
+                        <div class="widget-function am-fr">
+                            <a href="javascript:;" class="am-icon-cog"></a>
+                        </div>
+                    </div>
+                    <div class="widget-body am-fr">
+                        <form class="am-form tpl-form-border-form" method="post">
+        <div class="am-form-group">
+        <label for="cardid" class="am-u-sm-12 am-form-label am-text-left">cardid            <span class="tpl-form-line-small-title">cardid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewscard.cardid)"}{$enewscard.cardid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="cardid" name="cardid" 
+	placeholder="请输入cardid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="card_no" class="am-u-sm-12 am-form-label am-text-left">card_no            <span class="tpl-form-line-small-title">card_no</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewscard.card_no)"}{$enewscard.card_no}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="card_no" name="card_no" 
+	placeholder="请输入card_no">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="password" class="am-u-sm-12 am-form-label am-text-left">password            <span class="tpl-form-line-small-title">password</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewscard.password)"}{$enewscard.password}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="password" name="password" 
+	placeholder="请输入password">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="money" class="am-u-sm-12 am-form-label am-text-left">money            <span class="tpl-form-line-small-title">money</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewscard.money)"}{$enewscard.money}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="money" name="money" 
+	placeholder="请输入money">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="cardfen" class="am-u-sm-12 am-form-label am-text-left">cardfen            <span class="tpl-form-line-small-title">cardfen</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewscard.cardfen)"}{$enewscard.cardfen}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="cardfen" name="cardfen" 
+	placeholder="请输入cardfen">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="endtime" class="am-u-sm-12 am-form-label am-text-left">endtime            <span class="tpl-form-line-small-title">endtime</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewscard.endtime)"}{$enewscard.endtime}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="endtime" name="endtime" 
+	placeholder="请输入endtime">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="cardtime" class="am-u-sm-12 am-form-label am-text-left">cardtime            <span class="tpl-form-line-small-title">cardtime</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewscard.cardtime)"}{$enewscard.cardtime}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="cardtime" name="cardtime" 
+	placeholder="请输入cardtime">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="carddate" class="am-u-sm-12 am-form-label am-text-left">carddate            <span class="tpl-form-line-small-title">carddate</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewscard.carddate)"}{$enewscard.carddate}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="carddate" name="carddate" 
+	placeholder="请输入carddate">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="cdgroupid" class="am-u-sm-12 am-form-label am-text-left">cdgroupid            <span class="tpl-form-line-small-title">cdgroupid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewscard.cdgroupid)"}{$enewscard.cdgroupid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="cdgroupid" name="cdgroupid" 
+	placeholder="请输入cdgroupid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="cdzgroupid" class="am-u-sm-12 am-form-label am-text-left">cdzgroupid            <span class="tpl-form-line-small-title">cdzgroupid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewscard.cdzgroupid)"}{$enewscard.cdzgroupid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="cdzgroupid" name="cdzgroupid" 
+	placeholder="请输入cdzgroupid">        </div>
+    </div>
+        <div class="am-form-group">
+        <div class="am-u-sm-12 am-u-sm-push-12">
+            <button type="submit" class="am-btn am-btn-primary tpl-btn-bg-color-success ">提交</button>
+        </div>
+    </div>
+</form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{/block}

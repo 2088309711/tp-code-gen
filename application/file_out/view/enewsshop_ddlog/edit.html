@@ -1,0 +1,94 @@
+{extend name="layout" /}
+{block name="content"}
+<!-- 内容区域 -->
+<div class="tpl-content-wrapper">
+    <div class="row-content am-cf">
+        <div class="row">
+            <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+                <div class="widget am-cf">
+                    <div class="widget-head am-cf">
+                        <div class="widget-title am-fl">编辑nj_enewsshop_ddlog</div>
+                        <div class="widget-function am-fr">
+                            <a href="javascript:;" class="am-icon-cog"></a>
+                        </div>
+                    </div>
+                    <div class="widget-body am-fr">
+                        <form class="am-form tpl-form-border-form" method="post">
+        <div class="am-form-group">
+        <label for="logid" class="am-u-sm-12 am-form-label am-text-left">logid            <span class="tpl-form-line-small-title">logid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsshop_ddlog.logid)"}{$enewsshop_ddlog.logid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="logid" name="logid" 
+	placeholder="请输入logid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="ddid" class="am-u-sm-12 am-form-label am-text-left">ddid            <span class="tpl-form-line-small-title">ddid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsshop_ddlog.ddid)"}{$enewsshop_ddlog.ddid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="ddid" name="ddid" 
+	placeholder="请输入ddid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="userid" class="am-u-sm-12 am-form-label am-text-left">userid            <span class="tpl-form-line-small-title">userid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsshop_ddlog.userid)"}{$enewsshop_ddlog.userid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="userid" name="userid" 
+	placeholder="请输入userid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="username" class="am-u-sm-12 am-form-label am-text-left">username            <span class="tpl-form-line-small-title">username</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsshop_ddlog.username)"}{$enewsshop_ddlog.username}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="username" name="username" 
+	placeholder="请输入username">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="ecms" class="am-u-sm-12 am-form-label am-text-left">ecms            <span class="tpl-form-line-small-title">ecms</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsshop_ddlog.ecms)"}{$enewsshop_ddlog.ecms}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="ecms" name="ecms" 
+	placeholder="请输入ecms">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="bz" class="am-u-sm-12 am-form-label am-text-left">bz            <span class="tpl-form-line-small-title">bz</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsshop_ddlog.bz)"}{$enewsshop_ddlog.bz}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="bz" name="bz" 
+	placeholder="请输入bz">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="addbz" class="am-u-sm-12 am-form-label am-text-left">addbz            <span class="tpl-form-line-small-title">addbz</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsshop_ddlog.addbz)"}{$enewsshop_ddlog.addbz}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="addbz" name="addbz" 
+	placeholder="请输入addbz">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="logtime" class="am-u-sm-12 am-form-label am-text-left">logtime            <span class="tpl-form-line-small-title">logtime</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsshop_ddlog.logtime)"}{$enewsshop_ddlog.logtime}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="logtime" name="logtime" 
+	placeholder="请输入logtime">        </div>
+    </div>
+        <div class="am-form-group">
+        <div class="am-u-sm-12 am-u-sm-push-12">
+            <button type="submit" class="am-btn am-btn-primary tpl-btn-bg-color-success ">提交</button>
+        </div>
+    </div>
+</form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{/block}

@@ -1,0 +1,131 @@
+{extend name="layout" /}
+{block name="content"}
+<!-- 内容区域 -->
+<div class="tpl-content-wrapper">
+    <div class="row-content am-cf">
+        <div class="row">
+            <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+                <div class="widget am-cf">
+                    <div class="widget-head am-cf">
+                        <div class="widget-title  am-cf">管理enewsuser</div>
+                    </div>
+                    <div class="widget-body  am-fr">
+    <div class="am-u-sm-12 am-u-md-6 am-u-lg-6">
+        <div class="am-form-group">
+            <div class="am-btn-toolbar">
+                <div class="am-btn-group am-btn-group-xs">
+                    <a class="am-btn am-btn-default am-btn-success"
+                       href="{:url('enewsuser/add')}">
+                        <span class="am-icon-plus"></span> 新增
+                    </a>
+                    <!--
+                    <button type="button" class="am-btn am-btn-default am-btn-secondary"><span class="am-icon-save"></span> 保存</button>
+                    <button type="button" class="am-btn am-btn-default am-btn-warning"><span class="am-icon-archive"></span> 审核</button>
+                    <button type="button" class="am-btn am-btn-default am-btn-danger"><span class="am-icon-trash-o"></span> 删除</button>
+                    -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="am-u-sm-12">
+        <table width="100%" class="am-table am-table-compact am-table-striped tpl-table-black " id="example-r">
+            <thead>
+            <tr>
+                                <th>userid</th>
+                                <th>username</th>
+                                <th>password</th>
+                                <th>rnd</th>
+                                <th>adminclass</th>
+                                <th>groupid</th>
+                                <th>checked</th>
+                                <th>styleid</th>
+                                <th>filelevel</th>
+                                <th>salt</th>
+                                <th>loginnum</th>
+                                <th>lasttime</th>
+                                <th>lastip</th>
+                                <th>truename</th>
+                                <th>email</th>
+                                <th>classid</th>
+                                <th>pretime</th>
+                                <th>preip</th>
+                                <th>addtime</th>
+                                <th>addip</th>
+                                <th>userprikey</th>
+                                <th>salt2</th>
+                                <th>lastipport</th>
+                                <th>preipport</th>
+                                <th>addipport</th>
+                                <th>uprnd</th>
+                                <th>wname</th>
+                                <th>tel</th>
+                                <th>wxno</th>
+                                <th>qq</th>
+                                <th>操作</th>
+            </tr>
+            </thead>
+            <tbody>
+            {volist name="enewsuserList" id="vo"}
+            <tr class="gradeX">
+                                <td>{$vo.userid}</td>
+                                <td>{$vo.username}</td>
+                                <td>{$vo.password}</td>
+                                <td>{$vo.rnd}</td>
+                                <td>{$vo.adminclass}</td>
+                                <td>{$vo.groupid}</td>
+                                <td>{$vo.checked}</td>
+                                <td>{$vo.styleid}</td>
+                                <td>{$vo.filelevel}</td>
+                                <td>{$vo.salt}</td>
+                                <td>{$vo.loginnum}</td>
+                                <td>{$vo.lasttime}</td>
+                                <td>{$vo.lastip}</td>
+                                <td>{$vo.truename}</td>
+                                <td>{$vo.email}</td>
+                                <td>{$vo.classid}</td>
+                                <td>{$vo.pretime}</td>
+                                <td>{$vo.preip}</td>
+                                <td>{$vo.addtime}</td>
+                                <td>{$vo.addip}</td>
+                                <td>{$vo.userprikey}</td>
+                                <td>{$vo.salt2}</td>
+                                <td>{$vo.lastipport}</td>
+                                <td>{$vo.preipport}</td>
+                                <td>{$vo.addipport}</td>
+                                <td>{$vo.uprnd}</td>
+                                <td>{$vo.wname}</td>
+                                <td>{$vo.tel}</td>
+                                <td>{$vo.wxno}</td>
+                                <td>{$vo.qq}</td>
+                                <td>
+                    <div class="tpl-table-black-operation">
+                        <a href="{:url('enewsuser/edit', ['id'=>$vo['id']])}">
+                            <i class="am-icon-pencil"></i> 编辑
+                        </a>
+                        <a href="{:url('enewsuser/delete', ['id'=>$vo['id']])}"
+                           onclick='return confirm("确定删除吗？")' class="tpl-table-black-operation-del">
+                            <i class="am-icon-trash"></i> 删除
+                        </a>
+                    </div>
+                </td>
+            </tr>
+            {/volist}
+            <!-- more data -->
+            </tbody>
+        </table>
+    </div>
+    <div class="am-u-lg-12 am-cf">
+
+        <div class="am-fr">
+            <ul class="am-pagination tpl-pagination">
+                {$enewsuserList->render()}
+            </ul>
+        </div>
+    </div>
+</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{/block}

@@ -1,0 +1,93 @@
+{extend name="layout" /}
+{block name="content"}
+<!-- 内容区域 -->
+<div class="tpl-content-wrapper">
+    <div class="row-content am-cf">
+        <div class="row">
+            <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+                <div class="widget am-cf">
+                    <div class="widget-head am-cf">
+                        <div class="widget-title am-fl">新建nj_enewspubvar</div>
+                        <div class="widget-function am-fr">
+                            <a href="javascript:;" class="am-icon-cog"></a>
+                        </div>
+                    </div>
+                    <div class="widget-body am-fr">
+                        <form class="am-form tpl-form-border-form" method="post">
+        <div class="am-form-group">
+        <label for="varid" class="am-u-sm-12 am-form-label am-text-left">varid            <span class="tpl-form-line-small-title">varid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspubvar.varid)"}{$enewspubvar.varid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="varid" name="varid" 
+	placeholder="请输入varid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="myvar" class="am-u-sm-12 am-form-label am-text-left">myvar            <span class="tpl-form-line-small-title">myvar</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspubvar.myvar)"}{$enewspubvar.myvar}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="myvar" name="myvar" 
+	placeholder="请输入myvar">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="varname" class="am-u-sm-12 am-form-label am-text-left">varname            <span class="tpl-form-line-small-title">varname</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspubvar.varname)"}{$enewspubvar.varname}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="varname" name="varname" 
+	placeholder="请输入varname">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="varvalue" class="am-u-sm-12 am-form-label am-text-left">varvalue            <span class="tpl-form-line-small-title">varvalue</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspubvar.varvalue)"}{$enewspubvar.varvalue}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="varvalue" name="varvalue" 
+	placeholder="请输入varvalue">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="varsay" class="am-u-sm-12 am-form-label am-text-left">varsay            <span class="tpl-form-line-small-title">varsay</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspubvar.varsay)"}{$enewspubvar.varsay}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="varsay" name="varsay" 
+	placeholder="请输入varsay">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="myorder" class="am-u-sm-12 am-form-label am-text-left">myorder            <span class="tpl-form-line-small-title">myorder</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspubvar.myorder)"}{$enewspubvar.myorder}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="myorder" name="myorder" 
+	placeholder="请输入myorder">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="classid" class="am-u-sm-12 am-form-label am-text-left">classid            <span class="tpl-form-line-small-title">classid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspubvar.classid)"}{$enewspubvar.classid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="classid" name="classid" 
+	placeholder="请输入classid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="tocache" class="am-u-sm-12 am-form-label am-text-left">tocache            <span class="tpl-form-line-small-title">tocache</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspubvar.tocache)"}{$enewspubvar.tocache}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="tocache" name="tocache" 
+	placeholder="请输入tocache">        </div>
+    </div>
+        <div class="am-form-group">
+        <div class="am-u-sm-12 am-u-sm-push-12">
+            <button type="submit" class="am-btn am-btn-primary tpl-btn-bg-color-success ">提交</button>
+        </div>
+    </div>
+</form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{/block}

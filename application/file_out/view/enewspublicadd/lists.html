@@ -1,0 +1,137 @@
+{extend name="layout" /}
+{block name="content"}
+<!-- 内容区域 -->
+<div class="tpl-content-wrapper">
+    <div class="row-content am-cf">
+        <div class="row">
+            <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+                <div class="widget am-cf">
+                    <div class="widget-head am-cf">
+                        <div class="widget-title  am-cf">管理enewspublicadd</div>
+                    </div>
+                    <div class="widget-body  am-fr">
+    <div class="am-u-sm-12 am-u-md-6 am-u-lg-6">
+        <div class="am-form-group">
+            <div class="am-btn-toolbar">
+                <div class="am-btn-group am-btn-group-xs">
+                    <a class="am-btn am-btn-default am-btn-success"
+                       href="{:url('enewspublicadd/add')}">
+                        <span class="am-icon-plus"></span> 新增
+                    </a>
+                    <!--
+                    <button type="button" class="am-btn am-btn-default am-btn-secondary"><span class="am-icon-save"></span> 保存</button>
+                    <button type="button" class="am-btn am-btn-default am-btn-warning"><span class="am-icon-archive"></span> 审核</button>
+                    <button type="button" class="am-btn am-btn-default am-btn-danger"><span class="am-icon-trash-o"></span> 删除</button>
+                    -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="am-u-sm-12">
+        <table width="100%" class="am-table am-table-compact am-table-striped tpl-table-black " id="example-r">
+            <thead>
+            <tr>
+                                <th>id</th>
+                                <th>ctimeopen</th>
+                                <th>ctimelast</th>
+                                <th>ctimeindex</th>
+                                <th>ctimeclass</th>
+                                <th>ctimelist</th>
+                                <th>ctimetext</th>
+                                <th>ctimett</th>
+                                <th>ctimetags</th>
+                                <th>ctimegids</th>
+                                <th>ctimecids</th>
+                                <th>ctimernd</th>
+                                <th>ctimeaddre</th>
+                                <th>ctimeqaddre</th>
+                                <th>autodoopen</th>
+                                <th>autodouser</th>
+                                <th>autodopass</th>
+                                <th>autodosalt</th>
+                                <th>autodoshowkey</th>
+                                <th>autodotime</th>
+                                <th>autodoline</th>
+                                <th>autodovar</th>
+                                <th>autodoval</th>
+                                <th>autodoshow</th>
+                                <th>autodofile</th>
+                                <th>autodopostpass</th>
+                                <th>autodoss</th>
+                                <th>autodoaction</th>
+                                <th>autodock</th>
+                                <th>digglevel</th>
+                                <th>diggcmids</th>
+                                <th>toqjf</th>
+                                <th>qtoqjf</th>
+                                <th>操作</th>
+            </tr>
+            </thead>
+            <tbody>
+            {volist name="enewspublicaddList" id="vo"}
+            <tr class="gradeX">
+                                <td>{$vo.id}</td>
+                                <td>{$vo.ctimeopen}</td>
+                                <td>{$vo.ctimelast}</td>
+                                <td>{$vo.ctimeindex}</td>
+                                <td>{$vo.ctimeclass}</td>
+                                <td>{$vo.ctimelist}</td>
+                                <td>{$vo.ctimetext}</td>
+                                <td>{$vo.ctimett}</td>
+                                <td>{$vo.ctimetags}</td>
+                                <td>{$vo.ctimegids}</td>
+                                <td>{$vo.ctimecids}</td>
+                                <td>{$vo.ctimernd}</td>
+                                <td>{$vo.ctimeaddre}</td>
+                                <td>{$vo.ctimeqaddre}</td>
+                                <td>{$vo.autodoopen}</td>
+                                <td>{$vo.autodouser}</td>
+                                <td>{$vo.autodopass}</td>
+                                <td>{$vo.autodosalt}</td>
+                                <td>{$vo.autodoshowkey}</td>
+                                <td>{$vo.autodotime}</td>
+                                <td>{$vo.autodoline}</td>
+                                <td>{$vo.autodovar}</td>
+                                <td>{$vo.autodoval}</td>
+                                <td>{$vo.autodoshow}</td>
+                                <td>{$vo.autodofile}</td>
+                                <td>{$vo.autodopostpass}</td>
+                                <td>{$vo.autodoss}</td>
+                                <td>{$vo.autodoaction}</td>
+                                <td>{$vo.autodock}</td>
+                                <td>{$vo.digglevel}</td>
+                                <td>{$vo.diggcmids}</td>
+                                <td>{$vo.toqjf}</td>
+                                <td>{$vo.qtoqjf}</td>
+                                <td>
+                    <div class="tpl-table-black-operation">
+                        <a href="{:url('enewspublicadd/edit', ['id'=>$vo['id']])}">
+                            <i class="am-icon-pencil"></i> 编辑
+                        </a>
+                        <a href="{:url('enewspublicadd/delete', ['id'=>$vo['id']])}"
+                           onclick='return confirm("确定删除吗？")' class="tpl-table-black-operation-del">
+                            <i class="am-icon-trash"></i> 删除
+                        </a>
+                    </div>
+                </td>
+            </tr>
+            {/volist}
+            <!-- more data -->
+            </tbody>
+        </table>
+    </div>
+    <div class="am-u-lg-12 am-cf">
+
+        <div class="am-fr">
+            <ul class="am-pagination tpl-pagination">
+                {$enewspublicaddList->render()}
+            </ul>
+        </div>
+    </div>
+</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{/block}

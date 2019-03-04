@@ -1,0 +1,105 @@
+{extend name="layout" /}
+{block name="content"}
+<!-- 内容区域 -->
+<div class="tpl-content-wrapper">
+    <div class="row-content am-cf">
+        <div class="row">
+            <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+                <div class="widget am-cf">
+                    <div class="widget-head am-cf">
+                        <div class="widget-title  am-cf">管理enewsyh</div>
+                    </div>
+                    <div class="widget-body  am-fr">
+    <div class="am-u-sm-12 am-u-md-6 am-u-lg-6">
+        <div class="am-form-group">
+            <div class="am-btn-toolbar">
+                <div class="am-btn-group am-btn-group-xs">
+                    <a class="am-btn am-btn-default am-btn-success"
+                       href="{:url('enewsyh/add')}">
+                        <span class="am-icon-plus"></span> 新增
+                    </a>
+                    <!--
+                    <button type="button" class="am-btn am-btn-default am-btn-secondary"><span class="am-icon-save"></span> 保存</button>
+                    <button type="button" class="am-btn am-btn-default am-btn-warning"><span class="am-icon-archive"></span> 审核</button>
+                    <button type="button" class="am-btn am-btn-default am-btn-danger"><span class="am-icon-trash-o"></span> 删除</button>
+                    -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="am-u-sm-12">
+        <table width="100%" class="am-table am-table-compact am-table-striped tpl-table-black " id="example-r">
+            <thead>
+            <tr>
+                                <th>id</th>
+                                <th>yhname</th>
+                                <th>yhtext</th>
+                                <th>hlist</th>
+                                <th>qlist</th>
+                                <th>bqnew</th>
+                                <th>bqhot</th>
+                                <th>bqpl</th>
+                                <th>bqgood</th>
+                                <th>bqfirst</th>
+                                <th>bqdown</th>
+                                <th>otherlink</th>
+                                <th>qmlist</th>
+                                <th>dobq</th>
+                                <th>dojs</th>
+                                <th>dosbq</th>
+                                <th>rehtml</th>
+                                <th>操作</th>
+            </tr>
+            </thead>
+            <tbody>
+            {volist name="enewsyhList" id="vo"}
+            <tr class="gradeX">
+                                <td>{$vo.id}</td>
+                                <td>{$vo.yhname}</td>
+                                <td>{$vo.yhtext}</td>
+                                <td>{$vo.hlist}</td>
+                                <td>{$vo.qlist}</td>
+                                <td>{$vo.bqnew}</td>
+                                <td>{$vo.bqhot}</td>
+                                <td>{$vo.bqpl}</td>
+                                <td>{$vo.bqgood}</td>
+                                <td>{$vo.bqfirst}</td>
+                                <td>{$vo.bqdown}</td>
+                                <td>{$vo.otherlink}</td>
+                                <td>{$vo.qmlist}</td>
+                                <td>{$vo.dobq}</td>
+                                <td>{$vo.dojs}</td>
+                                <td>{$vo.dosbq}</td>
+                                <td>{$vo.rehtml}</td>
+                                <td>
+                    <div class="tpl-table-black-operation">
+                        <a href="{:url('enewsyh/edit', ['id'=>$vo['id']])}">
+                            <i class="am-icon-pencil"></i> 编辑
+                        </a>
+                        <a href="{:url('enewsyh/delete', ['id'=>$vo['id']])}"
+                           onclick='return confirm("确定删除吗？")' class="tpl-table-black-operation-del">
+                            <i class="am-icon-trash"></i> 删除
+                        </a>
+                    </div>
+                </td>
+            </tr>
+            {/volist}
+            <!-- more data -->
+            </tbody>
+        </table>
+    </div>
+    <div class="am-u-lg-12 am-cf">
+
+        <div class="am-fr">
+            <ul class="am-pagination tpl-pagination">
+                {$enewsyhList->render()}
+            </ul>
+        </div>
+    </div>
+</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{/block}

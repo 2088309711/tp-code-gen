@@ -1,0 +1,241 @@
+{extend name="layout" /}
+{block name="content"}
+<!-- 内容区域 -->
+<div class="tpl-content-wrapper">
+    <div class="row-content am-cf">
+        <div class="row">
+            <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+                <div class="widget am-cf">
+                    <div class="widget-head am-cf">
+                        <div class="widget-title  am-cf">管理enewsclass</div>
+                    </div>
+                    <div class="widget-body  am-fr">
+    <div class="am-u-sm-12 am-u-md-6 am-u-lg-6">
+        <div class="am-form-group">
+            <div class="am-btn-toolbar">
+                <div class="am-btn-group am-btn-group-xs">
+                    <a class="am-btn am-btn-default am-btn-success"
+                       href="{:url('enewsclass/add')}">
+                        <span class="am-icon-plus"></span> 新增
+                    </a>
+                    <!--
+                    <button type="button" class="am-btn am-btn-default am-btn-secondary"><span class="am-icon-save"></span> 保存</button>
+                    <button type="button" class="am-btn am-btn-default am-btn-warning"><span class="am-icon-archive"></span> 审核</button>
+                    <button type="button" class="am-btn am-btn-default am-btn-danger"><span class="am-icon-trash-o"></span> 删除</button>
+                    -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="am-u-sm-12">
+        <table width="100%" class="am-table am-table-compact am-table-striped tpl-table-black " id="example-r">
+            <thead>
+            <tr>
+                                <th>classid</th>
+                                <th>bclassid</th>
+                                <th>classname</th>
+                                <th>sonclass</th>
+                                <th>is_zt</th>
+                                <th>lencord</th>
+                                <th>link_num</th>
+                                <th>newstempid</th>
+                                <th>onclick</th>
+                                <th>listtempid</th>
+                                <th>featherclass</th>
+                                <th>islast</th>
+                                <th>classpath</th>
+                                <th>classtype</th>
+                                <th>newspath</th>
+                                <th>filename</th>
+                                <th>filetype</th>
+                                <th>openpl</th>
+                                <th>openadd</th>
+                                <th>newline</th>
+                                <th>hotline</th>
+                                <th>goodline</th>
+                                <th>classurl</th>
+                                <th>groupid</th>
+                                <th>myorder</th>
+                                <th>filename_qz</th>
+                                <th>hotplline</th>
+                                <th>modid</th>
+                                <th>checked</th>
+                                <th>firstline</th>
+                                <th>bname</th>
+                                <th>islist</th>
+                                <th>searchtempid</th>
+                                <th>tid</th>
+                                <th>tbname</th>
+                                <th>maxnum</th>
+                                <th>checkpl</th>
+                                <th>down_num</th>
+                                <th>online_num</th>
+                                <th>listorder</th>
+                                <th>reorder</th>
+                                <th>intro</th>
+                                <th>classimg</th>
+                                <th>jstempid</th>
+                                <th>addinfofen</th>
+                                <th>listdt</th>
+                                <th>showclass</th>
+                                <th>showdt</th>
+                                <th>checkqadd</th>
+                                <th>qaddlist</th>
+                                <th>qaddgroupid</th>
+                                <th>qaddshowkey</th>
+                                <th>adminqinfo</th>
+                                <th>doctime</th>
+                                <th>classpagekey</th>
+                                <th>dtlisttempid</th>
+                                <th>classtempid</th>
+                                <th>nreclass</th>
+                                <th>nreinfo</th>
+                                <th>nrejs</th>
+                                <th>nottobq</th>
+                                <th>ipath</th>
+                                <th>addreinfo</th>
+                                <th>haddlist</th>
+                                <th>sametitle</th>
+                                <th>definfovoteid</th>
+                                <th>wburl</th>
+                                <th>qeditchecked</th>
+                                <th>wapstyleid</th>
+                                <th>repreinfo</th>
+                                <th>pltempid</th>
+                                <th>cgroupid</th>
+                                <th>yhid</th>
+                                <th>wfid</th>
+                                <th>cgtoinfo</th>
+                                <th>bdinfoid</th>
+                                <th>repagenum</th>
+                                <th>keycid</th>
+                                <th>allinfos</th>
+                                <th>infos</th>
+                                <th>addtime</th>
+                                <th>oneinfo</th>
+                                <th>addsql</th>
+                                <th>wapislist</th>
+                                <th>fclast</th>
+                                <th>操作</th>
+            </tr>
+            </thead>
+            <tbody>
+            {volist name="enewsclassList" id="vo"}
+            <tr class="gradeX">
+                                <td>{$vo.classid}</td>
+                                <td>{$vo.bclassid}</td>
+                                <td>{$vo.classname}</td>
+                                <td>{$vo.sonclass}</td>
+                                <td>{$vo.is_zt}</td>
+                                <td>{$vo.lencord}</td>
+                                <td>{$vo.link_num}</td>
+                                <td>{$vo.newstempid}</td>
+                                <td>{$vo.onclick}</td>
+                                <td>{$vo.listtempid}</td>
+                                <td>{$vo.featherclass}</td>
+                                <td>{$vo.islast}</td>
+                                <td>{$vo.classpath}</td>
+                                <td>{$vo.classtype}</td>
+                                <td>{$vo.newspath}</td>
+                                <td>{$vo.filename}</td>
+                                <td>{$vo.filetype}</td>
+                                <td>{$vo.openpl}</td>
+                                <td>{$vo.openadd}</td>
+                                <td>{$vo.newline}</td>
+                                <td>{$vo.hotline}</td>
+                                <td>{$vo.goodline}</td>
+                                <td>{$vo.classurl}</td>
+                                <td>{$vo.groupid}</td>
+                                <td>{$vo.myorder}</td>
+                                <td>{$vo.filename_qz}</td>
+                                <td>{$vo.hotplline}</td>
+                                <td>{$vo.modid}</td>
+                                <td>{$vo.checked}</td>
+                                <td>{$vo.firstline}</td>
+                                <td>{$vo.bname}</td>
+                                <td>{$vo.islist}</td>
+                                <td>{$vo.searchtempid}</td>
+                                <td>{$vo.tid}</td>
+                                <td>{$vo.tbname}</td>
+                                <td>{$vo.maxnum}</td>
+                                <td>{$vo.checkpl}</td>
+                                <td>{$vo.down_num}</td>
+                                <td>{$vo.online_num}</td>
+                                <td>{$vo.listorder}</td>
+                                <td>{$vo.reorder}</td>
+                                <td>{$vo.intro}</td>
+                                <td>{$vo.classimg}</td>
+                                <td>{$vo.jstempid}</td>
+                                <td>{$vo.addinfofen}</td>
+                                <td>{$vo.listdt}</td>
+                                <td>{$vo.showclass}</td>
+                                <td>{$vo.showdt}</td>
+                                <td>{$vo.checkqadd}</td>
+                                <td>{$vo.qaddlist}</td>
+                                <td>{$vo.qaddgroupid}</td>
+                                <td>{$vo.qaddshowkey}</td>
+                                <td>{$vo.adminqinfo}</td>
+                                <td>{$vo.doctime}</td>
+                                <td>{$vo.classpagekey}</td>
+                                <td>{$vo.dtlisttempid}</td>
+                                <td>{$vo.classtempid}</td>
+                                <td>{$vo.nreclass}</td>
+                                <td>{$vo.nreinfo}</td>
+                                <td>{$vo.nrejs}</td>
+                                <td>{$vo.nottobq}</td>
+                                <td>{$vo.ipath}</td>
+                                <td>{$vo.addreinfo}</td>
+                                <td>{$vo.haddlist}</td>
+                                <td>{$vo.sametitle}</td>
+                                <td>{$vo.definfovoteid}</td>
+                                <td>{$vo.wburl}</td>
+                                <td>{$vo.qeditchecked}</td>
+                                <td>{$vo.wapstyleid}</td>
+                                <td>{$vo.repreinfo}</td>
+                                <td>{$vo.pltempid}</td>
+                                <td>{$vo.cgroupid}</td>
+                                <td>{$vo.yhid}</td>
+                                <td>{$vo.wfid}</td>
+                                <td>{$vo.cgtoinfo}</td>
+                                <td>{$vo.bdinfoid}</td>
+                                <td>{$vo.repagenum}</td>
+                                <td>{$vo.keycid}</td>
+                                <td>{$vo.allinfos}</td>
+                                <td>{$vo.infos}</td>
+                                <td>{$vo.addtime}</td>
+                                <td>{$vo.oneinfo}</td>
+                                <td>{$vo.addsql}</td>
+                                <td>{$vo.wapislist}</td>
+                                <td>{$vo.fclast}</td>
+                                <td>
+                    <div class="tpl-table-black-operation">
+                        <a href="{:url('enewsclass/edit', ['id'=>$vo['id']])}">
+                            <i class="am-icon-pencil"></i> 编辑
+                        </a>
+                        <a href="{:url('enewsclass/delete', ['id'=>$vo['id']])}"
+                           onclick='return confirm("确定删除吗？")' class="tpl-table-black-operation-del">
+                            <i class="am-icon-trash"></i> 删除
+                        </a>
+                    </div>
+                </td>
+            </tr>
+            {/volist}
+            <!-- more data -->
+            </tbody>
+        </table>
+    </div>
+    <div class="am-u-lg-12 am-cf">
+
+        <div class="am-fr">
+            <ul class="am-pagination tpl-pagination">
+                {$enewsclassList->render()}
+            </ul>
+        </div>
+    </div>
+</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{/block}

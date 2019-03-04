@@ -1,0 +1,287 @@
+{extend name="layout" /}
+{block name="content"}
+<!-- 内容区域 -->
+<div class="tpl-content-wrapper">
+    <div class="row-content am-cf">
+        <div class="row">
+            <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+                <div class="widget am-cf">
+                    <div class="widget-head am-cf">
+                        <div class="widget-title am-fl">编辑nj_enewspublicadd</div>
+                        <div class="widget-function am-fr">
+                            <a href="javascript:;" class="am-icon-cog"></a>
+                        </div>
+                    </div>
+                    <div class="widget-body am-fr">
+                        <form class="am-form tpl-form-border-form" method="post">
+        <input type="hidden" name="id" value="{$enewspublicadd.id}"/>
+        <div class="am-form-group">
+        <label for="ctimeopen" class="am-u-sm-12 am-form-label am-text-left">ctimeopen            <span class="tpl-form-line-small-title">ctimeopen</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspublicadd.ctimeopen)"}{$enewspublicadd.ctimeopen}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="ctimeopen" name="ctimeopen" 
+	placeholder="请输入ctimeopen">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="ctimelast" class="am-u-sm-12 am-form-label am-text-left">ctimelast            <span class="tpl-form-line-small-title">ctimelast</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspublicadd.ctimelast)"}{$enewspublicadd.ctimelast}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="ctimelast" name="ctimelast" 
+	placeholder="请输入ctimelast">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="ctimeindex" class="am-u-sm-12 am-form-label am-text-left">ctimeindex            <span class="tpl-form-line-small-title">ctimeindex</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspublicadd.ctimeindex)"}{$enewspublicadd.ctimeindex}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="ctimeindex" name="ctimeindex" 
+	placeholder="请输入ctimeindex">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="ctimeclass" class="am-u-sm-12 am-form-label am-text-left">ctimeclass            <span class="tpl-form-line-small-title">ctimeclass</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspublicadd.ctimeclass)"}{$enewspublicadd.ctimeclass}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="ctimeclass" name="ctimeclass" 
+	placeholder="请输入ctimeclass">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="ctimelist" class="am-u-sm-12 am-form-label am-text-left">ctimelist            <span class="tpl-form-line-small-title">ctimelist</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspublicadd.ctimelist)"}{$enewspublicadd.ctimelist}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="ctimelist" name="ctimelist" 
+	placeholder="请输入ctimelist">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="ctimetext" class="am-u-sm-12 am-form-label am-text-left">ctimetext            <span class="tpl-form-line-small-title">ctimetext</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspublicadd.ctimetext)"}{$enewspublicadd.ctimetext}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="ctimetext" name="ctimetext" 
+	placeholder="请输入ctimetext">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="ctimett" class="am-u-sm-12 am-form-label am-text-left">ctimett            <span class="tpl-form-line-small-title">ctimett</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspublicadd.ctimett)"}{$enewspublicadd.ctimett}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="ctimett" name="ctimett" 
+	placeholder="请输入ctimett">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="ctimetags" class="am-u-sm-12 am-form-label am-text-left">ctimetags            <span class="tpl-form-line-small-title">ctimetags</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspublicadd.ctimetags)"}{$enewspublicadd.ctimetags}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="ctimetags" name="ctimetags" 
+	placeholder="请输入ctimetags">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="ctimegids" class="am-u-sm-12 am-form-label am-text-left">ctimegids            <span class="tpl-form-line-small-title">ctimegids</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspublicadd.ctimegids)"}{$enewspublicadd.ctimegids}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="ctimegids" name="ctimegids" 
+	placeholder="请输入ctimegids">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="ctimecids" class="am-u-sm-12 am-form-label am-text-left">ctimecids            <span class="tpl-form-line-small-title">ctimecids</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspublicadd.ctimecids)"}{$enewspublicadd.ctimecids}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="ctimecids" name="ctimecids" 
+	placeholder="请输入ctimecids">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="ctimernd" class="am-u-sm-12 am-form-label am-text-left">ctimernd            <span class="tpl-form-line-small-title">ctimernd</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspublicadd.ctimernd)"}{$enewspublicadd.ctimernd}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="ctimernd" name="ctimernd" 
+	placeholder="请输入ctimernd">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="ctimeaddre" class="am-u-sm-12 am-form-label am-text-left">ctimeaddre            <span class="tpl-form-line-small-title">ctimeaddre</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspublicadd.ctimeaddre)"}{$enewspublicadd.ctimeaddre}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="ctimeaddre" name="ctimeaddre" 
+	placeholder="请输入ctimeaddre">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="ctimeqaddre" class="am-u-sm-12 am-form-label am-text-left">ctimeqaddre            <span class="tpl-form-line-small-title">ctimeqaddre</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspublicadd.ctimeqaddre)"}{$enewspublicadd.ctimeqaddre}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="ctimeqaddre" name="ctimeqaddre" 
+	placeholder="请输入ctimeqaddre">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="autodoopen" class="am-u-sm-12 am-form-label am-text-left">autodoopen            <span class="tpl-form-line-small-title">autodoopen</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspublicadd.autodoopen)"}{$enewspublicadd.autodoopen}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="autodoopen" name="autodoopen" 
+	placeholder="请输入autodoopen">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="autodouser" class="am-u-sm-12 am-form-label am-text-left">autodouser            <span class="tpl-form-line-small-title">autodouser</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspublicadd.autodouser)"}{$enewspublicadd.autodouser}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="autodouser" name="autodouser" 
+	placeholder="请输入autodouser">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="autodopass" class="am-u-sm-12 am-form-label am-text-left">autodopass            <span class="tpl-form-line-small-title">autodopass</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspublicadd.autodopass)"}{$enewspublicadd.autodopass}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="autodopass" name="autodopass" 
+	placeholder="请输入autodopass">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="autodosalt" class="am-u-sm-12 am-form-label am-text-left">autodosalt            <span class="tpl-form-line-small-title">autodosalt</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspublicadd.autodosalt)"}{$enewspublicadd.autodosalt}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="autodosalt" name="autodosalt" 
+	placeholder="请输入autodosalt">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="autodoshowkey" class="am-u-sm-12 am-form-label am-text-left">autodoshowkey            <span class="tpl-form-line-small-title">autodoshowkey</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspublicadd.autodoshowkey)"}{$enewspublicadd.autodoshowkey}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="autodoshowkey" name="autodoshowkey" 
+	placeholder="请输入autodoshowkey">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="autodotime" class="am-u-sm-12 am-form-label am-text-left">autodotime            <span class="tpl-form-line-small-title">autodotime</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspublicadd.autodotime)"}{$enewspublicadd.autodotime}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="autodotime" name="autodotime" 
+	placeholder="请输入autodotime">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="autodoline" class="am-u-sm-12 am-form-label am-text-left">autodoline            <span class="tpl-form-line-small-title">autodoline</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspublicadd.autodoline)"}{$enewspublicadd.autodoline}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="autodoline" name="autodoline" 
+	placeholder="请输入autodoline">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="autodovar" class="am-u-sm-12 am-form-label am-text-left">autodovar            <span class="tpl-form-line-small-title">autodovar</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspublicadd.autodovar)"}{$enewspublicadd.autodovar}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="autodovar" name="autodovar" 
+	placeholder="请输入autodovar">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="autodoval" class="am-u-sm-12 am-form-label am-text-left">autodoval            <span class="tpl-form-line-small-title">autodoval</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspublicadd.autodoval)"}{$enewspublicadd.autodoval}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="autodoval" name="autodoval" 
+	placeholder="请输入autodoval">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="autodoshow" class="am-u-sm-12 am-form-label am-text-left">autodoshow            <span class="tpl-form-line-small-title">autodoshow</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspublicadd.autodoshow)"}{$enewspublicadd.autodoshow}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="autodoshow" name="autodoshow" 
+	placeholder="请输入autodoshow">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="autodofile" class="am-u-sm-12 am-form-label am-text-left">autodofile            <span class="tpl-form-line-small-title">autodofile</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspublicadd.autodofile)"}{$enewspublicadd.autodofile}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="autodofile" name="autodofile" 
+	placeholder="请输入autodofile">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="autodopostpass" class="am-u-sm-12 am-form-label am-text-left">autodopostpass            <span class="tpl-form-line-small-title">autodopostpass</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspublicadd.autodopostpass)"}{$enewspublicadd.autodopostpass}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="autodopostpass" name="autodopostpass" 
+	placeholder="请输入autodopostpass">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="autodoss" class="am-u-sm-12 am-form-label am-text-left">autodoss            <span class="tpl-form-line-small-title">autodoss</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspublicadd.autodoss)"}{$enewspublicadd.autodoss}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="autodoss" name="autodoss" 
+	placeholder="请输入autodoss">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="autodoaction" class="am-u-sm-12 am-form-label am-text-left">autodoaction            <span class="tpl-form-line-small-title">autodoaction</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspublicadd.autodoaction)"}{$enewspublicadd.autodoaction}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="autodoaction" name="autodoaction" 
+	placeholder="请输入autodoaction">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="autodock" class="am-u-sm-12 am-form-label am-text-left">autodock            <span class="tpl-form-line-small-title">autodock</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspublicadd.autodock)"}{$enewspublicadd.autodock}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="autodock" name="autodock" 
+	placeholder="请输入autodock">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="digglevel" class="am-u-sm-12 am-form-label am-text-left">digglevel            <span class="tpl-form-line-small-title">digglevel</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspublicadd.digglevel)"}{$enewspublicadd.digglevel}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="digglevel" name="digglevel" 
+	placeholder="请输入digglevel">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="diggcmids" class="am-u-sm-12 am-form-label am-text-left">diggcmids            <span class="tpl-form-line-small-title">diggcmids</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspublicadd.diggcmids)"}{$enewspublicadd.diggcmids}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="diggcmids" name="diggcmids" 
+	placeholder="请输入diggcmids">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="toqjf" class="am-u-sm-12 am-form-label am-text-left">toqjf            <span class="tpl-form-line-small-title">toqjf</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspublicadd.toqjf)"}{$enewspublicadd.toqjf}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="toqjf" name="toqjf" 
+	placeholder="请输入toqjf">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="qtoqjf" class="am-u-sm-12 am-form-label am-text-left">qtoqjf            <span class="tpl-form-line-small-title">qtoqjf</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewspublicadd.qtoqjf)"}{$enewspublicadd.qtoqjf}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="qtoqjf" name="qtoqjf" 
+	placeholder="请输入qtoqjf">        </div>
+    </div>
+        <div class="am-form-group">
+        <div class="am-u-sm-12 am-u-sm-push-12">
+            <button type="submit" class="am-btn am-btn-primary tpl-btn-bg-color-success ">提交</button>
+        </div>
+    </div>
+</form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{/block}

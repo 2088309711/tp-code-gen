@@ -1,0 +1,101 @@
+{extend name="layout" /}
+{block name="content"}
+<!-- 内容区域 -->
+<div class="tpl-content-wrapper">
+    <div class="row-content am-cf">
+        <div class="row">
+            <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+                <div class="widget am-cf">
+                    <div class="widget-head am-cf">
+                        <div class="widget-title am-fl">新建nj_enewswfinfolog</div>
+                        <div class="widget-function am-fr">
+                            <a href="javascript:;" class="am-icon-cog"></a>
+                        </div>
+                    </div>
+                    <div class="widget-body am-fr">
+                        <form class="am-form tpl-form-border-form" method="post">
+        <div class="am-form-group">
+        <label for="logid" class="am-u-sm-12 am-form-label am-text-left">logid            <span class="tpl-form-line-small-title">logid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewswfinfolog.logid)"}{$enewswfinfolog.logid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="logid" name="logid" 
+	placeholder="请输入logid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="classid" class="am-u-sm-12 am-form-label am-text-left">classid            <span class="tpl-form-line-small-title">classid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewswfinfolog.classid)"}{$enewswfinfolog.classid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="classid" name="classid" 
+	placeholder="请输入classid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="wfid" class="am-u-sm-12 am-form-label am-text-left">wfid            <span class="tpl-form-line-small-title">wfid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewswfinfolog.wfid)"}{$enewswfinfolog.wfid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="wfid" name="wfid" 
+	placeholder="请输入wfid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="tid" class="am-u-sm-12 am-form-label am-text-left">tid            <span class="tpl-form-line-small-title">tid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewswfinfolog.tid)"}{$enewswfinfolog.tid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="tid" name="tid" 
+	placeholder="请输入tid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="username" class="am-u-sm-12 am-form-label am-text-left">username            <span class="tpl-form-line-small-title">username</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewswfinfolog.username)"}{$enewswfinfolog.username}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="username" name="username" 
+	placeholder="请输入username">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="checktime" class="am-u-sm-12 am-form-label am-text-left">checktime            <span class="tpl-form-line-small-title">checktime</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewswfinfolog.checktime)"}{$enewswfinfolog.checktime}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="checktime" name="checktime" 
+	placeholder="请输入checktime">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="checktext" class="am-u-sm-12 am-form-label am-text-left">checktext            <span class="tpl-form-line-small-title">checktext</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewswfinfolog.checktext)"}{$enewswfinfolog.checktext}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="checktext" name="checktext" 
+	placeholder="请输入checktext">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="checknum" class="am-u-sm-12 am-form-label am-text-left">checknum            <span class="tpl-form-line-small-title">checknum</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewswfinfolog.checknum)"}{$enewswfinfolog.checknum}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="checknum" name="checknum" 
+	placeholder="请输入checknum">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="checktype" class="am-u-sm-12 am-form-label am-text-left">checktype            <span class="tpl-form-line-small-title">checktype</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewswfinfolog.checktype)"}{$enewswfinfolog.checktype}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="checktype" name="checktype" 
+	placeholder="请输入checktype">        </div>
+    </div>
+        <div class="am-form-group">
+        <div class="am-u-sm-12 am-u-sm-push-12">
+            <button type="submit" class="am-btn am-btn-primary tpl-btn-bg-color-success ">提交</button>
+        </div>
+    </div>
+</form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{/block}

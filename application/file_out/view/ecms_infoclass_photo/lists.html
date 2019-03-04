@@ -1,0 +1,177 @@
+{extend name="layout" /}
+{block name="content"}
+<!-- 内容区域 -->
+<div class="tpl-content-wrapper">
+    <div class="row-content am-cf">
+        <div class="row">
+            <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+                <div class="widget am-cf">
+                    <div class="widget-head am-cf">
+                        <div class="widget-title  am-cf">管理ecms_infoclass_photo</div>
+                    </div>
+                    <div class="widget-body  am-fr">
+    <div class="am-u-sm-12 am-u-md-6 am-u-lg-6">
+        <div class="am-form-group">
+            <div class="am-btn-toolbar">
+                <div class="am-btn-group am-btn-group-xs">
+                    <a class="am-btn am-btn-default am-btn-success"
+                       href="{:url('ecms_infoclass_photo/add')}">
+                        <span class="am-icon-plus"></span> 新增
+                    </a>
+                    <!--
+                    <button type="button" class="am-btn am-btn-default am-btn-secondary"><span class="am-icon-save"></span> 保存</button>
+                    <button type="button" class="am-btn am-btn-default am-btn-warning"><span class="am-icon-archive"></span> 审核</button>
+                    <button type="button" class="am-btn am-btn-default am-btn-danger"><span class="am-icon-trash-o"></span> 删除</button>
+                    -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="am-u-sm-12">
+        <table width="100%" class="am-table am-table-compact am-table-striped tpl-table-black " id="example-r">
+            <thead>
+            <tr>
+                                <th>classid</th>
+                                <th>zz_title</th>
+                                <th>z_title</th>
+                                <th>qz_title</th>
+                                <th>save_title</th>
+                                <th>zz_titlepic</th>
+                                <th>z_titlepic</th>
+                                <th>qz_titlepic</th>
+                                <th>save_titlepic</th>
+                                <th>zz_newstime</th>
+                                <th>z_newstime</th>
+                                <th>qz_newstime</th>
+                                <th>save_newstime</th>
+                                <th>zz_filesize</th>
+                                <th>z_filesize</th>
+                                <th>qz_filesize</th>
+                                <th>save_filesize</th>
+                                <th>zz_picsize</th>
+                                <th>z_picsize</th>
+                                <th>qz_picsize</th>
+                                <th>save_picsize</th>
+                                <th>zz_picfbl</th>
+                                <th>z_picfbl</th>
+                                <th>qz_picfbl</th>
+                                <th>save_picfbl</th>
+                                <th>zz_picfrom</th>
+                                <th>z_picfrom</th>
+                                <th>qz_picfrom</th>
+                                <th>save_picfrom</th>
+                                <th>zz_picurl</th>
+                                <th>z_picurl</th>
+                                <th>qz_picurl</th>
+                                <th>save_picurl</th>
+                                <th>zz_morepic</th>
+                                <th>z_morepic</th>
+                                <th>qz_morepic</th>
+                                <th>save_morepic</th>
+                                <th>zz_num</th>
+                                <th>z_num</th>
+                                <th>qz_num</th>
+                                <th>save_num</th>
+                                <th>zz_width</th>
+                                <th>z_width</th>
+                                <th>qz_width</th>
+                                <th>save_width</th>
+                                <th>zz_height</th>
+                                <th>z_height</th>
+                                <th>qz_height</th>
+                                <th>save_height</th>
+                                <th>zz_picsay</th>
+                                <th>z_picsay</th>
+                                <th>qz_picsay</th>
+                                <th>save_picsay</th>
+                                <th>操作</th>
+            </tr>
+            </thead>
+            <tbody>
+            {volist name="ecms_infoclass_photoList" id="vo"}
+            <tr class="gradeX">
+                                <td>{$vo.classid}</td>
+                                <td>{$vo.zz_title}</td>
+                                <td>{$vo.z_title}</td>
+                                <td>{$vo.qz_title}</td>
+                                <td>{$vo.save_title}</td>
+                                <td>{$vo.zz_titlepic}</td>
+                                <td>{$vo.z_titlepic}</td>
+                                <td>{$vo.qz_titlepic}</td>
+                                <td>{$vo.save_titlepic}</td>
+                                <td>{$vo.zz_newstime}</td>
+                                <td>{$vo.z_newstime}</td>
+                                <td>{$vo.qz_newstime}</td>
+                                <td>{$vo.save_newstime}</td>
+                                <td>{$vo.zz_filesize}</td>
+                                <td>{$vo.z_filesize}</td>
+                                <td>{$vo.qz_filesize}</td>
+                                <td>{$vo.save_filesize}</td>
+                                <td>{$vo.zz_picsize}</td>
+                                <td>{$vo.z_picsize}</td>
+                                <td>{$vo.qz_picsize}</td>
+                                <td>{$vo.save_picsize}</td>
+                                <td>{$vo.zz_picfbl}</td>
+                                <td>{$vo.z_picfbl}</td>
+                                <td>{$vo.qz_picfbl}</td>
+                                <td>{$vo.save_picfbl}</td>
+                                <td>{$vo.zz_picfrom}</td>
+                                <td>{$vo.z_picfrom}</td>
+                                <td>{$vo.qz_picfrom}</td>
+                                <td>{$vo.save_picfrom}</td>
+                                <td>{$vo.zz_picurl}</td>
+                                <td>{$vo.z_picurl}</td>
+                                <td>{$vo.qz_picurl}</td>
+                                <td>{$vo.save_picurl}</td>
+                                <td>{$vo.zz_morepic}</td>
+                                <td>{$vo.z_morepic}</td>
+                                <td>{$vo.qz_morepic}</td>
+                                <td>{$vo.save_morepic}</td>
+                                <td>{$vo.zz_num}</td>
+                                <td>{$vo.z_num}</td>
+                                <td>{$vo.qz_num}</td>
+                                <td>{$vo.save_num}</td>
+                                <td>{$vo.zz_width}</td>
+                                <td>{$vo.z_width}</td>
+                                <td>{$vo.qz_width}</td>
+                                <td>{$vo.save_width}</td>
+                                <td>{$vo.zz_height}</td>
+                                <td>{$vo.z_height}</td>
+                                <td>{$vo.qz_height}</td>
+                                <td>{$vo.save_height}</td>
+                                <td>{$vo.zz_picsay}</td>
+                                <td>{$vo.z_picsay}</td>
+                                <td>{$vo.qz_picsay}</td>
+                                <td>{$vo.save_picsay}</td>
+                                <td>
+                    <div class="tpl-table-black-operation">
+                        <a href="{:url('ecms_infoclass_photo/edit', ['id'=>$vo['id']])}">
+                            <i class="am-icon-pencil"></i> 编辑
+                        </a>
+                        <a href="{:url('ecms_infoclass_photo/delete', ['id'=>$vo['id']])}"
+                           onclick='return confirm("确定删除吗？")' class="tpl-table-black-operation-del">
+                            <i class="am-icon-trash"></i> 删除
+                        </a>
+                    </div>
+                </td>
+            </tr>
+            {/volist}
+            <!-- more data -->
+            </tbody>
+        </table>
+    </div>
+    <div class="am-u-lg-12 am-cf">
+
+        <div class="am-fr">
+            <ul class="am-pagination tpl-pagination">
+                {$ecms_infoclass_photoList->render()}
+            </ul>
+        </div>
+    </div>
+</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{/block}

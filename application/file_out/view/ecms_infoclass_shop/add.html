@@ -1,0 +1,517 @@
+{extend name="layout" /}
+{block name="content"}
+<!-- 内容区域 -->
+<div class="tpl-content-wrapper">
+    <div class="row-content am-cf">
+        <div class="row">
+            <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+                <div class="widget am-cf">
+                    <div class="widget-head am-cf">
+                        <div class="widget-title am-fl">新建nj_ecms_infoclass_shop</div>
+                        <div class="widget-function am-fr">
+                            <a href="javascript:;" class="am-icon-cog"></a>
+                        </div>
+                    </div>
+                    <div class="widget-body am-fr">
+                        <form class="am-form tpl-form-border-form" method="post">
+        <div class="am-form-group">
+        <label for="classid" class="am-u-sm-12 am-form-label am-text-left">classid            <span class="tpl-form-line-small-title">classid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_shop.classid)"}{$ecms_infoclass_shop.classid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="classid" name="classid" 
+	placeholder="请输入classid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="zz_title" class="am-u-sm-12 am-form-label am-text-left">zz_title            <span class="tpl-form-line-small-title">zz_title</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_shop.zz_title)"}{$ecms_infoclass_shop.zz_title}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="zz_title" name="zz_title" 
+	placeholder="请输入zz_title">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="z_title" class="am-u-sm-12 am-form-label am-text-left">z_title            <span class="tpl-form-line-small-title">z_title</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_shop.z_title)"}{$ecms_infoclass_shop.z_title}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="z_title" name="z_title" 
+	placeholder="请输入z_title">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="qz_title" class="am-u-sm-12 am-form-label am-text-left">qz_title            <span class="tpl-form-line-small-title">qz_title</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_shop.qz_title)"}{$ecms_infoclass_shop.qz_title}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="qz_title" name="qz_title" 
+	placeholder="请输入qz_title">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="save_title" class="am-u-sm-12 am-form-label am-text-left">save_title            <span class="tpl-form-line-small-title">save_title</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_shop.save_title)"}{$ecms_infoclass_shop.save_title}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="save_title" name="save_title" 
+	placeholder="请输入save_title">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="zz_titlepic" class="am-u-sm-12 am-form-label am-text-left">zz_titlepic            <span class="tpl-form-line-small-title">zz_titlepic</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_shop.zz_titlepic)"}{$ecms_infoclass_shop.zz_titlepic}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="zz_titlepic" name="zz_titlepic" 
+	placeholder="请输入zz_titlepic">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="z_titlepic" class="am-u-sm-12 am-form-label am-text-left">z_titlepic            <span class="tpl-form-line-small-title">z_titlepic</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_shop.z_titlepic)"}{$ecms_infoclass_shop.z_titlepic}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="z_titlepic" name="z_titlepic" 
+	placeholder="请输入z_titlepic">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="qz_titlepic" class="am-u-sm-12 am-form-label am-text-left">qz_titlepic            <span class="tpl-form-line-small-title">qz_titlepic</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_shop.qz_titlepic)"}{$ecms_infoclass_shop.qz_titlepic}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="qz_titlepic" name="qz_titlepic" 
+	placeholder="请输入qz_titlepic">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="save_titlepic" class="am-u-sm-12 am-form-label am-text-left">save_titlepic            <span class="tpl-form-line-small-title">save_titlepic</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_shop.save_titlepic)"}{$ecms_infoclass_shop.save_titlepic}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="save_titlepic" name="save_titlepic" 
+	placeholder="请输入save_titlepic">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="zz_newstime" class="am-u-sm-12 am-form-label am-text-left">zz_newstime            <span class="tpl-form-line-small-title">zz_newstime</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_shop.zz_newstime)"}{$ecms_infoclass_shop.zz_newstime}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="zz_newstime" name="zz_newstime" 
+	placeholder="请输入zz_newstime">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="z_newstime" class="am-u-sm-12 am-form-label am-text-left">z_newstime            <span class="tpl-form-line-small-title">z_newstime</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_shop.z_newstime)"}{$ecms_infoclass_shop.z_newstime}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="z_newstime" name="z_newstime" 
+	placeholder="请输入z_newstime">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="qz_newstime" class="am-u-sm-12 am-form-label am-text-left">qz_newstime            <span class="tpl-form-line-small-title">qz_newstime</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_shop.qz_newstime)"}{$ecms_infoclass_shop.qz_newstime}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="qz_newstime" name="qz_newstime" 
+	placeholder="请输入qz_newstime">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="save_newstime" class="am-u-sm-12 am-form-label am-text-left">save_newstime            <span class="tpl-form-line-small-title">save_newstime</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_shop.save_newstime)"}{$ecms_infoclass_shop.save_newstime}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="save_newstime" name="save_newstime" 
+	placeholder="请输入save_newstime">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="zz_productno" class="am-u-sm-12 am-form-label am-text-left">zz_productno            <span class="tpl-form-line-small-title">zz_productno</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_shop.zz_productno)"}{$ecms_infoclass_shop.zz_productno}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="zz_productno" name="zz_productno" 
+	placeholder="请输入zz_productno">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="z_productno" class="am-u-sm-12 am-form-label am-text-left">z_productno            <span class="tpl-form-line-small-title">z_productno</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_shop.z_productno)"}{$ecms_infoclass_shop.z_productno}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="z_productno" name="z_productno" 
+	placeholder="请输入z_productno">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="qz_productno" class="am-u-sm-12 am-form-label am-text-left">qz_productno            <span class="tpl-form-line-small-title">qz_productno</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_shop.qz_productno)"}{$ecms_infoclass_shop.qz_productno}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="qz_productno" name="qz_productno" 
+	placeholder="请输入qz_productno">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="save_productno" class="am-u-sm-12 am-form-label am-text-left">save_productno            <span class="tpl-form-line-small-title">save_productno</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_shop.save_productno)"}{$ecms_infoclass_shop.save_productno}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="save_productno" name="save_productno" 
+	placeholder="请输入save_productno">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="zz_pbrand" class="am-u-sm-12 am-form-label am-text-left">zz_pbrand            <span class="tpl-form-line-small-title">zz_pbrand</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_shop.zz_pbrand)"}{$ecms_infoclass_shop.zz_pbrand}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="zz_pbrand" name="zz_pbrand" 
+	placeholder="请输入zz_pbrand">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="z_pbrand" class="am-u-sm-12 am-form-label am-text-left">z_pbrand            <span class="tpl-form-line-small-title">z_pbrand</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_shop.z_pbrand)"}{$ecms_infoclass_shop.z_pbrand}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="z_pbrand" name="z_pbrand" 
+	placeholder="请输入z_pbrand">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="qz_pbrand" class="am-u-sm-12 am-form-label am-text-left">qz_pbrand            <span class="tpl-form-line-small-title">qz_pbrand</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_shop.qz_pbrand)"}{$ecms_infoclass_shop.qz_pbrand}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="qz_pbrand" name="qz_pbrand" 
+	placeholder="请输入qz_pbrand">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="save_pbrand" class="am-u-sm-12 am-form-label am-text-left">save_pbrand            <span class="tpl-form-line-small-title">save_pbrand</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_shop.save_pbrand)"}{$ecms_infoclass_shop.save_pbrand}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="save_pbrand" name="save_pbrand" 
+	placeholder="请输入save_pbrand">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="zz_intro" class="am-u-sm-12 am-form-label am-text-left">zz_intro            <span class="tpl-form-line-small-title">zz_intro</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_shop.zz_intro)"}{$ecms_infoclass_shop.zz_intro}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="zz_intro" name="zz_intro" 
+	placeholder="请输入zz_intro">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="z_intro" class="am-u-sm-12 am-form-label am-text-left">z_intro            <span class="tpl-form-line-small-title">z_intro</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_shop.z_intro)"}{$ecms_infoclass_shop.z_intro}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="z_intro" name="z_intro" 
+	placeholder="请输入z_intro">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="qz_intro" class="am-u-sm-12 am-form-label am-text-left">qz_intro            <span class="tpl-form-line-small-title">qz_intro</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_shop.qz_intro)"}{$ecms_infoclass_shop.qz_intro}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="qz_intro" name="qz_intro" 
+	placeholder="请输入qz_intro">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="save_intro" class="am-u-sm-12 am-form-label am-text-left">save_intro            <span class="tpl-form-line-small-title">save_intro</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_shop.save_intro)"}{$ecms_infoclass_shop.save_intro}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="save_intro" name="save_intro" 
+	placeholder="请输入save_intro">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="zz_unit" class="am-u-sm-12 am-form-label am-text-left">zz_unit            <span class="tpl-form-line-small-title">zz_unit</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_shop.zz_unit)"}{$ecms_infoclass_shop.zz_unit}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="zz_unit" name="zz_unit" 
+	placeholder="请输入zz_unit">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="z_unit" class="am-u-sm-12 am-form-label am-text-left">z_unit            <span class="tpl-form-line-small-title">z_unit</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_shop.z_unit)"}{$ecms_infoclass_shop.z_unit}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="z_unit" name="z_unit" 
+	placeholder="请输入z_unit">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="qz_unit" class="am-u-sm-12 am-form-label am-text-left">qz_unit            <span class="tpl-form-line-small-title">qz_unit</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_shop.qz_unit)"}{$ecms_infoclass_shop.qz_unit}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="qz_unit" name="qz_unit" 
+	placeholder="请输入qz_unit">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="save_unit" class="am-u-sm-12 am-form-label am-text-left">save_unit            <span class="tpl-form-line-small-title">save_unit</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_shop.save_unit)"}{$ecms_infoclass_shop.save_unit}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="save_unit" name="save_unit" 
+	placeholder="请输入save_unit">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="zz_weight" class="am-u-sm-12 am-form-label am-text-left">zz_weight            <span class="tpl-form-line-small-title">zz_weight</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_shop.zz_weight)"}{$ecms_infoclass_shop.zz_weight}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="zz_weight" name="zz_weight" 
+	placeholder="请输入zz_weight">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="z_weight" class="am-u-sm-12 am-form-label am-text-left">z_weight            <span class="tpl-form-line-small-title">z_weight</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_shop.z_weight)"}{$ecms_infoclass_shop.z_weight}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="z_weight" name="z_weight" 
+	placeholder="请输入z_weight">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="qz_weight" class="am-u-sm-12 am-form-label am-text-left">qz_weight            <span class="tpl-form-line-small-title">qz_weight</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_shop.qz_weight)"}{$ecms_infoclass_shop.qz_weight}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="qz_weight" name="qz_weight" 
+	placeholder="请输入qz_weight">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="save_weight" class="am-u-sm-12 am-form-label am-text-left">save_weight            <span class="tpl-form-line-small-title">save_weight</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_shop.save_weight)"}{$ecms_infoclass_shop.save_weight}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="save_weight" name="save_weight" 
+	placeholder="请输入save_weight">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="zz_tprice" class="am-u-sm-12 am-form-label am-text-left">zz_tprice            <span class="tpl-form-line-small-title">zz_tprice</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_shop.zz_tprice)"}{$ecms_infoclass_shop.zz_tprice}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="zz_tprice" name="zz_tprice" 
+	placeholder="请输入zz_tprice">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="z_tprice" class="am-u-sm-12 am-form-label am-text-left">z_tprice            <span class="tpl-form-line-small-title">z_tprice</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_shop.z_tprice)"}{$ecms_infoclass_shop.z_tprice}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="z_tprice" name="z_tprice" 
+	placeholder="请输入z_tprice">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="qz_tprice" class="am-u-sm-12 am-form-label am-text-left">qz_tprice            <span class="tpl-form-line-small-title">qz_tprice</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_shop.qz_tprice)"}{$ecms_infoclass_shop.qz_tprice}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="qz_tprice" name="qz_tprice" 
+	placeholder="请输入qz_tprice">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="save_tprice" class="am-u-sm-12 am-form-label am-text-left">save_tprice            <span class="tpl-form-line-small-title">save_tprice</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_shop.save_tprice)"}{$ecms_infoclass_shop.save_tprice}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="save_tprice" name="save_tprice" 
+	placeholder="请输入save_tprice">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="zz_price" class="am-u-sm-12 am-form-label am-text-left">zz_price            <span class="tpl-form-line-small-title">zz_price</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_shop.zz_price)"}{$ecms_infoclass_shop.zz_price}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="zz_price" name="zz_price" 
+	placeholder="请输入zz_price">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="z_price" class="am-u-sm-12 am-form-label am-text-left">z_price            <span class="tpl-form-line-small-title">z_price</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_shop.z_price)"}{$ecms_infoclass_shop.z_price}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="z_price" name="z_price" 
+	placeholder="请输入z_price">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="qz_price" class="am-u-sm-12 am-form-label am-text-left">qz_price            <span class="tpl-form-line-small-title">qz_price</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_shop.qz_price)"}{$ecms_infoclass_shop.qz_price}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="qz_price" name="qz_price" 
+	placeholder="请输入qz_price">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="save_price" class="am-u-sm-12 am-form-label am-text-left">save_price            <span class="tpl-form-line-small-title">save_price</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_shop.save_price)"}{$ecms_infoclass_shop.save_price}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="save_price" name="save_price" 
+	placeholder="请输入save_price">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="zz_buyfen" class="am-u-sm-12 am-form-label am-text-left">zz_buyfen            <span class="tpl-form-line-small-title">zz_buyfen</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_shop.zz_buyfen)"}{$ecms_infoclass_shop.zz_buyfen}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="zz_buyfen" name="zz_buyfen" 
+	placeholder="请输入zz_buyfen">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="z_buyfen" class="am-u-sm-12 am-form-label am-text-left">z_buyfen            <span class="tpl-form-line-small-title">z_buyfen</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_shop.z_buyfen)"}{$ecms_infoclass_shop.z_buyfen}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="z_buyfen" name="z_buyfen" 
+	placeholder="请输入z_buyfen">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="qz_buyfen" class="am-u-sm-12 am-form-label am-text-left">qz_buyfen            <span class="tpl-form-line-small-title">qz_buyfen</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_shop.qz_buyfen)"}{$ecms_infoclass_shop.qz_buyfen}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="qz_buyfen" name="qz_buyfen" 
+	placeholder="请输入qz_buyfen">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="save_buyfen" class="am-u-sm-12 am-form-label am-text-left">save_buyfen            <span class="tpl-form-line-small-title">save_buyfen</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_shop.save_buyfen)"}{$ecms_infoclass_shop.save_buyfen}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="save_buyfen" name="save_buyfen" 
+	placeholder="请输入save_buyfen">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="zz_pmaxnum" class="am-u-sm-12 am-form-label am-text-left">zz_pmaxnum            <span class="tpl-form-line-small-title">zz_pmaxnum</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_shop.zz_pmaxnum)"}{$ecms_infoclass_shop.zz_pmaxnum}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="zz_pmaxnum" name="zz_pmaxnum" 
+	placeholder="请输入zz_pmaxnum">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="z_pmaxnum" class="am-u-sm-12 am-form-label am-text-left">z_pmaxnum            <span class="tpl-form-line-small-title">z_pmaxnum</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_shop.z_pmaxnum)"}{$ecms_infoclass_shop.z_pmaxnum}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="z_pmaxnum" name="z_pmaxnum" 
+	placeholder="请输入z_pmaxnum">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="qz_pmaxnum" class="am-u-sm-12 am-form-label am-text-left">qz_pmaxnum            <span class="tpl-form-line-small-title">qz_pmaxnum</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_shop.qz_pmaxnum)"}{$ecms_infoclass_shop.qz_pmaxnum}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="qz_pmaxnum" name="qz_pmaxnum" 
+	placeholder="请输入qz_pmaxnum">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="save_pmaxnum" class="am-u-sm-12 am-form-label am-text-left">save_pmaxnum            <span class="tpl-form-line-small-title">save_pmaxnum</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_shop.save_pmaxnum)"}{$ecms_infoclass_shop.save_pmaxnum}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="save_pmaxnum" name="save_pmaxnum" 
+	placeholder="请输入save_pmaxnum">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="zz_productpic" class="am-u-sm-12 am-form-label am-text-left">zz_productpic            <span class="tpl-form-line-small-title">zz_productpic</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_shop.zz_productpic)"}{$ecms_infoclass_shop.zz_productpic}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="zz_productpic" name="zz_productpic" 
+	placeholder="请输入zz_productpic">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="z_productpic" class="am-u-sm-12 am-form-label am-text-left">z_productpic            <span class="tpl-form-line-small-title">z_productpic</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_shop.z_productpic)"}{$ecms_infoclass_shop.z_productpic}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="z_productpic" name="z_productpic" 
+	placeholder="请输入z_productpic">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="qz_productpic" class="am-u-sm-12 am-form-label am-text-left">qz_productpic            <span class="tpl-form-line-small-title">qz_productpic</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_shop.qz_productpic)"}{$ecms_infoclass_shop.qz_productpic}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="qz_productpic" name="qz_productpic" 
+	placeholder="请输入qz_productpic">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="save_productpic" class="am-u-sm-12 am-form-label am-text-left">save_productpic            <span class="tpl-form-line-small-title">save_productpic</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_shop.save_productpic)"}{$ecms_infoclass_shop.save_productpic}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="save_productpic" name="save_productpic" 
+	placeholder="请输入save_productpic">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="zz_newstext" class="am-u-sm-12 am-form-label am-text-left">zz_newstext            <span class="tpl-form-line-small-title">zz_newstext</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_shop.zz_newstext)"}{$ecms_infoclass_shop.zz_newstext}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="zz_newstext" name="zz_newstext" 
+	placeholder="请输入zz_newstext">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="z_newstext" class="am-u-sm-12 am-form-label am-text-left">z_newstext            <span class="tpl-form-line-small-title">z_newstext</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_shop.z_newstext)"}{$ecms_infoclass_shop.z_newstext}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="z_newstext" name="z_newstext" 
+	placeholder="请输入z_newstext">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="qz_newstext" class="am-u-sm-12 am-form-label am-text-left">qz_newstext            <span class="tpl-form-line-small-title">qz_newstext</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_shop.qz_newstext)"}{$ecms_infoclass_shop.qz_newstext}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="qz_newstext" name="qz_newstext" 
+	placeholder="请输入qz_newstext">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="save_newstext" class="am-u-sm-12 am-form-label am-text-left">save_newstext            <span class="tpl-form-line-small-title">save_newstext</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_shop.save_newstext)"}{$ecms_infoclass_shop.save_newstext}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="save_newstext" name="save_newstext" 
+	placeholder="请输入save_newstext">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="zz_psalenum" class="am-u-sm-12 am-form-label am-text-left">zz_psalenum            <span class="tpl-form-line-small-title">zz_psalenum</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_shop.zz_psalenum)"}{$ecms_infoclass_shop.zz_psalenum}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="zz_psalenum" name="zz_psalenum" 
+	placeholder="请输入zz_psalenum">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="z_psalenum" class="am-u-sm-12 am-form-label am-text-left">z_psalenum            <span class="tpl-form-line-small-title">z_psalenum</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_shop.z_psalenum)"}{$ecms_infoclass_shop.z_psalenum}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="z_psalenum" name="z_psalenum" 
+	placeholder="请输入z_psalenum">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="qz_psalenum" class="am-u-sm-12 am-form-label am-text-left">qz_psalenum            <span class="tpl-form-line-small-title">qz_psalenum</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_shop.qz_psalenum)"}{$ecms_infoclass_shop.qz_psalenum}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="qz_psalenum" name="qz_psalenum" 
+	placeholder="请输入qz_psalenum">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="save_psalenum" class="am-u-sm-12 am-form-label am-text-left">save_psalenum            <span class="tpl-form-line-small-title">save_psalenum</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($ecms_infoclass_shop.save_psalenum)"}{$ecms_infoclass_shop.save_psalenum}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="save_psalenum" name="save_psalenum" 
+	placeholder="请输入save_psalenum">        </div>
+    </div>
+        <div class="am-form-group">
+        <div class="am-u-sm-12 am-u-sm-push-12">
+            <button type="submit" class="am-btn am-btn-primary tpl-btn-bg-color-success ">提交</button>
+        </div>
+    </div>
+</form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{/block}

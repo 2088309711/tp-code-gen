@@ -1,0 +1,103 @@
+{extend name="layout" /}
+{block name="content"}
+<!-- 内容区域 -->
+<div class="tpl-content-wrapper">
+    <div class="row-content am-cf">
+        <div class="row">
+            <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+                <div class="widget am-cf">
+                    <div class="widget-head am-cf">
+                        <div class="widget-title am-fl">编辑nj_enewstask</div>
+                        <div class="widget-function am-fr">
+                            <a href="javascript:;" class="am-icon-cog"></a>
+                        </div>
+                    </div>
+                    <div class="widget-body am-fr">
+                        <form class="am-form tpl-form-border-form" method="post">
+        <input type="hidden" name="id" value="{$enewstask.id}"/>
+        <div class="am-form-group">
+        <label for="taskname" class="am-u-sm-12 am-form-label am-text-left">taskname            <span class="tpl-form-line-small-title">taskname</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewstask.taskname)"}{$enewstask.taskname}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="taskname" name="taskname" 
+	placeholder="请输入taskname">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="userid" class="am-u-sm-12 am-form-label am-text-left">userid            <span class="tpl-form-line-small-title">userid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewstask.userid)"}{$enewstask.userid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="userid" name="userid" 
+	placeholder="请输入userid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="isopen" class="am-u-sm-12 am-form-label am-text-left">isopen            <span class="tpl-form-line-small-title">isopen</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewstask.isopen)"}{$enewstask.isopen}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="isopen" name="isopen" 
+	placeholder="请输入isopen">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="filename" class="am-u-sm-12 am-form-label am-text-left">filename            <span class="tpl-form-line-small-title">filename</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewstask.filename)"}{$enewstask.filename}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="filename" name="filename" 
+	placeholder="请输入filename">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="lastdo" class="am-u-sm-12 am-form-label am-text-left">lastdo            <span class="tpl-form-line-small-title">lastdo</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewstask.lastdo)"}{$enewstask.lastdo}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="lastdo" name="lastdo" 
+	placeholder="请输入lastdo">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="doweek" class="am-u-sm-12 am-form-label am-text-left">doweek            <span class="tpl-form-line-small-title">doweek</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewstask.doweek)"}{$enewstask.doweek}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="doweek" name="doweek" 
+	placeholder="请输入doweek">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="doday" class="am-u-sm-12 am-form-label am-text-left">doday            <span class="tpl-form-line-small-title">doday</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewstask.doday)"}{$enewstask.doday}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="doday" name="doday" 
+	placeholder="请输入doday">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="dohour" class="am-u-sm-12 am-form-label am-text-left">dohour            <span class="tpl-form-line-small-title">dohour</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewstask.dohour)"}{$enewstask.dohour}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="dohour" name="dohour" 
+	placeholder="请输入dohour">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="dominute" class="am-u-sm-12 am-form-label am-text-left">dominute            <span class="tpl-form-line-small-title">dominute</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewstask.dominute)"}{$enewstask.dominute}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="dominute" name="dominute" 
+	placeholder="请输入dominute">        </div>
+    </div>
+        <div class="am-form-group">
+        <div class="am-u-sm-12 am-u-sm-push-12">
+            <button type="submit" class="am-btn am-btn-primary tpl-btn-bg-color-success ">提交</button>
+        </div>
+    </div>
+</form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{/block}

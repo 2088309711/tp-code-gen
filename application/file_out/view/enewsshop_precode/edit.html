@@ -1,0 +1,127 @@
+{extend name="layout" /}
+{block name="content"}
+<!-- 内容区域 -->
+<div class="tpl-content-wrapper">
+    <div class="row-content am-cf">
+        <div class="row">
+            <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+                <div class="widget am-cf">
+                    <div class="widget-head am-cf">
+                        <div class="widget-title am-fl">编辑nj_enewsshop_precode</div>
+                        <div class="widget-function am-fr">
+                            <a href="javascript:;" class="am-icon-cog"></a>
+                        </div>
+                    </div>
+                    <div class="widget-body am-fr">
+                        <form class="am-form tpl-form-border-form" method="post">
+        <input type="hidden" name="id" value="{$enewsshop_precode.id}"/>
+        <div class="am-form-group">
+        <label for="prename" class="am-u-sm-12 am-form-label am-text-left">prename            <span class="tpl-form-line-small-title">prename</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsshop_precode.prename)"}{$enewsshop_precode.prename}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="prename" name="prename" 
+	placeholder="请输入prename">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="precode" class="am-u-sm-12 am-form-label am-text-left">precode            <span class="tpl-form-line-small-title">precode</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsshop_precode.precode)"}{$enewsshop_precode.precode}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="precode" name="precode" 
+	placeholder="请输入precode">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="premoney" class="am-u-sm-12 am-form-label am-text-left">premoney            <span class="tpl-form-line-small-title">premoney</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsshop_precode.premoney)"}{$enewsshop_precode.premoney}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="premoney" name="premoney" 
+	placeholder="请输入premoney">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="pretype" class="am-u-sm-12 am-form-label am-text-left">pretype            <span class="tpl-form-line-small-title">pretype</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsshop_precode.pretype)"}{$enewsshop_precode.pretype}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="pretype" name="pretype" 
+	placeholder="请输入pretype">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="reuse" class="am-u-sm-12 am-form-label am-text-left">reuse            <span class="tpl-form-line-small-title">reuse</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsshop_precode.reuse)"}{$enewsshop_precode.reuse}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="reuse" name="reuse" 
+	placeholder="请输入reuse">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="addtime" class="am-u-sm-12 am-form-label am-text-left">addtime            <span class="tpl-form-line-small-title">addtime</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsshop_precode.addtime)"}{$enewsshop_precode.addtime}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="addtime" name="addtime" 
+	placeholder="请输入addtime">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="endtime" class="am-u-sm-12 am-form-label am-text-left">endtime            <span class="tpl-form-line-small-title">endtime</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsshop_precode.endtime)"}{$enewsshop_precode.endtime}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="endtime" name="endtime" 
+	placeholder="请输入endtime">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="groupid" class="am-u-sm-12 am-form-label am-text-left">groupid            <span class="tpl-form-line-small-title">groupid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsshop_precode.groupid)"}{$enewsshop_precode.groupid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="groupid" name="groupid" 
+	placeholder="请输入groupid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="classid" class="am-u-sm-12 am-form-label am-text-left">classid            <span class="tpl-form-line-small-title">classid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsshop_precode.classid)"}{$enewsshop_precode.classid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="classid" name="classid" 
+	placeholder="请输入classid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="musttotal" class="am-u-sm-12 am-form-label am-text-left">musttotal            <span class="tpl-form-line-small-title">musttotal</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsshop_precode.musttotal)"}{$enewsshop_precode.musttotal}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="musttotal" name="musttotal" 
+	placeholder="请输入musttotal">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="usenum" class="am-u-sm-12 am-form-label am-text-left">usenum            <span class="tpl-form-line-small-title">usenum</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsshop_precode.usenum)"}{$enewsshop_precode.usenum}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="usenum" name="usenum" 
+	placeholder="请输入usenum">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="haveusenum" class="am-u-sm-12 am-form-label am-text-left">haveusenum            <span class="tpl-form-line-small-title">haveusenum</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsshop_precode.haveusenum)"}{$enewsshop_precode.haveusenum}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="haveusenum" name="haveusenum" 
+	placeholder="请输入haveusenum">        </div>
+    </div>
+        <div class="am-form-group">
+        <div class="am-u-sm-12 am-u-sm-push-12">
+            <button type="submit" class="am-btn am-btn-primary tpl-btn-bg-color-success ">提交</button>
+        </div>
+    </div>
+</form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{/block}

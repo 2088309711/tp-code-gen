@@ -1,0 +1,141 @@
+{extend name="layout" /}
+{block name="content"}
+<!-- 内容区域 -->
+<div class="tpl-content-wrapper">
+    <div class="row-content am-cf">
+        <div class="row">
+            <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+                <div class="widget am-cf">
+                    <div class="widget-head am-cf">
+                        <div class="widget-title am-fl">新建nj_enewsfile_other</div>
+                        <div class="widget-function am-fr">
+                            <a href="javascript:;" class="am-icon-cog"></a>
+                        </div>
+                    </div>
+                    <div class="widget-body am-fr">
+                        <form class="am-form tpl-form-border-form" method="post">
+        <div class="am-form-group">
+        <label for="fileid" class="am-u-sm-12 am-form-label am-text-left">fileid            <span class="tpl-form-line-small-title">fileid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsfile_other.fileid)"}{$enewsfile_other.fileid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="fileid" name="fileid" 
+	placeholder="请输入fileid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="pubid" class="am-u-sm-12 am-form-label am-text-left">pubid            <span class="tpl-form-line-small-title">pubid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsfile_other.pubid)"}{$enewsfile_other.pubid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="pubid" name="pubid" 
+	placeholder="请输入pubid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="filename" class="am-u-sm-12 am-form-label am-text-left">filename            <span class="tpl-form-line-small-title">filename</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsfile_other.filename)"}{$enewsfile_other.filename}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="filename" name="filename" 
+	placeholder="请输入filename">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="filesize" class="am-u-sm-12 am-form-label am-text-left">filesize            <span class="tpl-form-line-small-title">filesize</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsfile_other.filesize)"}{$enewsfile_other.filesize}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="filesize" name="filesize" 
+	placeholder="请输入filesize">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="path" class="am-u-sm-12 am-form-label am-text-left">path            <span class="tpl-form-line-small-title">path</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsfile_other.path)"}{$enewsfile_other.path}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="path" name="path" 
+	placeholder="请输入path">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="adduser" class="am-u-sm-12 am-form-label am-text-left">adduser            <span class="tpl-form-line-small-title">adduser</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsfile_other.adduser)"}{$enewsfile_other.adduser}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="adduser" name="adduser" 
+	placeholder="请输入adduser">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="filetime" class="am-u-sm-12 am-form-label am-text-left">filetime            <span class="tpl-form-line-small-title">filetime</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsfile_other.filetime)"}{$enewsfile_other.filetime}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="filetime" name="filetime" 
+	placeholder="请输入filetime">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="classid" class="am-u-sm-12 am-form-label am-text-left">classid            <span class="tpl-form-line-small-title">classid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsfile_other.classid)"}{$enewsfile_other.classid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="classid" name="classid" 
+	placeholder="请输入classid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="no" class="am-u-sm-12 am-form-label am-text-left">no            <span class="tpl-form-line-small-title">no</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsfile_other.no)"}{$enewsfile_other.no}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="no" name="no" 
+	placeholder="请输入no">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="type" class="am-u-sm-12 am-form-label am-text-left">type            <span class="tpl-form-line-small-title">type</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsfile_other.type)"}{$enewsfile_other.type}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="type" name="type" 
+	placeholder="请输入type">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="onclick" class="am-u-sm-12 am-form-label am-text-left">onclick            <span class="tpl-form-line-small-title">onclick</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsfile_other.onclick)"}{$enewsfile_other.onclick}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="onclick" name="onclick" 
+	placeholder="请输入onclick">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="cjid" class="am-u-sm-12 am-form-label am-text-left">cjid            <span class="tpl-form-line-small-title">cjid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsfile_other.cjid)"}{$enewsfile_other.cjid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="cjid" name="cjid" 
+	placeholder="请输入cjid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="fpath" class="am-u-sm-12 am-form-label am-text-left">fpath            <span class="tpl-form-line-small-title">fpath</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsfile_other.fpath)"}{$enewsfile_other.fpath}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="fpath" name="fpath" 
+	placeholder="请输入fpath">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="modtype" class="am-u-sm-12 am-form-label am-text-left">modtype            <span class="tpl-form-line-small-title">modtype</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsfile_other.modtype)"}{$enewsfile_other.modtype}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="modtype" name="modtype" 
+	placeholder="请输入modtype">        </div>
+    </div>
+        <div class="am-form-group">
+        <div class="am-u-sm-12 am-u-sm-push-12">
+            <button type="submit" class="am-btn am-btn-primary tpl-btn-bg-color-success ">提交</button>
+        </div>
+    </div>
+</form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{/block}

@@ -1,0 +1,193 @@
+{extend name="layout" /}
+{block name="content"}
+<!-- 内容区域 -->
+<div class="tpl-content-wrapper">
+    <div class="row-content am-cf">
+        <div class="row">
+            <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+                <div class="widget am-cf">
+                    <div class="widget-head am-cf">
+                        <div class="widget-title  am-cf">管理ecms_infoclass_shop</div>
+                    </div>
+                    <div class="widget-body  am-fr">
+    <div class="am-u-sm-12 am-u-md-6 am-u-lg-6">
+        <div class="am-form-group">
+            <div class="am-btn-toolbar">
+                <div class="am-btn-group am-btn-group-xs">
+                    <a class="am-btn am-btn-default am-btn-success"
+                       href="{:url('ecms_infoclass_shop/add')}">
+                        <span class="am-icon-plus"></span> 新增
+                    </a>
+                    <!--
+                    <button type="button" class="am-btn am-btn-default am-btn-secondary"><span class="am-icon-save"></span> 保存</button>
+                    <button type="button" class="am-btn am-btn-default am-btn-warning"><span class="am-icon-archive"></span> 审核</button>
+                    <button type="button" class="am-btn am-btn-default am-btn-danger"><span class="am-icon-trash-o"></span> 删除</button>
+                    -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="am-u-sm-12">
+        <table width="100%" class="am-table am-table-compact am-table-striped tpl-table-black " id="example-r">
+            <thead>
+            <tr>
+                                <th>classid</th>
+                                <th>zz_title</th>
+                                <th>z_title</th>
+                                <th>qz_title</th>
+                                <th>save_title</th>
+                                <th>zz_titlepic</th>
+                                <th>z_titlepic</th>
+                                <th>qz_titlepic</th>
+                                <th>save_titlepic</th>
+                                <th>zz_newstime</th>
+                                <th>z_newstime</th>
+                                <th>qz_newstime</th>
+                                <th>save_newstime</th>
+                                <th>zz_productno</th>
+                                <th>z_productno</th>
+                                <th>qz_productno</th>
+                                <th>save_productno</th>
+                                <th>zz_pbrand</th>
+                                <th>z_pbrand</th>
+                                <th>qz_pbrand</th>
+                                <th>save_pbrand</th>
+                                <th>zz_intro</th>
+                                <th>z_intro</th>
+                                <th>qz_intro</th>
+                                <th>save_intro</th>
+                                <th>zz_unit</th>
+                                <th>z_unit</th>
+                                <th>qz_unit</th>
+                                <th>save_unit</th>
+                                <th>zz_weight</th>
+                                <th>z_weight</th>
+                                <th>qz_weight</th>
+                                <th>save_weight</th>
+                                <th>zz_tprice</th>
+                                <th>z_tprice</th>
+                                <th>qz_tprice</th>
+                                <th>save_tprice</th>
+                                <th>zz_price</th>
+                                <th>z_price</th>
+                                <th>qz_price</th>
+                                <th>save_price</th>
+                                <th>zz_buyfen</th>
+                                <th>z_buyfen</th>
+                                <th>qz_buyfen</th>
+                                <th>save_buyfen</th>
+                                <th>zz_pmaxnum</th>
+                                <th>z_pmaxnum</th>
+                                <th>qz_pmaxnum</th>
+                                <th>save_pmaxnum</th>
+                                <th>zz_productpic</th>
+                                <th>z_productpic</th>
+                                <th>qz_productpic</th>
+                                <th>save_productpic</th>
+                                <th>zz_newstext</th>
+                                <th>z_newstext</th>
+                                <th>qz_newstext</th>
+                                <th>save_newstext</th>
+                                <th>zz_psalenum</th>
+                                <th>z_psalenum</th>
+                                <th>qz_psalenum</th>
+                                <th>save_psalenum</th>
+                                <th>操作</th>
+            </tr>
+            </thead>
+            <tbody>
+            {volist name="ecms_infoclass_shopList" id="vo"}
+            <tr class="gradeX">
+                                <td>{$vo.classid}</td>
+                                <td>{$vo.zz_title}</td>
+                                <td>{$vo.z_title}</td>
+                                <td>{$vo.qz_title}</td>
+                                <td>{$vo.save_title}</td>
+                                <td>{$vo.zz_titlepic}</td>
+                                <td>{$vo.z_titlepic}</td>
+                                <td>{$vo.qz_titlepic}</td>
+                                <td>{$vo.save_titlepic}</td>
+                                <td>{$vo.zz_newstime}</td>
+                                <td>{$vo.z_newstime}</td>
+                                <td>{$vo.qz_newstime}</td>
+                                <td>{$vo.save_newstime}</td>
+                                <td>{$vo.zz_productno}</td>
+                                <td>{$vo.z_productno}</td>
+                                <td>{$vo.qz_productno}</td>
+                                <td>{$vo.save_productno}</td>
+                                <td>{$vo.zz_pbrand}</td>
+                                <td>{$vo.z_pbrand}</td>
+                                <td>{$vo.qz_pbrand}</td>
+                                <td>{$vo.save_pbrand}</td>
+                                <td>{$vo.zz_intro}</td>
+                                <td>{$vo.z_intro}</td>
+                                <td>{$vo.qz_intro}</td>
+                                <td>{$vo.save_intro}</td>
+                                <td>{$vo.zz_unit}</td>
+                                <td>{$vo.z_unit}</td>
+                                <td>{$vo.qz_unit}</td>
+                                <td>{$vo.save_unit}</td>
+                                <td>{$vo.zz_weight}</td>
+                                <td>{$vo.z_weight}</td>
+                                <td>{$vo.qz_weight}</td>
+                                <td>{$vo.save_weight}</td>
+                                <td>{$vo.zz_tprice}</td>
+                                <td>{$vo.z_tprice}</td>
+                                <td>{$vo.qz_tprice}</td>
+                                <td>{$vo.save_tprice}</td>
+                                <td>{$vo.zz_price}</td>
+                                <td>{$vo.z_price}</td>
+                                <td>{$vo.qz_price}</td>
+                                <td>{$vo.save_price}</td>
+                                <td>{$vo.zz_buyfen}</td>
+                                <td>{$vo.z_buyfen}</td>
+                                <td>{$vo.qz_buyfen}</td>
+                                <td>{$vo.save_buyfen}</td>
+                                <td>{$vo.zz_pmaxnum}</td>
+                                <td>{$vo.z_pmaxnum}</td>
+                                <td>{$vo.qz_pmaxnum}</td>
+                                <td>{$vo.save_pmaxnum}</td>
+                                <td>{$vo.zz_productpic}</td>
+                                <td>{$vo.z_productpic}</td>
+                                <td>{$vo.qz_productpic}</td>
+                                <td>{$vo.save_productpic}</td>
+                                <td>{$vo.zz_newstext}</td>
+                                <td>{$vo.z_newstext}</td>
+                                <td>{$vo.qz_newstext}</td>
+                                <td>{$vo.save_newstext}</td>
+                                <td>{$vo.zz_psalenum}</td>
+                                <td>{$vo.z_psalenum}</td>
+                                <td>{$vo.qz_psalenum}</td>
+                                <td>{$vo.save_psalenum}</td>
+                                <td>
+                    <div class="tpl-table-black-operation">
+                        <a href="{:url('ecms_infoclass_shop/edit', ['id'=>$vo['id']])}">
+                            <i class="am-icon-pencil"></i> 编辑
+                        </a>
+                        <a href="{:url('ecms_infoclass_shop/delete', ['id'=>$vo['id']])}"
+                           onclick='return confirm("确定删除吗？")' class="tpl-table-black-operation-del">
+                            <i class="am-icon-trash"></i> 删除
+                        </a>
+                    </div>
+                </td>
+            </tr>
+            {/volist}
+            <!-- more data -->
+            </tbody>
+        </table>
+    </div>
+    <div class="am-u-lg-12 am-cf">
+
+        <div class="am-fr">
+            <ul class="am-pagination tpl-pagination">
+                {$ecms_infoclass_shopList->render()}
+            </ul>
+        </div>
+    </div>
+</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{/block}

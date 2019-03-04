@@ -1,0 +1,217 @@
+{extend name="layout" /}
+{block name="content"}
+<!-- 内容区域 -->
+<div class="tpl-content-wrapper">
+    <div class="row-content am-cf">
+        <div class="row">
+            <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+                <div class="widget am-cf">
+                    <div class="widget-head am-cf">
+                        <div class="widget-title  am-cf">管理ecms_infoclass_movie</div>
+                    </div>
+                    <div class="widget-body  am-fr">
+    <div class="am-u-sm-12 am-u-md-6 am-u-lg-6">
+        <div class="am-form-group">
+            <div class="am-btn-toolbar">
+                <div class="am-btn-group am-btn-group-xs">
+                    <a class="am-btn am-btn-default am-btn-success"
+                       href="{:url('ecms_infoclass_movie/add')}">
+                        <span class="am-icon-plus"></span> 新增
+                    </a>
+                    <!--
+                    <button type="button" class="am-btn am-btn-default am-btn-secondary"><span class="am-icon-save"></span> 保存</button>
+                    <button type="button" class="am-btn am-btn-default am-btn-warning"><span class="am-icon-archive"></span> 审核</button>
+                    <button type="button" class="am-btn am-btn-default am-btn-danger"><span class="am-icon-trash-o"></span> 删除</button>
+                    -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="am-u-sm-12">
+        <table width="100%" class="am-table am-table-compact am-table-striped tpl-table-black " id="example-r">
+            <thead>
+            <tr>
+                                <th>classid</th>
+                                <th>zz_title</th>
+                                <th>z_title</th>
+                                <th>qz_title</th>
+                                <th>save_title</th>
+                                <th>zz_titlepic</th>
+                                <th>z_titlepic</th>
+                                <th>qz_titlepic</th>
+                                <th>save_titlepic</th>
+                                <th>zz_newstime</th>
+                                <th>z_newstime</th>
+                                <th>qz_newstime</th>
+                                <th>save_newstime</th>
+                                <th>zz_movietype</th>
+                                <th>z_movietype</th>
+                                <th>qz_movietype</th>
+                                <th>save_movietype</th>
+                                <th>zz_company</th>
+                                <th>z_company</th>
+                                <th>qz_company</th>
+                                <th>save_company</th>
+                                <th>zz_movietime</th>
+                                <th>z_movietime</th>
+                                <th>qz_movietime</th>
+                                <th>save_movietime</th>
+                                <th>zz_player</th>
+                                <th>z_player</th>
+                                <th>qz_player</th>
+                                <th>save_player</th>
+                                <th>zz_playadmin</th>
+                                <th>z_playadmin</th>
+                                <th>qz_playadmin</th>
+                                <th>save_playadmin</th>
+                                <th>zz_filetype</th>
+                                <th>z_filetype</th>
+                                <th>qz_filetype</th>
+                                <th>save_filetype</th>
+                                <th>zz_filesize</th>
+                                <th>z_filesize</th>
+                                <th>qz_filesize</th>
+                                <th>save_filesize</th>
+                                <th>zz_star</th>
+                                <th>z_star</th>
+                                <th>qz_star</th>
+                                <th>save_star</th>
+                                <th>zz_playdk</th>
+                                <th>z_playdk</th>
+                                <th>qz_playdk</th>
+                                <th>save_playdk</th>
+                                <th>zz_playtime</th>
+                                <th>z_playtime</th>
+                                <th>qz_playtime</th>
+                                <th>save_playtime</th>
+                                <th>zz_moviefen</th>
+                                <th>z_moviefen</th>
+                                <th>qz_moviefen</th>
+                                <th>save_moviefen</th>
+                                <th>zz_downpath</th>
+                                <th>z_downpath</th>
+                                <th>qz_downpath</th>
+                                <th>save_downpath</th>
+                                <th>zz_playerid</th>
+                                <th>z_playerid</th>
+                                <th>qz_playerid</th>
+                                <th>save_playerid</th>
+                                <th>zz_onlinepath</th>
+                                <th>z_onlinepath</th>
+                                <th>qz_onlinepath</th>
+                                <th>save_onlinepath</th>
+                                <th>zz_moviesay</th>
+                                <th>z_moviesay</th>
+                                <th>qz_moviesay</th>
+                                <th>save_moviesay</th>
+                                <th>操作</th>
+            </tr>
+            </thead>
+            <tbody>
+            {volist name="ecms_infoclass_movieList" id="vo"}
+            <tr class="gradeX">
+                                <td>{$vo.classid}</td>
+                                <td>{$vo.zz_title}</td>
+                                <td>{$vo.z_title}</td>
+                                <td>{$vo.qz_title}</td>
+                                <td>{$vo.save_title}</td>
+                                <td>{$vo.zz_titlepic}</td>
+                                <td>{$vo.z_titlepic}</td>
+                                <td>{$vo.qz_titlepic}</td>
+                                <td>{$vo.save_titlepic}</td>
+                                <td>{$vo.zz_newstime}</td>
+                                <td>{$vo.z_newstime}</td>
+                                <td>{$vo.qz_newstime}</td>
+                                <td>{$vo.save_newstime}</td>
+                                <td>{$vo.zz_movietype}</td>
+                                <td>{$vo.z_movietype}</td>
+                                <td>{$vo.qz_movietype}</td>
+                                <td>{$vo.save_movietype}</td>
+                                <td>{$vo.zz_company}</td>
+                                <td>{$vo.z_company}</td>
+                                <td>{$vo.qz_company}</td>
+                                <td>{$vo.save_company}</td>
+                                <td>{$vo.zz_movietime}</td>
+                                <td>{$vo.z_movietime}</td>
+                                <td>{$vo.qz_movietime}</td>
+                                <td>{$vo.save_movietime}</td>
+                                <td>{$vo.zz_player}</td>
+                                <td>{$vo.z_player}</td>
+                                <td>{$vo.qz_player}</td>
+                                <td>{$vo.save_player}</td>
+                                <td>{$vo.zz_playadmin}</td>
+                                <td>{$vo.z_playadmin}</td>
+                                <td>{$vo.qz_playadmin}</td>
+                                <td>{$vo.save_playadmin}</td>
+                                <td>{$vo.zz_filetype}</td>
+                                <td>{$vo.z_filetype}</td>
+                                <td>{$vo.qz_filetype}</td>
+                                <td>{$vo.save_filetype}</td>
+                                <td>{$vo.zz_filesize}</td>
+                                <td>{$vo.z_filesize}</td>
+                                <td>{$vo.qz_filesize}</td>
+                                <td>{$vo.save_filesize}</td>
+                                <td>{$vo.zz_star}</td>
+                                <td>{$vo.z_star}</td>
+                                <td>{$vo.qz_star}</td>
+                                <td>{$vo.save_star}</td>
+                                <td>{$vo.zz_playdk}</td>
+                                <td>{$vo.z_playdk}</td>
+                                <td>{$vo.qz_playdk}</td>
+                                <td>{$vo.save_playdk}</td>
+                                <td>{$vo.zz_playtime}</td>
+                                <td>{$vo.z_playtime}</td>
+                                <td>{$vo.qz_playtime}</td>
+                                <td>{$vo.save_playtime}</td>
+                                <td>{$vo.zz_moviefen}</td>
+                                <td>{$vo.z_moviefen}</td>
+                                <td>{$vo.qz_moviefen}</td>
+                                <td>{$vo.save_moviefen}</td>
+                                <td>{$vo.zz_downpath}</td>
+                                <td>{$vo.z_downpath}</td>
+                                <td>{$vo.qz_downpath}</td>
+                                <td>{$vo.save_downpath}</td>
+                                <td>{$vo.zz_playerid}</td>
+                                <td>{$vo.z_playerid}</td>
+                                <td>{$vo.qz_playerid}</td>
+                                <td>{$vo.save_playerid}</td>
+                                <td>{$vo.zz_onlinepath}</td>
+                                <td>{$vo.z_onlinepath}</td>
+                                <td>{$vo.qz_onlinepath}</td>
+                                <td>{$vo.save_onlinepath}</td>
+                                <td>{$vo.zz_moviesay}</td>
+                                <td>{$vo.z_moviesay}</td>
+                                <td>{$vo.qz_moviesay}</td>
+                                <td>{$vo.save_moviesay}</td>
+                                <td>
+                    <div class="tpl-table-black-operation">
+                        <a href="{:url('ecms_infoclass_movie/edit', ['id'=>$vo['id']])}">
+                            <i class="am-icon-pencil"></i> 编辑
+                        </a>
+                        <a href="{:url('ecms_infoclass_movie/delete', ['id'=>$vo['id']])}"
+                           onclick='return confirm("确定删除吗？")' class="tpl-table-black-operation-del">
+                            <i class="am-icon-trash"></i> 删除
+                        </a>
+                    </div>
+                </td>
+            </tr>
+            {/volist}
+            <!-- more data -->
+            </tbody>
+        </table>
+    </div>
+    <div class="am-u-lg-12 am-cf">
+
+        <div class="am-fr">
+            <ul class="am-pagination tpl-pagination">
+                {$ecms_infoclass_movieList->render()}
+            </ul>
+        </div>
+    </div>
+</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{/block}

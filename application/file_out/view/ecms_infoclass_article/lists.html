@@ -1,0 +1,145 @@
+{extend name="layout" /}
+{block name="content"}
+<!-- 内容区域 -->
+<div class="tpl-content-wrapper">
+    <div class="row-content am-cf">
+        <div class="row">
+            <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+                <div class="widget am-cf">
+                    <div class="widget-head am-cf">
+                        <div class="widget-title  am-cf">管理ecms_infoclass_article</div>
+                    </div>
+                    <div class="widget-body  am-fr">
+    <div class="am-u-sm-12 am-u-md-6 am-u-lg-6">
+        <div class="am-form-group">
+            <div class="am-btn-toolbar">
+                <div class="am-btn-group am-btn-group-xs">
+                    <a class="am-btn am-btn-default am-btn-success"
+                       href="{:url('ecms_infoclass_article/add')}">
+                        <span class="am-icon-plus"></span> 新增
+                    </a>
+                    <!--
+                    <button type="button" class="am-btn am-btn-default am-btn-secondary"><span class="am-icon-save"></span> 保存</button>
+                    <button type="button" class="am-btn am-btn-default am-btn-warning"><span class="am-icon-archive"></span> 审核</button>
+                    <button type="button" class="am-btn am-btn-default am-btn-danger"><span class="am-icon-trash-o"></span> 删除</button>
+                    -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="am-u-sm-12">
+        <table width="100%" class="am-table am-table-compact am-table-striped tpl-table-black " id="example-r">
+            <thead>
+            <tr>
+                                <th>classid</th>
+                                <th>zz_title</th>
+                                <th>z_title</th>
+                                <th>qz_title</th>
+                                <th>save_title</th>
+                                <th>zz_titlepic</th>
+                                <th>z_titlepic</th>
+                                <th>qz_titlepic</th>
+                                <th>save_titlepic</th>
+                                <th>zz_newstime</th>
+                                <th>z_newstime</th>
+                                <th>qz_newstime</th>
+                                <th>save_newstime</th>
+                                <th>zz_ftitle</th>
+                                <th>z_ftitle</th>
+                                <th>qz_ftitle</th>
+                                <th>save_ftitle</th>
+                                <th>zz_smalltext</th>
+                                <th>z_smalltext</th>
+                                <th>qz_smalltext</th>
+                                <th>save_smalltext</th>
+                                <th>zz_writer</th>
+                                <th>z_writer</th>
+                                <th>qz_writer</th>
+                                <th>save_writer</th>
+                                <th>zz_befrom</th>
+                                <th>z_befrom</th>
+                                <th>qz_befrom</th>
+                                <th>save_befrom</th>
+                                <th>zz_newstext</th>
+                                <th>z_newstext</th>
+                                <th>qz_newstext</th>
+                                <th>save_newstext</th>
+                                <th>zz_diggtop</th>
+                                <th>z_diggtop</th>
+                                <th>qz_diggtop</th>
+                                <th>save_diggtop</th>
+                                <th>操作</th>
+            </tr>
+            </thead>
+            <tbody>
+            {volist name="ecms_infoclass_articleList" id="vo"}
+            <tr class="gradeX">
+                                <td>{$vo.classid}</td>
+                                <td>{$vo.zz_title}</td>
+                                <td>{$vo.z_title}</td>
+                                <td>{$vo.qz_title}</td>
+                                <td>{$vo.save_title}</td>
+                                <td>{$vo.zz_titlepic}</td>
+                                <td>{$vo.z_titlepic}</td>
+                                <td>{$vo.qz_titlepic}</td>
+                                <td>{$vo.save_titlepic}</td>
+                                <td>{$vo.zz_newstime}</td>
+                                <td>{$vo.z_newstime}</td>
+                                <td>{$vo.qz_newstime}</td>
+                                <td>{$vo.save_newstime}</td>
+                                <td>{$vo.zz_ftitle}</td>
+                                <td>{$vo.z_ftitle}</td>
+                                <td>{$vo.qz_ftitle}</td>
+                                <td>{$vo.save_ftitle}</td>
+                                <td>{$vo.zz_smalltext}</td>
+                                <td>{$vo.z_smalltext}</td>
+                                <td>{$vo.qz_smalltext}</td>
+                                <td>{$vo.save_smalltext}</td>
+                                <td>{$vo.zz_writer}</td>
+                                <td>{$vo.z_writer}</td>
+                                <td>{$vo.qz_writer}</td>
+                                <td>{$vo.save_writer}</td>
+                                <td>{$vo.zz_befrom}</td>
+                                <td>{$vo.z_befrom}</td>
+                                <td>{$vo.qz_befrom}</td>
+                                <td>{$vo.save_befrom}</td>
+                                <td>{$vo.zz_newstext}</td>
+                                <td>{$vo.z_newstext}</td>
+                                <td>{$vo.qz_newstext}</td>
+                                <td>{$vo.save_newstext}</td>
+                                <td>{$vo.zz_diggtop}</td>
+                                <td>{$vo.z_diggtop}</td>
+                                <td>{$vo.qz_diggtop}</td>
+                                <td>{$vo.save_diggtop}</td>
+                                <td>
+                    <div class="tpl-table-black-operation">
+                        <a href="{:url('ecms_infoclass_article/edit', ['id'=>$vo['id']])}">
+                            <i class="am-icon-pencil"></i> 编辑
+                        </a>
+                        <a href="{:url('ecms_infoclass_article/delete', ['id'=>$vo['id']])}"
+                           onclick='return confirm("确定删除吗？")' class="tpl-table-black-operation-del">
+                            <i class="am-icon-trash"></i> 删除
+                        </a>
+                    </div>
+                </td>
+            </tr>
+            {/volist}
+            <!-- more data -->
+            </tbody>
+        </table>
+    </div>
+    <div class="am-u-lg-12 am-cf">
+
+        <div class="am-fr">
+            <ul class="am-pagination tpl-pagination">
+                {$ecms_infoclass_articleList->render()}
+            </ul>
+        </div>
+    </div>
+</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{/block}

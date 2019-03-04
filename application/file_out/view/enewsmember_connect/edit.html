@@ -1,0 +1,79 @@
+{extend name="layout" /}
+{block name="content"}
+<!-- 内容区域 -->
+<div class="tpl-content-wrapper">
+    <div class="row-content am-cf">
+        <div class="row">
+            <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+                <div class="widget am-cf">
+                    <div class="widget-head am-cf">
+                        <div class="widget-title am-fl">编辑nj_enewsmember_connect</div>
+                        <div class="widget-function am-fr">
+                            <a href="javascript:;" class="am-icon-cog"></a>
+                        </div>
+                    </div>
+                    <div class="widget-body am-fr">
+                        <form class="am-form tpl-form-border-form" method="post">
+        <input type="hidden" name="id" value="{$enewsmember_connect.id}"/>
+        <div class="am-form-group">
+        <label for="userid" class="am-u-sm-12 am-form-label am-text-left">userid            <span class="tpl-form-line-small-title">userid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsmember_connect.userid)"}{$enewsmember_connect.userid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="userid" name="userid" 
+	placeholder="请输入userid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="apptype" class="am-u-sm-12 am-form-label am-text-left">apptype            <span class="tpl-form-line-small-title">apptype</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsmember_connect.apptype)"}{$enewsmember_connect.apptype}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="apptype" name="apptype" 
+	placeholder="请输入apptype">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="bindkey" class="am-u-sm-12 am-form-label am-text-left">bindkey            <span class="tpl-form-line-small-title">bindkey</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsmember_connect.bindkey)"}{$enewsmember_connect.bindkey}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="bindkey" name="bindkey" 
+	placeholder="请输入bindkey">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="bindtime" class="am-u-sm-12 am-form-label am-text-left">bindtime            <span class="tpl-form-line-small-title">bindtime</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsmember_connect.bindtime)"}{$enewsmember_connect.bindtime}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="bindtime" name="bindtime" 
+	placeholder="请输入bindtime">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="loginnum" class="am-u-sm-12 am-form-label am-text-left">loginnum            <span class="tpl-form-line-small-title">loginnum</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsmember_connect.loginnum)"}{$enewsmember_connect.loginnum}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="loginnum" name="loginnum" 
+	placeholder="请输入loginnum">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="lasttime" class="am-u-sm-12 am-form-label am-text-left">lasttime            <span class="tpl-form-line-small-title">lasttime</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsmember_connect.lasttime)"}{$enewsmember_connect.lasttime}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="lasttime" name="lasttime" 
+	placeholder="请输入lasttime">        </div>
+    </div>
+        <div class="am-form-group">
+        <div class="am-u-sm-12 am-u-sm-push-12">
+            <button type="submit" class="am-btn am-btn-primary tpl-btn-bg-color-success ">提交</button>
+        </div>
+    </div>
+</form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{/block}

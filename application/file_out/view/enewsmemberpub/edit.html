@@ -1,0 +1,78 @@
+{extend name="layout" /}
+{block name="content"}
+<!-- 内容区域 -->
+<div class="tpl-content-wrapper">
+    <div class="row-content am-cf">
+        <div class="row">
+            <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+                <div class="widget am-cf">
+                    <div class="widget-head am-cf">
+                        <div class="widget-title am-fl">编辑nj_enewsmemberpub</div>
+                        <div class="widget-function am-fr">
+                            <a href="javascript:;" class="am-icon-cog"></a>
+                        </div>
+                    </div>
+                    <div class="widget-body am-fr">
+                        <form class="am-form tpl-form-border-form" method="post">
+        <div class="am-form-group">
+        <label for="userid" class="am-u-sm-12 am-form-label am-text-left">userid            <span class="tpl-form-line-small-title">userid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsmemberpub.userid)"}{$enewsmemberpub.userid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="userid" name="userid" 
+	placeholder="请输入userid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="todayinfodate" class="am-u-sm-12 am-form-label am-text-left">todayinfodate            <span class="tpl-form-line-small-title">todayinfodate</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsmemberpub.todayinfodate)"}{$enewsmemberpub.todayinfodate}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="todayinfodate" name="todayinfodate" 
+	placeholder="请输入todayinfodate">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="todayaddinfo" class="am-u-sm-12 am-form-label am-text-left">todayaddinfo            <span class="tpl-form-line-small-title">todayaddinfo</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsmemberpub.todayaddinfo)"}{$enewsmemberpub.todayaddinfo}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="todayaddinfo" name="todayaddinfo" 
+	placeholder="请输入todayaddinfo">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="todaydate" class="am-u-sm-12 am-form-label am-text-left">todaydate            <span class="tpl-form-line-small-title">todaydate</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsmemberpub.todaydate)"}{$enewsmemberpub.todaydate}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="todaydate" name="todaydate" 
+	placeholder="请输入todaydate">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="todaydown" class="am-u-sm-12 am-form-label am-text-left">todaydown            <span class="tpl-form-line-small-title">todaydown</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsmemberpub.todaydown)"}{$enewsmemberpub.todaydown}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="todaydown" name="todaydown" 
+	placeholder="请输入todaydown">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="authstr" class="am-u-sm-12 am-form-label am-text-left">authstr            <span class="tpl-form-line-small-title">authstr</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsmemberpub.authstr)"}{$enewsmemberpub.authstr}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="authstr" name="authstr" 
+	placeholder="请输入authstr">        </div>
+    </div>
+        <div class="am-form-group">
+        <div class="am-u-sm-12 am-u-sm-push-12">
+            <button type="submit" class="am-btn am-btn-primary tpl-btn-bg-color-success ">提交</button>
+        </div>
+    </div>
+</form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{/block}

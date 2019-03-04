@@ -1,0 +1,95 @@
+{extend name="layout" /}
+{block name="content"}
+<!-- 内容区域 -->
+<div class="tpl-content-wrapper">
+    <div class="row-content am-cf">
+        <div class="row">
+            <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+                <div class="widget am-cf">
+                    <div class="widget-head am-cf">
+                        <div class="widget-title am-fl">编辑nj_enewsmember_connect_app</div>
+                        <div class="widget-function am-fr">
+                            <a href="javascript:;" class="am-icon-cog"></a>
+                        </div>
+                    </div>
+                    <div class="widget-body am-fr">
+                        <form class="am-form tpl-form-border-form" method="post">
+        <input type="hidden" name="id" value="{$enewsmember_connect_app.id}"/>
+        <div class="am-form-group">
+        <label for="apptype" class="am-u-sm-12 am-form-label am-text-left">apptype            <span class="tpl-form-line-small-title">apptype</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsmember_connect_app.apptype)"}{$enewsmember_connect_app.apptype}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="apptype" name="apptype" 
+	placeholder="请输入apptype">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="appname" class="am-u-sm-12 am-form-label am-text-left">appname            <span class="tpl-form-line-small-title">appname</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsmember_connect_app.appname)"}{$enewsmember_connect_app.appname}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="appname" name="appname" 
+	placeholder="请输入appname">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="appid" class="am-u-sm-12 am-form-label am-text-left">appid            <span class="tpl-form-line-small-title">appid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsmember_connect_app.appid)"}{$enewsmember_connect_app.appid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="appid" name="appid" 
+	placeholder="请输入appid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="appkey" class="am-u-sm-12 am-form-label am-text-left">appkey            <span class="tpl-form-line-small-title">appkey</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsmember_connect_app.appkey)"}{$enewsmember_connect_app.appkey}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="appkey" name="appkey" 
+	placeholder="请输入appkey">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="isclose" class="am-u-sm-12 am-form-label am-text-left">isclose            <span class="tpl-form-line-small-title">isclose</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsmember_connect_app.isclose)"}{$enewsmember_connect_app.isclose}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="isclose" name="isclose" 
+	placeholder="请输入isclose">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="myorder" class="am-u-sm-12 am-form-label am-text-left">myorder            <span class="tpl-form-line-small-title">myorder</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsmember_connect_app.myorder)"}{$enewsmember_connect_app.myorder}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="myorder" name="myorder" 
+	placeholder="请输入myorder">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="qappname" class="am-u-sm-12 am-form-label am-text-left">qappname            <span class="tpl-form-line-small-title">qappname</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsmember_connect_app.qappname)"}{$enewsmember_connect_app.qappname}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="qappname" name="qappname" 
+	placeholder="请输入qappname">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="appsay" class="am-u-sm-12 am-form-label am-text-left">appsay            <span class="tpl-form-line-small-title">appsay</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsmember_connect_app.appsay)"}{$enewsmember_connect_app.appsay}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="appsay" name="appsay" 
+	placeholder="请输入appsay">        </div>
+    </div>
+        <div class="am-form-group">
+        <div class="am-u-sm-12 am-u-sm-push-12">
+            <button type="submit" class="am-btn am-btn-primary tpl-btn-bg-color-success ">提交</button>
+        </div>
+    </div>
+</form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{/block}

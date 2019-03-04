@@ -1,0 +1,134 @@
+{extend name="layout" /}
+{block name="content"}
+<!-- 内容区域 -->
+<div class="tpl-content-wrapper">
+    <div class="row-content am-cf">
+        <div class="row">
+            <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+                <div class="widget am-cf">
+                    <div class="widget-head am-cf">
+                        <div class="widget-title am-fl">编辑nj_enewsvote</div>
+                        <div class="widget-function am-fr">
+                            <a href="javascript:;" class="am-icon-cog"></a>
+                        </div>
+                    </div>
+                    <div class="widget-body am-fr">
+                        <form class="am-form tpl-form-border-form" method="post">
+        <div class="am-form-group">
+        <label for="voteid" class="am-u-sm-12 am-form-label am-text-left">voteid            <span class="tpl-form-line-small-title">voteid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsvote.voteid)"}{$enewsvote.voteid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="voteid" name="voteid" 
+	placeholder="请输入voteid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="title" class="am-u-sm-12 am-form-label am-text-left">title            <span class="tpl-form-line-small-title">title</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsvote.title)"}{$enewsvote.title}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="title" name="title" 
+	placeholder="请输入title">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="votenum" class="am-u-sm-12 am-form-label am-text-left">votenum            <span class="tpl-form-line-small-title">votenum</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsvote.votenum)"}{$enewsvote.votenum}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="votenum" name="votenum" 
+	placeholder="请输入votenum">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="voteip" class="am-u-sm-12 am-form-label am-text-left">voteip            <span class="tpl-form-line-small-title">voteip</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsvote.voteip)"}{$enewsvote.voteip}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="voteip" name="voteip" 
+	placeholder="请输入voteip">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="votetext" class="am-u-sm-12 am-form-label am-text-left">votetext            <span class="tpl-form-line-small-title">votetext</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsvote.votetext)"}{$enewsvote.votetext}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="votetext" name="votetext" 
+	placeholder="请输入votetext">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="voteclass" class="am-u-sm-12 am-form-label am-text-left">voteclass            <span class="tpl-form-line-small-title">voteclass</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsvote.voteclass)"}{$enewsvote.voteclass}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="voteclass" name="voteclass" 
+	placeholder="请输入voteclass">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="doip" class="am-u-sm-12 am-form-label am-text-left">doip            <span class="tpl-form-line-small-title">doip</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsvote.doip)"}{$enewsvote.doip}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="doip" name="doip" 
+	placeholder="请输入doip">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="votetime" class="am-u-sm-12 am-form-label am-text-left">votetime            <span class="tpl-form-line-small-title">votetime</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsvote.votetime)"}{$enewsvote.votetime}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="votetime" name="votetime" 
+	placeholder="请输入votetime">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="dotime" class="am-u-sm-12 am-form-label am-text-left">dotime            <span class="tpl-form-line-small-title">dotime</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsvote.dotime)"}{$enewsvote.dotime}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="dotime" name="dotime" 
+	placeholder="请输入dotime">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="width" class="am-u-sm-12 am-form-label am-text-left">width            <span class="tpl-form-line-small-title">width</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsvote.width)"}{$enewsvote.width}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="width" name="width" 
+	placeholder="请输入width">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="height" class="am-u-sm-12 am-form-label am-text-left">height            <span class="tpl-form-line-small-title">height</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsvote.height)"}{$enewsvote.height}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="height" name="height" 
+	placeholder="请输入height">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="addtime" class="am-u-sm-12 am-form-label am-text-left">addtime            <span class="tpl-form-line-small-title">addtime</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsvote.addtime)"}{$enewsvote.addtime}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="addtime" name="addtime" 
+	placeholder="请输入addtime">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="tempid" class="am-u-sm-12 am-form-label am-text-left">tempid            <span class="tpl-form-line-small-title">tempid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsvote.tempid)"}{$enewsvote.tempid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="tempid" name="tempid" 
+	placeholder="请输入tempid">        </div>
+    </div>
+        <div class="am-form-group">
+        <div class="am-u-sm-12 am-u-sm-push-12">
+            <button type="submit" class="am-btn am-btn-primary tpl-btn-bg-color-success ">提交</button>
+        </div>
+    </div>
+</form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{/block}

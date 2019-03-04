@@ -1,0 +1,78 @@
+{extend name="layout" /}
+{block name="content"}
+<!-- 内容区域 -->
+<div class="tpl-content-wrapper">
+    <div class="row-content am-cf">
+        <div class="row">
+            <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+                <div class="widget am-cf">
+                    <div class="widget-head am-cf">
+                        <div class="widget-title am-fl">编辑nj_enewsmenu</div>
+                        <div class="widget-function am-fr">
+                            <a href="javascript:;" class="am-icon-cog"></a>
+                        </div>
+                    </div>
+                    <div class="widget-body am-fr">
+                        <form class="am-form tpl-form-border-form" method="post">
+        <div class="am-form-group">
+        <label for="menuid" class="am-u-sm-12 am-form-label am-text-left">menuid            <span class="tpl-form-line-small-title">menuid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsmenu.menuid)"}{$enewsmenu.menuid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="menuid" name="menuid" 
+	placeholder="请输入menuid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="menuname" class="am-u-sm-12 am-form-label am-text-left">menuname            <span class="tpl-form-line-small-title">menuname</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsmenu.menuname)"}{$enewsmenu.menuname}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="menuname" name="menuname" 
+	placeholder="请输入menuname">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="menuurl" class="am-u-sm-12 am-form-label am-text-left">menuurl            <span class="tpl-form-line-small-title">menuurl</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsmenu.menuurl)"}{$enewsmenu.menuurl}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="menuurl" name="menuurl" 
+	placeholder="请输入menuurl">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="myorder" class="am-u-sm-12 am-form-label am-text-left">myorder            <span class="tpl-form-line-small-title">myorder</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsmenu.myorder)"}{$enewsmenu.myorder}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="myorder" name="myorder" 
+	placeholder="请输入myorder">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="classid" class="am-u-sm-12 am-form-label am-text-left">classid            <span class="tpl-form-line-small-title">classid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsmenu.classid)"}{$enewsmenu.classid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="classid" name="classid" 
+	placeholder="请输入classid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="addhash" class="am-u-sm-12 am-form-label am-text-left">addhash            <span class="tpl-form-line-small-title">addhash</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewsmenu.addhash)"}{$enewsmenu.addhash}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="addhash" name="addhash" 
+	placeholder="请输入addhash">        </div>
+    </div>
+        <div class="am-form-group">
+        <div class="am-u-sm-12 am-u-sm-push-12">
+            <button type="submit" class="am-btn am-btn-primary tpl-btn-bg-color-success ">提交</button>
+        </div>
+    </div>
+</form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{/block}

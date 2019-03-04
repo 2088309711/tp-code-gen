@@ -1,0 +1,54 @@
+{extend name="layout" /}
+{block name="content"}
+<!-- 内容区域 -->
+<div class="tpl-content-wrapper">
+    <div class="row-content am-cf">
+        <div class="row">
+            <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+                <div class="widget am-cf">
+                    <div class="widget-head am-cf">
+                        <div class="widget-title am-fl">编辑nj_enewssp_3</div>
+                        <div class="widget-function am-fr">
+                            <a href="javascript:;" class="am-icon-cog"></a>
+                        </div>
+                    </div>
+                    <div class="widget-body am-fr">
+                        <form class="am-form tpl-form-border-form" method="post">
+        <div class="am-form-group">
+        <label for="sid" class="am-u-sm-12 am-form-label am-text-left">sid            <span class="tpl-form-line-small-title">sid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewssp_3.sid)"}{$enewssp_3.sid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="sid" name="sid" 
+	placeholder="请输入sid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="spid" class="am-u-sm-12 am-form-label am-text-left">spid            <span class="tpl-form-line-small-title">spid</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewssp_3.spid)"}{$enewssp_3.spid}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="spid" name="spid" 
+	placeholder="请输入spid">        </div>
+    </div>
+        <div class="am-form-group">
+        <label for="sptext" class="am-u-sm-12 am-form-label am-text-left">sptext            <span class="tpl-form-line-small-title">sptext</span></label>
+        <div class="am-u-sm-12">
+            <input type="text" 
+	value="{if condition="isset($enewssp_3.sptext)"}{$enewssp_3.sptext}{/if}"
+	class="tpl-form-input am-margin-top-xs" id="sptext" name="sptext" 
+	placeholder="请输入sptext">        </div>
+    </div>
+        <div class="am-form-group">
+        <div class="am-u-sm-12 am-u-sm-push-12">
+            <button type="submit" class="am-btn am-btn-primary tpl-btn-bg-color-success ">提交</button>
+        </div>
+    </div>
+</form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{/block}
