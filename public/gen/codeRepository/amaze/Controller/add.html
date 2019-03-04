@@ -1,6 +1,14 @@
 	//新增
 	public function add(){
 		if($this->request->isPost()){
+
+			$data = input('post.');
+
+			$result = $this->validate($data, '{:tableNameToModelName($tableName)}.add');
+			if ($result !== true) {
+				$this->error($result);
+			}
+
 			$flag = $this->model->add($this->request);
 			if($flag){
 				$this->success('添加成功', url('lists'));

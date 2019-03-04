@@ -1,5 +1,14 @@
     //id单个查询
     public function info(){
+
+    $data = input('');
+
+    $result = $this->validate($data, '{:tableNameToModelName($tableName)}.ck_id');
+    if ($result !== true) {
+    $this->error($result);
+    }
+
+
         ${$tableName} = $this->model->info($this->request);
         $this->assign('{$tableName}', ${$tableName});
         return $this->fetch();

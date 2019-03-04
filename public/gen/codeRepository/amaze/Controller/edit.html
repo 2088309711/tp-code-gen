@@ -1,6 +1,15 @@
 	//修改
 	public function edit(){
 		if($this->request->isPost()){
+
+
+			$data = input('post.');
+
+			$result = $this->validate($data, '{:tableNameToModelName($tableName)}.edit');
+			if ($result !== true) {
+				$this->error($result);
+			}
+
 			$flag = $this->model->edit($this->request);
 			if($flag){
 				$this->success('编辑成功', url('lists'));
@@ -8,6 +17,15 @@
 				$this->error('编辑失败');
 			}
 		}else{
+
+			$data = input('');
+
+			$result = $this->validate($data, '{:tableNameToModelName($tableName)}.ck_id');
+			if ($result !== true) {
+				$this->error($result);
+			}
+
+
 			${$tableName} = $this->model->info($this->request);
 			$this->assign('{$tableName}', ${$tableName});
 			return $this->fetch();

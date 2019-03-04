@@ -344,7 +344,8 @@ protected $msg =   [
 
 protected $scene =   [
     'add'=>['id','state','name','e_mail','sex','user_name','account','password','max_work','work','head_img','power','create_time','update_time','description',],
-    'edit'=>['id','state','name','e_mail','sex','user_name','account','password','max_work','work','head_img','power','create_time','update_time','description',]
+    'edit'=>['id','state','name','e_mail','sex','user_name','account','password','max_work','work','head_img','power','create_time','update_time','description',],
+    'ck_id'=>['id']
 ];
 
 }

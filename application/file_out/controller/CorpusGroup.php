@@ -18,6 +18,14 @@ class CorpusGroup extends Controller{
 		//新增
 	public function add(){
 		if($this->request->isPost()){
+
+			$data = input('post.');
+
+			$result = $this->validate($data, 'CorpusGroup.add');
+			if ($result !== true) {
+				$this->error($result);
+			}
+
 			$flag = $this->model->add($this->request);
 			if($flag){
 				$this->success('添加成功', url('lists'));
@@ -31,6 +39,15 @@ class CorpusGroup extends Controller{
 		//修改
 	public function edit(){
 		if($this->request->isPost()){
+
+
+			$data = input('post.');
+
+			$result = $this->validate($data, 'CorpusGroup.edit');
+			if ($result !== true) {
+				$this->error($result);
+			}
+
 			$flag = $this->model->edit($this->request);
 			if($flag){
 				$this->success('编辑成功', url('lists'));
@@ -38,6 +55,15 @@ class CorpusGroup extends Controller{
 				$this->error('编辑失败');
 			}
 		}else{
+
+			$data = input('');
+
+			$result = $this->validate($data, 'CorpusGroup.ck_id');
+			if ($result !== true) {
+				$this->error($result);
+			}
+
+
 			$corpus_group = $this->model->info($this->request);
 			$this->assign('corpus_group', $corpus_group);
 			return $this->fetch();
@@ -45,6 +71,16 @@ class CorpusGroup extends Controller{
 	}
 		//删除
 	public function delete(){
+
+
+	$data = input('');
+
+	$result = $this->validate($data, 'CorpusGroup.ck_id');
+	if ($result !== true) {
+	$this->error($result);
+	}
+
+
 		$flag = $this->model->del($this->request);
 		if($flag){
 			$this->success('删除成功', url('lists'));
@@ -63,6 +99,15 @@ class CorpusGroup extends Controller{
     }
 	    //id单个查询
     public function info(){
+
+    $data = input('');
+
+    $result = $this->validate($data, 'CorpusGroup.ck_id');
+    if ($result !== true) {
+    $this->error($result);
+    }
+
+
         $corpus_group = $this->model->info($this->request);
         $this->assign('corpus_group', $corpus_group);
         return $this->fetch();

@@ -586,7 +586,8 @@ protected $msg =   [
 
 protected $scene =   [
     'add'=>['id','state','name','phone','user_name','access','create_time','update_time','description','staff_pk','invitation_switch','invitation_switch_m','invitation_first','invitation_first_m','invitation_after','invitation_after_m','invitation_num','invitation_num_m','invitation_time','invitation_time_m','invitation_week','invitation_week_m','invitation_auto_close','invitation_auto_close_m','color','color_m',],
-    'edit'=>['id','state','name','phone','user_name','access','create_time','update_time','description','staff_pk','invitation_switch','invitation_switch_m','invitation_first','invitation_first_m','invitation_after','invitation_after_m','invitation_num','invitation_num_m','invitation_time','invitation_time_m','invitation_week','invitation_week_m','invitation_auto_close','invitation_auto_close_m','color','color_m',]
+    'edit'=>['id','state','name','phone','user_name','access','create_time','update_time','description','staff_pk','invitation_switch','invitation_switch_m','invitation_first','invitation_first_m','invitation_after','invitation_after_m','invitation_num','invitation_num_m','invitation_time','invitation_time_m','invitation_week','invitation_week_m','invitation_auto_close','invitation_auto_close_m','color','color_m',],
+    'ck_id'=>['id']
 ];
 
 }

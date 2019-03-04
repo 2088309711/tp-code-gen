@@ -146,7 +146,8 @@ protected $msg =   [
 
 protected $scene =   [
     'add'=>['id','title','content','create_time','update_time','group_id',],
-    'edit'=>['id','title','content','create_time','update_time','group_id',]
+    'edit'=>['id','title','content','create_time','update_time','group_id',],
+    'ck_id'=>['id']
 ];
 
 }
