@@ -88,11 +88,9 @@ function getTableInfoArray($tableName, $prefix = false)
     $dbType = config('database.type');
     $Model = db(); // 实例化一个model对象 没有对应任何数据表
 
-
     if ($dbType == 'mysql') {
         $dbName = config('database.database');
         $result = $Model->query("select * from information_schema.columns where table_schema='" . $dbName . "' and table_name='" . ($prefix ? '' : config('database.prefix')) . $tableName . "'");
-
 
         $result = changeColumCase($result); //修正information_schema大小写问题
         return $result;
@@ -101,7 +99,7 @@ function getTableInfoArray($tableName, $prefix = false)
         $result = changeColumCase($result); //修正information_schema大小写问题
         return $result;
     }
-
+//有没有很口渴
     return '数据库类型不支持';
 }
 

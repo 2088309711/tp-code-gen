@@ -3,174 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="d89094ab-8929-4a9d-99dd-6681107802de" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/database.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/file_out/controller/CorpusData.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/file_out/controller/CorpusGroup.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/file_out/controller/Example.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/file_out/controller/Msg.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/file_out/controller/ServerList.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/file_out/controller/Staff.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/file_out/model/CorpusData.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/file_out/model/CorpusGroup.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/file_out/model/Example.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/file_out/model/Msg.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/file_out/model/ServerList.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/file_out/model/Staff.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/file_out/validate/CorpusData.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/file_out/validate/CorpusGroup.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/file_out/validate/Example.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/file_out/validate/Msg.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/file_out/validate/ServerList.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/file_out/validate/Staff.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/file_out/view/corpus_data/add.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/file_out/view/corpus_data/edit.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/file_out/view/corpus_data/lists.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/file_out/view/corpus_group/add.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/file_out/view/corpus_group/edit.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/file_out/view/corpus_group/lists.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/file_out/view/example/add.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/file_out/view/example/edit.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/file_out/view/example/lists.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/file_out/view/layout.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/file_out/view/menu1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/file_out/view/msg/add.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/file_out/view/msg/edit.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/file_out/view/msg/lists.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/file_out/view/server_list/add.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/file_out/view/server_list/edit.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/file_out/view/server_list/lists.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/file_out/view/staff/add.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/file_out/view/staff/edit.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/file_out/view/staff/lists.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/controller/CorpusData.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/controller/CorpusGroup.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/controller/Example.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/controller/Msg.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/controller/ServerList.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/controller/Staff.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/model/CorpusData.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/model/CorpusGroup.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/model/Example.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/model/Msg.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/model/ServerList.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/model/Staff.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/view/corpus_data/add.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/view/corpus_data/edit.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/view/corpus_data/lists.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/view/corpus_group/add.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/view/corpus_group/edit.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/view/corpus_group/lists.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/view/example/add.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/view/example/edit.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/view/example/lists.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/view/layout.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/view/menu1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/view/msg/add.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/view/msg/edit.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/view/msg/lists.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/view/server_list/add.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/view/server_list/edit.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/view/server_list/lists.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/view/staff/add.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/view/staff/edit.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/view/staff/lists.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/file_out/controller/EcmsArticle.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/file_out/controller/EcmsArticle.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/file_out/model/EcmsArticle.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/file_out/model/EcmsArticle.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/gen/application/common.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/application/common.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/gen/runtime/log/201903/04.log" beforeDir="false" afterPath="$PROJECT_DIR$/public/gen/runtime/log/201903/04.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/css/admin.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/css/amazeui.datatables.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/css/amazeui.datetimepicker.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/css/amazeui.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/css/app.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/css/app.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/css/fullcalendar.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/css/fullcalendar.print.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/i/app-icon72x72@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/i/examples/admin-chrome.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/i/examples/admin-firefox.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/i/examples/admin-ie.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/i/examples/admin-opera.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/i/examples/admin-safari.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/i/examples/adminPage.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/i/examples/blogPage.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/i/examples/landing.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/i/examples/landingPage.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/i/examples/loginPage.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/i/examples/sidebarPage.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/i/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/i/startup-640x1096.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/img/a5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/img/k.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/img/logoa.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/img/logob.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/img/user01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/img/user02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/img/user03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/img/user04.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/img/user05.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/img/user06.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/img/user07.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/js/amazeui.datatables.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/js/amazeui.datetimepicker.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/js/amazeui.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/js/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/js/dataTables.responsive.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/js/echarts.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/js/fullcalendar.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/js/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/js/locales/amazeui.datetimepicker.ar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/js/locales/amazeui.datetimepicker.az.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/js/locales/amazeui.datetimepicker.bg.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/js/locales/amazeui.datetimepicker.bn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/js/locales/amazeui.datetimepicker.ca.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/js/locales/amazeui.datetimepicker.cs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/js/locales/amazeui.datetimepicker.da.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/js/locales/amazeui.datetimepicker.de.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/js/locales/amazeui.datetimepicker.ee.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/js/locales/amazeui.datetimepicker.el.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/js/locales/amazeui.datetimepicker.es.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/js/locales/amazeui.datetimepicker.fi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/js/locales/amazeui.datetimepicker.fr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/js/locales/amazeui.datetimepicker.he.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/js/locales/amazeui.datetimepicker.hr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/js/locales/amazeui.datetimepicker.hu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/js/locales/amazeui.datetimepicker.hy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/js/locales/amazeui.datetimepicker.id.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/js/locales/amazeui.datetimepicker.is.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/js/locales/amazeui.datetimepicker.it.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/js/locales/amazeui.datetimepicker.ja.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/js/locales/amazeui.datetimepicker.ka.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/js/locales/amazeui.datetimepicker.ko.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/js/locales/amazeui.datetimepicker.lt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/js/locales/amazeui.datetimepicker.lv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/js/locales/amazeui.datetimepicker.ms.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/js/locales/amazeui.datetimepicker.nb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/js/locales/amazeui.datetimepicker.nl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/js/locales/amazeui.datetimepicker.no.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/js/locales/amazeui.datetimepicker.pl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/js/locales/amazeui.datetimepicker.pt-BR.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/js/locales/amazeui.datetimepicker.pt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/js/locales/amazeui.datetimepicker.ro.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/js/locales/amazeui.datetimepicker.rs-latin.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/js/locales/amazeui.datetimepicker.rs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/js/locales/amazeui.datetimepicker.ru.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/js/locales/amazeui.datetimepicker.sk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/js/locales/amazeui.datetimepicker.sl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/js/locales/amazeui.datetimepicker.sv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/js/locales/amazeui.datetimepicker.sw.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/js/locales/amazeui.datetimepicker.th.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/js/locales/amazeui.datetimepicker.tr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/js/locales/amazeui.datetimepicker.ua.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/js/locales/amazeui.datetimepicker.uk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/js/locales/amazeui.datetimepicker.zh-CN.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/js/locales/amazeui.datetimepicker.zh-TW.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/js/moment.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/file_out/assets/js/theme.js" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -198,14 +33,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="common.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="add.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/file_out/view/ecms_article/add.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6908">
+              <caret line="314" column="55" selection-start-line="314" selection-start-column="55" selection-end-line="314" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="common.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/gen/application/common.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+            <state relative-caret-position="2090">
+              <caret line="96" column="11" selection-start-line="96" selection-start-column="11" selection-end-line="96" selection-end-column="11" />
               <folding>
                 <element signature="e#16#48#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EcmsArticle.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/file_out/controller/EcmsArticle.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-770">
+              <caret line="13" column="49" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -281,9 +134,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/view/menu1.menu.html" />
-        <option value="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/view/getList.html" />
-        <option value="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/view/index.html" />
         <option value="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/view/info.html" />
         <option value="$PROJECT_DIR$/public/gen/codeRepository/amaze_theme/view/login.html" />
         <option value="$PROJECT_DIR$/public/gen/codeRepository/amaze/View/add.html" />
@@ -331,7 +181,10 @@
         <option value="$PROJECT_DIR$/application/file_out/validate/Enewsf.php" />
         <option value="$PROJECT_DIR$/application/file_out/validate/Enewsyh.php" />
         <option value="$PROJECT_DIR$/application/file_out/validate/Enewszt.php" />
+        <option value="$PROJECT_DIR$/application/file_out/view/enewszttypeadd/add.html" />
         <option value="$PROJECT_DIR$/public/gen/application/common.php" />
+        <option value="$PROJECT_DIR$/application/file_out/controller/EcmsArticle.php" />
+        <option value="$PROJECT_DIR$/application/file_out/model/EcmsArticle.php" />
       </list>
     </option>
   </component>
@@ -357,8 +210,8 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="140" />
-    <option name="y" value="-15" />
+    <option name="x" value="62" />
+    <option name="y" value="43" />
     <option name="width" value="1284" />
     <option name="height" value="625" />
   </component>
@@ -370,7 +223,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -392,25 +244,15 @@
             <path>
               <item name="tp-code-gen" type="b2602c69:ProjectViewProjectNode" />
               <item name="tp-code-gen" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="tp-code-gen" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tp-code-gen" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="gen" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="tp-code-gen" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tp-code-gen" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="gen" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="file_out" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="model" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -423,16 +265,16 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\phpStudy\WWW\tp-code-gen\public\static" />
+      <recent name="F:\phpStudy\WWW\tp-code-gen\public\gen\application\gen\view\view_code" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\phpStudy\WWW\tp-code-gen\正则测试" />
       <recent name="F:\phpStudy\WWW\tp-code-gen\public\gen\codeRepository\amaze\Validate" />
       <recent name="F:\phpStudy\WWW\tp-code-gen\public\gen\static" />
       <recent name="F:\phpStudy\WWW\tp-code-gen\public\gen\application\gen\view\model_code" />
       <recent name="F:\phpStudy\WWW\tp-code-gen\public\gen\application\gen\view\controller_code" />
-      <recent name="F:\phpStudy\WWW\tp-code-gen\public\gen\application\gen\view" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\phpStudy\WWW\tp-code-gen\public\static" />
-      <recent name="F:\phpStudy\WWW\tp-code-gen\public\gen\application\gen\view\view_code" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -468,12 +310,16 @@
       <workItem from="1551317520884" duration="14371000" />
       <workItem from="1551405693147" duration="8837000" />
       <workItem from="1551661241556" duration="1995000" />
-      <workItem from="1551679153111" duration="2866000" />
+      <workItem from="1551679153111" duration="4477000" />
+      <workItem from="1551747714378" duration="1248000" />
+      <workItem from="1551764056300" duration="3694000" />
+      <workItem from="1551833980385" duration="1276000" />
+      <workItem from="1552010712743" duration="46000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104624000" />
+    <option name="totallyTimeSpent" value="112499000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -502,12 +348,12 @@
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="6" weight="0.32843137" />
-      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
-      <window_info anchor="bottom" id="Database Console" order="12" weight="0.3267974" />
       <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Database Console" order="12" weight="0.3267974" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.32843137" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -522,10 +368,71 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/gen/application/gen/controller/ViewCode.php">
+    <entry file="file://$PROJECT_DIR$/public/gen/application/common.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="89" column="1" selection-start-line="89" selection-start-column="1" selection-end-line="89" selection-end-column="1" />
+        <state relative-caret-position="2090">
+          <caret line="96" column="11" lean-forward="true" selection-start-line="96" selection-start-column="11" selection-end-line="96" selection-end-column="11" />
+          <folding>
+            <element signature="e#16#48#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/file_out/controller/EcmsArticle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="49" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/file_out/model/EcmsArticle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/file_out/view/ecms_article/add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6908">
+          <caret line="314" column="55" selection-start-line="314" selection-start-column="55" selection-end-line="314" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/gen/application/common.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1914">
+          <caret line="87" column="37" lean-forward="true" selection-start-line="87" selection-start-column="37" selection-end-line="87" selection-end-column="37" />
+          <folding>
+            <element signature="e#16#48#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/file_out/view/ecms_article/add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6908">
+          <caret line="314" column="55" selection-start-line="314" selection-start-column="55" selection-end-line="314" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/gen/application/common.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1870">
+          <caret line="86" column="1" lean-forward="true" selection-start-line="86" selection-start-column="1" selection-end-line="86" selection-end-column="1" />
+          <folding>
+            <element signature="e#16#48#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/gen/application/common.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1100">
+          <caret line="51" column="46" selection-start-line="51" selection-start-column="46" selection-end-line="51" selection-end-column="46" />
+          <folding>
+            <element signature="e#16#48#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -555,13 +462,6 @@
         <state relative-caret-position="-66" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thinkphp/library/think/Model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="809">
-          <caret line="130" column="5" lean-forward="true" selection-start-line="130" selection-start-column="5" selection-end-line="130" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/gen/application/gen/controller/CreateLayout.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
@@ -576,20 +476,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/file_out/model/CorpusData.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/application/file_out/model/CorpusData.php" />
     <entry file="file://$PROJECT_DIR$/public/gen/application/gen/controller/ValidateCode.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="511">
           <caret line="93" column="33" selection-start-line="93" selection-start-column="23" selection-end-line="93" selection-end-column="33" />
-          <folding>
-            <element signature="e#6#99#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -642,13 +533,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/file_out/controller/CorpusData.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/application/file_out/controller/CorpusData.php" />
     <entry file="file://$PROJECT_DIR$/public/gen/codeRepository/amaze/Validate/validate.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -663,32 +548,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/file_out/controller/Msg.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="109" selection-start-line="109" selection-end-line="109" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/file_out/validate/CorpusData.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="154" lean-forward="true" selection-start-line="154" selection-end-line="154" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/config.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/file_out/view/layout.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/file_out/view/enewsindexpage/add.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/file_out/view/menu1.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/application/file_out/controller/Msg.php" />
+    <entry file="file://$PROJECT_DIR$/application/file_out/validate/CorpusData.php" />
     <entry file="file://$PROJECT_DIR$/application/database.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="506">
@@ -711,9 +572,6 @@
         <state relative-caret-position="-3925" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/file_out/validate/EcmsArticleData1.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/file_out/validate/EcmsArticleDoc.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-18445" />
@@ -723,12 +581,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3925" />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/file_out/validate/EcmsArticleDocIndex.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/file_out/validate/EcmsArticleIndex.php">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/application/file_out/validate/EcmsDownload.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -740,25 +592,10 @@
         <state relative-caret-position="-19413" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/file_out/validate/EcmsDownloadCheckData.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/file_out/validate/EcmsDownloadData1.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/file_out/validate/EcmsDownloadDoc.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-19413" />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/file_out/validate/EcmsDownloadDocData.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/file_out/validate/EcmsDownloadDocIndex.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/file_out/validate/EcmsDownloadIndex.php">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/application/file_out/validate/EcmsFlash.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -807,13 +644,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/file_out/view/enewszttypeadd/add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/file_out/view/ecms_article/add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6908">
+          <caret line="314" column="55" selection-start-line="314" selection-start-column="55" selection-end-line="314" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinkphp/library/think/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="74" column="23" selection-start-line="74" selection-start-column="23" selection-end-line="74" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/gen/application/common.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        <state relative-caret-position="2090">
+          <caret line="96" column="11" selection-start-line="96" selection-start-column="11" selection-end-line="96" selection-end-column="11" />
           <folding>
             <element signature="e#16#48#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinkphp/library/think/Model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="535">
+          <caret line="129" column="20" selection-start-line="129" selection-start-column="20" selection-end-line="129" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/file_out/model/EcmsArticle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-413">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/file_out/controller/EcmsArticle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-770">
+          <caret line="13" column="49" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
         </state>
       </provider>
     </entry>
